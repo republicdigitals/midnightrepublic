@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:08:58+00:00",
+ "generated_at": "2026-10-15T18:09:22+00:00",
  "leads": {
   "total": 429,
   "with_email": 411,
@@ -1077,17 +1077,17 @@
   {
    "t": "2026-10-15T18:07:57Z",
    "msg": "Instagram: cleanup",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T17:54:24Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T17:46:19Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T17:35:22Z",
@@ -1097,7 +1097,7 @@
   {
    "t": "2026-10-15T17:29:26Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T16:21:36+01:00",
@@ -1112,112 +1112,112 @@
   {
    "t": "2026-10-15T14:41:35Z",
    "msg": "Instagram: drop wineries/caterers",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T14:40:48Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T14:31:55Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T14:18:56Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T14:07:47Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T13:56:38Z",
    "msg": "Instagram: remove Chick-fil-A (chain)",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T13:56:12Z",
    "msg": "Instagram: remove chain row",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T13:47:11Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T13:14:09Z",
    "msg": "Instagram: +3 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T13:05:42Z",
    "msg": "Instagram: +5 leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-15T01:50:28Z",
    "msg": "Facebook: 5 leads in New Haven CT",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-14T12:45:49Z",
    "msg": "Facebook: 27 leads in Cambridge/Somerville MA",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-13T13:03:47Z",
    "msg": "Facebook: 43 leads in Boston MA (North End, Back Bay, South End)",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-13T04:33:01Z",
    "msg": "Facebook: 11 leads in New Jersey 2 (Ridgewood, Englewood, Westfield, Summit, Somerville, Collingswood, Haddonfield, Cape May)",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-12T21:51:55Z",
    "msg": "Facebook: 43 leads in New Jersey (Hoboken, Jersey City, Montclair, Morristown, Red Bank, Asbury Park, New Brunswick, Princeton); map-list method",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-11T00:47:07Z",
    "msg": "Add facebook_leads.csv: 39 Rhode Island Facebook leads",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-10T14:18:10Z",
    "msg": "Backfill: found 32 emails, 20 marked NO EMAIL, 5 closed",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-10T12:42:27Z",
    "msg": "Add 30 MT leads (30 MT total)",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-10T04:24:08Z",
    "msg": "Utah batch: 101 UT leads (200 total)",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-10T03:33:02Z",
    "msg": "Add 72 Utah leads (in progress)",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-10T02:40:38Z",
    "msg": "Add 23 Wyoming leads (66 WY total)",
-   "who": "Devin"
+   "who": "Caesar"
   },
   {
    "t": "2026-10-10T02:29:39Z",
    "msg": "Combine SD and WY leads into one restaurant_leads.csv",
-   "who": "Devin"
+   "who": "Caesar"
   }
  ],
  "sent_log": {
