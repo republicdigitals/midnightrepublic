@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T14:31:09+00:00",
+ "generated_at": "2026-10-15T14:52:03+00:00",
  "leads": {
-  "total": 412,
-  "with_email": 394,
+  "total": 417,
+  "with_email": 399,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 24
+   "Instagram": 29
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 24,
-   "with_email": 24,
+   "leads": 29,
+   "with_email": 29,
    "sources": {
-    "Instagram": 24
+    "Instagram": 29
    }
   },
   "MA": {
@@ -123,6 +123,15 @@
    ]
   },
   {
+   "city": "Boise",
+   "state": "ID",
+   "leads": 18,
+   "coords": [
+    -116.2009,
+    43.6166
+   ]
+  },
+  {
    "city": "Sioux Falls",
    "state": "SD",
    "leads": 15,
@@ -156,15 +165,6 @@
    "coords": [
     -71.0995,
     42.3876
-   ]
-  },
-  {
-   "city": "Boise",
-   "state": "ID",
-   "leads": 14,
-   "coords": [
-    -116.2009,
-    43.6166
    ]
   },
   {
@@ -591,6 +591,15 @@
    ]
   },
   {
+   "city": "Meridian",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -116.3923,
+    43.6086
+   ]
+  },
+  {
    "city": "Stanley",
    "state": "ID",
    "leads": 2,
@@ -978,15 +987,6 @@
    ]
   },
   {
-   "city": "Meridian",
-   "state": "ID",
-   "leads": 1,
-   "coords": [
-    -116.3923,
-    43.6086
-   ]
-  },
-  {
    "city": "McCall",
    "state": "ID",
    "leads": 1,
@@ -1033,6 +1033,18 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T14:41:35+00:00",
+   "msg": "Instagram: drop wineries/caterers"
+  },
+  {
+   "t": "2026-10-15T14:40:48+00:00",
+   "msg": "Instagram: +5 leads"
+  },
+  {
+   "t": "2026-10-15T14:31:55+00:00",
+   "msg": "Instagram: +5 leads"
+  },
   {
    "t": "2026-10-15T14:18:56+00:00",
    "msg": "Instagram: +5 leads"
@@ -1108,10 +1120,6 @@
   {
    "t": "2026-10-10T02:29:39+00:00",
    "msg": "Combine SD and WY leads into one restaurant_leads.csv"
-  },
-  {
-   "t": "2026-10-10T02:28:48+00:00",
-   "msg": "Add South Dakota (33) and Wyoming (43, in progress) restaurant leads"
   }
  ],
  "sent_log": null,
