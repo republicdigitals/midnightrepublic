@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:49:22+00:00",
+ "generated_at": "2026-10-15T19:17:26+00:00",
  "leads": {
-  "total": 436,
-  "with_email": 418,
+  "total": 441,
+  "with_email": 423,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 48
+   "Instagram": 53
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 48,
-   "with_email": 48,
+   "leads": 53,
+   "with_email": 53,
    "sources": {
-    "Instagram": 48
+    "Instagram": 53
    }
   },
   "MA": {
@@ -105,21 +105,21 @@
    ]
   },
   {
+   "city": "Boise",
+   "state": "ID",
+   "leads": 28,
+   "coords": [
+    -116.2009,
+    43.6166
+   ]
+  },
+  {
    "city": "Providence",
    "state": "RI",
    "leads": 27,
    "coords": [
     -71.4128,
     41.824
-   ]
-  },
-  {
-   "city": "Boise",
-   "state": "ID",
-   "leads": 27,
-   "coords": [
-    -116.2009,
-    43.6166
    ]
   },
   {
@@ -645,6 +645,24 @@
    ]
   },
   {
+   "city": "Ammon",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -111.9641,
+    43.4768
+   ]
+  },
+  {
+   "city": "Post Falls",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -116.9481,
+    47.711
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -1032,15 +1050,6 @@
    ]
   },
   {
-   "city": "Ammon",
-   "state": "ID",
-   "leads": 1,
-   "coords": [
-    -111.9641,
-    43.4768
-   ]
-  },
-  {
    "city": "Blackfoot",
    "state": "ID",
    "leads": 1,
@@ -1059,15 +1068,6 @@
    ]
   },
   {
-   "city": "Post Falls",
-   "state": "ID",
-   "leads": 1,
-   "coords": [
-    -116.9481,
-    47.711
-   ]
-  },
-  {
    "city": "Gooding",
    "state": "ID",
    "leads": 1,
@@ -1075,9 +1075,32 @@
     -114.7129,
     42.9417
    ]
+  },
+  {
+   "city": "Twin Falls",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -114.4701,
+    42.5559
+   ]
+  },
+  {
+   "city": "Rexburg",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -111.7837,
+    43.8261
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T19:17:10Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T19:49:02+01:00",
    "msg": "Outreach: paused (Instagram run complete)",
@@ -1221,11 +1244,6 @@
   {
    "t": "2026-10-13T13:03:47Z",
    "msg": "Facebook: 43 leads in Boston MA (North End, Back Bay, South End)",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-13T04:33:01Z",
-   "msg": "Facebook: 11 leads in New Jersey 2 (Ridgewood, Englewood, Westfield, Summit, Somerville, Collingswood, Haddonfield, Cape May)",
    "who": "Caesar"
   }
  ],
