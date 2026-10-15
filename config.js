@@ -11,9 +11,9 @@ window.HQ_CONFIG = {
 
   // Single source of truth for outreach state until the repo carries a status field.
   outreach: {
-    status: "paused", // "paused" | "active"
+    status: "active", // "paused" | "active"
     since: "2026-10-15",
-    note: "Paused until the new lead repo is provided. A batch of 25 drafted emails is on hold, unsent."
+    note: "Active Oct 15: sending the remaining Facebook leads (Batch 9 Cambridge/Somerville plus new Connecticut leads)."
   },
 
   accounts: [
