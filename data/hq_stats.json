@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:08:18+00:00",
+ "generated_at": "2026-10-15T18:08:58+00:00",
  "leads": {
   "total": 429,
   "with_email": 411,
@@ -1070,6 +1070,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-15T19:08:48+01:00",
+   "msg": "Outreach: paused after Facebook exhaust run",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-15T18:07:57Z",
    "msg": "Instagram: cleanup",
    "who": "Devin"
@@ -1256,8 +1261,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-15",
-  "note": "Active Oct 15: sending the remaining Facebook leads (Batch 9 Cambridge/Somerville plus new Connecticut leads)."
+  "note": "Paused Oct 15: Facebook leads exhausted, next batch awaiting approval."
  }
 }
