@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T21:38:29+00:00",
+ "generated_at": "2026-10-15T22:29:58+00:00",
  "leads": {
-  "total": 451,
-  "with_email": 433,
+  "total": 456,
+  "with_email": 438,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 63
+   "Instagram": 68
   }
  },
  "states": {
@@ -74,6 +74,14 @@
    "with_email": 101,
    "sources": {
     "Web research": 101
+   }
+  },
+  "WA": {
+   "name": "Washington",
+   "leads": 5,
+   "with_email": 5,
+   "sources": {
+    "Instagram": 5
    }
   },
   "WY": {
@@ -408,6 +416,15 @@
    "coords": [
     -74.0324,
     40.7433
+   ]
+  },
+  {
+   "city": "Spokane",
+   "state": "WA",
+   "leads": 3,
+   "coords": [
+    -117.4235,
+    47.6572
    ]
   },
   {
@@ -1147,9 +1164,32 @@
     -116.6894,
     43.6679
    ]
+  },
+  {
+   "city": "Spokane Valley",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -117.2614,
+    47.6571
+   ]
+  },
+  {
+   "city": "Tacoma",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.4383,
+    47.2455
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T22:29:43Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T21:38:16Z",
    "msg": "Instagram: +5 leads",
@@ -1293,11 +1333,6 @@
   {
    "t": "2026-10-15T13:56:38Z",
    "msg": "Instagram: remove Chick-fil-A (chain)",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T13:56:12Z",
-   "msg": "Instagram: remove chain row",
    "who": "Caesar"
   }
  ],
