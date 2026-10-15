@@ -36,7 +36,8 @@
         const k = e.t + e.msg;
         if (seenRepo.has(k)) return;
         seenRepo.add(k);
-        add("Devin", "updated the lead files: " + e.msg, new Date(e.t));
+        const who = e.who || "Devin";
+        add(who, (who === "Cassius" ? "updated outreach: " : "updated the lead files: ") + e.msg, new Date(e.t));
       });
     },
     render

@@ -468,6 +468,11 @@
         say(byId.devin, `+${total - prev.leads.total} new leads`, 5);
         HQLog.add("Devin", `added ${total - prev.leads.total} new leads (pool now ${total}).`);
       }
+      const sent = (x) => (x && x.sent_log ? x.sent_log.sent : 0);
+      if (prev && sent(s) > sent(prev)) {
+        say(byId.ash, `+${sent(s) - sent(prev)} emails sent`, 5);
+        HQLog.add("Ash", `logged ${sent(s) - sent(prev)} new sends (${sent(s)} total).`);
+      }
     },
     // Exposed for wall-crossing checks.
     _debug: { agents, walkable, astar, SPOTS }

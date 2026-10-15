@@ -18,9 +18,9 @@
       stage("Replies", log && log.replies != null ? log.replies : "—", log && log.replies != null ? "replies" : aw, !!(log && log.replies != null))
     ].join("");
 
-    const paused = C.outreach.status !== "active";
+    const paused = !HQData.outreachActive();
     document.getElementById("accounts").innerHTML = C.accounts.map((a) => {
-      const today = log && log.sent_today ? log.sent_today[a.email] || 0 : null;
+      const today = HQData.sentToday(a.email);
       return `<div class="account"><div class="em">${esc(a.email)}</div>
         <dl class="kv"><dt>Status</dt><dd>${paused ? "Paused" : "Active"}</dd>
         <dt>Daily cap</dt><dd>${a.dailyCap}</dd>

@@ -39,6 +39,15 @@
     state,
     onChange(fn) { listeners.push(fn); if (state.stats) fn(state, null); },
     start() { load(); setInterval(load, (C.pollSeconds || 60) * 1000); },
-    outreachActive() { return C.outreach.status === "active"; }
+    // outreach.json in the lead repo (via hq_stats.json) wins; config.js is the fallback.
+    outreach() { return (state.stats && state.stats.outreach) || C.outreach; },
+    outreachActive() { return window.HQData.outreach().status === "active"; },
+    sentToday(email) {
+      const log = state.stats && state.stats.sent_log;
+      if (!log) return null;
+      const day = new Intl.DateTimeFormat("en-CA", { timeZone: C.timeZone }).format(new Date());
+      if (log.sent_by_day) return (log.sent_by_day[day] || {})[email] || 0;
+      return log.sent_today ? log.sent_today[email] || 0 : null;
+    }
   };
 })();

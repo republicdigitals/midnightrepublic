@@ -6,10 +6,10 @@ window.HQ_CONFIG = {
     branch: "main",
     statsFile: "data/hq_stats.json"
   },
-  pollSeconds: 60,
+  pollSeconds: 30,
   timeZone: "America/Los_Angeles",
 
-  // Single source of truth for outreach state until the repo carries a status field.
+  // Fallback only. The live status comes from outreach.json in the private lead repo.
   outreach: {
     status: "active", // "paused" | "active"
     since: "2026-10-15",

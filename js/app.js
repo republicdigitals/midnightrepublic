@@ -17,19 +17,27 @@
   const tick = () => (clock.textContent = clockFmt.format(new Date()));
   tick(); setInterval(tick, 1000);
 
-  const active = C.outreach.status === "active";
-  const pill = document.getElementById("outreach-pill");
-  pill.textContent = active ? "Outreach: ACTIVE" : "Outreach: PAUSED";
-  pill.className = "pill " + (active ? "active" : "paused");
-  const notice = document.getElementById("notice");
-  if (!active) { notice.textContent = `Outreach paused since ${C.outreach.since}. ${C.outreach.note}`; notice.classList.add("show"); }
-  document.getElementById("office-mode").textContent = active ? "Pipeline running" : "Standing by — outreach paused";
+  function outreachUI() {
+    const o = HQData.outreach(), active = o.status === "active";
+    const pill = document.getElementById("outreach-pill");
+    pill.textContent = active ? "Outreach: ACTIVE" : "Outreach: PAUSED";
+    pill.className = "pill " + (active ? "active" : "paused");
+    pill.title = o.note || "";
+    const notice = document.getElementById("notice");
+    notice.textContent = active ? "" : `Outreach paused since ${o.since}. ${o.note}`;
+    notice.classList.toggle("show", !active);
+    document.getElementById("office-mode").textContent = active ? "Pipeline running" : "Standing by — outreach paused";
+    return active;
+  }
+  let active = outreachUI();
 
   const timeFmt = new Intl.DateTimeFormat("en-US", { timeZone: C.timeZone, month: "short", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false });
   function dataPill(st) {
     const p = document.getElementById("data-pill");
     if (!st.stats) { p.textContent = "Data unavailable"; p.className = "pill data stale"; return; }
-    p.textContent = st.stale ? "Data stale" : "Live data";
+    const last = (st.stats.events || [])[0];
+    const mins = last ? Math.round((Date.now() - new Date(last.t)) / 60000) : null;
+    p.textContent = st.stale ? "Data stale" : mins != null && mins < 30 ? `Live · ${last.who || "Devin"} pushed ${mins < 1 ? "just now" : mins + "m ago"}` : "Live data";
     p.className = "pill data " + (st.stale ? "stale" : "live");
     p.title = st.stale ? `Last good load ${st.lastOk ? timeFmt.format(st.lastOk) : "unknown"}${st.error ? " (" + st.error + ")" : ""}` : "";
     document.getElementById("footer-data").textContent =
@@ -49,6 +57,9 @@
     if (!st.stats) return;
     const s = st.stats;
     Object.entries(s.states).forEach(([a, d]) => (window.HQ_STATE_NAMES[a] = d.name));
+    const was = active;
+    active = outreachUI();
+    if (started && was !== active) HQLog.add("Cassius", active ? "switched outreach to ACTIVE." : "paused outreach.");
     HQLog.addRepoEvents(s.events);
     glance(s);
     HQOffice.update(s, prev);
