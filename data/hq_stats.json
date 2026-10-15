@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T14:52:03+00:00",
+ "generated_at": "2026-10-15T15:21:41+00:00",
  "leads": {
   "total": 417,
   "with_email": 399,
@@ -1122,6 +1122,39 @@
    "msg": "Combine SD and WY leads into one restaurant_leads.csv"
   }
  ],
- "sent_log": null,
- "warm_leads": null
+ "sent_log": {
+  "researched": 28,
+  "drafted": 28,
+  "sent": 28,
+  "delivered": 24,
+  "bounced": 4,
+  "replies": 0,
+  "sent_today": {
+   "liam@yeschefgroup.co": 28
+  },
+  "by_state": {
+   "CT": {
+    "sent": 3,
+    "delivered": 3,
+    "bounced": 0
+   },
+   "MA": {
+    "sent": 25,
+    "delivered": 21,
+    "bounced": 4
+   }
+  }
+ },
+ "warm_leads": [
+  {
+   "name": "Kyle L",
+   "venue": "The Local",
+   "state": "Media kit sent, follow-up sent, decision pending"
+  },
+  {
+   "name": "Ron",
+   "venue": "Malted Barley Events",
+   "state": "Media kit sent, decision pending"
+  }
+ ]
 }
