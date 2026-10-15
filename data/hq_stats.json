@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:27:00+00:00",
+ "generated_at": "2026-10-15T18:28:09+00:00",
  "leads": {
   "total": 434,
   "with_email": 416,
@@ -1070,6 +1070,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-15T19:27:59+01:00",
+   "msg": "Outreach: +2 sent, delivered (Instagram, account 1)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-15T18:26:50Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -1213,26 +1218,21 @@
    "t": "2026-10-10T12:42:27Z",
    "msg": "Add 30 MT leads (30 MT total)",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-10T04:24:08Z",
-   "msg": "Utah batch: 101 UT leads (200 total)",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 52,
   "drafted": 52,
-  "sent": 28,
-  "delivered": 24,
+  "sent": 30,
+  "delivered": 26,
   "bounced": 4,
   "replies": 0,
   "sent_today": {
-   "liam@yeschefgroup.co": 28
+   "liam@yeschefgroup.co": 30
   },
   "sent_by_day": {
    "2026-10-15": {
-    "liam@yeschefgroup.co": 28
+    "liam@yeschefgroup.co": 30
    }
   },
   "by_state": {
@@ -1242,8 +1242,8 @@
     "bounced": 0
    },
    "ID": {
-    "sent": 0,
-    "delivered": 0,
+    "sent": 2,
+    "delivered": 2,
     "bounced": 0
    },
    "MA": {
