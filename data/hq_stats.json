@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T19:39:27+00:00",
+ "generated_at": "2026-10-15T19:59:17+00:00",
  "leads": {
-  "total": 452,
-  "with_email": 434,
+  "total": 440,
+  "with_email": 422,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 64
+   "Instagram": 52
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 64,
-   "with_email": 64,
+   "leads": 52,
+   "with_email": 52,
    "sources": {
-    "Instagram": 64
+    "Instagram": 52
    }
   },
   "MA": {
@@ -105,21 +105,21 @@
    ]
   },
   {
-   "city": "Boise",
-   "state": "ID",
-   "leads": 29,
-   "coords": [
-    -116.2009,
-    43.6166
-   ]
-  },
-  {
    "city": "Providence",
    "state": "RI",
    "leads": 27,
    "coords": [
     -71.4128,
     41.824
+   ]
+  },
+  {
+   "city": "Boise",
+   "state": "ID",
+   "leads": 26,
+   "coords": [
+    -116.2009,
+    43.6166
    ]
   },
   {
@@ -246,15 +246,6 @@
    "coords": [
     -72.9251,
     41.3082
-   ]
-  },
-  {
-   "city": "Rexburg",
-   "state": "ID",
-   "leads": 5,
-   "coords": [
-    -111.7837,
-    43.8261
    ]
   },
   {
@@ -399,33 +390,6 @@
    "coords": [
     -74.0324,
     40.7433
-   ]
-  },
-  {
-   "city": "Idaho Falls",
-   "state": "ID",
-   "leads": 3,
-   "coords": [
-    -112.0363,
-    43.4888
-   ]
-  },
-  {
-   "city": "Pocatello",
-   "state": "ID",
-   "leads": 3,
-   "coords": [
-    -112.4506,
-    42.862
-   ]
-  },
-  {
-   "city": "Coeur d'Alene",
-   "state": "ID",
-   "leads": 3,
-   "coords": [
-    -116.7812,
-    47.6743
    ]
   },
   {
@@ -663,12 +627,30 @@
    ]
   },
   {
-   "city": "Ammon",
+   "city": "Idaho Falls",
    "state": "ID",
    "leads": 2,
    "coords": [
-    -111.9641,
-    43.4768
+    -112.0363,
+    43.4888
+   ]
+  },
+  {
+   "city": "Pocatello",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -112.4506,
+    42.862
+   ]
+  },
+  {
+   "city": "Coeur d'Alene",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -116.7812,
+    47.6743
    ]
   },
   {
@@ -678,15 +660,6 @@
    "coords": [
     -116.9481,
     47.711
-   ]
-  },
-  {
-   "city": "Twin Falls",
-   "state": "ID",
-   "leads": 2,
-   "coords": [
-    -114.4701,
-    42.5559
    ]
   },
   {
@@ -1086,6 +1059,15 @@
    ]
   },
   {
+   "city": "Ammon",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -111.9641,
+    43.4768
+   ]
+  },
+  {
    "city": "Blackfoot",
    "state": "ID",
    "leads": 1,
@@ -1104,6 +1086,15 @@
    ]
   },
   {
+   "city": "Twin Falls",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -114.4701,
+    42.5559
+   ]
+  },
+  {
    "city": "Emmett",
    "state": "ID",
    "leads": 1,
@@ -1111,9 +1102,23 @@
     -116.4993,
     43.8735
    ]
+  },
+  {
+   "city": "Rexburg",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -111.7837,
+    43.8261
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T19:59:07Z",
+   "msg": "Instagram: apply Oct 15 standard to new rows (self-audit)",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T19:39:17Z",
    "msg": "Instagram: +5 leads",
@@ -1257,11 +1262,6 @@
   {
    "t": "2026-10-15T13:05:42Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T01:50:28Z",
-   "msg": "Facebook: 5 leads in New Haven CT",
    "who": "Caesar"
   }
  ],
