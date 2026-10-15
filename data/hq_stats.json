@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T19:59:17+00:00",
+ "generated_at": "2026-10-15T20:23:10+00:00",
  "leads": {
-  "total": 440,
-  "with_email": 422,
+  "total": 445,
+  "with_email": 427,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 52
+   "Instagram": 57
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 52,
-   "with_email": 52,
+   "leads": 57,
+   "with_email": 57,
    "sources": {
-    "Instagram": 52
+    "Instagram": 57
    }
   },
   "MA": {
@@ -309,6 +309,15 @@
    "coords": [
     -74.9214,
     38.9334
+   ]
+  },
+  {
+   "city": "Coeur d'Alene",
+   "state": "ID",
+   "leads": 4,
+   "coords": [
+    -116.7812,
+    47.6743
    ]
   },
   {
@@ -645,15 +654,6 @@
    ]
   },
   {
-   "city": "Coeur d'Alene",
-   "state": "ID",
-   "leads": 2,
-   "coords": [
-    -116.7812,
-    47.6743
-   ]
-  },
-  {
    "city": "Post Falls",
    "state": "ID",
    "leads": 2,
@@ -669,6 +669,15 @@
    "coords": [
     -116.7867,
     47.7591
+   ]
+  },
+  {
+   "city": "Rexburg",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -111.7837,
+    43.8261
    ]
   },
   {
@@ -1104,16 +1113,30 @@
    ]
   },
   {
-   "city": "Rexburg",
+   "city": "Smiths Ferry",
    "state": "ID",
    "leads": 1,
    "coords": [
-    -111.7837,
-    43.8261
+    -116.0896,
+    44.3013
+   ]
+  },
+  {
+   "city": "Cascade",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -116.0526,
+    44.5127
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T20:22:55Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T19:59:07Z",
    "msg": "Instagram: apply Oct 15 standard to new rows (self-audit)",
@@ -1257,11 +1280,6 @@
   {
    "t": "2026-10-15T13:14:09Z",
    "msg": "Instagram: +3 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T13:05:42Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
