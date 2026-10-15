@@ -105,3 +105,7 @@ main{padding:10px 16px 8px}
   #us-map{max-height:none}
 }
 @media (max-width:420px){ .brand{width:100%} .wordmark{font-size:15px;letter-spacing:.08em} .status-bar{margin-left:0;width:100%;justify-content:space-between} .pill{font-size:11px;padding:3px 8px} }
+.agent-tip{position:absolute;z-index:5;max-width:240px;background:rgba(8,19,30,.95);border:1px solid var(--navy-3);border-radius:8px;padding:8px 10px;font-size:12px;line-height:1.4;color:var(--marble);pointer-events:none;box-shadow:0 6px 18px rgba(0,0,0,.4)}
+.agent-tip span{color:var(--muted);font-size:11px}
+.agent-tip p{margin:4px 0 0}
+.agent-tip .now{color:var(--brass-2)}

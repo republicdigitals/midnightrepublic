@@ -87,12 +87,12 @@
   function goTo(a, spot, onArrive) {
     const path = astar([Math.round(a.x), Math.round(a.y)], SPOTS[spot]);
     if (!path) return false;
-    a.path = path.slice(1); a.onArrive = onArrive || null;
+    a.path = path.slice(1); a.onArrive = onArrive || null; a.dest = spot;
     return true;
   }
-  const home = (a, cb) => goTo(a, HOME[a.id], cb);
+  const home = (a, cb) => goTo(a, HOME[a.id], () => { a.activity = null; if (cb) cb(); });
   const atDesk = (a) => { const [hx, hy] = SPOTS[HOME[a.id]]; return !a.path.length && Math.abs(a.x - hx) < 0.1 && Math.abs(a.y - hy) < 0.1; };
-  function say(a, text, secs) { a.bubble = text; a.bubbleUntil = performance.now() + (secs || 4) * 1000; }
+  function say(a, text, secs) { a.lastSaid = text; a.bubble = text; a.bubbleUntil = performance.now() + (secs || 4) * 1000; }
   const idle = (a) => !a.summoned && atDesk(a) && performance.now() > a.busyUntil;
   const wait = (a, secs) => (a.busyUntil = performance.now() + secs * 1000);
 
@@ -196,6 +196,7 @@
     if (now - lastBreak > 45000 && Math.random() < 0.08) {
       lastBreak = now;
       const spot = rnd(["kitchen", "kitchen", "lounge1", "lounge2", "lounge3"]);
+      a.activity = "On a coffee break";
       goTo(a, spot, () => { say(a, rnd(["Coffee break", "Grabbing an espresso", "Two minutes, back soon"]), 3); a.busyUntil = performance.now() + 12000; later(12, () => home(a)); });
       return;
     }
@@ -229,7 +230,7 @@
       if (briefing || pending || now - lastMeeting < 150000 || Math.random() > 0.05) return;
       lastMeeting = now;
       meeting = Object.assign({ arrived: 0, routed: new Set() }, rnd(meetings()));
-      meeting.who.forEach((id) => (byId[id].summoned = true));
+      meeting.who.forEach((id) => { byId[id].summoned = true; byId[id].activity = `In a meeting: ${meeting.topic}`; });
     }
     const m = meeting;
     const seats = ["confHead", "conf1", "conf2", "conf3", "conf4", "conf5", "conf6", "confFoot"];
@@ -581,16 +582,68 @@
       ctx.fillText(`LEADS ${stats.leads.total}  ·  ${Object.keys(stats.states).length} STATES  ·  ${stats.cities.length} CITIES`, 6.5 * c, 6.5 * c, 8.6 * c);
     }
     const now = performance.now();
+    if (hovered) {
+      ctx.strokeStyle = hovered.color; ctx.lineWidth = Math.max(1.5, c * 0.08);
+      ctx.beginPath(); ctx.ellipse((hovered.x + 0.5) * c, (hovered.y + 0.5) * c + c * 0.42, c * 0.55, c * 0.22, 0, 0, 7); ctx.stroke();
+    }
     const pos = agents.slice().sort((a, b) => a.y - b.y).map((a) => [a, person(a, t)]);
     drawMessages(now);
     pos.forEach(([a, [px, py]]) => { if (a.bubble && now < a.bubbleUntil) bubble(a, px, py); });
   }
 
+
+  // Hover (or tap) an agent: show what they're doing; walkers freeze until the pointer leaves.
+  const JOBS = {
+    devin: (s) => s ? `Runs lead generation and delegates research. Pool: ${s.leads.total} leads (${s.leads.with_email} with email) in ${Object.keys(s.states).length} states.` : "Runs lead generation.",
+    livia: () => "Scout. Scrolls Instagram For You and reads captions for tagged restaurants.",
+    marcus: () => "Profiler. Opens each restaurant's profile and captures the Contact / Email.",
+    octavia: () => "Verifier. Removes duplicates and chains, then hands the batch to Caesar.",
+    cassius: (s, sl) => `Consul. Runs outreach (${HQData.outreachActive() ? "active" : "paused"}).` + (sl ? ` ${sl.sent} sent, ${sl.replies} replies so far.` : ""),
+    maren: (s, sl) => "Researches each lead before drafting." + (sl && sl.researched != null ? ` ${sl.researched} researched.` : ""),
+    imogen: (s, sl) => "Writes personalized drafts." + (sl && sl.drafted != null ? ` ${sl.drafted} drafted.` : ""),
+    ash: () => sender(0), kira: () => sender(1)
+  };
+  function sender(i) {
+    const acct = C.accounts[i], today = acct ? HQData.sentToday(acct.email) : null;
+    return acct ? `Sends approved drafts from ${acct.email}.` + (today != null ? ` Sent today: ${today}/${acct.dailyCap}.` : "") : "Sends approved drafts.";
+  }
+  const PLACE = (spot) => /^conf/.test(spot) ? "the conference room" : /^lounge/.test(spot) ? "the lounge" : spot === "kitchen" ? "the kitchen" : "their desk";
+  function nowDoing(a) {
+    if (a.path.length) return `Walking to ${PLACE(a.dest)}` + (a.activity ? ` (${a.activity.replace(/^In a meeting: .*/, "meeting").toLowerCase()})` : "") + ". Paused while you look.";
+    if (a.activity) return a.activity + ".";
+    return a.lastSaid ? `At their desk. Last: "${a.lastSaid}"` : "At their desk.";
+  }
+  let hovered = null;
+  const tip = document.createElement("div");
+  tip.className = "agent-tip"; tip.hidden = true; canvas.parentElement.appendChild(tip);
+  const esc = (t) => String(t).replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+  function agentAt(ev) {
+    const r = canvas.getBoundingClientRect(), gx = (ev.clientX - r.left) / cell, gy = (ev.clientY - r.top) / cell;
+    let best = null, bd = 0.75;
+    agents.forEach((a) => { const d = Math.hypot(gx - (a.x + 0.5), gy - (a.y + 0.35)); if (d < bd) { bd = d; best = a; } });
+    return best;
+  }
+  function showTip(a) {
+    hovered = a; canvas.style.cursor = a ? "pointer" : "";
+    if (!a) { tip.hidden = true; return; }
+    tip.innerHTML = `<b style="color:${a.color}">${esc(a.name)}</b> <span>${esc(a.role)}</span><p>${esc((JOBS[a.id] || (() => ""))(stats, stats && stats.sent_log))}</p><p class="now">${esc(nowDoing(a))}</p>`;
+    tip.hidden = false;
+    const wrap = canvas.parentElement.getBoundingClientRect(), r = canvas.getBoundingClientRect();
+    let x = r.left - wrap.left + (a.x + 0.5) * cell, y = r.top - wrap.top + (a.y - 0.4) * cell;
+    x = Math.max(4, Math.min(x - tip.offsetWidth / 2, wrap.width - tip.offsetWidth - 4));
+    if (y - tip.offsetHeight < 0) y += cell * 2.4 + tip.offsetHeight; 
+    tip.style.left = x + "px"; tip.style.top = y - tip.offsetHeight + "px";
+  }
+  canvas.addEventListener("mousemove", (ev) => showTip(agentAt(ev)));
+  canvas.addEventListener("mouseleave", () => showTip(null));
+  canvas.addEventListener("click", (ev) => showTip(agentAt(ev)));
+  setInterval(() => { if (hovered) showTip(hovered); }, 500);
+
   let last = performance.now();
   function frame(t) {
     const dt = Math.min(0.1, (t - last) / 1000); last = t;
     agents.forEach((a) => {
-      if (!a.path.length) return;
+      if (!a.path.length || a === hovered) return;
       const [tx, ty] = a.path[0];
       const dx = tx - a.x, dy = ty - a.y, dist = Math.hypot(dx, dy), step = 3 * dt;
       a.walk = (a.walk || 0) + dt;
@@ -618,6 +671,6 @@
       }
     },
     // Exposed for wall-crossing checks.
-    _debug: { agents, walkable, astar, SPOTS, MSGS, forceMeeting() { lastMeeting = -1e9; }, get pending() { return pending; } }
+    _debug: { agents, showTip, GW, walkable, astar, SPOTS, MSGS, forceMeeting() { lastMeeting = -1e9; }, get pending() { return pending; } }
   };
 })();
