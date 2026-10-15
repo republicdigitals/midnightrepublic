@@ -116,7 +116,7 @@
     goTo(d, "consulVisitor", () => {
       const ts = topState();
       say(d, `Lead pool: ${stats.leads.total} across ${Object.keys(stats.states).length} states`, 4);
-      HQLog.add("Devin", `briefed Cassius: ${stats.leads.total} leads, ${stats.leads.with_email} with email${ts ? `, top state ${ts[0]} (${ts[1].leads})` : ""}.`);
+      HQLog.add(byId.devin.name, `briefed Cassius: ${stats.leads.total} leads, ${stats.leads.with_email} with email${ts ? `, top state ${ts[0]} (${ts[1].leads})` : ""}.`);
       setTimeout(() => {
         say(cas, HQData.outreachActive() ? "Good. Send it to Maren." : "Logged. Outreach stays paused.", 4);
         HQLog.add("Cassius", HQData.outreachActive() ? "routed the new leads to Research." : "logged the count. Outreach remains paused.");
@@ -466,7 +466,7 @@
       const total = s.leads.total;
       if (prev && total > prev.leads.total) {
         say(byId.devin, `+${total - prev.leads.total} new leads`, 5);
-        HQLog.add("Devin", `added ${total - prev.leads.total} new leads (pool now ${total}).`);
+        HQLog.add(byId.devin.name, `added ${total - prev.leads.total} new leads (pool now ${total}).`);
       }
       const sent = (x) => (x && x.sent_log ? x.sent_log.sent : 0);
       if (prev && sent(s) > sent(prev)) {

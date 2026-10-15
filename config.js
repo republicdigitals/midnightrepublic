@@ -28,7 +28,7 @@ window.HQ_CONFIG = {
   ],
 
   agents: [
-    { id: "devin", name: "Devin", role: "Lead generation", color: "#c9a44c" },
+    { id: "devin", name: "Caesar", role: "Lead generation", color: "#c9a44c" },
     { id: "cassius", name: "Cassius", role: "Consul", color: "#e8e1cf" },
     { id: "maren", name: "Maren", role: "Research", color: "#5fa58a" },
     { id: "imogen", name: "Imogen", role: "Drafting", color: "#8fa8d8" },

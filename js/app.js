@@ -37,7 +37,7 @@
     if (!st.stats) { p.textContent = "Data unavailable"; p.className = "pill data stale"; return; }
     const last = (st.stats.events || [])[0];
     const mins = last ? Math.round((Date.now() - new Date(last.t)) / 60000) : null;
-    p.textContent = st.stale ? "Data stale" : mins != null && mins < 30 ? `Live · ${last.who || "Devin"} pushed ${mins < 1 ? "just now" : mins + "m ago"}` : "Live data";
+    p.textContent = st.stale ? "Data stale" : mins != null && mins < 30 ? `Live · ${last.who && last.who !== "Devin" ? last.who : "Caesar"} pushed ${mins < 1 ? "just now" : mins + "m ago"}` : "Live data";
     p.className = "pill data " + (st.stale ? "stale" : "live");
     p.title = st.stale ? `Last good load ${st.lastOk ? timeFmt.format(st.lastOk) : "unknown"}${st.error ? " (" + st.error + ")" : ""}` : "";
     document.getElementById("footer-data").textContent =
