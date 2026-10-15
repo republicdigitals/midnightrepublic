@@ -3,9 +3,9 @@
   const C = window.HQ_CONFIG;
   const W = 41, H = 27;
   const ROOMS = [
-    { id: "leadgen", name: "Lead Generation", x: 0, y: 0, w: 13, h: 10, floor: "#1d4a3c" },
-    { id: "consul", name: "Consul's Office", x: 13, y: 0, w: 13, h: 10, floor: "#e6e1d4", light: true },
-    { id: "conference", name: "Conference Room", x: 26, y: 0, w: 14, h: 10, floor: "#22384f" },
+    { id: "research", name: "Research Floor", x: 0, y: 0, w: 18, h: 10, floor: "#1d4a3c" },
+    { id: "consul", name: "Consul's Office", x: 18, y: 0, w: 12, h: 10, floor: "#e6e1d4", light: true },
+    { id: "conference", name: "Conference", x: 30, y: 0, w: 10, h: 10, floor: "#22384f" },
     { id: "hall", name: "", x: 0, y: 10, w: 40, h: 4, floor: "#2a3644" },
     { id: "outreach", name: "Outreach Floor", x: 0, y: 14, w: 19, h: 12, floor: "#1a3147" },
     { id: "lounge", name: "Lounge", x: 19, y: 14, w: 10, h: 7, floor: "#2b4a3a" },
@@ -13,30 +13,32 @@
     { id: "wc", name: "WC", x: 35, y: 14, w: 5, h: 7, floor: "#38474f" },
     { id: "entrance", name: "Entrance", x: 19, y: 21, w: 21, h: 5, floor: "#2f2a22" }
   ];
-  const DOORS = [[6, 10], [7, 10], [19, 10], [20, 10], [32, 10], [33, 10], [9, 14], [10, 14], [23, 14], [24, 14],
+  const DOORS = [[8, 10], [9, 10], [23, 10], [24, 10], [34, 10], [35, 10], [9, 14], [10, 14], [23, 14], [24, 14],
     [31, 14], [32, 14], [37, 14], [19, 23], [19, 24], [23, 21], [24, 21]];
   const FRONT_DOOR = [[29, 26], [30, 26]];
   // Furniture blocks [x, y, w, h, color, label]
   const FURN = [
-    [2, 2, 3, 2, "#6b5530", "desk"], [8, 2, 3, 2, "#6b5530", "desk"], [2, 6, 9, 1, "#2c3e50", "board"],
-    [17, 3, 5, 2, "#b9a57a", "consul-desk"], [14, 4, 1, 4, "#9b8b66", "shelf"], [24, 4, 1, 4, "#9b8b66", "shelf"],
-    [29, 3, 8, 3, "#5a4630", "table"],
+    [2, 2, 3, 2, "#6b5530", "desk"], [6, 2, 3, 2, "#6b5530", "desk"], [10, 2, 3, 2, "#6b5530", "desk"], [14, 2, 3, 2, "#6b5530", "desk"],
+    [2, 6, 9, 1, "#2c3e50", "board"], [14, 7, 3, 1, "#9b8b66", "shelf"],
+    [22, 3, 5, 2, "#b9a57a", "consul-desk"], [19, 4, 1, 4, "#9b8b66", "shelf"], [29, 4, 1, 4, "#9b8b66", "shelf"],
+    [32, 3, 6, 3, "#5a4630", "table"],
     [2, 17, 3, 2, "#6b5530", "desk"], [8, 17, 3, 2, "#6b5530", "desk"], [14, 17, 3, 2, "#6b5530", "desk"],
     [2, 22, 3, 2, "#6b5530", "desk"], [8, 22, 3, 2, "#6b5530", "desk"], [14, 22, 3, 2, "#6b5530", "desk"],
     [21, 15, 6, 1, "#3d6b55", "sofa"], [22, 18, 4, 1, "#5a4630", "coffee"],
     [30, 19, 4, 1, "#7d8590", "counter"], [36, 19, 3, 1, "#c8ccd0", "sink"],
     [27, 23, 5, 1, "#6b5530", "reception"], [34, 15, 1, 1, "#d0d4d8", "fridge"],
-    ...[[11, 1], [1, 9], [14, 1], [25, 1], [14, 9], [25, 9], [39, 1], [39, 9], [1, 15], [18, 15], [18, 25], [28, 20], [38, 22], [38, 25], [20, 25]]
+    ...[[17, 1], [1, 9], [17, 9], [19, 1], [29, 1], [19, 9], [29, 9], [39, 1], [39, 9], [1, 15], [18, 15], [18, 25], [28, 20], [38, 22], [38, 25], [20, 25]]
       .map(([x, y]) => [x, y, 1, 1, "", "plant"])
   ];
   const SPOTS = {
-    devinDesk: [3, 4], leadBoard: [6, 7], consulChair: [19, 2], consulVisitor: [19, 6],
-    conf1: [30, 6], conf2: [33, 6], conf3: [35, 2], conf4: [31, 2],
+    devinDesk: [3, 4], leadBoard: [6, 7], consulChair: [24, 2], consulVisitor: [24, 6],
+    rdesk1: [7, 4], rdesk2: [11, 4], rdesk3: [15, 4], caesarSide: [4, 5], rside1: [8, 5], rside2: [12, 5], rside3: [16, 5], shelfR: [15, 6],
+    conf1: [33, 7], conf2: [36, 7], conf3: [36, 2], conf4: [33, 2],
     desk1: [3, 19], desk2: [9, 19], desk3: [15, 19], desk4: [3, 24], desk5: [9, 24], desk6: [15, 24],
     lounge1: [21, 16], lounge2: [23, 16], lounge3: [25, 16], lounge4: [24, 19],
     kitchen: [31, 17], wc: [37, 17], entrance: [29, 24], hall1: [12, 12], hall2: [28, 12]
   };
-  const HOME = { devin: "devinDesk", cassius: "consulChair", maren: "desk1", imogen: "desk2", ash: "desk3", kira: "desk4" };
+  const HOME = { devin: "devinDesk", livia: "rdesk1", marcus: "rdesk2", octavia: "rdesk3", cassius: "consulChair", maren: "desk1", imogen: "desk2", ash: "desk3", kira: "desk4" };
 
   const blocked = [];
   for (let y = 0; y <= H; y++) { blocked[y] = []; for (let x = 0; x <= W; x++) blocked[y][x] = false; }
@@ -81,78 +83,163 @@
   });
   const byId = Object.fromEntries(agents.map((a) => [a.id, a]));
 
-  function goTo(a, spot, onArrive) {
-    const t = SPOTS[spot];
+  function goToTile(a, t, onArrive) {
     const path = astar([Math.round(a.x), Math.round(a.y)], t);
-    if (!path) return;
+    if (!path) return false;
     a.path = path.slice(1); a.onArrive = onArrive || null;
+    if (!a.path.length && a.onArrive) { a.onArrive = null; onArrive(); }
+    return true;
+  }
+  const goTo = (a, spot, onArrive) => goToTile(a, SPOTS[spot], onArrive);
+  function goNear(a, b, onArrive) {
+    const bx = Math.round(b.x), by = Math.round(b.y);
+    const t = [[1, 0], [-1, 0], [0, 1], [1, 1], [-1, 1], [0, -1]].map(([dx, dy]) => [bx + dx, by + dy]).find(([x, y]) => walkable(x, y));
+    return t ? goToTile(a, t, onArrive) : false;
   }
   function say(a, text, secs) { a.bubble = text; a.bubbleUntil = performance.now() + (secs || 4) * 1000; }
   const idle = (a) => !a.path.length && performance.now() > a.busyUntil;
   const wait = (a, secs) => (a.busyUntil = performance.now() + secs * 1000);
 
   let stats = null;
-  let lastScript = 0;
-  let lastBrief = -1e9;
-  const BRIEF_EVERY = 150000;
+  let lastScript = 0, lastResearch = 0, lastChat = 0;
+  let pending = 0, briefing = false;
+  const RESEARCH = ["livia", "marcus", "octavia"];
+  const OUTREACH = ["maren", "imogen", "ash", "kira"];
   const rnd = (arr) => arr[Math.floor(Math.random() * arr.length)];
+  const later = (secs, f) => setTimeout(f, secs * 1000);
+  const home = (a, cb) => goTo(a, HOME[a.id], cb);
 
-  function topState() {
-    if (!stats) return null;
-    return Object.entries(stats.states).sort((a, b) => b[1].leads - a[1].leads)[0];
+  // Caesar's team is "on a run" while his last lead push is under an hour old.
+  function researchActive() {
+    const e = stats && (stats.events || []).find((x) => x.who !== "Cassius");
+    return !!e && Date.now() - new Date(e.t).getTime() < 3600000;
   }
 
-  // Lead generation loop runs in both modes; outreach stages only move when outreach is active.
-  function devinLoop() {
-    const d = byId.devin, cas = byId.cassius;
-    if (!idle(d) || !stats) return;
-    const r = Math.random();
-    if (r < 0.45) { wait(d, 6 + Math.random() * 6); if (Math.random() < 0.4) say(d, rnd(["Checking Instagram profiles", "Reading captions for tagged venues", "Capturing contact emails", "Deduping against the pool"]), 3); return; }
-    if (r < 0.75 || performance.now() - lastBrief < BRIEF_EVERY) {
-      if (Math.random() < 0.5) { wait(d, 5 + Math.random() * 5); return; }
-      goTo(d, "leadBoard", () => { say(d, `${stats.leads.total} leads on the board`, 3); wait(d, 4); goTo(d, "devinDesk"); }); return;
-    }
-    lastBrief = performance.now();
-    goTo(d, "consulVisitor", () => {
-      const ts = topState();
-      say(d, `Lead pool: ${stats.leads.total} across ${Object.keys(stats.states).length} states`, 4);
-      HQLog.add(byId.devin.name, `briefed Cassius: ${stats.leads.total} leads, ${stats.leads.with_email} with email${ts ? `, top state ${ts[0]} (${ts[1].leads})` : ""}.`);
-      setTimeout(() => {
-        say(cas, HQData.outreachActive() ? "Good. Send it to Maren." : "Logged. Outreach stays paused.", 4);
-        HQLog.add("Cassius", HQData.outreachActive() ? "routed the new leads to Research." : "logged the count. Outreach remains paused.");
-      }, 2500);
-      wait(d, 6);
-      setTimeout(() => goTo(d, "devinDesk"), 6000);
+  // The only time Caesar briefs Cassius: right after a lead push lands.
+  function briefOnPush() {
+    const d = byId.devin, o = byId.octavia, cas = byId.cassius;
+    if (!pending || briefing || !idle(d) || !idle(o) || !idle(cas) || !stats) return;
+    const n = pending; pending = 0; briefing = true;
+    const total = stats.leads.total;
+    goTo(o, "caesarSide", () => {
+      say(o, `Batch verified: +${n} leads`, 4);
+      HQLog.add(o.name, `verified a batch of ${n} new leads for ${d.name}.`);
+      later(3, () => {
+        home(o);
+        goTo(d, "consulVisitor", () => {
+          say(d, `+${n} leads pushed. Pool now ${total}`, 4);
+          HQLog.add(d.name, `briefed Cassius: +${n} leads, pool now ${total} (${stats.leads.with_email} with email).`);
+          later(3, () => {
+            const active = HQData.outreachActive();
+            say(cas, active ? "Good. Maren takes it from here." : "Logged. Outreach stays paused.", 4);
+            HQLog.add("Cassius", active ? "routed the new leads to Maren." : "logged the count. Outreach remains paused.");
+            later(3, () => {
+              home(d, () => { briefing = false; });
+              if (!active) return;
+              const m = byId.maren;
+              goTo(cas, "desk1", () => {
+                say(cas, `${n} fresh leads from ${d.name}`, 3); say(m, "On it", 3);
+                later(3, () => home(cas));
+              });
+            });
+          });
+        });
+      });
     });
+  }
+
+  // Scout -> Profiler -> Verifier, only while a run is going.
+  function researchLoop() {
+    const [l, m, o] = RESEARCH.map((id) => byId[id]), now = performance.now();
+    if (now - lastResearch < 22000 || ![l, m, o].every(idle)) return;
+    lastResearch = now;
+    const r = Math.random();
+    if (r < 0.5) {
+      goTo(l, "rside2", () => {
+        say(l, rnd(["Tagged venue in a reel caption", "Chef-driven spot, worth a look", "New restaurant from Explore businesses", "Rooftop bar tagged in a review"]), 3);
+        later(3, () => { home(l); say(m, rnd(["Opening the profile", "Checking the Contact button", "Got the email"]), 3);
+          later(5, () => goTo(m, "rside3", () => { say(m, "Email captured, over to you", 3);
+            later(3, () => { home(m); say(o, rnd(["Not a duplicate. Keeping it", "Independent, not a chain. Keeping it", "Already in the pool. Skipping"]), 3); }); })); });
+      });
+    } else {
+      [l, m, o].forEach((a, i) => later(i * 2, () => say(a, rnd([
+        ["Scrolling For You for reviews", "Reading captions for tags", "Following an Explore businesses list"],
+        ["Reading the business category", "Opening Contact / Email", "Checking the website link"],
+        ["Deduping against the pool", "Filtering out chains", "Batch almost ready to push"]][i]), 3)));
+    }
+  }
+
+  function chatLines(b) {
+    const sl = stats.sent_log;
+    if (b.id === "cassius") return [rnd(["How's the outreach going?", "Anything you need from Research?"]),
+      sl ? `${sl.sent} sent so far, ${sl.replies} replies` : "Holding until we're active."];
+    if (b.id === "ash" || b.id === "kira") return [rnd(["How's deliverability?", "Inbox treating you well?"]),
+      sl ? `${sl.delivered} delivered, ${sl.bounced} bounced` : "Quiet so far."];
+    if (b.id === "maren") return ["Are my leads easy to research?", rnd(["The Instagram ones are great", "Emails look clean"])];
+    if (b.id === "imogen") return ["Drafts landing well?", rnd(["Working on the next batch", "Personalizing every one"])];
+    if (RESEARCH.includes(b.id)) return [rnd(["How's the queue?", "Good work today", "Any good finds?"]),
+      rnd(["Plenty left in the queue", "Thanks, boss", "A couple of strong ones"])];
+    return ["Coffee?", "Sure"];
+  }
+
+  // Between pushes Caesar works, checks on his team and mingles. He never re-briefs Cassius.
+  function caesarLoop() {
+    const d = byId.devin;
+    if (briefing || pending || !idle(d)) return;
+    const now = performance.now();
+    if (Math.random() < 0.5 || now - lastChat < 25000) {
+      if (Math.random() < 0.3) say(d, rnd(researchActive()
+        ? ["Reviewing the team's finds", "Picking the next city", "Checking the frontier queue"]
+        : ["Planning the next run", "Reviewing coverage", "Picking the next niche"]), 3);
+      wait(d, 8 + Math.random() * 8); return;
+    }
+    lastChat = now;
+    if (Math.random() < 0.2) {
+      goTo(d, "leadBoard", () => { say(d, `${stats.leads.total} on the board`, 3); wait(d, 4); later(4, () => home(d)); });
+      return;
+    }
+    const pool = agents.filter((b) => b !== d && idle(b) && !(b.id === "cassius" && briefing));
+    const team = pool.filter((b) => RESEARCH.includes(b.id));
+    const b = researchActive() && team.length && Math.random() < 0.5 ? rnd(team) : rnd(pool);
+    if (!b) { wait(d, 6); return; }
+    wait(b, 25);
+    const ok = goNear(d, b, () => {
+      const [q, a] = chatLines(b);
+      say(d, q, 3);
+      later(3, () => { say(b, a, 3); b.busyUntil = performance.now() + 2000; });
+      later(6, () => home(d));
+    });
+    if (!ok) b.busyUntil = 0;
   }
 
   function idleLoop(a) {
     if (!idle(a)) return;
     if (Math.random() < 0.6) { wait(a, 8 + Math.random() * 10); if (Math.random() < 0.3) say(a, "Standing by", 3); return; }
     const spot = rnd(["lounge1", "lounge2", "lounge3", "lounge4", "kitchen", "wc", "conf1", "conf2"]);
-    goTo(a, spot, () => { wait(a, 6 + Math.random() * 6); setTimeout(() => goTo(a, HOME[a.id]), 9000); });
+    goTo(a, spot, () => { wait(a, 6 + Math.random() * 6); later(9, () => home(a)); });
   }
 
   function pipelineLoop() {
-    const order = ["devin", "maren", "imogen", "ash"];
+    const order = ["maren", "imogen", "ash"];
     const now = performance.now();
-    if (now - lastScript < 18000 || !order.every((id) => idle(byId[id]))) return;
+    if (now - lastScript < 30000 || !order.every((id) => idle(byId[id]))) return;
     lastScript = now;
     const hand = (from, to, spot, msg, next) => goTo(byId[from], spot, () => {
       say(byId[from], msg, 3); HQLog.add(byId[from].name, msg.toLowerCase() + " to " + byId[to].name + ".");
-      setTimeout(() => { goTo(byId[from], HOME[from]); next && next(); }, 2500);
+      later(2.5, () => { home(byId[from]); next && next(); });
     });
-    hand("devin", "maren", "desk1", "Handing off new leads", () =>
-      hand("maren", "imogen", "desk2", "Research notes ready", () =>
-        hand("imogen", rnd(["ash", "kira"]), rnd(["desk3", "desk4"]), "Drafts approved", null)));
+    hand("maren", "imogen", "desk2", "Research notes ready", () =>
+      hand("imogen", rnd(["ash", "kira"]), rnd(["desk3", "desk4"]), "Drafts approved", null));
   }
 
   function tick() {
     const active = HQData.outreachActive();
-    devinLoop();
-    if (active) { pipelineLoop(); idleLoop(byId.kira); idleLoop(byId.cassius); }
-    else ["maren", "imogen", "ash", "kira"].forEach((id) => idleLoop(byId[id]));
-    if (!active && idle(byId.cassius) && Math.random() < 0.003) say(byId.cassius, "We hold until the new repo lands.", 4);
+    briefOnPush();
+    caesarLoop();
+    if (researchActive()) researchLoop(); else RESEARCH.forEach((id) => idleLoop(byId[id]));
+    if (active) { pipelineLoop(); idleLoop(byId.kira); if (!briefing) idleLoop(byId.cassius); }
+    else OUTREACH.forEach((id) => idleLoop(byId[id]));
+    if (!active && idle(byId.cassius) && Math.random() < 0.003) say(byId.cassius, "We hold until outreach resumes.", 4);
   }
 
   // Rendering
@@ -165,7 +252,8 @@
   const LOOK = {
     devin: { skin: "#e3bb93", hair: "#3b2a1e" }, cassius: { skin: "#c68e62", hair: "#1c1c1c", sash: true },
     maren: { skin: "#f1c9a5", hair: "#9b4d2a" }, imogen: { skin: "#e5b089", hair: "#262626" },
-    ash: { skin: "#8d5a3b", hair: "#121212" }, kira: { skin: "#f3d1b5", hair: "#d6ae5a" }
+    ash: { skin: "#8d5a3b", hair: "#121212" }, kira: { skin: "#f3d1b5", hair: "#d6ae5a" },
+    livia: { skin: "#e8bf98", hair: "#5a3420" }, marcus: { skin: "#b07a52", hair: "#1e1a16" }, octavia: { skin: "#f0cfae", hair: "#2b2b2b" }
   };
 
   function resize() {
@@ -196,7 +284,7 @@
   }
 
   const FLOORS = {
-    leadgen: ["wood", "#4a3826"], consul: ["marble", "#ece7db"], conference: ["carpet", "#1f3a52"], hall: ["stone", "#3a4450"],
+    research: ["wood", "#4a3826"], consul: ["marble", "#ece7db"], conference: ["carpet", "#1f3a52"], hall: ["stone", "#3a4450"],
     outreach: ["carpet", "#203449"], lounge: ["wood", "#5a4230"], kitchen: ["tile", "#c9c3b5"], wc: ["tile", "#b7c3c8"], entrance: ["stone", "#4a4336"]
   };
 
@@ -289,8 +377,8 @@
       const cols = ["#7d2f2f", "#2f5a7d", "#c9a44c", "#2f6b45", "#8a6a45", "#e8e1cf"];
       for (let i = 0; i < h * 4; i++) { g.fillStyle = cols[Math.floor(rand() * cols.length)]; g.fillRect(X + c * 0.15, Y + i * c * 0.25 + 1, Wd - c * 0.3, c * 0.18); }
     } else if (type === "table") {
-      [30, 32, 34, 36].forEach((cx) => { chair(g, (cx + 0.5) * c, 2.55 * c, "#3a2c20", true); chair(g, (cx + 0.5) * c, 6.45 * c, "#3a2c20", false); });
-      chair(g, 28.4 * c, 4.5 * c, "#3a2c20", false); chair(g, 37.6 * c, 4.5 * c, "#3a2c20", false);
+      [33, 35, 37].forEach((cx) => { chair(g, cx * c, 2.55 * c, "#3a2c20", true); chair(g, cx * c, 6.45 * c, "#3a2c20", false); });
+      chair(g, 31.4 * c, 4.5 * c, "#3a2c20", false); chair(g, 38.6 * c, 4.5 * c, "#3a2c20", false);
       g.fillStyle = "#3e2a1c"; rr(g, X, Y, Wd, Ht, Ht / 2); g.fill();
       g.fillStyle = "#5c3d26"; rr(g, X + 3, Y + 3, Wd - 6, Ht - 6, Ht / 2); g.fill();
       g.strokeStyle = "rgba(201,164,76,.6)"; g.lineWidth = 1; rr(g, X + c * 0.5, Y + c * 0.5, Wd - c, Ht - c, Ht / 3); g.stroke();
@@ -331,7 +419,7 @@
     ROOMS.forEach((r) => floor(g, r));
     g.fillStyle = "#1c2a5a"; g.fillRect(1 * c, 11.35 * c, 39 * c, 1.3 * c);
     g.strokeStyle = "#c9a44c"; g.lineWidth = 1; g.strokeRect(1 * c + 2, 11.35 * c + 2, 39 * c - 4, 1.3 * c - 4);
-    rug(g, 15.5, 1.5, 9, 7, "#183a5a", "#c9a44c");
+    rug(g, 19.5, 1.5, 9, 7, "#183a5a", "#c9a44c");
     rug(g, 20.5, 16.5, 7, 4, "#6a2f2f", "#e2c47a");
     rug(g, 27.5, 24, 4, 2, "#6a2f2f", "#c9a44c");
     rug(g, 1.5, 5.3, 10, 2.4, "#2d3b2a", "#8a7135");
@@ -360,7 +448,7 @@
       });
     });
     FRONT_DOOR.forEach(([x, y]) => { g.fillStyle = "#c9a44c"; g.fillRect(x * c, y * c, c, c); g.fillStyle = "#8a7135"; g.fillRect(x * c + 2, y * c + 2, c - 4, c - 4); });
-    [[19.5, 5, 7, "rgba(255,236,190,.18)"], [24, 18, 6, "rgba(255,200,120,.14)"], [6.5, 4, 6, "rgba(201,164,76,.10)"], [29.5, 24, 5, "rgba(255,210,140,.12)"]].forEach(([x, y, r, col]) => {
+    [[24, 5, 7, "rgba(255,236,190,.18)"], [24, 18, 6, "rgba(255,200,120,.14)"], [9, 4, 8, "rgba(201,164,76,.10)"], [29.5, 24, 5, "rgba(255,210,140,.12)"]].forEach(([x, y, r, col]) => {
       const grd = g.createRadialGradient(x * c, y * c, 0, x * c, y * c, r * c); grd.addColorStop(0, col); grd.addColorStop(1, "rgba(0,0,0,0)");
       g.fillStyle = grd; g.fillRect(0, 0, GW * c, GH * c);
     });
@@ -465,8 +553,7 @@
       stats = s;
       const total = s.leads.total;
       if (prev && total > prev.leads.total) {
-        say(byId.devin, `+${total - prev.leads.total} new leads`, 5);
-        HQLog.add(byId.devin.name, `added ${total - prev.leads.total} new leads (pool now ${total}).`);
+        pending += total - prev.leads.total;
       }
       const sent = (x) => (x && x.sent_log ? x.sent_log.sent : 0);
       if (prev && sent(s) > sent(prev)) {
@@ -475,6 +562,6 @@
       }
     },
     // Exposed for wall-crossing checks.
-    _debug: { agents, walkable, astar, SPOTS }
+    _debug: { agents, walkable, astar, SPOTS, get pending() { return pending; } }
   };
 })();
