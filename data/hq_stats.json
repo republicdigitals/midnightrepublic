@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:22:20+00:00",
+ "generated_at": "2026-10-15T18:22:31+00:00",
  "leads": {
   "total": 429,
   "with_email": 411,
@@ -1070,6 +1070,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-15T19:22:13+01:00",
+   "msg": "Outreach: status active (Instagram batch running)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-15T19:22:11+01:00",
    "msg": "Outreach: 24 drafted (Instagram, Idaho)",
    "who": "Cassius"
@@ -1213,11 +1218,6 @@
    "t": "2026-10-10T03:33:02Z",
    "msg": "Add 72 Utah leads (in progress)",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-10T02:40:38Z",
-   "msg": "Add 23 Wyoming leads (66 WY total)",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -1266,8 +1266,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "2026-10-15",
-  "note": "Paused Oct 15: Facebook leads exhausted, next batch awaiting approval."
+  "note": "Active Oct 15: sending verified Instagram leads (Idaho)."
  }
 }
