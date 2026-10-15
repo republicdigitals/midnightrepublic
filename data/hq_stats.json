@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:09:22+00:00",
+ "generated_at": "2026-10-15T18:22:20+00:00",
  "leads": {
   "total": 429,
   "with_email": 411,
@@ -1070,6 +1070,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-15T19:22:11+01:00",
+   "msg": "Outreach: 24 drafted (Instagram, Idaho)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-15T19:08:48+01:00",
    "msg": "Outreach: paused after Facebook exhaust run",
    "who": "Cassius"
@@ -1213,16 +1218,11 @@
    "t": "2026-10-10T02:40:38Z",
    "msg": "Add 23 Wyoming leads (66 WY total)",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-10T02:29:39Z",
-   "msg": "Combine SD and WY leads into one restaurant_leads.csv",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
-  "researched": 28,
-  "drafted": 28,
+  "researched": 52,
+  "drafted": 52,
   "sent": 28,
   "delivered": 24,
   "bounced": 4,
@@ -1239,6 +1239,11 @@
    "CT": {
     "sent": 3,
     "delivered": 3,
+    "bounced": 0
+   },
+   "ID": {
+    "sent": 0,
+    "delivered": 0,
     "bounced": 0
    },
    "MA": {
