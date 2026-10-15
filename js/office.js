@@ -33,7 +33,7 @@
   const SPOTS = {
     devinDesk: [3, 4], leadBoard: [6, 7], consulChair: [24, 2], consulVisitor: [24, 6],
     rdesk1: [7, 4], rdesk2: [11, 4], rdesk3: [15, 4], caesarSide: [4, 5], rside1: [8, 5], rside2: [12, 5], rside3: [16, 5], shelfR: [15, 6],
-    conf1: [33, 7], conf2: [36, 7], conf3: [36, 2], conf4: [33, 2],
+    conf1: [33, 2], conf2: [35, 2], conf3: [37, 2], conf4: [33, 6], conf5: [35, 6], conf6: [37, 6], confHead: [31, 4], confFoot: [38, 4],
     desk1: [3, 19], desk2: [9, 19], desk3: [15, 19], desk4: [3, 24], desk5: [9, 24], desk6: [15, 24],
     lounge1: [21, 16], lounge2: [23, 16], lounge3: [25, 16], lounge4: [24, 19],
     kitchen: [31, 17], wc: [37, 17], entrance: [29, 24], hall1: [12, 12], hall2: [28, 12]
@@ -83,21 +83,17 @@
   });
   const byId = Object.fromEntries(agents.map((a) => [a.id, a]));
 
-  function goToTile(a, t, onArrive) {
-    const path = astar([Math.round(a.x), Math.round(a.y)], t);
+
+  function goTo(a, spot, onArrive) {
+    const path = astar([Math.round(a.x), Math.round(a.y)], SPOTS[spot]);
     if (!path) return false;
     a.path = path.slice(1); a.onArrive = onArrive || null;
-    if (!a.path.length && a.onArrive) { a.onArrive = null; onArrive(); }
     return true;
   }
-  const goTo = (a, spot, onArrive) => goToTile(a, SPOTS[spot], onArrive);
-  function goNear(a, b, onArrive) {
-    const bx = Math.round(b.x), by = Math.round(b.y);
-    const t = [[1, 0], [-1, 0], [0, 1], [1, 1], [-1, 1], [0, -1]].map(([dx, dy]) => [bx + dx, by + dy]).find(([x, y]) => walkable(x, y));
-    return t ? goToTile(a, t, onArrive) : false;
-  }
+  const home = (a, cb) => goTo(a, HOME[a.id], cb);
+  const atDesk = (a) => { const [hx, hy] = SPOTS[HOME[a.id]]; return !a.path.length && Math.abs(a.x - hx) < 0.1 && Math.abs(a.y - hy) < 0.1; };
   function say(a, text, secs) { a.bubble = text; a.bubbleUntil = performance.now() + (secs || 4) * 1000; }
-  const idle = (a) => !a.path.length && performance.now() > a.busyUntil;
+  const idle = (a) => !a.summoned && atDesk(a) && performance.now() > a.busyUntil;
   const wait = (a, secs) => (a.busyUntil = performance.now() + secs * 1000);
 
   let stats = null;
@@ -107,7 +103,19 @@
   const OUTREACH = ["maren", "imogen", "ash", "kira"];
   const rnd = (arr) => arr[Math.floor(Math.random() * arr.length)];
   const later = (secs, f) => setTimeout(f, secs * 1000);
-  const home = (a, cb) => goTo(a, HOME[a.id], cb);
+
+  // Everyone stays seated; work moves between desks as messages flying laptop to laptop.
+  const MSGS = [];
+  function send(from, to, text, onLand) {
+    say(from, text, 3.5); wait(from, 4); wait(to, 4);
+    MSGS.push({ from, to, t0: performance.now(), dur: 1600, onLand });
+  }
+  const chain = (steps, done) => {
+    steps.forEach(([f, t]) => [f, t].forEach((id) => wait(byId[id], steps.length * 4.5)));
+    const [f, t, text] = steps[0] || [];
+    if (!f) return done && done();
+    send(byId[f], byId[t], text, () => later(1.5, () => chain(steps.slice(1), done)));
+  };
 
   // Caesar's team is "on a run" while his last lead push is under an hour old.
   function researchActive() {
@@ -117,52 +125,33 @@
 
   // The only time Caesar briefs Cassius: right after a lead push lands.
   function briefOnPush() {
-    const d = byId.devin, o = byId.octavia, cas = byId.cassius;
-    if (!pending || briefing || !idle(d) || !idle(o) || !idle(cas) || !stats) return;
-    const n = pending; pending = 0; briefing = true;
-    const total = stats.leads.total;
-    goTo(o, "caesarSide", () => {
-      say(o, `Batch verified: +${n} leads`, 4);
-      HQLog.add(o.name, `verified a batch of ${n} new leads for ${d.name}.`);
-      later(3, () => {
-        home(o);
-        goTo(d, "consulVisitor", () => {
-          say(d, `+${n} leads pushed. Pool now ${total}`, 4);
-          HQLog.add(d.name, `briefed Cassius: +${n} leads, pool now ${total} (${stats.leads.with_email} with email).`);
-          later(3, () => {
-            const active = HQData.outreachActive();
-            say(cas, active ? "Good. Maren takes it from here." : "Logged. Outreach stays paused.", 4);
-            HQLog.add("Cassius", active ? "routed the new leads to Maren." : "logged the count. Outreach remains paused.");
-            later(3, () => {
-              home(d, () => { briefing = false; });
-              if (!active) return;
-              const m = byId.maren;
-              goTo(cas, "desk1", () => {
-                say(cas, `${n} fresh leads from ${d.name}`, 3); say(m, "On it", 3);
-                later(3, () => home(cas));
-              });
-            });
-          });
-        });
-      });
-    });
+    const d = byId.devin;
+    if (!pending || briefing || !["devin", "octavia", "cassius"].every((id) => idle(byId[id])) || !stats) return;
+    const n = pending, total = stats.leads.total, active = HQData.outreachActive();
+    pending = 0; briefing = true;
+    HQLog.add("Octavia", `verified a batch of ${n} new leads for ${d.name}.`);
+    chain([
+      ["octavia", "devin", `Batch verified: +${n} leads`],
+      ["devin", "cassius", `+${n} leads pushed. Pool now ${total}`],
+      ["cassius", "devin", active ? "Good. Maren takes it from here." : "Logged. Outreach stays paused."],
+      ...(active ? [["cassius", "maren", `${n} fresh leads from ${d.name}`], ["maren", "cassius", "On it"]] : [])
+    ], () => { briefing = false; });
+    later(5, () => HQLog.add(d.name, `briefed Cassius: +${n} leads, pool now ${total} (${stats.leads.with_email} with email).`));
+    later(9, () => HQLog.add("Cassius", active ? "routed the new leads to Maren." : "logged the count. Outreach remains paused."));
   }
 
   // Scout -> Profiler -> Verifier, only while a run is going.
   function researchLoop() {
-    const [l, m, o] = RESEARCH.map((id) => byId[id]), now = performance.now();
-    if (now - lastResearch < 22000 || ![l, m, o].every(idle)) return;
+    const now = performance.now();
+    if (now - lastResearch < 22000 || !RESEARCH.every((id) => idle(byId[id]))) return;
     lastResearch = now;
-    const r = Math.random();
-    if (r < 0.5) {
-      goTo(l, "rside2", () => {
-        say(l, rnd(["Tagged venue in a reel caption", "Chef-driven spot, worth a look", "New restaurant from Explore businesses", "Rooftop bar tagged in a review"]), 3);
-        later(3, () => { home(l); say(m, rnd(["Opening the profile", "Checking the Contact button", "Got the email"]), 3);
-          later(5, () => goTo(m, "rside3", () => { say(m, "Email captured, over to you", 3);
-            later(3, () => { home(m); say(o, rnd(["Not a duplicate. Keeping it", "Independent, not a chain. Keeping it", "Already in the pool. Skipping"]), 3); }); })); });
-      });
+    if (Math.random() < 0.6) {
+      chain([
+        ["livia", "marcus", rnd(["Tagged venue in a reel caption", "Chef-driven spot, worth a look", "New one from Explore businesses", "Rooftop bar tagged in a review"])],
+        ["marcus", "octavia", rnd(["Email captured, over to you", "Got the Contact email", "Profile checked, email attached"])]
+      ], () => say(byId.octavia, rnd(["Not a duplicate. Keeping it", "Independent, not a chain. Keeping it", "Already in the pool. Skipping"]), 3));
     } else {
-      [l, m, o].forEach((a, i) => later(i * 2, () => say(a, rnd([
+      RESEARCH.forEach((id, i) => later(i * 2, () => say(byId[id], rnd([
         ["Scrolling For You for reviews", "Reading captions for tags", "Following an Explore businesses list"],
         ["Reading the business category", "Opening Contact / Email", "Checking the website link"],
         ["Deduping against the pool", "Filtering out chains", "Batch almost ready to push"]][i]), 3)));
@@ -177,12 +166,10 @@
       sl ? `${sl.delivered} delivered, ${sl.bounced} bounced` : "Quiet so far."];
     if (b.id === "maren") return ["Are my leads easy to research?", rnd(["The Instagram ones are great", "Emails look clean"])];
     if (b.id === "imogen") return ["Drafts landing well?", rnd(["Working on the next batch", "Personalizing every one"])];
-    if (RESEARCH.includes(b.id)) return [rnd(["How's the queue?", "Good work today", "Any good finds?"]),
-      rnd(["Plenty left in the queue", "Thanks, boss", "A couple of strong ones"])];
-    return ["Coffee?", "Sure"];
+    return rnd([["How's the queue?", "Plenty left in the queue"], ["Good work today", "Thanks, boss"], ["Any good finds?", "A couple of strong ones"]]);
   }
 
-  // Between pushes Caesar works, checks on his team and mingles. He never re-briefs Cassius.
+  // Between pushes Caesar works and messages the team. He never re-briefs Cassius.
   function caesarLoop() {
     const d = byId.devin;
     if (briefing || pending || !idle(d)) return;
@@ -194,50 +181,92 @@
       wait(d, 8 + Math.random() * 8); return;
     }
     lastChat = now;
-    if (Math.random() < 0.2) {
-      goTo(d, "leadBoard", () => { say(d, `${stats.leads.total} on the board`, 3); wait(d, 4); later(4, () => home(d)); });
-      return;
-    }
-    const pool = agents.filter((b) => b !== d && idle(b) && !(b.id === "cassius" && briefing));
+    const pool = agents.filter((b) => b !== d && idle(b));
     const team = pool.filter((b) => RESEARCH.includes(b.id));
     const b = researchActive() && team.length && Math.random() < 0.5 ? rnd(team) : rnd(pool);
     if (!b) { wait(d, 6); return; }
-    wait(b, 25);
-    const ok = goNear(d, b, () => {
-      const [q, a] = chatLines(b);
-      say(d, q, 3);
-      later(3, () => { say(b, a, 3); b.busyUntil = performance.now() + 2000; });
-      later(6, () => home(d));
-    });
-    if (!ok) b.busyUntil = 0;
+    const [q, a] = chatLines(b);
+    send(d, b, q, () => later(1.5, () => send(b, d, a)));
   }
 
-  function idleLoop(a) {
+  let lastBreak = 0, lastMeeting = performance.now();
+  function idleLoop(a, lines) {
     if (!idle(a)) return;
-    if (Math.random() < 0.6) { wait(a, 8 + Math.random() * 10); if (Math.random() < 0.3) say(a, "Standing by", 3); return; }
-    const spot = rnd(["lounge1", "lounge2", "lounge3", "lounge4", "kitchen", "wc", "conf1", "conf2"]);
-    goTo(a, spot, () => { wait(a, 6 + Math.random() * 6); later(9, () => home(a)); });
+    const now = performance.now();
+    if (now - lastBreak > 45000 && Math.random() < 0.08) {
+      lastBreak = now;
+      const spot = rnd(["kitchen", "kitchen", "lounge1", "lounge2", "lounge3"]);
+      goTo(a, spot, () => { say(a, rnd(["Coffee break", "Grabbing an espresso", "Two minutes, back soon"]), 3); a.busyUntil = performance.now() + 12000; later(12, () => home(a)); });
+      return;
+    }
+    wait(a, 10 + Math.random() * 12);
+    if (Math.random() < 0.25) say(a, rnd(lines || ["Standing by"]), 3);
+  }
+
+  // Group meetings in the conference room; never just one person.
+  function meetings() {
+    const sl = stats.sent_log, ts = Object.entries(stats.states).sort((a, b) => b[1].leads - a[1].leads)[0];
+    const list = [{
+      topic: "planned the next research run", who: ["devin", "livia", "marcus", "octavia"],
+      lines: [["devin", `Pool is ${stats.leads.total}. Where next?`], ["livia", "Smaller cities first, then outward"], ["marcus", "Fine dining and wine bars convert best"], ["octavia", "I'll keep chains out"], ["devin", "Agreed. Back to it"]]
+    }];
+    if (HQData.outreachActive()) list.push({
+      topic: "reviewed outreach", who: ["cassius", "maren", "imogen", "ash", "kira"],
+      lines: [["cassius", sl ? `${sl.sent} sent, ${sl.replies} replies. Status?` : "Status on outreach?"], ["maren", "Research is ahead of drafting"],
+        ["imogen", "Next drafts are personalized"], ["ash", sl ? `${sl.delivered} delivered so far` : "Inbox is warm"], ["kira", sl ? `${sl.bounced} bounced, trimming those` : "Holding the daily cap"], ["cassius", "Good. Keep it steady"]]
+    });
+    list.push({
+      topic: "held a strategy meeting", who: ["cassius", "devin", "maren", "livia"],
+      lines: [["cassius", "Where are we strongest?"], ["devin", ts ? `${ts[0]}: ${ts[1].leads} leads` : "Growing every run"], ["maren", "Instagram leads research well"], ["livia", "More of those coming"], ["cassius", "Then that's the focus"]]
+    });
+    return list;
+  }
+  // A due meeting reserves its attendees; each walks over once free, talk starts when all are seated.
+  let meeting = null;
+  function meetingLoop() {
+    const now = performance.now();
+    if (!meeting) {
+      if (briefing || pending || now - lastMeeting < 150000 || Math.random() > 0.05) return;
+      lastMeeting = now;
+      meeting = Object.assign({ arrived: 0, routed: new Set() }, rnd(meetings()));
+      meeting.who.forEach((id) => (byId[id].summoned = true));
+    }
+    const m = meeting;
+    const seats = ["confHead", "conf1", "conf2", "conf3", "conf4", "conf5", "conf6", "confFoot"];
+    m.who.forEach((id, i) => {
+      const a = byId[id];
+      if (m.routed.has(id) || !atDesk(a) || MSGS.some((x) => x.from === a || x.to === a)) return;
+      m.routed.add(id);
+      goTo(a, seats[i], () => { if (++m.arrived === m.who.length) hold(m); });
+    });
+  }
+  function hold(m) {
+    m.lines.forEach(([id, text], j) => later(j * 3.5, () => say(byId[id], text, 3.2)));
+    later(m.lines.length * 3.5 + 1, () => {
+      HQLog.add(m.who.map((x) => byId[x].name).join(", ").replace(/, ([^,]*)$/, " and $1"), `${m.topic} in the conference room.`);
+      m.who.forEach((x) => home(byId[x], () => { byId[x].summoned = false; byId[x].busyUntil = performance.now() + 3000; }));
+      meeting = null;
+      lastMeeting = performance.now();
+    });
   }
 
   function pipelineLoop() {
-    const order = ["maren", "imogen", "ash"];
     const now = performance.now();
-    if (now - lastScript < 30000 || !order.every((id) => idle(byId[id]))) return;
+    if (now - lastScript < 30000 || !["maren", "imogen", "ash", "kira"].every((id) => idle(byId[id]))) return;
     lastScript = now;
-    const hand = (from, to, spot, msg, next) => goTo(byId[from], spot, () => {
-      say(byId[from], msg, 3); HQLog.add(byId[from].name, msg.toLowerCase() + " to " + byId[to].name + ".");
-      later(2.5, () => { home(byId[from]); next && next(); });
-    });
-    hand("maren", "imogen", "desk2", "Research notes ready", () =>
-      hand("imogen", rnd(["ash", "kira"]), rnd(["desk3", "desk4"]), "Drafts approved", null));
+    const sender = rnd(["ash", "kira"]);
+    HQLog.add("Maren", "research notes ready to Imogen.");
+    chain([["maren", "imogen", "Research notes ready"], ["imogen", sender, "Drafts approved"]],
+      () => HQLog.add("Imogen", `drafts approved to ${byId[sender].name}.`));
   }
 
   function tick() {
     const active = HQData.outreachActive();
     briefOnPush();
+    meetingLoop();
     caesarLoop();
-    if (researchActive()) researchLoop(); else RESEARCH.forEach((id) => idleLoop(byId[id]));
-    if (active) { pipelineLoop(); idleLoop(byId.kira); if (!briefing) idleLoop(byId.cassius); }
+    if (researchActive()) researchLoop(); else RESEARCH.forEach((id) => idleLoop(byId[id], ["Prepping the next run", "Standing by"]));
+    if (active) { pipelineLoop(); if (!briefing) idleLoop(byId.cassius, ["Reviewing the send log", "Watching for replies"]); }
     else OUTREACH.forEach((id) => idleLoop(byId[id]));
     if (!active && idle(byId.cassius) && Math.random() < 0.003) say(byId.cassius, "We hold until outreach resumes.", 4);
   }
@@ -505,6 +534,32 @@
     ctx.fillStyle = "#0d1b2a"; ctx.textAlign = "left"; ctx.textBaseline = "middle"; ctx.fillText(a.bubble, bx + fs * 0.6, by + bh / 2 + 0.5);
   }
 
+  const laptop = (a) => [a.x + 0.5, a.y + 0.2];
+  function drawMessages(now) {
+    const c = cell;
+    agents.forEach((a) => {
+      if (!(a.flashUntil > now)) return;
+      const [lx, ly] = laptop(a), k = (a.flashUntil - now) / 900;
+      const g = ctx.createRadialGradient(lx * c, ly * c, 0, lx * c, ly * c, c * 1.4);
+      g.addColorStop(0, `rgba(255,236,190,${0.55 * k})`); g.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.fillStyle = g; ctx.fillRect(lx * c - c * 1.5, ly * c - c * 1.5, c * 3, c * 3);
+    });
+    for (let i = MSGS.length - 1; i >= 0; i--) {
+      const m = MSGS[i], k = Math.min(1, (now - m.t0) / m.dur);
+      const [x0, y0] = laptop(m.from), [x1, y1] = laptop(m.to);
+      const mx = (x0 + x1) / 2, my = Math.min(H - 1, Math.max(y0, y1) + 1.2 + Math.hypot(x1 - x0, y1 - y0) * 0.1);
+      const pt = (t) => [((1 - t) ** 2 * x0 + 2 * (1 - t) * t * mx + t * t * x1) * c, ((1 - t) ** 2 * y0 + 2 * (1 - t) * t * my + t * t * y1) * c];
+      ctx.save(); ctx.globalAlpha = 0.7; ctx.strokeStyle = m.from.color; ctx.lineWidth = Math.max(1, c * 0.08); ctx.setLineDash([c * 0.2, c * 0.25]);
+      ctx.beginPath(); for (let j = 0; j <= 24; j++) { const [x, y] = pt((j / 24) * k); j ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); ctx.restore();
+      const [ex, ey] = pt(k), ew = c * 0.85, eh = c * 0.58;
+      const g = ctx.createRadialGradient(ex, ey, 0, ex, ey, c * 0.9); g.addColorStop(0, "rgba(255,226,150,.45)"); g.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.fillStyle = g; ctx.fillRect(ex - c, ey - c, c * 2, c * 2);
+      ctx.fillStyle = "#f6f1e3"; ctx.strokeStyle = "#c9a44c"; ctx.lineWidth = 1.2; rr(ctx, ex - ew / 2, ey - eh / 2, ew, eh, 2); ctx.fill(); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(ex - ew / 2, ey - eh / 2); ctx.lineTo(ex, ey + eh * 0.1); ctx.lineTo(ex + ew / 2, ey - eh / 2); ctx.stroke();
+      if (k >= 1) { MSGS.splice(i, 1); m.to.flashUntil = now + 900; m.onLand && m.onLand(); }
+    }
+  }
+
   function draw(t) {
     const c = cell;
     ctx.clearRect(0, 0, GW * c, GH * c);
@@ -527,6 +582,7 @@
     }
     const now = performance.now();
     const pos = agents.slice().sort((a, b) => a.y - b.y).map((a) => [a, person(a, t)]);
+    drawMessages(now);
     pos.forEach(([a, [px, py]]) => { if (a.bubble && now < a.bubbleUntil) bubble(a, px, py); });
   }
 
@@ -562,6 +618,6 @@
       }
     },
     // Exposed for wall-crossing checks.
-    _debug: { agents, walkable, astar, SPOTS, get pending() { return pending; } }
+    _debug: { agents, walkable, astar, SPOTS, MSGS, forceMeeting() { lastMeeting = -1e9; }, get pending() { return pending; } }
   };
 })();
