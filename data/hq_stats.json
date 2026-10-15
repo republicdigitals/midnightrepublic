@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:40:24+00:00",
+ "generated_at": "2026-10-15T18:49:08+00:00",
  "leads": {
   "total": 436,
   "with_email": 418,
@@ -1079,6 +1079,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-15T19:48:59+01:00",
+   "msg": "Outreach: +11 sent, delivered (Instagram, account 2)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-15T19:40:16+01:00",
    "msg": "Outreach: +11 sent, delivered (Instagram, account 2)",
    "who": "Cassius"
@@ -1222,28 +1227,23 @@
    "t": "2026-10-12T21:51:55Z",
    "msg": "Facebook: 43 leads in New Jersey (Hoboken, Jersey City, Montclair, Morristown, Red Bank, Asbury Park, New Brunswick, Princeton); map-list method",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-11T00:47:07Z",
-   "msg": "Add facebook_leads.csv: 39 Rhode Island Facebook leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 52,
   "drafted": 52,
-  "sent": 41,
-  "delivered": 37,
+  "sent": 52,
+  "delivered": 48,
   "bounced": 4,
   "replies": 0,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 11
+   "liam@jackdinningroom.com": 22
   },
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 11
+    "liam@jackdinningroom.com": 22
    }
   },
   "by_state": {
@@ -1253,8 +1253,8 @@
     "bounced": 0
    },
    "ID": {
-    "sent": 13,
-    "delivered": 13,
+    "sent": 24,
+    "delivered": 24,
     "bounced": 0
    },
    "MA": {
