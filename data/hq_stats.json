@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T22:40:59+00:00",
+ "generated_at": "2026-10-15T22:49:56+00:00",
  "leads": {
-  "total": 461,
-  "with_email": 443,
+  "total": 463,
+  "with_email": 445,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 73
+   "Instagram": 75
   }
  },
  "states": {
@@ -78,10 +78,10 @@
   },
   "WA": {
    "name": "Washington",
-   "leads": 10,
-   "with_email": 10,
+   "leads": 12,
+   "with_email": 12,
    "sources": {
-    "Instagram": 10
+    "Instagram": 12
    }
   },
   "WY": {
@@ -707,6 +707,15 @@
    ]
   },
   {
+   "city": "Olympia",
+   "state": "WA",
+   "leads": 2,
+   "coords": [
+    -122.895,
+    47.0451
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -1193,15 +1202,6 @@
    ]
   },
   {
-   "city": "Olympia",
-   "state": "WA",
-   "leads": 1,
-   "coords": [
-    -122.895,
-    47.0451
-   ]
-  },
-  {
    "city": "Kingston",
    "state": "WA",
    "leads": 1,
@@ -1209,9 +1209,23 @@
     -71.5227,
     41.4801
    ]
+  },
+  {
+   "city": "Walla Walla",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -118.3393,
+    46.0667
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T22:49:45Z",
+   "msg": "Instagram: +2 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T22:40:43Z",
    "msg": "Instagram: +5 leads",
@@ -1353,13 +1367,8 @@
    "who": "Caesar"
   },
   {
-   "t": "2026-10-15T14:18:56Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T14:07:47Z",
-   "msg": "Instagram: +5 leads",
+   "t": "2026-10-15T14:29:39Z",
+   "msg": "Add counts-only HQ stats builder for Agent HQ site",
    "who": "Caesar"
   }
  ],
