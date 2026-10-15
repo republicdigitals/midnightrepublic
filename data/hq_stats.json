@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:49:08+00:00",
+ "generated_at": "2026-10-15T18:49:22+00:00",
  "leads": {
   "total": 436,
   "with_email": 418,
@@ -1079,6 +1079,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-15T19:49:02+01:00",
+   "msg": "Outreach: paused (Instagram run complete)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-15T19:48:59+01:00",
    "msg": "Outreach: +11 sent, delivered (Instagram, account 2)",
    "who": "Cassius"
@@ -1222,11 +1227,6 @@
    "t": "2026-10-13T04:33:01Z",
    "msg": "Facebook: 11 leads in New Jersey 2 (Ridgewood, Englewood, Westfield, Summit, Somerville, Collingswood, Haddonfield, Cape May)",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-12T21:51:55Z",
-   "msg": "Facebook: 43 leads in New Jersey (Hoboken, Jersey City, Montclair, Morristown, Red Bank, Asbury Park, New Brunswick, Princeton); map-list method",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -1277,8 +1277,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-15",
-  "note": "Active Oct 15: sending verified Instagram leads (Idaho)."
+  "note": "Paused Oct 15: Instagram batch complete, 24 sent and delivered."
  }
 }
