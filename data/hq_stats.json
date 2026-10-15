@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T18:22:31+00:00",
+ "generated_at": "2026-10-15T18:27:00+00:00",
  "leads": {
-  "total": 429,
-  "with_email": 411,
+  "total": 434,
+  "with_email": 416,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 41
+   "Instagram": 46
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 41,
-   "with_email": 41,
+   "leads": 46,
+   "with_email": 46,
    "sources": {
-    "Instagram": 41
+    "Instagram": 46
    }
   },
   "MA": {
@@ -116,7 +116,7 @@
   {
    "city": "Boise",
    "state": "ID",
-   "leads": 24,
+   "leads": 27,
    "coords": [
     -116.2009,
     43.6166
@@ -393,6 +393,24 @@
    ]
   },
   {
+   "city": "Idaho Falls",
+   "state": "ID",
+   "leads": 3,
+   "coords": [
+    -112.0363,
+    43.4888
+   ]
+  },
+  {
+   "city": "Pocatello",
+   "state": "ID",
+   "leads": 3,
+   "coords": [
+    -112.4506,
+    42.862
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -615,24 +633,6 @@
    "coords": [
     -116.2382,
     43.6221
-   ]
-  },
-  {
-   "city": "Idaho Falls",
-   "state": "ID",
-   "leads": 2,
-   "coords": [
-    -112.0363,
-    43.4888
-   ]
-  },
-  {
-   "city": "Pocatello",
-   "state": "ID",
-   "leads": 2,
-   "coords": [
-    -112.4506,
-    42.862
    ]
   },
   {
@@ -1070,6 +1070,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-15T18:26:50Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-15T19:22:13+01:00",
    "msg": "Outreach: status active (Instagram batch running)",
    "who": "Cassius"
@@ -1212,11 +1217,6 @@
   {
    "t": "2026-10-10T04:24:08Z",
    "msg": "Utah batch: 101 UT leads (200 total)",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-10T03:33:02Z",
-   "msg": "Add 72 Utah leads (in progress)",
    "who": "Caesar"
   }
  ],
