@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T20:23:10+00:00",
+ "generated_at": "2026-10-15T20:51:41+00:00",
  "leads": {
-  "total": 445,
-  "with_email": 427,
+  "total": 446,
+  "with_email": 428,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 57
+   "Instagram": 58
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 57,
-   "with_email": 57,
+   "leads": 58,
+   "with_email": 58,
    "sources": {
-    "Instagram": 57
+    "Instagram": 58
    }
   },
   "MA": {
@@ -249,6 +249,15 @@
    ]
   },
   {
+   "city": "Coeur d'Alene",
+   "state": "ID",
+   "leads": 5,
+   "coords": [
+    -116.7812,
+    47.6743
+   ]
+  },
+  {
    "city": "Rapid City",
    "state": "SD",
    "leads": 4,
@@ -309,15 +318,6 @@
    "coords": [
     -74.9214,
     38.9334
-   ]
-  },
-  {
-   "city": "Coeur d'Alene",
-   "state": "ID",
-   "leads": 4,
-   "coords": [
-    -116.7812,
-    47.6743
    ]
   },
   {
@@ -669,15 +669,6 @@
    "coords": [
     -116.7867,
     47.7591
-   ]
-  },
-  {
-   "city": "Rexburg",
-   "state": "ID",
-   "leads": 2,
-   "coords": [
-    -111.7837,
-    43.8261
    ]
   },
   {
@@ -1113,6 +1104,15 @@
    ]
   },
   {
+   "city": "Rexburg",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -111.7837,
+    43.8261
+   ]
+  },
+  {
    "city": "Smiths Ferry",
    "state": "ID",
    "leads": 1,
@@ -1129,9 +1129,23 @@
     -116.0526,
     44.5127
    ]
+  },
+  {
+   "city": "Priest River",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -116.9094,
+    48.1807
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T20:51:30Z",
+   "msg": "Instagram: cleanup (Twisted Sugar chain); emulator crash guard",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T20:22:55Z",
    "msg": "Instagram: +5 leads",
@@ -1275,11 +1289,6 @@
   {
    "t": "2026-10-15T13:47:11Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T13:14:09Z",
-   "msg": "Instagram: +3 leads",
    "who": "Caesar"
   }
  ],
