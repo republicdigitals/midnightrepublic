@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T17:54:39+00:00",
+ "generated_at": "2026-10-15T18:08:00+00:00",
  "leads": {
-  "total": 432,
-  "with_email": 414,
+  "total": 429,
+  "with_email": 411,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 44
+   "Instagram": 41
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 44,
-   "with_email": 44,
+   "leads": 41,
+   "with_email": 41,
    "sources": {
-    "Instagram": 44
+    "Instagram": 41
    }
   },
   "MA": {
@@ -116,7 +116,7 @@
   {
    "city": "Boise",
    "state": "ID",
-   "leads": 25,
+   "leads": 24,
    "coords": [
     -116.2009,
     43.6166
@@ -393,15 +393,6 @@
    ]
   },
   {
-   "city": "Idaho Falls",
-   "state": "ID",
-   "leads": 3,
-   "coords": [
-    -112.0363,
-    43.4888
-   ]
-  },
-  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -624,6 +615,15 @@
    "coords": [
     -116.2382,
     43.6221
+   ]
+  },
+  {
+   "city": "Idaho Falls",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -112.0363,
+    43.4888
    ]
   },
   {
@@ -1050,15 +1050,6 @@
    ]
   },
   {
-   "city": "Burley",
-   "state": "ID",
-   "leads": 1,
-   "coords": [
-    -113.7928,
-    42.5357
-   ]
-  },
-  {
    "city": "Coeur d'Alene",
    "state": "ID",
    "leads": 1,
@@ -1079,22 +1070,27 @@
  ],
  "events": [
   {
-   "t": "2026-10-15T17:54:24Z",
+   "t": "2026-10-15T18:07:57+00:00",
+   "msg": "Instagram: cleanup",
+   "who": "Devin"
+  },
+  {
+   "t": "2026-10-15T17:54:24+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T17:46:19Z",
+   "t": "2026-10-15T17:46:19+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T17:35:22Z",
+   "t": "2026-10-15T17:35:22+00:00",
    "msg": "Auto-publish HQ stats on every push; outreach.json status; per-day sends; who-did-it events",
    "who": "Cassius"
   },
   {
-   "t": "2026-10-15T17:29:26Z",
+   "t": "2026-10-15T17:29:26+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
@@ -1109,112 +1105,112 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-10-15T14:41:35Z",
+   "t": "2026-10-15T14:41:35+00:00",
    "msg": "Instagram: drop wineries/caterers",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T14:40:48Z",
+   "t": "2026-10-15T14:40:48+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T14:31:55Z",
+   "t": "2026-10-15T14:31:55+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T14:18:56Z",
+   "t": "2026-10-15T14:18:56+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T14:07:47Z",
+   "t": "2026-10-15T14:07:47+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T13:56:38Z",
+   "t": "2026-10-15T13:56:38+00:00",
    "msg": "Instagram: remove Chick-fil-A (chain)",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T13:56:12Z",
+   "t": "2026-10-15T13:56:12+00:00",
    "msg": "Instagram: remove chain row",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T13:47:11Z",
+   "t": "2026-10-15T13:47:11+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T13:14:09Z",
+   "t": "2026-10-15T13:14:09+00:00",
    "msg": "Instagram: +3 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T13:05:42Z",
+   "t": "2026-10-15T13:05:42+00:00",
    "msg": "Instagram: +5 leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-15T01:50:28Z",
+   "t": "2026-10-15T01:50:28+00:00",
    "msg": "Facebook: 5 leads in New Haven CT",
    "who": "Devin"
   },
   {
-   "t": "2026-10-14T12:45:49Z",
+   "t": "2026-10-14T12:45:49+00:00",
    "msg": "Facebook: 27 leads in Cambridge/Somerville MA",
    "who": "Devin"
   },
   {
-   "t": "2026-10-13T13:03:47Z",
+   "t": "2026-10-13T13:03:47+00:00",
    "msg": "Facebook: 43 leads in Boston MA (North End, Back Bay, South End)",
    "who": "Devin"
   },
   {
-   "t": "2026-10-13T04:33:01Z",
+   "t": "2026-10-13T04:33:01+00:00",
    "msg": "Facebook: 11 leads in New Jersey 2 (Ridgewood, Englewood, Westfield, Summit, Somerville, Collingswood, Haddonfield, Cape May)",
    "who": "Devin"
   },
   {
-   "t": "2026-10-12T21:51:55Z",
+   "t": "2026-10-12T21:51:55+00:00",
    "msg": "Facebook: 43 leads in New Jersey (Hoboken, Jersey City, Montclair, Morristown, Red Bank, Asbury Park, New Brunswick, Princeton); map-list method",
    "who": "Devin"
   },
   {
-   "t": "2026-10-11T00:47:07Z",
+   "t": "2026-10-11T00:47:07+00:00",
    "msg": "Add facebook_leads.csv: 39 Rhode Island Facebook leads",
    "who": "Devin"
   },
   {
-   "t": "2026-10-10T14:18:10Z",
+   "t": "2026-10-10T14:18:10+00:00",
    "msg": "Backfill: found 32 emails, 20 marked NO EMAIL, 5 closed",
    "who": "Devin"
   },
   {
-   "t": "2026-10-10T12:42:27Z",
+   "t": "2026-10-10T12:42:27+00:00",
    "msg": "Add 30 MT leads (30 MT total)",
    "who": "Devin"
   },
   {
-   "t": "2026-10-10T04:24:08Z",
+   "t": "2026-10-10T04:24:08+00:00",
    "msg": "Utah batch: 101 UT leads (200 total)",
    "who": "Devin"
   },
   {
-   "t": "2026-10-10T03:33:02Z",
+   "t": "2026-10-10T03:33:02+00:00",
    "msg": "Add 72 Utah leads (in progress)",
    "who": "Devin"
   },
   {
-   "t": "2026-10-10T02:40:38Z",
+   "t": "2026-10-10T02:40:38+00:00",
    "msg": "Add 23 Wyoming leads (66 WY total)",
    "who": "Devin"
   },
   {
-   "t": "2026-10-10T02:29:39Z",
+   "t": "2026-10-10T02:29:39+00:00",
    "msg": "Combine SD and WY leads into one restaurant_leads.csv",
    "who": "Devin"
   }
