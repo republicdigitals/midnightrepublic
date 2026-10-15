@@ -1,0 +1,1119 @@
+{
+ "schema": 1,
+ "generated_at": "2026-10-15T14:26:26+00:00",
+ "leads": {
+  "total": 412,
+  "with_email": 394,
+  "without_email": 18,
+  "sources": {
+   "Web research": 220,
+   "Facebook": 168,
+   "Instagram": 24
+  }
+ },
+ "states": {
+  "CT": {
+   "name": "Connecticut",
+   "leads": 5,
+   "with_email": 5,
+   "sources": {
+    "Facebook": 5
+   }
+  },
+  "ID": {
+   "name": "Idaho",
+   "leads": 24,
+   "with_email": 24,
+   "sources": {
+    "Instagram": 24
+   }
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "leads": 70,
+   "with_email": 70,
+   "sources": {
+    "Facebook": 70
+   }
+  },
+  "MT": {
+   "name": "Montana",
+   "leads": 30,
+   "with_email": 30,
+   "sources": {
+    "Web research": 30
+   }
+  },
+  "NJ": {
+   "name": "New Jersey",
+   "leads": 54,
+   "with_email": 54,
+   "sources": {
+    "Facebook": 54
+   }
+  },
+  "RI": {
+   "name": "Rhode Island",
+   "leads": 39,
+   "with_email": 39,
+   "sources": {
+    "Facebook": 39
+   }
+  },
+  "SD": {
+   "name": "South Dakota",
+   "leads": 33,
+   "with_email": 26,
+   "sources": {
+    "Web research": 33
+   }
+  },
+  "UT": {
+   "name": "Utah",
+   "leads": 101,
+   "with_email": 101,
+   "sources": {
+    "Web research": 101
+   }
+  },
+  "WY": {
+   "name": "Wyoming",
+   "leads": 56,
+   "with_email": 45,
+   "sources": {
+    "Web research": 56
+   }
+  }
+ },
+ "cities": [
+  {
+   "city": "Salt Lake City",
+   "state": "UT",
+   "leads": 39,
+   "coords": [
+    -111.8868,
+    40.7596
+   ]
+  },
+  {
+   "city": "Boston",
+   "state": "MA",
+   "leads": 36,
+   "coords": [
+    -71.0578,
+    42.3588
+   ]
+  },
+  {
+   "city": "Providence",
+   "state": "RI",
+   "leads": 27,
+   "coords": [
+    -71.4128,
+    41.824
+   ]
+  },
+  {
+   "city": "Cambridge",
+   "state": "MA",
+   "leads": 19,
+   "coords": [
+    -71.104,
+    42.3656
+   ]
+  },
+  {
+   "city": "Sioux Falls",
+   "state": "SD",
+   "leads": 15,
+   "coords": [
+    -96.7294,
+    43.5476
+   ]
+  },
+  {
+   "city": "Jackson",
+   "state": "WY",
+   "leads": 15,
+   "coords": [
+    -110.7618,
+    43.48
+   ]
+  },
+  {
+   "city": "Jersey City",
+   "state": "NJ",
+   "leads": 14,
+   "coords": [
+    -74.0475,
+    40.7216
+   ]
+  },
+  {
+   "city": "Somerville",
+   "state": "MA",
+   "leads": 14,
+   "coords": [
+    -71.0995,
+    42.3876
+   ]
+  },
+  {
+   "city": "Boise",
+   "state": "ID",
+   "leads": 14,
+   "coords": [
+    -116.2009,
+    43.6166
+   ]
+  },
+  {
+   "city": "Missoula",
+   "state": "MT",
+   "leads": 11,
+   "coords": [
+    -113.9953,
+    46.8701
+   ]
+  },
+  {
+   "city": "Cheyenne",
+   "state": "WY",
+   "leads": 9,
+   "coords": [
+    -104.8202,
+    41.14
+   ]
+  },
+  {
+   "city": "Laramie",
+   "state": "WY",
+   "leads": 9,
+   "coords": [
+    -105.5918,
+    41.3116
+   ]
+  },
+  {
+   "city": "Bozeman",
+   "state": "MT",
+   "leads": 9,
+   "coords": [
+    -111.044,
+    45.6794
+   ]
+  },
+  {
+   "city": "Montclair",
+   "state": "NJ",
+   "leads": 8,
+   "coords": [
+    -74.2211,
+    40.8164
+   ]
+  },
+  {
+   "city": "Red Bank",
+   "state": "NJ",
+   "leads": 7,
+   "coords": [
+    -74.0643,
+    40.3471
+   ]
+  },
+  {
+   "city": "Casper",
+   "state": "WY",
+   "leads": 6,
+   "coords": [
+    -106.3251,
+    42.8501
+   ]
+  },
+  {
+   "city": "Logan",
+   "state": "UT",
+   "leads": 5,
+   "coords": [
+    -111.8349,
+    41.7313
+   ]
+  },
+  {
+   "city": "New Haven",
+   "state": "CT",
+   "leads": 5,
+   "coords": [
+    -72.9251,
+    41.3082
+   ]
+  },
+  {
+   "city": "Rapid City",
+   "state": "SD",
+   "leads": 4,
+   "coords": [
+    -103.228,
+    44.0806
+   ]
+  },
+  {
+   "city": "Park City",
+   "state": "UT",
+   "leads": 4,
+   "coords": [
+    -111.498,
+    40.6461
+   ]
+  },
+  {
+   "city": "Bountiful",
+   "state": "UT",
+   "leads": 4,
+   "coords": [
+    -111.8805,
+    40.8895
+   ]
+  },
+  {
+   "city": "South Jordan",
+   "state": "UT",
+   "leads": 4,
+   "coords": [
+    -111.9367,
+    40.5585
+   ]
+  },
+  {
+   "city": "Morristown",
+   "state": "NJ",
+   "leads": 4,
+   "coords": [
+    -74.481,
+    40.797
+   ]
+  },
+  {
+   "city": "Somerville",
+   "state": "NJ",
+   "leads": 4,
+   "coords": [
+    -74.6099,
+    40.5743
+   ]
+  },
+  {
+   "city": "Cape May",
+   "state": "NJ",
+   "leads": 4,
+   "coords": [
+    -74.9214,
+    38.9334
+   ]
+  },
+  {
+   "city": "Brookings",
+   "state": "SD",
+   "leads": 3,
+   "coords": [
+    -96.7984,
+    44.3115
+   ]
+  },
+  {
+   "city": "Cody",
+   "state": "WY",
+   "leads": 3,
+   "coords": [
+    -109.0564,
+    44.5263
+   ]
+  },
+  {
+   "city": "Gillette",
+   "state": "WY",
+   "leads": 3,
+   "coords": [
+    -105.5019,
+    44.2906
+   ]
+  },
+  {
+   "city": "Springdale",
+   "state": "UT",
+   "leads": 3,
+   "coords": [
+    -112.9986,
+    37.1889
+   ]
+  },
+  {
+   "city": "Layton",
+   "state": "UT",
+   "leads": 3,
+   "coords": [
+    -111.9742,
+    41.0751
+   ]
+  },
+  {
+   "city": "South Salt Lake",
+   "state": "UT",
+   "leads": 3,
+   "coords": [
+    -111.8883,
+    40.7075
+   ]
+  },
+  {
+   "city": "Moab",
+   "state": "UT",
+   "leads": 3,
+   "coords": [
+    -109.5462,
+    38.5738
+   ]
+  },
+  {
+   "city": "North Providence",
+   "state": "RI",
+   "leads": 3,
+   "coords": [
+    -71.4662,
+    41.8501
+   ]
+  },
+  {
+   "city": "Hoboken",
+   "state": "NJ",
+   "leads": 3,
+   "coords": [
+    -74.0324,
+    40.7433
+   ]
+  },
+  {
+   "city": "Custer",
+   "state": "SD",
+   "leads": 2,
+   "coords": [
+    -103.5988,
+    43.7667
+   ]
+  },
+  {
+   "city": "Watertown",
+   "state": "SD",
+   "leads": 2,
+   "coords": [
+    -97.1153,
+    44.8992
+   ]
+  },
+  {
+   "city": "Pierre",
+   "state": "SD",
+   "leads": 2,
+   "coords": [
+    -100.3511,
+    44.3684
+   ]
+  },
+  {
+   "city": "Sheridan",
+   "state": "WY",
+   "leads": 2,
+   "coords": [
+    -106.9562,
+    44.7972
+   ]
+  },
+  {
+   "city": "Rock Springs",
+   "state": "WY",
+   "leads": 2,
+   "coords": [
+    -109.2195,
+    41.5861
+   ]
+  },
+  {
+   "city": "Lander",
+   "state": "WY",
+   "leads": 2,
+   "coords": [
+    -108.7307,
+    42.8331
+   ]
+  },
+  {
+   "city": "Ogden",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.9738,
+    41.223
+   ]
+  },
+  {
+   "city": "Midway",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.4749,
+    40.5125
+   ]
+  },
+  {
+   "city": "Riverton",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.9394,
+    40.518
+   ]
+  },
+  {
+   "city": "Sandy",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.8954,
+    40.571
+   ]
+  },
+  {
+   "city": "Taylorsville",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.9388,
+    40.6676
+   ]
+  },
+  {
+   "city": "Murray",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.8884,
+    40.6668
+   ]
+  },
+  {
+   "city": "Lindon",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.7208,
+    40.3433
+   ]
+  },
+  {
+   "city": "Pleasant Grove",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.7387,
+    40.364
+   ]
+  },
+  {
+   "city": "Orem",
+   "state": "UT",
+   "leads": 2,
+   "coords": [
+    -111.6944,
+    40.2982
+   ]
+  },
+  {
+   "city": "Billings",
+   "state": "MT",
+   "leads": 2,
+   "coords": [
+    -108.4961,
+    45.7875
+   ]
+  },
+  {
+   "city": "Great Falls",
+   "state": "MT",
+   "leads": 2,
+   "coords": [
+    -111.2919,
+    47.5049
+   ]
+  },
+  {
+   "city": "Cranston",
+   "state": "RI",
+   "leads": 2,
+   "coords": [
+    -71.4367,
+    41.7796
+   ]
+  },
+  {
+   "city": "Cumberland",
+   "state": "RI",
+   "leads": 2,
+   "coords": [
+    -71.4328,
+    41.9668
+   ]
+  },
+  {
+   "city": "New Brunswick",
+   "state": "NJ",
+   "leads": 2,
+   "coords": [
+    -74.4436,
+    40.4936
+   ]
+  },
+  {
+   "city": "Asbury Park",
+   "state": "NJ",
+   "leads": 2,
+   "coords": [
+    -74.0121,
+    40.2204
+   ]
+  },
+  {
+   "city": "Collingswood",
+   "state": "NJ",
+   "leads": 2,
+   "coords": [
+    -75.0713,
+    39.9182
+   ]
+  },
+  {
+   "city": "Stanley",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -114.9379,
+    44.2161
+   ]
+  },
+  {
+   "city": "Idaho Falls",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -112.0363,
+    43.4888
+   ]
+  },
+  {
+   "city": "Spearfish",
+   "state": "SD",
+   "leads": 1,
+   "coords": [
+    -103.861,
+    44.4894
+   ]
+  },
+  {
+   "city": "Aberdeen",
+   "state": "SD",
+   "leads": 1,
+   "coords": [
+    -98.4878,
+    45.465
+   ]
+  },
+  {
+   "city": "Mitchell",
+   "state": "SD",
+   "leads": 1,
+   "coords": [
+    -98.0254,
+    43.7095
+   ]
+  },
+  {
+   "city": "Yankton",
+   "state": "SD",
+   "leads": 1,
+   "coords": [
+    -97.3967,
+    42.8713
+   ]
+  },
+  {
+   "city": "Vermillion",
+   "state": "SD",
+   "leads": 1,
+   "coords": [
+    -96.9296,
+    42.7787
+   ]
+  },
+  {
+   "city": "Teton Village",
+   "state": "WY",
+   "leads": 1,
+   "coords": [
+    -110.828,
+    43.588
+   ]
+  },
+  {
+   "city": "Pinedale",
+   "state": "WY",
+   "leads": 1,
+   "coords": [
+    -109.861,
+    42.8671
+   ]
+  },
+  {
+   "city": "Buffalo",
+   "state": "WY",
+   "leads": 1,
+   "coords": [
+    -106.6993,
+    44.3481
+   ]
+  },
+  {
+   "city": "Thermopolis",
+   "state": "WY",
+   "leads": 1,
+   "coords": [
+    -108.212,
+    43.6461
+   ]
+  },
+  {
+   "city": "Saratoga",
+   "state": "WY",
+   "leads": 1,
+   "coords": [
+    -106.8054,
+    41.4546
+   ]
+  },
+  {
+   "city": "Midvale",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.9107,
+    40.6149
+   ]
+  },
+  {
+   "city": "St George",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -113.5832,
+    37.1099
+   ]
+  },
+  {
+   "city": "Saint George",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -113.5832,
+    37.1099
+   ]
+  },
+  {
+   "city": "Provo",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.6587,
+    40.2337
+   ]
+  },
+  {
+   "city": "Holladay",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.825,
+    40.6711
+   ]
+  },
+  {
+   "city": "West Jordan",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.9395,
+    40.6061
+   ]
+  },
+  {
+   "city": "Tooele",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -112.2983,
+    40.5308
+   ]
+  },
+  {
+   "city": "Pleasant View",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.9888,
+    41.3199
+   ]
+  },
+  {
+   "city": "Spanish Fork",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.6548,
+    40.115
+   ]
+  },
+  {
+   "city": "Boulder",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.4231,
+    37.9082
+   ]
+  },
+  {
+   "city": "Heber City",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.4133,
+    40.5065
+   ]
+  },
+  {
+   "city": "Samak",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.2372,
+    40.6274
+   ]
+  },
+  {
+   "city": "Kanab",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -112.5285,
+    37.0482
+   ]
+  },
+  {
+   "city": "Millcreek",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -111.8556,
+    40.6993
+   ]
+  },
+  {
+   "city": "Cedar City",
+   "state": "UT",
+   "leads": 1,
+   "coords": [
+    -113.0618,
+    37.6774
+   ]
+  },
+  {
+   "city": "Helena",
+   "state": "MT",
+   "leads": 1,
+   "coords": [
+    -112.0363,
+    46.5927
+   ]
+  },
+  {
+   "city": "Kalispell",
+   "state": "MT",
+   "leads": 1,
+   "coords": [
+    -114.3153,
+    48.2022
+   ]
+  },
+  {
+   "city": "Whitefish",
+   "state": "MT",
+   "leads": 1,
+   "coords": [
+    -114.3346,
+    48.4108
+   ]
+  },
+  {
+   "city": "Gallatin Gateway",
+   "state": "MT",
+   "leads": 1,
+   "coords": [
+    -111.1974,
+    45.5916
+   ]
+  },
+  {
+   "city": "Butte",
+   "state": "MT",
+   "leads": 1,
+   "coords": [
+    -112.5365,
+    46.0132
+   ]
+  },
+  {
+   "city": "Livingston",
+   "state": "MT",
+   "leads": 1,
+   "coords": [
+    -110.5616,
+    45.6624
+   ]
+  },
+  {
+   "city": "Harrisville",
+   "state": "RI",
+   "leads": 1,
+   "coords": [
+    -71.6745,
+    41.9657
+   ]
+  },
+  {
+   "city": "East Greenwich",
+   "state": "RI",
+   "leads": 1,
+   "coords": [
+    -71.4559,
+    41.6604
+   ]
+  },
+  {
+   "city": "Tiverton",
+   "state": "RI",
+   "leads": 1,
+   "coords": [
+    -71.1663,
+    41.6257
+   ]
+  },
+  {
+   "city": "Pawtucket",
+   "state": "RI",
+   "leads": 1,
+   "coords": [
+    -71.3821,
+    41.879
+   ]
+  },
+  {
+   "city": "Narragansett",
+   "state": "RI",
+   "leads": 1,
+   "coords": [
+    -71.458,
+    41.4326
+   ]
+  },
+  {
+   "city": "Princeton",
+   "state": "NJ",
+   "leads": 1,
+   "coords": [
+    -74.6597,
+    40.3497
+   ]
+  },
+  {
+   "city": "Raritan",
+   "state": "NJ",
+   "leads": 1,
+   "coords": [
+    -74.6347,
+    40.5671
+   ]
+  },
+  {
+   "city": "Bloomfield",
+   "state": "NJ",
+   "leads": 1,
+   "coords": [
+    -74.1979,
+    40.7935
+   ]
+  },
+  {
+   "city": "Ridgewood",
+   "state": "NJ",
+   "leads": 1,
+   "coords": [
+    -74.1194,
+    40.9797
+   ]
+  },
+  {
+   "city": "Allston",
+   "state": "MA",
+   "leads": 1,
+   "coords": [
+    -71.1321,
+    42.353
+   ]
+  },
+  {
+   "city": "Meridian",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -116.3923,
+    43.6086
+   ]
+  },
+  {
+   "city": "McCall",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -116.0983,
+    44.911
+   ]
+  },
+  {
+   "city": "Garden City",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -116.2382,
+    43.6221
+   ]
+  },
+  {
+   "city": "Nampa",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -116.5617,
+    43.578
+   ]
+  },
+  {
+   "city": "Island Park",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -111.3714,
+    44.4238
+   ]
+  },
+  {
+   "city": "Ammon",
+   "state": "ID",
+   "leads": 1,
+   "coords": [
+    -111.9641,
+    43.4768
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": "2026-10-15T14:18:56+00:00",
+   "msg": "Instagram: +5 leads"
+  },
+  {
+   "t": "2026-10-15T14:07:47+00:00",
+   "msg": "Instagram: +5 leads"
+  },
+  {
+   "t": "2026-10-15T13:56:38+00:00",
+   "msg": "Instagram: remove Chick-fil-A (chain)"
+  },
+  {
+   "t": "2026-10-15T13:56:12+00:00",
+   "msg": "Instagram: remove chain row"
+  },
+  {
+   "t": "2026-10-15T13:47:11+00:00",
+   "msg": "Instagram: +5 leads"
+  },
+  {
+   "t": "2026-10-15T13:14:09+00:00",
+   "msg": "Instagram: +3 leads"
+  },
+  {
+   "t": "2026-10-15T13:05:42+00:00",
+   "msg": "Instagram: +5 leads"
+  },
+  {
+   "t": "2026-10-15T01:50:28+00:00",
+   "msg": "Facebook: 5 leads in New Haven CT"
+  },
+  {
+   "t": "2026-10-14T12:45:49+00:00",
+   "msg": "Facebook: 27 leads in Cambridge/Somerville MA"
+  },
+  {
+   "t": "2026-10-13T13:03:47+00:00",
+   "msg": "Facebook: 43 leads in Boston MA (North End, Back Bay, South End)"
+  },
+  {
+   "t": "2026-10-13T04:33:01+00:00",
+   "msg": "Facebook: 11 leads in New Jersey 2 (Ridgewood, Englewood, Westfield, Summit, Somerville, Collingswood, Haddonfield, Cape May)"
+  },
+  {
+   "t": "2026-10-12T21:51:55+00:00",
+   "msg": "Facebook: 43 leads in New Jersey (Hoboken, Jersey City, Montclair, Morristown, Red Bank, Asbury Park, New Brunswick, Princeton); map-list method"
+  },
+  {
+   "t": "2026-10-11T00:47:07+00:00",
+   "msg": "Add facebook_leads.csv: 39 Rhode Island Facebook leads"
+  },
+  {
+   "t": "2026-10-10T14:18:10+00:00",
+   "msg": "Backfill: found 32 emails, 20 marked NO EMAIL, 5 closed"
+  },
+  {
+   "t": "2026-10-10T12:42:27+00:00",
+   "msg": "Add 30 MT leads (30 MT total)"
+  },
+  {
+   "t": "2026-10-10T04:24:08+00:00",
+   "msg": "Utah batch: 101 UT leads (200 total)"
+  },
+  {
+   "t": "2026-10-10T03:33:02+00:00",
+   "msg": "Add 72 Utah leads (in progress)"
+  },
+  {
+   "t": "2026-10-10T02:40:38+00:00",
+   "msg": "Add 23 Wyoming leads (66 WY total)"
+  },
+  {
+   "t": "2026-10-10T02:29:39+00:00",
+   "msg": "Combine SD and WY leads into one restaurant_leads.csv"
+  },
+  {
+   "t": "2026-10-10T02:28:48+00:00",
+   "msg": "Add South Dakota (33) and Wyoming (43, in progress) restaurant leads"
+  }
+ ],
+ "sent_log": null,
+ "warm_leads": null
+}

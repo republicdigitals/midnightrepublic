@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Consulate — Agent HQ</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%2214%22 fill=%22%23165240%22 stroke=%22%23c9a44c%22 stroke-width=%223%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hq-header">
+  <div class="brand">
+    <span class="crest" aria-hidden="true"></span>
+    <h1 class="wordmark">THE CONSULATE <span class="dash">—</span> <span class="sub">Agent HQ</span></h1>
+  </div>
+  <nav class="switcher" aria-label="Views">
+    <a href="#office" data-view="office">The Consulate</a>
+    <a href="#warroom" data-view="warroom">War Room</a>
+    <a href="#mission" data-view="mission">Mission Control</a>
+  </nav>
+  <div class="status-bar">
+    <span class="clock" id="clock" title="Pacific time">--:--</span>
+    <span class="pill" id="outreach-pill">Outreach</span>
+    <span class="pill data" id="data-pill">Loading data</span>
+  </div>
+</header>
+
+<div class="notice" id="notice"></div>
+
+<main>
+  <section class="view" id="view-office" data-view="office">
+    <div class="office-hero panel">
+      <div class="panel-head"><h2>The Consulate</h2><span class="muted" id="office-mode"></span></div>
+      <div class="office-wrap"><canvas id="office-canvas" aria-label="Office floor with agents"></canvas></div>
+    </div>
+    <div class="side">
+      <div class="panel">
+        <div class="panel-head"><h3>At a glance</h3></div>
+        <div class="glance" id="office-glance"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Event log</h3></div>
+        <ol class="event-log" data-log></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-warroom" data-view="warroom">
+    <div class="map-hero panel">
+      <div class="panel-head"><h2>The War Room</h2><span class="muted" id="map-summary"></span></div>
+      <div class="map-wrap"><svg id="us-map" viewBox="0 0 975 610" role="img" aria-label="Map of worked states"></svg></div>
+      <div class="legend"><span class="sw on"></span>Worked state <span class="sw off"></span>Unworked <span class="sw city"></span>Worked city</div>
+    </div>
+    <div class="side">
+      <div class="panel" id="state-detail"></div>
+      <div class="panel">
+        <div class="panel-head"><h3>States</h3></div>
+        <ul class="state-list" id="state-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-mission" data-view="mission">
+    <div class="panel mission-hero">
+      <div class="panel-head"><h2>Mission Control</h2><span class="muted">Pipeline</span></div>
+      <div class="pipeline" id="pipeline"></div>
+    </div>
+    <div class="mission-grid">
+      <div class="panel">
+        <div class="panel-head"><h3>Sending accounts</h3></div>
+        <div class="accounts" id="accounts"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Warm leads</h3><span class="muted" id="warm-source"></span></div>
+        <ul class="warm" id="warm"></ul>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Lead sources</h3></div>
+        <div class="sources" id="sources"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Event log</h3></div>
+        <ol class="event-log" data-log></ol>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="hq-footer"><span id="footer-data"></span></footer>
+
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/log.js"></script>
+<script src="js/office.js"></script>
+<script src="js/warroom.js"></script>
+<script src="js/mission.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
