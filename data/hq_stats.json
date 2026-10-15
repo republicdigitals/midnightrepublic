@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T19:33:40+00:00",
+ "generated_at": "2026-10-15T19:39:27+00:00",
  "leads": {
-  "total": 447,
-  "with_email": 429,
+  "total": 452,
+  "with_email": 434,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 59
+   "Instagram": 64
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "ID": {
    "name": "Idaho",
-   "leads": 59,
-   "with_email": 59,
+   "leads": 64,
+   "with_email": 64,
    "sources": {
-    "Instagram": 59
+    "Instagram": 64
    }
   },
   "MA": {
@@ -107,7 +107,7 @@
   {
    "city": "Boise",
    "state": "ID",
-   "leads": 28,
+   "leads": 29,
    "coords": [
     -116.2009,
     43.6166
@@ -249,6 +249,15 @@
    ]
   },
   {
+   "city": "Rexburg",
+   "state": "ID",
+   "leads": 5,
+   "coords": [
+    -111.7837,
+    43.8261
+   ]
+  },
+  {
    "city": "Rapid City",
    "state": "SD",
    "leads": 4,
@@ -309,15 +318,6 @@
    "coords": [
     -74.9214,
     38.9334
-   ]
-  },
-  {
-   "city": "Rexburg",
-   "state": "ID",
-   "leads": 4,
-   "coords": [
-    -111.7837,
-    43.8261
    ]
   },
   {
@@ -417,6 +417,15 @@
    "coords": [
     -112.4506,
     42.862
+   ]
+  },
+  {
+   "city": "Coeur d'Alene",
+   "state": "ID",
+   "leads": 3,
+   "coords": [
+    -116.7812,
+    47.6743
    ]
   },
   {
@@ -678,6 +687,15 @@
    "coords": [
     -114.4701,
     42.5559
+   ]
+  },
+  {
+   "city": "Hayden",
+   "state": "ID",
+   "leads": 2,
+   "coords": [
+    -116.7867,
+    47.7591
    ]
   },
   {
@@ -1077,30 +1095,12 @@
    ]
   },
   {
-   "city": "Coeur d'Alene",
-   "state": "ID",
-   "leads": 1,
-   "coords": [
-    -116.7812,
-    47.6743
-   ]
-  },
-  {
    "city": "Gooding",
    "state": "ID",
    "leads": 1,
    "coords": [
     -114.7129,
     42.9417
-   ]
-  },
-  {
-   "city": "Hayden",
-   "state": "ID",
-   "leads": 1,
-   "coords": [
-    -116.7867,
-    47.7591
    ]
   },
   {
@@ -1114,6 +1114,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-15T19:39:17Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T19:33:25Z",
    "msg": "Instagram: +5 leads",
@@ -1257,11 +1262,6 @@
   {
    "t": "2026-10-15T01:50:28Z",
    "msg": "Facebook: 5 leads in New Haven CT",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-14T12:45:49Z",
-   "msg": "Facebook: 27 leads in Cambridge/Somerville MA",
    "who": "Caesar"
   }
  ],
