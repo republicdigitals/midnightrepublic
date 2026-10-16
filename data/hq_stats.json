@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-16T17:01:18+00:00",
+ "generated_at": "2026-10-16T17:38:01+00:00",
  "leads": {
-  "total": 490,
-  "with_email": 472,
+  "total": 495,
+  "with_email": 477,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 102
+   "Instagram": 107
   }
  },
  "states": {
@@ -78,10 +78,10 @@
   },
   "WA": {
    "name": "Washington",
-   "leads": 39,
-   "with_email": 39,
+   "leads": 44,
+   "with_email": 44,
    "sources": {
-    "Instagram": 39
+    "Instagram": 44
    }
   },
   "WY": {
@@ -212,21 +212,21 @@
    ]
   },
   {
+   "city": "Seattle",
+   "state": "WA",
+   "leads": 9,
+   "coords": [
+    -122.3301,
+    47.6038
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
    "coords": [
     -74.2211,
     40.8164
-   ]
-  },
-  {
-   "city": "Seattle",
-   "state": "WA",
-   "leads": 8,
-   "coords": [
-    -122.3301,
-    47.6038
    ]
   },
   {
@@ -1326,9 +1326,50 @@
     -122.6766,
     47.6594
    ]
+  },
+  {
+   "city": "Puyallup",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.2921,
+    47.1849
+   ]
+  },
+  {
+   "city": "Lacey",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.8072,
+    47.0264
+   ]
+  },
+  {
+   "city": "Marysville",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.1768,
+    48.0517
+   ]
+  },
+  {
+   "city": "Concrete",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -121.7469,
+    48.5389
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-16T17:37:45Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-16T18:00:59+01:00",
    "msg": "Outreach: +32 researched and drafted (WA/ID Instagram batch)",
@@ -1473,11 +1514,6 @@
    "t": "2026-10-15T18:07:57Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T17:54:24Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
