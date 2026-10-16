@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-16T12:51:59+00:00",
+ "generated_at": "2026-10-16T14:18:01+00:00",
  "leads": {
-  "total": 468,
-  "with_email": 450,
+  "total": 490,
+  "with_email": 472,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 80
+   "Instagram": 102
   }
  },
  "states": {
@@ -78,10 +78,10 @@
   },
   "WA": {
    "name": "Washington",
-   "leads": 17,
-   "with_email": 17,
+   "leads": 39,
+   "with_email": 39,
    "sources": {
-    "Instagram": 17
+    "Instagram": 39
    }
   },
   "WY": {
@@ -221,6 +221,15 @@
    ]
   },
   {
+   "city": "Seattle",
+   "state": "WA",
+   "leads": 8,
+   "coords": [
+    -122.3301,
+    47.6038
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -263,6 +272,15 @@
    "coords": [
     -116.7812,
     47.6743
+   ]
+  },
+  {
+   "city": "Tacoma",
+   "state": "WA",
+   "leads": 5,
+   "coords": [
+    -122.4383,
+    47.2455
    ]
   },
   {
@@ -338,12 +356,21 @@
    ]
   },
   {
-   "city": "Seattle",
+   "city": "Spokane",
    "state": "WA",
    "leads": 4,
    "coords": [
-    -122.3301,
-    47.6038
+    -117.4235,
+    47.6572
+   ]
+  },
+  {
+   "city": "Bellingham",
+   "state": "WA",
+   "leads": 4,
+   "coords": [
+    -122.4788,
+    48.7544
    ]
   },
   {
@@ -428,21 +455,12 @@
    ]
   },
   {
-   "city": "Spokane",
+   "city": "Olympia",
    "state": "WA",
    "leads": 3,
    "coords": [
-    -117.4235,
-    47.6572
-   ]
-  },
-  {
-   "city": "Tacoma",
-   "state": "WA",
-   "leads": 3,
-   "coords": [
-    -122.4383,
-    47.2455
+    -122.895,
+    47.0451
    ]
   },
   {
@@ -716,12 +734,12 @@
    ]
   },
   {
-   "city": "Olympia",
+   "city": "Vancouver",
    "state": "WA",
    "leads": 2,
    "coords": [
-    -122.895,
-    47.0451
+    -122.6745,
+    45.6307
    ]
   },
   {
@@ -1229,16 +1247,118 @@
    ]
   },
   {
-   "city": "Tumwater",
+   "city": "Gig Harbor",
    "state": "WA",
    "leads": 1,
    "coords": [
-    -122.9104,
-    47.0081
+    -122.5879,
+    47.326
+   ]
+  },
+  {
+   "city": "Edmonds",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.3775,
+    47.8106
+   ]
+  },
+  {
+   "city": "Manson",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -120.1584,
+    47.8849
+   ]
+  },
+  {
+   "city": "Woodinville",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.1589,
+    47.7546
+   ]
+  },
+  {
+   "city": "Bow",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.3982,
+    48.5618
+   ]
+  },
+  {
+   "city": "Everett",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.2127,
+    47.9793
+   ]
+  },
+  {
+   "city": "Kent",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.227,
+    47.3827
+   ]
+  },
+  {
+   "city": "Lakewood",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.5185,
+    47.1718
+   ]
+  },
+  {
+   "city": "Silverdale",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.6766,
+    47.6594
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-16T14:17:32Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-16T14:17:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-16T14:17:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-16T14:17:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-16T14:17:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-16T14:17:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-16T12:51:46Z",
    "msg": "Instagram: +5 leads",
@@ -1355,29 +1475,9 @@
    "who": "Caesar"
   },
   {
-   "t": "2026-10-15T17:35:22Z",
-   "msg": "Auto-publish HQ stats on every push; outreach.json status; per-day sends; who-did-it events",
+   "t": "2026-10-15T17:36:46Z",
+   "msg": "Update city coords cache",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T17:29:26Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T16:21:36+01:00",
-   "msg": "Add warm_leads.csv: Kyle L and Ron",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T16:21:34+01:00",
-   "msg": "Add sent_log.csv: Oct 15 Facebook exhaust run (28 sent)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T14:41:35Z",
-   "msg": "Instagram: drop wineries/caterers",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
