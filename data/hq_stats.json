@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-16T19:01:19+00:00",
+ "generated_at": "2026-10-16T19:06:40+00:00",
  "leads": {
   "total": 495,
   "with_email": 477,
@@ -1366,6 +1366,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-16T20:06:32+01:00",
+   "msg": "Outreach: paused (Oct 16 batch complete)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-16T20:01:08+01:00",
    "msg": "Outreach: +16 sent (WA, account 2)",
    "who": "Cassius"
@@ -1509,11 +1514,6 @@
    "t": "2026-10-15T19:22:13+01:00",
    "msg": "Outreach: status active (Instagram batch running)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T19:22:11+01:00",
-   "msg": "Outreach: 24 drafted (Instagram, Idaho)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -1573,8 +1573,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-16",
-  "note": "Active Oct 16: sending 32 verified WA/ID outreach emails."
+  "note": "Paused Oct 16: WA/ID batch complete, 32 sent, 30 delivered, 1 bounced, 1 in retry queue."
  }
 }
