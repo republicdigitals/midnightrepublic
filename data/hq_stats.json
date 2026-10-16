@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T22:49:56+00:00",
+ "generated_at": "2026-10-16T12:51:59+00:00",
  "leads": {
-  "total": 463,
-  "with_email": 445,
+  "total": 468,
+  "with_email": 450,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 75
+   "Instagram": 80
   }
  },
  "states": {
@@ -78,10 +78,10 @@
   },
   "WA": {
    "name": "Washington",
-   "leads": 12,
-   "with_email": 12,
+   "leads": 17,
+   "with_email": 17,
    "sources": {
-    "Instagram": 12
+    "Instagram": 17
    }
   },
   "WY": {
@@ -338,6 +338,15 @@
    ]
   },
   {
+   "city": "Seattle",
+   "state": "WA",
+   "leads": 4,
+   "coords": [
+    -122.3301,
+    47.6038
+   ]
+  },
+  {
    "city": "Brookings",
    "state": "SD",
    "leads": 3,
@@ -428,12 +437,12 @@
    ]
   },
   {
-   "city": "Seattle",
+   "city": "Tacoma",
    "state": "WA",
    "leads": 3,
    "coords": [
-    -122.3301,
-    47.6038
+    -122.4383,
+    47.2455
    ]
   },
   {
@@ -1193,15 +1202,6 @@
    ]
   },
   {
-   "city": "Tacoma",
-   "state": "WA",
-   "leads": 1,
-   "coords": [
-    -122.4383,
-    47.2455
-   ]
-  },
-  {
    "city": "Kingston",
    "state": "WA",
    "leads": 1,
@@ -1218,9 +1218,32 @@
     -118.3393,
     46.0667
    ]
+  },
+  {
+   "city": "Burlington",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.3305,
+    48.4738
+   ]
+  },
+  {
+   "city": "Tumwater",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.9104,
+    47.0081
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-16T12:51:46Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-15T22:49:45Z",
    "msg": "Instagram: +2 leads",
@@ -1355,21 +1378,6 @@
    "t": "2026-10-15T14:41:35Z",
    "msg": "Instagram: drop wineries/caterers",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T14:40:48Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T14:31:55Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T14:29:39Z",
-   "msg": "Add counts-only HQ stats builder for Agent HQ site",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -1379,10 +1387,7 @@
   "delivered": 48,
   "bounced": 4,
   "replies": 0,
-  "sent_today": {
-   "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 22
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
