@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-16T17:01:07+00:00",
+ "generated_at": "2026-10-16T17:01:18+00:00",
  "leads": {
   "total": 490,
   "with_email": 472,
@@ -1330,6 +1330,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-16T18:00:59+01:00",
+   "msg": "Outreach: +32 researched and drafted (WA/ID Instagram batch)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-16T18:00:57+01:00",
    "msg": "Outreach: status active (Oct 16 batch of 32)",
    "who": "Cassius"
@@ -1472,17 +1477,12 @@
   {
    "t": "2026-10-15T17:54:24Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T17:54:05Z",
-   "msg": "Note auto-publish workflow in stats builder",
    "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 52,
-  "drafted": 52,
+  "researched": 84,
+  "drafted": 84,
   "sent": 52,
   "delivered": 48,
   "bounced": 4,
@@ -1509,6 +1509,11 @@
     "sent": 25,
     "delivered": 21,
     "bounced": 4
+   },
+   "WA": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
    }
   }
  },
