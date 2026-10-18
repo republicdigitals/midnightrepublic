@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T12:21:22+00:00",
+ "generated_at": "2026-10-18T12:34:50+00:00",
  "leads": {
-  "total": 503,
-  "with_email": 485,
+  "total": 508,
+  "with_email": 490,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 115
+   "Instagram": 120
   }
  },
  "states": {
@@ -78,10 +78,10 @@
   },
   "WA": {
    "name": "Washington",
-   "leads": 52,
-   "with_email": 52,
+   "leads": 57,
+   "with_email": 57,
    "sources": {
-    "Instagram": 52
+    "Instagram": 57
    }
   },
   "WY": {
@@ -140,6 +140,15 @@
    ]
   },
   {
+   "city": "Seattle",
+   "state": "WA",
+   "leads": 17,
+   "coords": [
+    -122.3301,
+    47.6038
+   ]
+  },
+  {
    "city": "Sioux Falls",
    "state": "SD",
    "leads": 15,
@@ -155,15 +164,6 @@
    "coords": [
     -110.7618,
     43.48
-   ]
-  },
-  {
-   "city": "Seattle",
-   "state": "WA",
-   "leads": 15,
-   "coords": [
-    -122.3301,
-    47.6038
    ]
   },
   {
@@ -1371,9 +1371,41 @@
     -122.1239,
     47.6694
    ]
+  },
+  {
+   "city": "Kennewick",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -119.1199,
+    46.2087
+   ]
+  },
+  {
+   "city": "Bellevue",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.1923,
+    47.6144
+   ]
+  },
+  {
+   "city": "Kirkland",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.2071,
+    47.6765
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T12:34:36Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T12:21:07Z",
    "msg": "Instagram: cleanup",
@@ -1518,11 +1550,6 @@
    "t": "2026-10-15T18:35:05Z",
    "msg": "Instagram: +2 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T19:27:59+01:00",
-   "msg": "Outreach: +2 sent, delivered (Instagram, account 1)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
