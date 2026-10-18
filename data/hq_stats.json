@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T23:27:48+00:00",
+ "generated_at": "2026-10-18T23:43:32+00:00",
  "leads": {
-  "total": 565,
-  "with_email": 547,
+  "total": 570,
+  "with_email": 552,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 177
+   "Instagram": 182
   }
  },
  "states": {
@@ -70,10 +70,10 @@
   },
   "OK": {
    "name": "Oklahoma",
-   "leads": 3,
-   "with_email": 3,
+   "leads": 8,
+   "with_email": 8,
    "sources": {
-    "Instagram": 3
+    "Instagram": 8
    }
   },
   "RI": {
@@ -425,6 +425,15 @@
    ]
   },
   {
+   "city": "Oklahoma City",
+   "state": "OK",
+   "leads": 4,
+   "coords": [
+    -97.5171,
+    35.473
+   ]
+  },
+  {
    "city": "Brookings",
    "state": "SD",
    "leads": 3,
@@ -521,6 +530,15 @@
    "coords": [
     -96.7078,
     40.8089
+   ]
+  },
+  {
+   "city": "Tulsa",
+   "state": "OK",
+   "leads": 3,
+   "coords": [
+    -95.9928,
+    36.1563
    ]
   },
   {
@@ -836,15 +854,6 @@
    "coords": [
     -92.4478,
     42.5362
-   ]
-  },
-  {
-   "city": "Tulsa",
-   "state": "OK",
-   "leads": 2,
-   "coords": [
-    -95.9928,
-    36.1563
    ]
   },
   {
@@ -1577,16 +1586,21 @@
    ]
   },
   {
-   "city": "Oklahoma City",
+   "city": "Norman",
    "state": "OK",
    "leads": 1,
    "coords": [
-    -97.5171,
-    35.473
+    -97.4395,
+    35.2226
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T23:43:22Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T23:27:34Z",
    "msg": "Instagram: +5 leads",
@@ -1729,11 +1743,6 @@
   },
   {
    "t": "2026-10-16T14:17:26Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-16T12:51:46Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
