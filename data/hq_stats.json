@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T17:33:50+00:00",
+ "generated_at": "2026-10-18T17:55:32+00:00",
  "leads": {
-  "total": 537,
-  "with_email": 519,
+  "total": 542,
+  "with_email": 524,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 149
+   "Instagram": 154
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "IA": {
    "name": "Iowa",
-   "leads": 15,
-   "with_email": 15,
+   "leads": 20,
+   "with_email": 20,
    "sources": {
-    "Instagram": 15
+    "Instagram": 20
    }
   },
   "ID": {
@@ -256,6 +256,15 @@
    ]
   },
   {
+   "city": "Iowa City",
+   "state": "IA",
+   "leads": 7,
+   "coords": [
+    -91.5299,
+    41.6613
+   ]
+  },
+  {
    "city": "Casper",
    "state": "WY",
    "leads": 6,
@@ -478,15 +487,6 @@
    "coords": [
     -122.895,
     47.0451
-   ]
-  },
-  {
-   "city": "Iowa City",
-   "state": "IA",
-   "leads": 3,
-   "coords": [
-    -91.5299,
-    41.6613
    ]
   },
   {
@@ -1505,9 +1505,23 @@
     -93.6973,
     41.6732
    ]
+  },
+  {
+   "city": "Luther",
+   "state": "IA",
+   "leads": 1,
+   "coords": [
+    -93.8167,
+    41.9675
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T17:55:22Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T17:33:40Z",
    "msg": "Instagram: +5 leads",
@@ -1651,11 +1665,6 @@
   {
    "t": "2026-10-15T20:22:55Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T19:59:07Z",
-   "msg": "Instagram: apply Oct 15 standard to new rows (self-audit)",
    "who": "Caesar"
   }
  ],
