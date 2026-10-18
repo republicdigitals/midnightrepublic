@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T12:34:50+00:00",
+ "generated_at": "2026-10-18T14:50:20+00:00",
  "leads": {
-  "total": 508,
-  "with_email": 490,
+  "total": 532,
+  "with_email": 514,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 120
+   "Instagram": 144
   }
  },
  "states": {
@@ -18,6 +18,14 @@
    "with_email": 5,
    "sources": {
     "Facebook": 5
+   }
+  },
+  "IA": {
+   "name": "Iowa",
+   "leads": 10,
+   "with_email": 10,
+   "sources": {
+    "Instagram": 10
    }
   },
   "ID": {
@@ -78,10 +86,10 @@
   },
   "WA": {
    "name": "Washington",
-   "leads": 57,
-   "with_email": 57,
+   "leads": 71,
+   "with_email": 71,
    "sources": {
-    "Instagram": 57
+    "Instagram": 71
    }
   },
   "WY": {
@@ -131,21 +139,21 @@
    ]
   },
   {
+   "city": "Seattle",
+   "state": "WA",
+   "leads": 23,
+   "coords": [
+    -122.3301,
+    47.6038
+   ]
+  },
+  {
    "city": "Cambridge",
    "state": "MA",
    "leads": 19,
    "coords": [
     -71.104,
     42.3656
-   ]
-  },
-  {
-   "city": "Seattle",
-   "state": "WA",
-   "leads": 17,
-   "coords": [
-    -122.3301,
-    47.6038
    ]
   },
   {
@@ -248,6 +256,15 @@
    ]
   },
   {
+   "city": "Tacoma",
+   "state": "WA",
+   "leads": 6,
+   "coords": [
+    -122.4383,
+    47.2455
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -272,15 +289,6 @@
    "coords": [
     -116.7812,
     47.6743
-   ]
-  },
-  {
-   "city": "Tacoma",
-   "state": "WA",
-   "leads": 5,
-   "coords": [
-    -122.4383,
-    47.2455
    ]
   },
   {
@@ -371,6 +379,15 @@
    "coords": [
     -122.4788,
     48.7544
+   ]
+  },
+  {
+   "city": "Des Moines",
+   "state": "IA",
+   "leads": 4,
+   "coords": [
+    -93.6249,
+    41.5869
    ]
   },
   {
@@ -743,12 +760,39 @@
    ]
   },
   {
+   "city": "Everett",
+   "state": "WA",
+   "leads": 2,
+   "coords": [
+    -122.2127,
+    47.9793
+   ]
+  },
+  {
    "city": "Kent",
    "state": "WA",
    "leads": 2,
    "coords": [
     -122.227,
     47.3827
+   ]
+  },
+  {
+   "city": "Kirkland",
+   "state": "WA",
+   "leads": 2,
+   "coords": [
+    -122.2071,
+    47.6765
+   ]
+  },
+  {
+   "city": "Cedar Falls",
+   "state": "IA",
+   "leads": 2,
+   "coords": [
+    -92.4478,
+    42.5362
    ]
   },
   {
@@ -1301,15 +1345,6 @@
    ]
   },
   {
-   "city": "Everett",
-   "state": "WA",
-   "leads": 1,
-   "coords": [
-    -122.2127,
-    47.9793
-   ]
-  },
-  {
    "city": "Lakewood",
    "state": "WA",
    "leads": 1,
@@ -1391,16 +1426,118 @@
    ]
   },
   {
-   "city": "Kirkland",
+   "city": "Burien",
    "state": "WA",
    "leads": 1,
    "coords": [
-    -122.2071,
-    47.6765
+    -122.3485,
+    47.4699
+   ]
+  },
+  {
+   "city": "Richland",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -119.2752,
+    46.2804
+   ]
+  },
+  {
+   "city": "Pasco",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -119.0921,
+    46.2307
+   ]
+  },
+  {
+   "city": "Prosser",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -119.7692,
+    46.2068
+   ]
+  },
+  {
+   "city": "Monroe",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -121.9713,
+    47.8552
+   ]
+  },
+  {
+   "city": "Marion",
+   "state": "IA",
+   "leads": 1,
+   "coords": [
+    -91.5987,
+    42.033
+   ]
+  },
+  {
+   "city": "Cedar Rapids",
+   "state": "IA",
+   "leads": 1,
+   "coords": [
+    -91.6704,
+    41.9759
+   ]
+  },
+  {
+   "city": "Johnston",
+   "state": "IA",
+   "leads": 1,
+   "coords": [
+    -93.6973,
+    41.6732
+   ]
+  },
+  {
+   "city": "Iowa City",
+   "state": "IA",
+   "leads": 1,
+   "coords": [
+    -91.5299,
+    41.6613
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T14:49:53Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-18T14:49:53Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-18T14:49:53Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-18T14:49:53Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-18T14:49:53Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-18T14:49:53Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T12:34:36Z",
    "msg": "Instagram: +5 leads",
@@ -1519,36 +1656,6 @@
   {
    "t": "2026-10-15T19:39:17Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T19:33:25Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T19:17:10Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T19:49:02+01:00",
-   "msg": "Outreach: paused (Instagram run complete)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T19:48:59+01:00",
-   "msg": "Outreach: +11 sent, delivered (Instagram, account 2)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T19:40:16+01:00",
-   "msg": "Outreach: +11 sent, delivered (Instagram, account 2)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T18:35:05Z",
-   "msg": "Instagram: +2 leads",
    "who": "Caesar"
   }
  ],
