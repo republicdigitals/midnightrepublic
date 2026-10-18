@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T19:12:37+00:00",
+ "generated_at": "2026-10-18T19:26:22+00:00",
  "leads": {
-  "total": 552,
-  "with_email": 534,
+  "total": 557,
+  "with_email": 539,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 164
+   "Instagram": 169
   }
  },
  "states": {
@@ -54,10 +54,10 @@
   },
   "NE": {
    "name": "Nebraska",
-   "leads": 8,
-   "with_email": 8,
+   "leads": 13,
+   "with_email": 13,
    "sources": {
-    "Instagram": 8
+    "Instagram": 13
    }
   },
   "NJ": {
@@ -237,6 +237,15 @@
    ]
   },
   {
+   "city": "Omaha",
+   "state": "NE",
+   "leads": 9,
+   "coords": [
+    -95.9384,
+    41.2587
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
@@ -270,15 +279,6 @@
    "coords": [
     -74.0643,
     40.3471
-   ]
-  },
-  {
-   "city": "Omaha",
-   "state": "NE",
-   "leads": 7,
-   "coords": [
-    -95.9384,
-    41.2587
    ]
   },
   {
@@ -504,6 +504,15 @@
    "coords": [
     -122.895,
     47.0451
+   ]
+  },
+  {
+   "city": "Lincoln",
+   "state": "NE",
+   "leads": 3,
+   "coords": [
+    -96.7078,
+    40.8089
    ]
   },
   {
@@ -1533,16 +1542,21 @@
    ]
   },
   {
-   "city": "Lincoln",
+   "city": "Elkhorn",
    "state": "NE",
    "leads": 1,
    "coords": [
-    -96.7078,
-    40.8089
+    -96.2346,
+    41.2861
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T19:26:12Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T19:12:26Z",
    "msg": "Instagram: +5 leads",
@@ -1685,11 +1699,6 @@
   },
   {
    "t": "2026-10-15T22:29:43Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T21:38:16Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
