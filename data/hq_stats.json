@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T14:50:20+00:00",
+ "generated_at": "2026-10-18T17:33:50+00:00",
  "leads": {
-  "total": 532,
-  "with_email": 514,
+  "total": 537,
+  "with_email": 519,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 144
+   "Instagram": 149
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "IA": {
    "name": "Iowa",
-   "leads": 10,
-   "with_email": 10,
+   "leads": 15,
+   "with_email": 15,
    "sources": {
-    "Instagram": 10
+    "Instagram": 15
    }
   },
   "ID": {
@@ -247,6 +247,15 @@
    ]
   },
   {
+   "city": "Des Moines",
+   "state": "IA",
+   "leads": 7,
+   "coords": [
+    -93.6249,
+    41.5869
+   ]
+  },
+  {
    "city": "Casper",
    "state": "WY",
    "leads": 6,
@@ -382,15 +391,6 @@
    ]
   },
   {
-   "city": "Des Moines",
-   "state": "IA",
-   "leads": 4,
-   "coords": [
-    -93.6249,
-    41.5869
-   ]
-  },
-  {
    "city": "Brookings",
    "state": "SD",
    "leads": 3,
@@ -478,6 +478,15 @@
    "coords": [
     -122.895,
     47.0451
+   ]
+  },
+  {
+   "city": "Iowa City",
+   "state": "IA",
+   "leads": 3,
+   "coords": [
+    -91.5299,
+    41.6613
    ]
   },
   {
@@ -1496,18 +1505,14 @@
     -93.6973,
     41.6732
    ]
-  },
-  {
-   "city": "Iowa City",
-   "state": "IA",
-   "leads": 1,
-   "coords": [
-    -91.5299,
-    41.6613
-   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T17:33:40Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T14:49:53Z",
    "msg": "Instagram: cleanup",
@@ -1651,11 +1656,6 @@
   {
    "t": "2026-10-15T19:59:07Z",
    "msg": "Instagram: apply Oct 15 standard to new rows (self-audit)",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T19:39:17Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
