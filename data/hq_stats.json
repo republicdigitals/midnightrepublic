@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T19:26:22+00:00",
+ "generated_at": "2026-10-18T20:09:21+00:00",
  "leads": {
-  "total": 557,
-  "with_email": 539,
+  "total": 562,
+  "with_email": 544,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 169
+   "Instagram": 174
   }
  },
  "states": {
@@ -54,10 +54,10 @@
   },
   "NE": {
    "name": "Nebraska",
-   "leads": 13,
-   "with_email": 13,
+   "leads": 18,
+   "with_email": 18,
    "sources": {
-    "Instagram": 13
+    "Instagram": 18
    }
   },
   "NJ": {
@@ -201,6 +201,15 @@
    ]
   },
   {
+   "city": "Omaha",
+   "state": "NE",
+   "leads": 12,
+   "coords": [
+    -95.9384,
+    41.2587
+   ]
+  },
+  {
    "city": "Missoula",
    "state": "MT",
    "leads": 11,
@@ -234,15 +243,6 @@
    "coords": [
     -111.044,
     45.6794
-   ]
-  },
-  {
-   "city": "Omaha",
-   "state": "NE",
-   "leads": 9,
-   "coords": [
-    -95.9384,
-    41.2587
    ]
   },
   {
@@ -417,6 +417,15 @@
    ]
   },
   {
+   "city": "Lincoln",
+   "state": "NE",
+   "leads": 4,
+   "coords": [
+    -96.7078,
+    40.8089
+   ]
+  },
+  {
    "city": "Brookings",
    "state": "SD",
    "leads": 3,
@@ -504,15 +513,6 @@
    "coords": [
     -122.895,
     47.0451
-   ]
-  },
-  {
-   "city": "Lincoln",
-   "state": "NE",
-   "leads": 3,
-   "coords": [
-    -96.7078,
-    40.8089
    ]
   },
   {
@@ -1549,9 +1549,23 @@
     -96.2346,
     41.2861
    ]
+  },
+  {
+   "city": "Tekamah",
+   "state": "NE",
+   "leads": 1,
+   "coords": [
+    -96.2211,
+    41.7783
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T20:09:10Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T19:26:12Z",
    "msg": "Instagram: +5 leads",
@@ -1694,11 +1708,6 @@
   },
   {
    "t": "2026-10-15T22:40:43Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T22:29:43Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
