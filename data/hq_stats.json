@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T20:12:13+00:00",
+ "generated_at": "2026-10-18T23:27:48+00:00",
  "leads": {
-  "total": 560,
-  "with_email": 542,
+  "total": 565,
+  "with_email": 547,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 172
+   "Instagram": 177
   }
  },
  "states": {
@@ -54,10 +54,10 @@
   },
   "NE": {
    "name": "Nebraska",
-   "leads": 16,
-   "with_email": 16,
+   "leads": 18,
+   "with_email": 18,
    "sources": {
-    "Instagram": 16
+    "Instagram": 18
    }
   },
   "NJ": {
@@ -66,6 +66,14 @@
    "with_email": 54,
    "sources": {
     "Facebook": 54
+   }
+  },
+  "OK": {
+   "name": "Oklahoma",
+   "leads": 3,
+   "with_email": 3,
+   "sources": {
+    "Instagram": 3
    }
   },
   "RI": {
@@ -201,21 +209,21 @@
    ]
   },
   {
+   "city": "Omaha",
+   "state": "NE",
+   "leads": 13,
+   "coords": [
+    -95.9384,
+    41.2587
+   ]
+  },
+  {
    "city": "Missoula",
    "state": "MT",
    "leads": 11,
    "coords": [
     -113.9953,
     46.8701
-   ]
-  },
-  {
-   "city": "Omaha",
-   "state": "NE",
-   "leads": 11,
-   "coords": [
-    -95.9384,
-    41.2587
    ]
   },
   {
@@ -828,6 +836,15 @@
    "coords": [
     -92.4478,
     42.5362
+   ]
+  },
+  {
+   "city": "Tulsa",
+   "state": "OK",
+   "leads": 2,
+   "coords": [
+    -95.9928,
+    36.1563
    ]
   },
   {
@@ -1558,9 +1575,23 @@
     -96.2211,
     41.7783
    ]
+  },
+  {
+   "city": "Oklahoma City",
+   "state": "OK",
+   "leads": 1,
+   "coords": [
+    -97.5171,
+    35.473
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T23:27:34Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T20:12:04Z",
    "msg": "Instagram: cleanup",
@@ -1704,11 +1735,6 @@
   {
    "t": "2026-10-16T12:51:46Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T22:49:45Z",
-   "msg": "Instagram: +2 leads",
    "who": "Caesar"
   }
  ],
