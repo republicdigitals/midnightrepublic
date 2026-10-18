@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T17:55:32+00:00",
+ "generated_at": "2026-10-18T19:00:30+00:00",
  "leads": {
-  "total": 542,
-  "with_email": 524,
+  "total": 547,
+  "with_email": 529,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 154
+   "Instagram": 159
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "IA": {
    "name": "Iowa",
-   "leads": 20,
-   "with_email": 20,
+   "leads": 22,
+   "with_email": 22,
    "sources": {
-    "Instagram": 20
+    "Instagram": 22
    }
   },
   "ID": {
@@ -50,6 +50,14 @@
    "with_email": 30,
    "sources": {
     "Web research": 30
+   }
+  },
+  "NE": {
+   "name": "Nebraska",
+   "leads": 3,
+   "with_email": 3,
+   "sources": {
+    "Instagram": 3
    }
   },
   "NJ": {
@@ -238,18 +246,9 @@
    ]
   },
   {
-   "city": "Red Bank",
-   "state": "NJ",
-   "leads": 7,
-   "coords": [
-    -74.0643,
-    40.3471
-   ]
-  },
-  {
    "city": "Des Moines",
    "state": "IA",
-   "leads": 7,
+   "leads": 8,
    "coords": [
     -93.6249,
     41.5869
@@ -258,10 +257,19 @@
   {
    "city": "Iowa City",
    "state": "IA",
-   "leads": 7,
+   "leads": 8,
    "coords": [
     -91.5299,
     41.6613
+   ]
+  },
+  {
+   "city": "Red Bank",
+   "state": "NJ",
+   "leads": 7,
+   "coords": [
+    -74.0643,
+    40.3471
    ]
   },
   {
@@ -487,6 +495,15 @@
    "coords": [
     -122.895,
     47.0451
+   ]
+  },
+  {
+   "city": "Omaha",
+   "state": "NE",
+   "leads": 3,
+   "coords": [
+    -95.9384,
+    41.2587
    ]
   },
   {
@@ -1518,6 +1535,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-18T19:00:20Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-18T17:55:22Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -1660,11 +1682,6 @@
   {
    "t": "2026-10-15T20:51:30Z",
    "msg": "Instagram: cleanup (Twisted Sugar chain); emulator crash guard",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T20:22:55Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
