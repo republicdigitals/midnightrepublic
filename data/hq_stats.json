@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T19:00:30+00:00",
+ "generated_at": "2026-10-18T19:12:37+00:00",
  "leads": {
-  "total": 547,
-  "with_email": 529,
+  "total": 552,
+  "with_email": 534,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 159
+   "Instagram": 164
   }
  },
  "states": {
@@ -54,10 +54,10 @@
   },
   "NE": {
    "name": "Nebraska",
-   "leads": 3,
-   "with_email": 3,
+   "leads": 8,
+   "with_email": 8,
    "sources": {
-    "Instagram": 3
+    "Instagram": 8
    }
   },
   "NJ": {
@@ -270,6 +270,15 @@
    "coords": [
     -74.0643,
     40.3471
+   ]
+  },
+  {
+   "city": "Omaha",
+   "state": "NE",
+   "leads": 7,
+   "coords": [
+    -95.9384,
+    41.2587
    ]
   },
   {
@@ -495,15 +504,6 @@
    "coords": [
     -122.895,
     47.0451
-   ]
-  },
-  {
-   "city": "Omaha",
-   "state": "NE",
-   "leads": 3,
-   "coords": [
-    -95.9384,
-    41.2587
    ]
   },
   {
@@ -1531,9 +1531,23 @@
     -93.8167,
     41.9675
    ]
+  },
+  {
+   "city": "Lincoln",
+   "state": "NE",
+   "leads": 1,
+   "coords": [
+    -96.7078,
+    40.8089
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T19:12:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-18T19:00:20Z",
    "msg": "Instagram: +5 leads",
@@ -1677,11 +1691,6 @@
   {
    "t": "2026-10-15T21:38:16Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T20:51:30Z",
-   "msg": "Instagram: cleanup (Twisted Sugar chain); emulator crash guard",
    "who": "Caesar"
   }
  ],
