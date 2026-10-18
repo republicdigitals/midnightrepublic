@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-16T19:06:40+00:00",
+ "generated_at": "2026-10-18T12:21:22+00:00",
  "leads": {
-  "total": 495,
-  "with_email": 477,
+  "total": 503,
+  "with_email": 485,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 107
+   "Instagram": 115
   }
  },
  "states": {
@@ -78,10 +78,10 @@
   },
   "WA": {
    "name": "Washington",
-   "leads": 44,
-   "with_email": 44,
+   "leads": 52,
+   "with_email": 52,
    "sources": {
-    "Instagram": 44
+    "Instagram": 52
    }
   },
   "WY": {
@@ -158,6 +158,15 @@
    ]
   },
   {
+   "city": "Seattle",
+   "state": "WA",
+   "leads": 15,
+   "coords": [
+    -122.3301,
+    47.6038
+   ]
+  },
+  {
    "city": "Jersey City",
    "state": "NJ",
    "leads": 14,
@@ -209,15 +218,6 @@
    "coords": [
     -111.044,
     45.6794
-   ]
-  },
-  {
-   "city": "Seattle",
-   "state": "WA",
-   "leads": 9,
-   "coords": [
-    -122.3301,
-    47.6038
    ]
   },
   {
@@ -740,6 +740,15 @@
    "coords": [
     -122.6745,
     45.6307
+   ]
+  },
+  {
+   "city": "Kent",
+   "state": "WA",
+   "leads": 2,
+   "coords": [
+    -122.227,
+    47.3827
    ]
   },
   {
@@ -1301,15 +1310,6 @@
    ]
   },
   {
-   "city": "Kent",
-   "state": "WA",
-   "leads": 1,
-   "coords": [
-    -122.227,
-    47.3827
-   ]
-  },
-  {
    "city": "Lakewood",
    "state": "WA",
    "leads": 1,
@@ -1346,25 +1346,44 @@
    ]
   },
   {
-   "city": "Marysville",
+   "city": "Wenatchee",
    "state": "WA",
    "leads": 1,
    "coords": [
-    -122.1768,
-    48.0517
+    -120.3103,
+    47.4235
    ]
   },
   {
-   "city": "Concrete",
+   "city": "Newcastle",
    "state": "WA",
    "leads": 1,
    "coords": [
-    -121.7469,
-    48.5389
+    -122.1563,
+    47.5396
+   ]
+  },
+  {
+   "city": "Redmond",
+   "state": "WA",
+   "leads": 1,
+   "coords": [
+    -122.1239,
+    47.6694
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-18T12:21:07Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-18T12:21:07Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-16T20:06:32+01:00",
    "msg": "Outreach: paused (Oct 16 batch complete)",
@@ -1504,16 +1523,6 @@
    "t": "2026-10-15T19:27:59+01:00",
    "msg": "Outreach: +2 sent, delivered (Instagram, account 1)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-15T18:26:50Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-15T19:22:13+01:00",
-   "msg": "Outreach: status active (Instagram batch running)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -1523,10 +1532,7 @@
   "delivered": 78,
   "bounced": 5,
   "replies": 0,
-  "sent_today": {
-   "liam@yeschefgroup.co": 16,
-   "liam@jackdinningroom.com": 16
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
