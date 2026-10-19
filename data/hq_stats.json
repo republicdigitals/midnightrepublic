@@ -1,23 +1,23 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T01:20:47+00:00",
+ "generated_at": "2026-10-19T12:47:58+00:00",
  "leads": {
-  "total": 586,
-  "with_email": 568,
+  "total": 591,
+  "with_email": 573,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 198
+   "Instagram": 203
   }
  },
  "states": {
   "AR": {
    "name": "Arkansas",
-   "leads": 17,
-   "with_email": 17,
+   "leads": 22,
+   "with_email": 22,
    "sources": {
-    "Instagram": 17
+    "Instagram": 22
    }
   },
   "CT": {
@@ -559,6 +559,15 @@
    ]
   },
   {
+   "city": "Fayetteville",
+   "state": "AR",
+   "leads": 3,
+   "coords": [
+    -94.1574,
+    36.0626
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -883,12 +892,21 @@
    ]
   },
   {
-   "city": "Fayetteville",
+   "city": "North Little Rock",
    "state": "AR",
    "leads": 2,
    "coords": [
-    -94.1574,
-    36.0626
+    -92.2671,
+    34.7695
+   ]
+  },
+  {
+   "city": "Springdale",
+   "state": "AR",
+   "leads": 2,
+   "coords": [
+    -94.1288,
+    36.1867
    ]
   },
   {
@@ -1621,15 +1639,6 @@
    ]
   },
   {
-   "city": "North Little Rock",
-   "state": "AR",
-   "leads": 1,
-   "coords": [
-    -92.2671,
-    34.7695
-   ]
-  },
-  {
    "city": "Benton",
    "state": "AR",
    "leads": 1,
@@ -1646,9 +1655,23 @@
     -90.7045,
     35.8348
    ]
+  },
+  {
+   "city": "Searcy",
+   "state": "AR",
+   "leads": 1,
+   "coords": [
+    -91.7362,
+    35.2506
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T12:47:43Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T01:20:36Z",
    "msg": "Instagram: cleanup",
@@ -1793,11 +1816,6 @@
    "t": "2026-10-16T18:00:57+01:00",
    "msg": "Outreach: status active (Oct 16 batch of 32)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-16T14:17:32Z",
-   "msg": "Instagram: cleanup",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
