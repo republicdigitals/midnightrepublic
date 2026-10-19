@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T22:41:18+00:00",
+ "generated_at": "2026-10-19T22:56:36+00:00",
  "leads": {
-  "total": 648,
-  "with_email": 630,
+  "total": 653,
+  "with_email": 635,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 260
+   "Instagram": 265
   }
  },
  "states": {
@@ -94,10 +94,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 17,
-   "with_email": 17,
+   "leads": 22,
+   "with_email": 22,
    "sources": {
-    "Instagram": 17
+    "Instagram": 22
    }
   },
   "SD": {
@@ -620,6 +620,15 @@
    ]
   },
   {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 3,
+   "coords": [
+    -79.9399,
+    32.7884
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -1007,12 +1016,12 @@
    ]
   },
   {
-   "city": "Charleston",
+   "city": "Mount Pleasant",
    "state": "SC",
    "leads": 2,
    "coords": [
-    -79.9399,
-    32.7884
+    -79.8678,
+    32.7928
    ]
   },
   {
@@ -1884,9 +1893,32 @@
     -82.6506,
     34.5069
    ]
+  },
+  {
+   "city": "Hanahan",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -80.0084,
+    32.9032
+   ]
+  },
+  {
+   "city": "Folly Beach",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -79.9408,
+    32.6555
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T22:56:20Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T22:41:01Z",
    "msg": "Instagram: +5 leads",
@@ -2029,11 +2061,6 @@
   },
   {
    "t": "2026-10-18T17:55:22Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T17:33:40Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
