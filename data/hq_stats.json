@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T13:36:56+00:00",
+ "generated_at": "2026-10-19T15:13:58+00:00",
  "leads": {
-  "total": 594,
-  "with_email": 576,
+  "total": 615,
+  "with_email": 597,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 206
+   "Instagram": 227
   }
  },
  "states": {
@@ -102,10 +102,10 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 1,
-   "with_email": 1,
+   "leads": 22,
+   "with_email": 22,
    "sources": {
-    "Instagram": 1
+    "Instagram": 22
    }
   },
   "UT": {
@@ -366,6 +366,24 @@
    "coords": [
     -97.5171,
     35.473
+   ]
+  },
+  {
+   "city": "Knoxville",
+   "state": "TN",
+   "leads": 5,
+   "coords": [
+    -83.921,
+    35.9604
+   ]
+  },
+  {
+   "city": "Chattanooga",
+   "state": "TN",
+   "leads": 5,
+   "coords": [
+    -85.3095,
+    35.0457
    ]
   },
   {
@@ -915,6 +933,42 @@
    "coords": [
     -94.1288,
     36.1867
+   ]
+  },
+  {
+   "city": "Johnson City",
+   "state": "TN",
+   "leads": 2,
+   "coords": [
+    -82.3529,
+    36.3168
+   ]
+  },
+  {
+   "city": "Murfreesboro",
+   "state": "TN",
+   "leads": 2,
+   "coords": [
+    -86.3921,
+    35.846
+   ]
+  },
+  {
+   "city": "Cleveland",
+   "state": "TN",
+   "leads": 2,
+   "coords": [
+    -84.8766,
+    35.1595
+   ]
+  },
+  {
+   "city": "Nashville",
+   "state": "TN",
+   "leads": 2,
+   "coords": [
+    -86.7743,
+    36.1623
    ]
   },
   {
@@ -1692,16 +1746,70 @@
    ]
   },
   {
-   "city": "Knoxville",
+   "city": "Maryville",
    "state": "TN",
    "leads": 1,
    "coords": [
-    -83.921,
-    35.9604
+    -83.9705,
+    35.7565
+   ]
+  },
+  {
+   "city": "Thompsons Station",
+   "state": "TN",
+   "leads": 1,
+   "coords": null
+  },
+  {
+   "city": "Nolensville",
+   "state": "TN",
+   "leads": 1,
+   "coords": [
+    -86.6694,
+    35.9523
+   ]
+  },
+  {
+   "city": "Shelbyville",
+   "state": "TN",
+   "leads": 1,
+   "coords": [
+    -86.4603,
+    35.4834
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T15:13:30Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-19T15:13:18Z",
+   "msg": "Instagram: +2 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-19T15:13:18Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-19T15:13:18Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-19T15:13:18Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-19T15:13:18Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T13:36:41Z",
    "msg": "Instagram: partial batch (stopped on warning)",
@@ -1821,36 +1929,6 @@
    "t": "2026-10-18T12:21:07Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T12:21:07Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-16T20:06:32+01:00",
-   "msg": "Outreach: paused (Oct 16 batch complete)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-16T20:01:08+01:00",
-   "msg": "Outreach: +16 sent (WA, account 2)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-16T19:02:42+01:00",
-   "msg": "Outreach: +16 sent (WA/ID, account 1)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-16T17:37:45Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-16T18:00:59+01:00",
-   "msg": "Outreach: +32 researched and drafted (WA/ID Instagram batch)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
