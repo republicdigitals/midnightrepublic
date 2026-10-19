@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T23:13:38+00:00",
+ "generated_at": "2026-10-19T23:50:15+00:00",
  "leads": {
-  "total": 658,
-  "with_email": 640,
+  "total": 668,
+  "with_email": 650,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 270
+   "Instagram": 280
   }
  },
  "states": {
@@ -94,10 +94,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 27,
-   "with_email": 27,
+   "leads": 37,
+   "with_email": 37,
    "sources": {
-    "Instagram": 27
+    "Instagram": 37
    }
   },
   "SD": {
@@ -332,6 +332,15 @@
    ]
   },
   {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 8,
+   "coords": [
+    -79.9399,
+    32.7884
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -410,15 +419,6 @@
    "coords": [
     -97.5171,
     35.473
-   ]
-  },
-  {
-   "city": "Charleston",
-   "state": "SC",
-   "leads": 5,
-   "coords": [
-    -79.9399,
-    32.7884
    ]
   },
   {
@@ -1007,6 +1007,15 @@
    ]
   },
   {
+   "city": "Seneca",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -82.9527,
+    34.6865
+   ]
+  },
+  {
    "city": "Spartanburg",
    "state": "SC",
    "leads": 2,
@@ -1022,6 +1031,24 @@
    "coords": [
     -81.0352,
     34.0008
+   ]
+  },
+  {
+   "city": "Folly Beach",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -79.9408,
+    32.6555
+   ]
+  },
+  {
+   "city": "Myrtle Beach",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -78.89,
+    33.6956
    ]
   },
   {
@@ -1850,15 +1877,6 @@
    ]
   },
   {
-   "city": "Seneca",
-   "state": "SC",
-   "leads": 1,
-   "coords": [
-    -82.9527,
-    34.6865
-   ]
-  },
-  {
    "city": "West Columbia",
    "state": "SC",
    "leads": 1,
@@ -1904,15 +1922,6 @@
    ]
   },
   {
-   "city": "Folly Beach",
-   "state": "SC",
-   "leads": 1,
-   "coords": [
-    -79.9408,
-    32.6555
-   ]
-  },
-  {
    "city": "Inman",
    "state": "SC",
    "leads": 1,
@@ -1929,9 +1938,46 @@
     -80.7513,
     32.1618
    ]
+  },
+  {
+   "city": "Summerville",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -80.1763,
+    33.0187
+   ]
+  },
+  {
+   "city": "Greenwood",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -82.1618,
+    34.1954
+   ]
+  },
+  {
+   "city": "North Myrtle Beach",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -78.68,
+    33.8278
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T23:49:57Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
+   "t": "2026-10-19T23:22:02Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T23:13:25Z",
    "msg": "Instagram: +5 leads",
@@ -2069,16 +2115,6 @@
   },
   {
    "t": "2026-10-18T19:26:12Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T19:12:26Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T19:00:20Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
