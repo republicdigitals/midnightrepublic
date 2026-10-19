@@ -1,23 +1,23 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T01:08:25+00:00",
+ "generated_at": "2026-10-19T01:18:43+00:00",
  "leads": {
-  "total": 585,
-  "with_email": 567,
+  "total": 590,
+  "with_email": 572,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 197
+   "Instagram": 202
   }
  },
  "states": {
   "AR": {
    "name": "Arkansas",
-   "leads": 14,
-   "with_email": 14,
+   "leads": 19,
+   "with_email": 19,
    "sources": {
-    "Instagram": 14
+    "Instagram": 19
    }
   },
   "CT": {
@@ -235,6 +235,15 @@
    ]
   },
   {
+   "city": "Little Rock",
+   "state": "AR",
+   "leads": 11,
+   "coords": [
+    -92.2896,
+    34.7465
+   ]
+  },
+  {
    "city": "Cheyenne",
    "state": "WY",
    "leads": 9,
@@ -286,15 +295,6 @@
    "coords": [
     -91.5299,
     41.6613
-   ]
-  },
-  {
-   "city": "Little Rock",
-   "state": "AR",
-   "leads": 8,
-   "coords": [
-    -92.2896,
-    34.7465
    ]
   },
   {
@@ -556,6 +556,15 @@
    "coords": [
     -95.9928,
     36.1563
+   ]
+  },
+  {
+   "city": "Hot Springs",
+   "state": "AR",
+   "leads": 3,
+   "coords": [
+    -93.0552,
+    34.5038
    ]
   },
   {
@@ -1621,15 +1630,6 @@
    ]
   },
   {
-   "city": "Hot Springs",
-   "state": "AR",
-   "leads": 1,
-   "coords": [
-    -93.0552,
-    34.5038
-   ]
-  },
-  {
    "city": "North Little Rock",
    "state": "AR",
    "leads": 1,
@@ -1658,6 +1658,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T01:18:34Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T01:08:12Z",
    "msg": "Instagram: +5 leads",
@@ -1796,11 +1801,6 @@
   {
    "t": "2026-10-16T14:17:32Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-16T14:17:26Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   },
   {
