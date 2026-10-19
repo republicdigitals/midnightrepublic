@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T18:26:58+00:00",
+ "generated_at": "2026-10-19T19:27:35+00:00",
  "leads": {
-  "total": 630,
-  "with_email": 612,
+  "total": 635,
+  "with_email": 617,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 242
+   "Instagram": 247
   }
  },
  "states": {
@@ -92,6 +92,14 @@
     "Facebook": 39
    }
   },
+  "SC": {
+   "name": "South Carolina",
+   "leads": 3,
+   "with_email": 3,
+   "sources": {
+    "Instagram": 3
+   }
+  },
   "SD": {
    "name": "South Dakota",
    "leads": 33,
@@ -102,10 +110,10 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 37,
-   "with_email": 37,
+   "leads": 39,
+   "with_email": 39,
    "sources": {
-    "Instagram": 37
+    "Instagram": 39
    }
   },
   "UT": {
@@ -243,6 +251,15 @@
    ]
   },
   {
+   "city": "Chattanooga",
+   "state": "TN",
+   "leads": 10,
+   "coords": [
+    -85.3095,
+    35.0457
+   ]
+  },
+  {
    "city": "Nashville",
    "state": "TN",
    "leads": 10,
@@ -312,15 +329,6 @@
    "coords": [
     -91.5299,
     41.6613
-   ]
-  },
-  {
-   "city": "Chattanooga",
-   "state": "TN",
-   "leads": 8,
-   "coords": [
-    -85.3095,
-    35.0457
    ]
   },
   {
@@ -969,6 +977,15 @@
    "coords": [
     -84.8766,
     35.1595
+   ]
+  },
+  {
+   "city": "Greenville",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -82.3985,
+    34.8514
    ]
   },
   {
@@ -1795,9 +1812,23 @@
     -84.1357,
     35.7604
    ]
+  },
+  {
+   "city": "Seneca",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -82.9527,
+    34.6865
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T19:27:21Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T18:26:45Z",
    "msg": "Instagram: +5 leads",
@@ -1926,11 +1957,6 @@
   {
    "t": "2026-10-18T14:49:53Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T14:49:53Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   },
   {
