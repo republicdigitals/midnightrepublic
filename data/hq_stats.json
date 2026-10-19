@@ -1,23 +1,23 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T00:54:52+00:00",
+ "generated_at": "2026-10-19T01:08:25+00:00",
  "leads": {
-  "total": 580,
-  "with_email": 562,
+  "total": 585,
+  "with_email": 567,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 192
+   "Instagram": 197
   }
  },
  "states": {
   "AR": {
    "name": "Arkansas",
-   "leads": 9,
-   "with_email": 9,
+   "leads": 14,
+   "with_email": 14,
    "sources": {
-    "Instagram": 9
+    "Instagram": 14
    }
   },
   "CT": {
@@ -289,6 +289,15 @@
    ]
   },
   {
+   "city": "Little Rock",
+   "state": "AR",
+   "leads": 8,
+   "coords": [
+    -92.2896,
+    34.7465
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -313,15 +322,6 @@
    "coords": [
     -122.4383,
     47.2455
-   ]
-  },
-  {
-   "city": "Little Rock",
-   "state": "AR",
-   "leads": 6,
-   "coords": [
-    -92.2896,
-    34.7465
    ]
   },
   {
@@ -871,6 +871,15 @@
    "coords": [
     -92.4478,
     42.5362
+   ]
+  },
+  {
+   "city": "Fayetteville",
+   "state": "AR",
+   "leads": 2,
+   "coords": [
+    -94.1574,
+    36.0626
    ]
   },
   {
@@ -1637,9 +1646,23 @@
     -92.5868,
     34.5645
    ]
+  },
+  {
+   "city": "Jonesboro",
+   "state": "AR",
+   "leads": 1,
+   "coords": [
+    -90.7045,
+    35.8348
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T01:08:12Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T00:54:40Z",
    "msg": "Instagram: +5 leads",
@@ -1773,11 +1796,6 @@
   {
    "t": "2026-10-16T14:17:32Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-16T14:17:26Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   },
   {
