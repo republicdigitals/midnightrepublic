@@ -1,23 +1,23 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T01:18:43+00:00",
+ "generated_at": "2026-10-19T01:20:47+00:00",
  "leads": {
-  "total": 590,
-  "with_email": 572,
+  "total": 586,
+  "with_email": 568,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 202
+   "Instagram": 198
   }
  },
  "states": {
   "AR": {
    "name": "Arkansas",
-   "leads": 19,
-   "with_email": 19,
+   "leads": 17,
+   "with_email": 17,
    "sources": {
-    "Instagram": 19
+    "Instagram": 17
    }
   },
   "CT": {
@@ -78,10 +78,10 @@
   },
   "OK": {
    "name": "Oklahoma",
-   "leads": 9,
-   "with_email": 9,
+   "leads": 7,
+   "with_email": 7,
    "sources": {
-    "Instagram": 9
+    "Instagram": 7
    }
   },
   "RI": {
@@ -235,15 +235,6 @@
    ]
   },
   {
-   "city": "Little Rock",
-   "state": "AR",
-   "leads": 11,
-   "coords": [
-    -92.2896,
-    34.7465
-   ]
-  },
-  {
    "city": "Cheyenne",
    "state": "WY",
    "leads": 9,
@@ -268,6 +259,15 @@
    "coords": [
     -111.044,
     45.6794
+   ]
+  },
+  {
+   "city": "Little Rock",
+   "state": "AR",
+   "leads": 9,
+   "coords": [
+    -92.2896,
+    34.7465
    ]
   },
   {
@@ -547,15 +547,6 @@
    "coords": [
     -96.7078,
     40.8089
-   ]
-  },
-  {
-   "city": "Tulsa",
-   "state": "OK",
-   "leads": 3,
-   "coords": [
-    -95.9928,
-    36.1563
    ]
   },
   {
@@ -880,6 +871,15 @@
    "coords": [
     -92.4478,
     42.5362
+   ]
+  },
+  {
+   "city": "Tulsa",
+   "state": "OK",
+   "leads": 2,
+   "coords": [
+    -95.9928,
+    36.1563
    ]
   },
   {
@@ -1621,15 +1621,6 @@
    ]
   },
   {
-   "city": "Norman",
-   "state": "OK",
-   "leads": 1,
-   "coords": [
-    -97.4395,
-    35.2226
-   ]
-  },
-  {
    "city": "North Little Rock",
    "state": "AR",
    "leads": 1,
@@ -1658,6 +1649,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T01:20:36Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T01:18:34Z",
    "msg": "Instagram: +5 leads",
@@ -1801,11 +1797,6 @@
   {
    "t": "2026-10-16T14:17:32Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-16T14:17:26Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
