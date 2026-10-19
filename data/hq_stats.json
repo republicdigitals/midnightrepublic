@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T22:56:36+00:00",
+ "generated_at": "2026-10-19T23:13:38+00:00",
  "leads": {
-  "total": 653,
-  "with_email": 635,
+  "total": 658,
+  "with_email": 640,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 265
+   "Instagram": 270
   }
  },
  "states": {
@@ -94,10 +94,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 22,
-   "with_email": 22,
+   "leads": 27,
+   "with_email": 27,
    "sources": {
-    "Instagram": 22
+    "Instagram": 27
    }
   },
   "SD": {
@@ -413,6 +413,15 @@
    ]
   },
   {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 5,
+   "coords": [
+    -79.9399,
+    32.7884
+   ]
+  },
+  {
    "city": "Rapid City",
    "state": "SD",
    "leads": 4,
@@ -620,12 +629,12 @@
    ]
   },
   {
-   "city": "Charleston",
+   "city": "Mount Pleasant",
    "state": "SC",
    "leads": 3,
    "coords": [
-    -79.9399,
-    32.7884
+    -79.8678,
+    32.7928
    ]
   },
   {
@@ -1013,15 +1022,6 @@
    "coords": [
     -81.0352,
     34.0008
-   ]
-  },
-  {
-   "city": "Mount Pleasant",
-   "state": "SC",
-   "leads": 2,
-   "coords": [
-    -79.8678,
-    32.7928
    ]
   },
   {
@@ -1911,9 +1911,32 @@
     -79.9408,
     32.6555
    ]
+  },
+  {
+   "city": "Inman",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -82.0906,
+    35.0478
+   ]
+  },
+  {
+   "city": "Hilton Head Island",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -80.7513,
+    32.1618
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T23:13:25Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T22:56:20Z",
    "msg": "Instagram: +5 leads",
@@ -2056,11 +2079,6 @@
   },
   {
    "t": "2026-10-18T19:00:20Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T17:55:22Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
