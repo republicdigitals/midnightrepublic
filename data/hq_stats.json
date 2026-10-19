@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T19:27:35+00:00",
+ "generated_at": "2026-10-19T19:43:45+00:00",
  "leads": {
-  "total": 635,
-  "with_email": 617,
+  "total": 640,
+  "with_email": 622,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 247
+   "Instagram": 252
   }
  },
  "states": {
@@ -94,10 +94,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 3,
-   "with_email": 3,
+   "leads": 8,
+   "with_email": 8,
    "sources": {
-    "Instagram": 3
+    "Instagram": 8
    }
   },
   "SD": {
@@ -401,6 +401,15 @@
    "coords": [
     -97.5171,
     35.473
+   ]
+  },
+  {
+   "city": "Greenville",
+   "state": "SC",
+   "leads": 5,
+   "coords": [
+    -82.3985,
+    34.8514
    ]
   },
   {
@@ -977,15 +986,6 @@
    "coords": [
     -84.8766,
     35.1595
-   ]
-  },
-  {
-   "city": "Greenville",
-   "state": "SC",
-   "leads": 2,
-   "coords": [
-    -82.3985,
-    34.8514
    ]
   },
   {
@@ -1821,9 +1821,32 @@
     -82.9527,
     34.6865
    ]
+  },
+  {
+   "city": "Spartanburg",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -81.932,
+    34.9498
+   ]
+  },
+  {
+   "city": "West Columbia",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -81.064,
+    33.9919
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T19:43:32Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T19:27:21Z",
    "msg": "Instagram: +5 leads",
@@ -1957,11 +1980,6 @@
   {
    "t": "2026-10-18T14:49:53Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T14:49:53Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   },
   {
