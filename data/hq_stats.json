@@ -1,23 +1,23 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T12:47:58+00:00",
+ "generated_at": "2026-10-19T13:36:56+00:00",
  "leads": {
-  "total": 591,
-  "with_email": 573,
+  "total": 594,
+  "with_email": 576,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 203
+   "Instagram": 206
   }
  },
  "states": {
   "AR": {
    "name": "Arkansas",
-   "leads": 22,
-   "with_email": 22,
+   "leads": 24,
+   "with_email": 24,
    "sources": {
-    "Instagram": 22
+    "Instagram": 24
    }
   },
   "CT": {
@@ -98,6 +98,14 @@
    "with_email": 26,
    "sources": {
     "Web research": 33
+   }
+  },
+  "TN": {
+   "name": "Tennessee",
+   "leads": 1,
+   "with_email": 1,
+   "sources": {
+    "Instagram": 1
    }
   },
   "UT": {
@@ -1664,9 +1672,41 @@
     -91.7362,
     35.2506
    ]
+  },
+  {
+   "city": "Lonoke",
+   "state": "AR",
+   "leads": 1,
+   "coords": [
+    -91.9019,
+    34.7824
+   ]
+  },
+  {
+   "city": "Conway",
+   "state": "AR",
+   "leads": 1,
+   "coords": [
+    -92.4398,
+    35.0892
+   ]
+  },
+  {
+   "city": "Knoxville",
+   "state": "TN",
+   "leads": 1,
+   "coords": [
+    -83.921,
+    35.9604
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T13:36:41Z",
+   "msg": "Instagram: partial batch (stopped on warning)",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T12:47:43Z",
    "msg": "Instagram: +5 leads",
@@ -1810,11 +1850,6 @@
   {
    "t": "2026-10-16T18:00:59+01:00",
    "msg": "Outreach: +32 researched and drafted (WA/ID Instagram batch)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-16T18:00:57+01:00",
-   "msg": "Outreach: status active (Oct 16 batch of 32)",
    "who": "Cassius"
   }
  ],
