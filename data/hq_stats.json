@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T19:43:45+00:00",
+ "generated_at": "2026-10-19T19:55:37+00:00",
  "leads": {
-  "total": 640,
-  "with_email": 622,
+  "total": 645,
+  "with_email": 627,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 252
+   "Instagram": 257
   }
  },
  "states": {
@@ -94,10 +94,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 8,
-   "with_email": 8,
+   "leads": 13,
+   "with_email": 13,
    "sources": {
-    "Instagram": 8
+    "Instagram": 13
    }
   },
   "SD": {
@@ -368,6 +368,15 @@
    ]
   },
   {
+   "city": "Greenville",
+   "state": "SC",
+   "leads": 6,
+   "coords": [
+    -82.3985,
+    34.8514
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -401,15 +410,6 @@
    "coords": [
     -97.5171,
     35.473
-   ]
-  },
-  {
-   "city": "Greenville",
-   "state": "SC",
-   "leads": 5,
-   "coords": [
-    -82.3985,
-    34.8514
    ]
   },
   {
@@ -986,6 +986,24 @@
    "coords": [
     -84.8766,
     35.1595
+   ]
+  },
+  {
+   "city": "Spartanburg",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -81.932,
+    34.9498
+   ]
+  },
+  {
+   "city": "Columbia",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -81.0352,
+    34.0008
    ]
   },
   {
@@ -1823,15 +1841,6 @@
    ]
   },
   {
-   "city": "Spartanburg",
-   "state": "SC",
-   "leads": 1,
-   "coords": [
-    -81.932,
-    34.9498
-   ]
-  },
-  {
    "city": "West Columbia",
    "state": "SC",
    "leads": 1,
@@ -1839,9 +1848,23 @@
     -81.064,
     33.9919
    ]
+  },
+  {
+   "city": "Easley",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -82.5817,
+    34.8269
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T19:55:21Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T19:43:32Z",
    "msg": "Instagram: +5 leads",
@@ -1980,11 +2003,6 @@
   {
    "t": "2026-10-18T14:49:53Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T14:49:53Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   },
   {
