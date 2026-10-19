@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T17:40:50+00:00",
+ "generated_at": "2026-10-19T18:04:33+00:00",
  "leads": {
-  "total": 620,
-  "with_email": 602,
+  "total": 625,
+  "with_email": 607,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 232
+   "Instagram": 237
   }
  },
  "states": {
@@ -102,10 +102,10 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 27,
-   "with_email": 27,
+   "leads": 32,
+   "with_email": 32,
    "sources": {
-    "Instagram": 27
+    "Instagram": 32
    }
   },
   "UT": {
@@ -243,6 +243,15 @@
    ]
   },
   {
+   "city": "Nashville",
+   "state": "TN",
+   "leads": 10,
+   "coords": [
+    -86.7743,
+    36.1623
+   ]
+  },
+  {
    "city": "Cheyenne",
    "state": "WY",
    "leads": 9,
@@ -333,12 +342,12 @@
    ]
   },
   {
-   "city": "Nashville",
+   "city": "Knoxville",
    "state": "TN",
    "leads": 6,
    "coords": [
-    -86.7743,
-    36.1623
+    -83.921,
+    35.9604
    ]
   },
   {
@@ -375,15 +384,6 @@
    "coords": [
     -97.5171,
     35.473
-   ]
-  },
-  {
-   "city": "Knoxville",
-   "state": "TN",
-   "leads": 5,
-   "coords": [
-    -83.921,
-    35.9604
    ]
   },
   {
@@ -1790,6 +1790,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-19T18:04:18Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-19T17:40:35Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -1931,11 +1936,6 @@
   },
   {
    "t": "2026-10-18T14:49:53Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T12:34:36Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
