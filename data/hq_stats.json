@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T18:04:33+00:00",
+ "generated_at": "2026-10-19T18:26:58+00:00",
  "leads": {
-  "total": 625,
-  "with_email": 607,
+  "total": 630,
+  "with_email": 612,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 237
+   "Instagram": 242
   }
  },
  "states": {
@@ -102,10 +102,10 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 32,
-   "with_email": 32,
+   "leads": 37,
+   "with_email": 37,
    "sources": {
-    "Instagram": 32
+    "Instagram": 37
    }
   },
   "UT": {
@@ -315,12 +315,30 @@
    ]
   },
   {
+   "city": "Chattanooga",
+   "state": "TN",
+   "leads": 8,
+   "coords": [
+    -85.3095,
+    35.0457
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
    "coords": [
     -74.0643,
     40.3471
+   ]
+  },
+  {
+   "city": "Knoxville",
+   "state": "TN",
+   "leads": 7,
+   "coords": [
+    -83.921,
+    35.9604
    ]
   },
   {
@@ -339,15 +357,6 @@
    "coords": [
     -122.4383,
     47.2455
-   ]
-  },
-  {
-   "city": "Knoxville",
-   "state": "TN",
-   "leads": 6,
-   "coords": [
-    -83.921,
-    35.9604
    ]
   },
   {
@@ -384,15 +393,6 @@
    "coords": [
     -97.5171,
     35.473
-   ]
-  },
-  {
-   "city": "Chattanooga",
-   "state": "TN",
-   "leads": 5,
-   "coords": [
-    -85.3095,
-    35.0457
    ]
   },
   {
@@ -1786,9 +1786,23 @@
     -86.9394,
     36.0648
    ]
+  },
+  {
+   "city": "Friendsville",
+   "state": "TN",
+   "leads": 1,
+   "coords": [
+    -84.1357,
+    35.7604
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T18:26:45Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T18:04:18Z",
    "msg": "Instagram: +5 leads",
@@ -1912,11 +1926,6 @@
   {
    "t": "2026-10-18T14:49:53Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T14:49:53Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   },
   {
