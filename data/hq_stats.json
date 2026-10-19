@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T20:02:18+00:00",
+ "generated_at": "2026-10-19T22:41:18+00:00",
  "leads": {
-  "total": 643,
-  "with_email": 625,
+  "total": 648,
+  "with_email": 630,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 255
+   "Instagram": 260
   }
  },
  "states": {
@@ -94,10 +94,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 12,
-   "with_email": 12,
+   "leads": 17,
+   "with_email": 17,
    "sources": {
-    "Instagram": 12
+    "Instagram": 17
    }
   },
   "SD": {
@@ -368,6 +368,15 @@
    ]
   },
   {
+   "city": "Greenville",
+   "state": "SC",
+   "leads": 6,
+   "coords": [
+    -82.3985,
+    34.8514
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -401,15 +410,6 @@
    "coords": [
     -97.5171,
     35.473
-   ]
-  },
-  {
-   "city": "Greenville",
-   "state": "SC",
-   "leads": 5,
-   "coords": [
-    -82.3985,
-    34.8514
    ]
   },
   {
@@ -1004,6 +1004,15 @@
    "coords": [
     -81.0352,
     34.0008
+   ]
+  },
+  {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -79.9399,
+    32.7884
    ]
   },
   {
@@ -1857,9 +1866,32 @@
     -82.5817,
     34.8269
    ]
+  },
+  {
+   "city": "Pendleton",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -82.7821,
+    34.6508
+   ]
+  },
+  {
+   "city": "Anderson",
+   "state": "SC",
+   "leads": 1,
+   "coords": [
+    -82.6506,
+    34.5069
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-19T22:41:01Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T20:01:01Z",
    "msg": "Instagram: cleanup",
@@ -2003,11 +2035,6 @@
   {
    "t": "2026-10-18T17:33:40Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T14:49:53Z",
-   "msg": "Instagram: cleanup",
    "who": "Caesar"
   }
  ],
