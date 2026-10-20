@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T15:01:19+00:00",
+ "generated_at": "2026-10-20T15:04:55+00:00",
  "leads": {
-  "total": 699,
-  "with_email": 681,
+  "total": 697,
+  "with_email": 679,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 311
+   "Instagram": 309
   }
  },
  "states": {
@@ -62,10 +62,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 26,
-   "with_email": 26,
+   "leads": 24,
+   "with_email": 24,
    "sources": {
-    "Instagram": 26
+    "Instagram": 24
    }
   },
   "NE": {
@@ -1104,15 +1104,6 @@
    ]
   },
   {
-   "city": "Charlotte",
-   "state": "NC",
-   "leads": 2,
-   "coords": [
-    -80.8431,
-    35.2272
-   ]
-  },
-  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2037,15 +2028,6 @@
    ]
   },
   {
-   "city": "West Asheville",
-   "state": "NC",
-   "leads": 1,
-   "coords": [
-    -82.5838,
-    35.5779
-   ]
-  },
-  {
    "city": "Mills River",
    "state": "NC",
    "leads": 1,
@@ -2091,6 +2073,15 @@
    ]
   },
   {
+   "city": "Charlotte",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -80.8431,
+    35.2272
+   ]
+  },
+  {
    "city": "China Grove",
    "state": "NC",
    "leads": 1,
@@ -2119,6 +2110,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T15:04:42Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T15:01:04Z",
    "msg": "Instagram: +5 leads",
@@ -2262,11 +2258,6 @@
   {
    "t": "2026-10-19T01:20:36Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T01:18:34Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
