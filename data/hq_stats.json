@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T13:06:22+00:00",
+ "generated_at": "2026-10-20T13:25:36+00:00",
  "leads": {
-  "total": 684,
-  "with_email": 666,
+  "total": 689,
+  "with_email": 671,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 296
+   "Instagram": 301
   }
  },
  "states": {
@@ -62,10 +62,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 17,
-   "with_email": 17,
+   "leads": 22,
+   "with_email": 22,
    "sources": {
-    "Instagram": 17
+    "Instagram": 22
    }
   },
   "NE": {
@@ -313,6 +313,15 @@
    ]
   },
   {
+   "city": "Asheville",
+   "state": "NC",
+   "leads": 9,
+   "coords": [
+    -82.5508,
+    35.5954
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
@@ -337,15 +346,6 @@
    "coords": [
     -91.5299,
     41.6613
-   ]
-  },
-  {
-   "city": "Asheville",
-   "state": "NC",
-   "leads": 8,
-   "coords": [
-    -82.5508,
-    35.5954
    ]
   },
   {
@@ -436,6 +436,15 @@
    "coords": [
     -97.5171,
     35.473
+   ]
+  },
+  {
+   "city": "Boone",
+   "state": "NC",
+   "leads": 5,
+   "coords": [
+    -81.684,
+    36.2188
    ]
   },
   {
@@ -652,15 +661,6 @@
    "coords": [
     -79.8678,
     32.7928
-   ]
-  },
-  {
-   "city": "Boone",
-   "state": "NC",
-   "leads": 3,
-   "coords": [
-    -81.684,
-    36.2188
    ]
   },
   {
@@ -2036,9 +2036,32 @@
     -82.1811,
     35.6293
    ]
+  },
+  {
+   "city": "Arden",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -82.5164,
+    35.4662
+   ]
+  },
+  {
+   "city": "Shelby",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -81.5356,
+    35.2924
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T13:25:20Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T13:06:08Z",
    "msg": "Instagram: +5 leads",
@@ -2181,11 +2204,6 @@
   },
   {
    "t": "2026-10-19T00:54:40Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T00:42:28Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
