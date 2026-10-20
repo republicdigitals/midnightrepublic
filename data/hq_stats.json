@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T12:36:40+00:00",
+ "generated_at": "2026-10-20T12:54:38+00:00",
  "leads": {
-  "total": 674,
-  "with_email": 656,
+  "total": 679,
+  "with_email": 661,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 286
+   "Instagram": 291
   }
  },
  "states": {
@@ -62,10 +62,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 7,
-   "with_email": 7,
+   "leads": 12,
+   "with_email": 12,
    "sources": {
-    "Instagram": 7
+    "Instagram": 12
    }
   },
   "NE": {
@@ -394,6 +394,15 @@
    ]
   },
   {
+   "city": "Asheville",
+   "state": "NC",
+   "leads": 6,
+   "coords": [
+    -82.5508,
+    35.5954
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -643,15 +652,6 @@
    "coords": [
     -79.8678,
     32.7928
-   ]
-  },
-  {
-   "city": "Asheville",
-   "state": "NC",
-   "leads": 3,
-   "coords": [
-    -82.5508,
-    35.5954
    ]
   },
   {
@@ -1075,6 +1075,15 @@
    "coords": [
     -78.89,
     33.6956
+   ]
+  },
+  {
+   "city": "Boone",
+   "state": "NC",
+   "leads": 2,
+   "coords": [
+    -81.684,
+    36.2188
    ]
   },
   {
@@ -1975,15 +1984,6 @@
    ]
   },
   {
-   "city": "Boone",
-   "state": "NC",
-   "leads": 1,
-   "coords": [
-    -81.684,
-    36.2188
-   ]
-  },
-  {
    "city": "Hendersonville",
    "state": "NC",
    "leads": 1,
@@ -2009,9 +2009,23 @@
     -82.5604,
     35.6967
    ]
+  },
+  {
+   "city": "West Asheville",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -82.5838,
+    35.5779
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T12:54:25Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T12:36:24Z",
    "msg": "Instagram: +5 leads",
@@ -2154,11 +2168,6 @@
   },
   {
    "t": "2026-10-18T23:43:22Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T23:27:34Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
