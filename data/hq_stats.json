@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T14:49:20+00:00",
+ "generated_at": "2026-10-20T15:01:19+00:00",
  "leads": {
-  "total": 694,
-  "with_email": 676,
+  "total": 699,
+  "with_email": 681,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 306
+   "Instagram": 311
   }
  },
  "states": {
@@ -86,10 +86,10 @@
   },
   "NM": {
    "name": "New Mexico",
-   "leads": 1,
-   "with_email": 1,
+   "leads": 6,
+   "with_email": 6,
    "sources": {
-    "Instagram": 1
+    "Instagram": 6
    }
   },
   "OK": {
@@ -543,6 +543,15 @@
    "coords": [
     -122.4788,
     48.7544
+   ]
+  },
+  {
+   "city": "Albuquerque",
+   "state": "NM",
+   "leads": 4,
+   "coords": [
+    -106.651,
+    35.0841
    ]
   },
   {
@@ -2091,16 +2100,30 @@
    ]
   },
   {
-   "city": "Albuquerque",
+   "city": "Rio Rancho",
    "state": "NM",
    "leads": 1,
    "coords": [
-    -106.651,
-    35.0841
+    -106.6847,
+    35.3108
+   ]
+  },
+  {
+   "city": "Bernalillo",
+   "state": "NM",
+   "leads": 1,
+   "coords": [
+    -106.5514,
+    35.3009
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T15:01:04Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T14:48:56Z",
    "msg": "Instagram: +5 leads",
@@ -2243,11 +2266,6 @@
   },
   {
    "t": "2026-10-19T01:18:34Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T01:08:12Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
