@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T17:44:03+00:00",
+ "generated_at": "2026-10-20T18:20:10+00:00",
  "leads": {
-  "total": 702,
-  "with_email": 684,
+  "total": 707,
+  "with_email": 689,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 314
+   "Instagram": 319
   }
  },
  "states": {
@@ -86,10 +86,10 @@
   },
   "NM": {
    "name": "New Mexico",
-   "leads": 11,
-   "with_email": 11,
+   "leads": 16,
+   "with_email": 16,
    "sources": {
-    "Instagram": 11
+    "Instagram": 16
    }
   },
   "OK": {
@@ -411,6 +411,15 @@
    ]
   },
   {
+   "city": "Albuquerque",
+   "state": "NM",
+   "leads": 6,
+   "coords": [
+    -106.651,
+    35.0841
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -456,12 +465,12 @@
    ]
   },
   {
-   "city": "Albuquerque",
+   "city": "Santa Fe",
    "state": "NM",
    "leads": 5,
    "coords": [
-    -106.651,
-    35.0841
+    -105.9385,
+    35.6876
    ]
   },
   {
@@ -678,15 +687,6 @@
    "coords": [
     -79.8678,
     32.7928
-   ]
-  },
-  {
-   "city": "Santa Fe",
-   "state": "NM",
-   "leads": 3,
-   "coords": [
-    -105.9385,
-    35.6876
    ]
   },
   {
@@ -1110,6 +1110,15 @@
    "coords": [
     -78.89,
     33.6956
+   ]
+  },
+  {
+   "city": "Rio Rancho",
+   "state": "NM",
+   "leads": 2,
+   "coords": [
+    -106.6847,
+    35.3108
    ]
   },
   {
@@ -2100,15 +2109,6 @@
    ]
   },
   {
-   "city": "Rio Rancho",
-   "state": "NM",
-   "leads": 1,
-   "coords": [
-    -106.6847,
-    35.3108
-   ]
-  },
-  {
    "city": "Bernalillo",
    "state": "NM",
    "leads": 1,
@@ -2125,9 +2125,23 @@
     -105.57,
     36.516
    ]
+  },
+  {
+   "city": "Taos Pueblo",
+   "state": "NM",
+   "leads": 1,
+   "coords": [
+    -105.5446,
+    36.4387
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T18:19:57Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T17:43:39Z",
    "msg": "Instagram: +5 leads",
@@ -2271,11 +2285,6 @@
   {
    "t": "2026-10-19T13:36:41Z",
    "msg": "Instagram: partial batch (stopped on warning)",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T12:47:43Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
