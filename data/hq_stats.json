@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T12:54:38+00:00",
+ "generated_at": "2026-10-20T13:06:22+00:00",
  "leads": {
-  "total": 679,
-  "with_email": 661,
+  "total": 684,
+  "with_email": 666,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 291
+   "Instagram": 296
   }
  },
  "states": {
@@ -62,10 +62,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 12,
-   "with_email": 12,
+   "leads": 17,
+   "with_email": 17,
    "sources": {
-    "Instagram": 12
+    "Instagram": 17
    }
   },
   "NE": {
@@ -340,6 +340,15 @@
    ]
   },
   {
+   "city": "Asheville",
+   "state": "NC",
+   "leads": 8,
+   "coords": [
+    -82.5508,
+    35.5954
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -391,15 +400,6 @@
    "coords": [
     -82.3985,
     34.8514
-   ]
-  },
-  {
-   "city": "Asheville",
-   "state": "NC",
-   "leads": 6,
-   "coords": [
-    -82.5508,
-    35.5954
    ]
   },
   {
@@ -652,6 +652,15 @@
    "coords": [
     -79.8678,
     32.7928
+   ]
+  },
+  {
+   "city": "Boone",
+   "state": "NC",
+   "leads": 3,
+   "coords": [
+    -81.684,
+    36.2188
    ]
   },
   {
@@ -1075,15 +1084,6 @@
    "coords": [
     -78.89,
     33.6956
-   ]
-  },
-  {
-   "city": "Boone",
-   "state": "NC",
-   "leads": 2,
-   "coords": [
-    -81.684,
-    36.2188
    ]
   },
   {
@@ -2018,9 +2018,32 @@
     -82.5838,
     35.5779
    ]
+  },
+  {
+   "city": "Mills River",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -82.5668,
+    35.3884
+   ]
+  },
+  {
+   "city": "Old Fort",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -82.1811,
+    35.6293
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T13:06:08Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T12:54:25Z",
    "msg": "Instagram: +5 leads",
@@ -2163,11 +2186,6 @@
   },
   {
    "t": "2026-10-19T00:42:28Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T23:43:22Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
