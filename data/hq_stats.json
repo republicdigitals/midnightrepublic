@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-19T23:50:15+00:00",
+ "generated_at": "2026-10-20T00:36:42+00:00",
  "leads": {
-  "total": 668,
-  "with_email": 650,
+  "total": 673,
+  "with_email": 655,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 280
+   "Instagram": 285
   }
  },
  "states": {
@@ -60,6 +60,14 @@
     "Web research": 30
    }
   },
+  "NC": {
+   "name": "North Carolina",
+   "leads": 4,
+   "with_email": 4,
+   "sources": {
+    "Instagram": 4
+   }
+  },
   "NE": {
    "name": "Nebraska",
    "leads": 18,
@@ -94,10 +102,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 37,
-   "with_email": 37,
+   "leads": 38,
+   "with_email": 38,
    "sources": {
-    "Instagram": 37
+    "Instagram": 38
    }
   },
   "SD": {
@@ -638,6 +646,15 @@
    ]
   },
   {
+   "city": "Asheville",
+   "state": "NC",
+   "leads": 3,
+   "coords": [
+    -82.5508,
+    35.5954
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -1040,6 +1057,15 @@
    "coords": [
     -79.9408,
     32.6555
+   ]
+  },
+  {
+   "city": "Hilton Head Island",
+   "state": "SC",
+   "leads": 2,
+   "coords": [
+    -80.7513,
+    32.1618
    ]
   },
   {
@@ -1931,15 +1957,6 @@
    ]
   },
   {
-   "city": "Hilton Head Island",
-   "state": "SC",
-   "leads": 1,
-   "coords": [
-    -80.7513,
-    32.1618
-   ]
-  },
-  {
    "city": "Summerville",
    "state": "SC",
    "leads": 1,
@@ -1965,9 +1982,23 @@
     -78.68,
     33.8278
    ]
+  },
+  {
+   "city": "Boone",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -81.684,
+    36.2188
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T00:36:29Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-19T23:49:57Z",
    "msg": "Instagram: +5 leads",
@@ -2110,11 +2141,6 @@
   },
   {
    "t": "2026-10-18T20:09:10Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T19:26:12Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
