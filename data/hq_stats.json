@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T00:47:20+00:00",
+ "generated_at": "2026-10-20T12:36:40+00:00",
  "leads": {
-  "total": 669,
-  "with_email": 651,
+  "total": 674,
+  "with_email": 656,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 281
+   "Instagram": 286
   }
  },
  "states": {
@@ -62,10 +62,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 2,
-   "with_email": 2,
+   "leads": 7,
+   "with_email": 7,
    "sources": {
-    "Instagram": 2
+    "Instagram": 7
    }
   },
   "NE": {
@@ -643,6 +643,15 @@
    "coords": [
     -79.8678,
     32.7928
+   ]
+  },
+  {
+   "city": "Asheville",
+   "state": "NC",
+   "leads": 3,
+   "coords": [
+    -82.5508,
+    35.5954
    ]
   },
   {
@@ -1975,16 +1984,39 @@
    ]
   },
   {
-   "city": "Asheville",
+   "city": "Hendersonville",
    "state": "NC",
    "leads": 1,
    "coords": [
-    -82.5508,
-    35.5954
+    -82.461,
+    35.3187
+   ]
+  },
+  {
+   "city": "Blowing Rock",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -81.6778,
+    36.135
+   ]
+  },
+  {
+   "city": "Weaverville",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -82.5604,
+    35.6967
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T12:36:24Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T00:47:09Z",
    "msg": "Instagram: cleanup",
@@ -2128,11 +2160,6 @@
   {
    "t": "2026-10-18T23:27:34Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T20:12:04Z",
-   "msg": "Instagram: cleanup",
    "who": "Caesar"
   }
  ],
