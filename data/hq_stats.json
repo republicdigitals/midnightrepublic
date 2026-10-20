@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T00:36:42+00:00",
+ "generated_at": "2026-10-20T00:47:20+00:00",
  "leads": {
-  "total": 673,
-  "with_email": 655,
+  "total": 669,
+  "with_email": 651,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 285
+   "Instagram": 281
   }
  },
  "states": {
@@ -62,10 +62,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 4,
-   "with_email": 4,
+   "leads": 2,
+   "with_email": 2,
    "sources": {
-    "Instagram": 4
+    "Instagram": 2
    }
   },
   "NE": {
@@ -102,10 +102,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 38,
-   "with_email": 38,
+   "leads": 36,
+   "with_email": 36,
    "sources": {
-    "Instagram": 38
+    "Instagram": 36
    }
   },
   "SD": {
@@ -340,15 +340,6 @@
    ]
   },
   {
-   "city": "Charleston",
-   "state": "SC",
-   "leads": 8,
-   "coords": [
-    -79.9399,
-    32.7884
-   ]
-  },
-  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -364,6 +355,15 @@
    "coords": [
     -83.921,
     35.9604
+   ]
+  },
+  {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 7,
+   "coords": [
+    -79.9399,
+    32.7884
    ]
   },
   {
@@ -643,15 +643,6 @@
    "coords": [
     -79.8678,
     32.7928
-   ]
-  },
-  {
-   "city": "Asheville",
-   "state": "NC",
-   "leads": 3,
-   "coords": [
-    -82.5508,
-    35.5954
    ]
   },
   {
@@ -1930,15 +1921,6 @@
    ]
   },
   {
-   "city": "Anderson",
-   "state": "SC",
-   "leads": 1,
-   "coords": [
-    -82.6506,
-    34.5069
-   ]
-  },
-  {
    "city": "Hanahan",
    "state": "SC",
    "leads": 1,
@@ -1991,9 +1973,23 @@
     -81.684,
     36.2188
    ]
+  },
+  {
+   "city": "Asheville",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -82.5508,
+    35.5954
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T00:47:09Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T00:36:29Z",
    "msg": "Instagram: +5 leads",
@@ -2137,11 +2133,6 @@
   {
    "t": "2026-10-18T20:12:04Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-18T20:09:10Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
