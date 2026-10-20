@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T18:20:10+00:00",
+ "generated_at": "2026-10-20T18:47:35+00:00",
  "leads": {
-  "total": 707,
-  "with_email": 689,
+  "total": 712,
+  "with_email": 694,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 319
+   "Instagram": 324
   }
  },
  "states": {
@@ -90,6 +90,14 @@
    "with_email": 16,
    "sources": {
     "Instagram": 16
+   }
+  },
+  "NV": {
+   "name": "Nevada",
+   "leads": 5,
+   "with_email": 5,
+   "sources": {
+    "Instagram": 5
    }
   },
   "OK": {
@@ -471,6 +479,15 @@
    "coords": [
     -105.9385,
     35.6876
+   ]
+  },
+  {
+   "city": "Reno",
+   "state": "NV",
+   "leads": 5,
+   "coords": [
+    -119.8127,
+    39.5262
    ]
   },
   {
@@ -2138,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-20T18:47:22Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-20T18:19:57Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -2280,11 +2302,6 @@
   {
    "t": "2026-10-19T15:13:18Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T13:36:41Z",
-   "msg": "Instagram: partial batch (stopped on warning)",
    "who": "Caesar"
   }
  ],
