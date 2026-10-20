@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T15:04:55+00:00",
+ "generated_at": "2026-10-20T17:44:03+00:00",
  "leads": {
-  "total": 697,
-  "with_email": 679,
+  "total": 702,
+  "with_email": 684,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 309
+   "Instagram": 314
   }
  },
  "states": {
@@ -86,10 +86,10 @@
   },
   "NM": {
    "name": "New Mexico",
-   "leads": 6,
-   "with_email": 6,
+   "leads": 11,
+   "with_email": 11,
    "sources": {
-    "Instagram": 6
+    "Instagram": 11
    }
   },
   "OK": {
@@ -456,6 +456,15 @@
    ]
   },
   {
+   "city": "Albuquerque",
+   "state": "NM",
+   "leads": 5,
+   "coords": [
+    -106.651,
+    35.0841
+   ]
+  },
+  {
    "city": "Rapid City",
    "state": "SD",
    "leads": 4,
@@ -543,15 +552,6 @@
    "coords": [
     -122.4788,
     48.7544
-   ]
-  },
-  {
-   "city": "Albuquerque",
-   "state": "NM",
-   "leads": 4,
-   "coords": [
-    -106.651,
-    35.0841
    ]
   },
   {
@@ -678,6 +678,15 @@
    "coords": [
     -79.8678,
     32.7928
+   ]
+  },
+  {
+   "city": "Santa Fe",
+   "state": "NM",
+   "leads": 3,
+   "coords": [
+    -105.9385,
+    35.6876
    ]
   },
   {
@@ -2107,9 +2116,23 @@
     -106.5514,
     35.3009
    ]
+  },
+  {
+   "city": "Arroyo Seco",
+   "state": "NM",
+   "leads": 1,
+   "coords": [
+    -105.57,
+    36.516
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T17:43:39Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T15:04:42Z",
    "msg": "Instagram: cleanup",
@@ -2253,11 +2276,6 @@
   {
    "t": "2026-10-19T12:47:43Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T01:20:36Z",
-   "msg": "Instagram: cleanup",
    "who": "Caesar"
   }
  ],
