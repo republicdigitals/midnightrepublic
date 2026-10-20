@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T13:25:36+00:00",
+ "generated_at": "2026-10-20T14:49:20+00:00",
  "leads": {
-  "total": 689,
-  "with_email": 671,
+  "total": 694,
+  "with_email": 676,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 301
+   "Instagram": 306
   }
  },
  "states": {
@@ -62,10 +62,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 22,
-   "with_email": 22,
+   "leads": 26,
+   "with_email": 26,
    "sources": {
-    "Instagram": 22
+    "Instagram": 26
    }
   },
   "NE": {
@@ -82,6 +82,14 @@
    "with_email": 54,
    "sources": {
     "Facebook": 54
+   }
+  },
+  "NM": {
+   "name": "New Mexico",
+   "leads": 1,
+   "with_email": 1,
+   "sources": {
+    "Instagram": 1
    }
   },
   "OK": {
@@ -1087,6 +1095,15 @@
    ]
   },
   {
+   "city": "Charlotte",
+   "state": "NC",
+   "leads": 2,
+   "coords": [
+    -80.8431,
+    35.2272
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2054,9 +2071,41 @@
     -81.5356,
     35.2924
    ]
+  },
+  {
+   "city": "Monroe",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -80.5495,
+    34.9854
+   ]
+  },
+  {
+   "city": "China Grove",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -80.5817,
+    35.5693
+   ]
+  },
+  {
+   "city": "Albuquerque",
+   "state": "NM",
+   "leads": 1,
+   "coords": [
+    -106.651,
+    35.0841
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-20T14:48:56Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-20T13:25:20Z",
    "msg": "Instagram: +5 leads",
@@ -2199,11 +2248,6 @@
   },
   {
    "t": "2026-10-19T01:08:12Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T00:54:40Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
