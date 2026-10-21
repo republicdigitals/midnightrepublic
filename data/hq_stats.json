@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T20:37:03+00:00",
+ "generated_at": "2026-10-21T20:50:00+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-21T21:49:50+01:00",
+   "msg": "Warm leads: +Bijal Patel (Kumin Kulture), +Corri Bristow-Sundell (The Root Cafe), media kits sent Oct 21",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-21T21:36:52+01:00",
    "msg": "Replies: Kumin Kulture and The Root Cafe replied Oct 21 (account 2 batch)",
    "who": "Cassius"
@@ -2298,11 +2303,6 @@
    "t": "2026-10-19T19:27:21Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T18:26:45Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -2418,6 +2418,16 @@
    "name": "Ron",
    "venue": "Malted Barley Events",
    "state": "Media kit sent, decision pending"
+  },
+  {
+   "name": "Bijal Patel",
+   "venue": "Kumin Kulture",
+   "state": "Media kit sent"
+  },
+  {
+   "name": "Corri Bristow-Sundell",
+   "venue": "The Root Cafe",
+   "state": "Media kit sent"
   }
  ],
  "outreach": {
