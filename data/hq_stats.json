@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T19:17:07+00:00",
+ "generated_at": "2026-10-21T19:09:33+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-21T20:09:20+01:00",
+   "msg": "Outreach: run started Oct 21 (59 planned)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-20T19:16:55Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -2297,11 +2302,6 @@
   {
    "t": "2026-10-19T15:13:18Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T15:13:18Z",
-   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
@@ -2359,8 +2359,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-10-16",
-  "note": "Paused Oct 16: WA/ID batch complete, 32 sent, 30 delivered, 1 bounced, 1 in retry queue."
+  "status": "active",
+  "since": "2026-10-21",
+  "note": "Oct 21 run in progress: 59 sends planned across both accounts."
  }
 }
