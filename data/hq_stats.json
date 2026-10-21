@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T20:31:05+00:00",
+ "generated_at": "2026-10-21T20:31:21+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-21T21:31:00+01:00",
+   "msg": "Outreach paused: Oct 21 run complete (59 sent)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-21T21:30:53+01:00",
    "msg": "Outreach: +29 sent (Oct 21, account 1), 28 delivered, 1 bounced; Palooza delivered; Manoli's reply logged",
    "who": "Cassius"
@@ -2298,11 +2303,6 @@
    "t": "2026-10-19T18:04:18Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T17:40:35Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -2421,8 +2421,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-21",
-  "note": "Oct 21 run in progress: 59 sends planned across both accounts."
+  "note": "Paused Oct 21: run complete, 59 sent (30 account 2, 29 account 1), 58 delivered, 1 bounced."
  }
 }
