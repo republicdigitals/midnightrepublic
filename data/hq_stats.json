@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T19:09:33+00:00",
+ "generated_at": "2026-10-21T19:09:47+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-21T20:09:24+01:00",
+   "msg": "Outreach Oct 21: +227 researched, +60 drafted logged",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-21T20:09:20+01:00",
    "msg": "Outreach: run started Oct 21 (59 planned)",
    "who": "Cassius"
@@ -2297,17 +2302,12 @@
   {
    "t": "2026-10-19T15:13:18Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T15:13:18Z",
-   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 84,
-  "drafted": 84,
+  "researched": 311,
+  "drafted": 144,
   "sent": 84,
   "delivered": 78,
   "bounced": 5,
@@ -2324,9 +2324,19 @@
    }
   },
   "by_state": {
+   "AR": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
    "CT": {
     "sent": 3,
     "delivered": 3,
+    "bounced": 0
+   },
+   "IA": {
+    "sent": 0,
+    "delivered": 0,
     "bounced": 0
    },
    "ID": {
@@ -2338,6 +2348,41 @@
     "sent": 25,
     "delivered": 21,
     "bounced": 4
+   },
+   "NC": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
+   "NE": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
+   "NM": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
+   "NV": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
+   "OK": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
+   "SC": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
+   "TN": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
    },
    "WA": {
     "sent": 24,
