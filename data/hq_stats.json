@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T19:36:49+00:00",
+ "generated_at": "2026-10-21T20:31:05+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-21T21:30:53+01:00",
+   "msg": "Outreach: +29 sent (Oct 21, account 1), 28 delivered, 1 bounced; Palooza delivered; Manoli's reply logged",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-21T20:36:36+01:00",
    "msg": "Fix: Antika Grill city is Montclair NJ (lead file), not Bloomfield",
    "who": "Cassius"
@@ -2298,22 +2303,18 @@
    "t": "2026-10-19T17:40:35Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T15:13:30Z",
-   "msg": "Instagram: cleanup",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 313,
-  "drafted": 146,
-  "sent": 116,
-  "delivered": 108,
-  "bounced": 7,
-  "replies": 0,
+  "researched": 314,
+  "drafted": 147,
+  "sent": 146,
+  "delivered": 138,
+  "bounced": 8,
+  "replies": 1,
   "sent_today": {
-   "liam@jackdinningroom.com": 30
+   "liam@jackdinningroom.com": 30,
+   "liam@yeschefgroup.co": 29
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2325,13 +2326,14 @@
     "liam@jackdinningroom.com": 16
    },
    "2026-10-21": {
-    "liam@jackdinningroom.com": 30
+    "liam@jackdinningroom.com": 30,
+    "liam@yeschefgroup.co": 29
    }
   },
   "by_state": {
    "AR": {
-    "sent": 2,
-    "delivered": 2,
+    "sent": 3,
+    "delivered": 3,
     "bounced": 0
    },
    "CT": {
@@ -2340,13 +2342,13 @@
     "bounced": 0
    },
    "IA": {
-    "sent": 3,
-    "delivered": 3,
+    "sent": 5,
+    "delivered": 5,
     "bounced": 0
    },
    "ID": {
     "sent": 32,
-    "delivered": 31,
+    "delivered": 32,
     "bounced": 0
    },
    "MA": {
@@ -2355,13 +2357,13 @@
     "bounced": 4
    },
    "NC": {
-    "sent": 2,
-    "delivered": 2,
+    "sent": 5,
+    "delivered": 5,
     "bounced": 0
    },
    "NE": {
-    "sent": 1,
-    "delivered": 1,
+    "sent": 4,
+    "delivered": 4,
     "bounced": 0
    },
    "NJ": {
@@ -2370,13 +2372,13 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 3,
-    "delivered": 3,
+    "sent": 4,
+    "delivered": 4,
     "bounced": 0
    },
    "NV": {
-    "sent": 1,
-    "delivered": 1,
+    "sent": 2,
+    "delivered": 2,
     "bounced": 0
    },
    "OK": {
@@ -2385,18 +2387,23 @@
     "bounced": 0
    },
    "SC": {
-    "sent": 4,
-    "delivered": 4,
+    "sent": 11,
+    "delivered": 11,
     "bounced": 0
    },
    "TN": {
-    "sent": 6,
-    "delivered": 6,
+    "sent": 12,
+    "delivered": 11,
+    "bounced": 1
+   },
+   "UT": {
+    "sent": 1,
+    "delivered": 1,
     "bounced": 0
    },
    "WA": {
-    "sent": 30,
-    "delivered": 29,
+    "sent": 35,
+    "delivered": 34,
     "bounced": 1
    }
   }
