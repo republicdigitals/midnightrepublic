@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T20:50:00+00:00",
+ "generated_at": "2026-10-21T21:03:56+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-21T22:03:46+01:00",
+   "msg": "Warm leads: Kyle second bump sent; +Manoli Katsanevas (Manoli\u2019s), kit sent Oct 21",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-21T21:49:50+01:00",
    "msg": "Warm leads: +Bijal Patel (Kumin Kulture), +Corri Bristow-Sundell (The Root Cafe), media kits sent Oct 21",
    "who": "Cassius"
@@ -2298,11 +2303,6 @@
    "t": "2026-10-19T19:43:32Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T19:27:21Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -2412,7 +2412,7 @@
   {
    "name": "Kyle L",
    "venue": "The Local",
-   "state": "Media kit sent, follow-up sent, decision pending"
+   "state": "Media kit sent, second bump sent, decision pending"
   },
   {
    "name": "Ron",
@@ -2428,6 +2428,11 @@
    "name": "Corri Bristow-Sundell",
    "venue": "The Root Cafe",
    "state": "Media kit sent"
+  },
+  {
+   "name": "Manoli Katsanevas",
+   "venue": "Manoli\u2019s",
+   "state": "Media kit sent, decision pending"
   }
  ],
  "outreach": {
