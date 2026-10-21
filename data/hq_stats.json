@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T20:31:21+00:00",
+ "generated_at": "2026-10-21T20:37:03+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-21T21:36:52+01:00",
+   "msg": "Replies: Kumin Kulture and The Root Cafe replied Oct 21 (account 2 batch)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-21T21:31:00+01:00",
    "msg": "Outreach paused: Oct 21 run complete (59 sent)",
    "who": "Cassius"
@@ -2298,11 +2303,6 @@
    "t": "2026-10-19T18:26:45Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T18:04:18Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -2311,7 +2311,7 @@
   "sent": 146,
   "delivered": 138,
   "bounced": 8,
-  "replies": 1,
+  "replies": 3,
   "sent_today": {
    "liam@jackdinningroom.com": 30,
    "liam@yeschefgroup.co": 29
