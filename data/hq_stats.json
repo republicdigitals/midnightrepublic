@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-22T20:00:05+00:00",
+ "generated_at": "2026-10-22T20:00:18+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-22T20:59:56+01:00",
+   "msg": "Warm leads: Ron follow-up + Bijal correction sent Oct 22",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-22T20:59:53+01:00",
    "msg": "Warm leads: Ron follow-up + Bijal correction sent, both delivered",
    "who": "Cassius"
@@ -2297,11 +2302,6 @@
   {
    "t": "2026-10-20T12:36:24Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-20T00:47:09Z",
-   "msg": "Instagram: cleanup",
    "who": "Caesar"
   }
  ],
