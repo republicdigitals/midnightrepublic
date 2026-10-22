@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-22T14:44:52+00:00",
+ "generated_at": "2026-10-22T14:45:06+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-22T15:44:44+01:00",
+   "msg": "Outreach active: Oct 22 salvage run",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-22T15:44:41+01:00",
    "msg": "Outreach: 11 salvage sends drafted (corrected addresses)",
    "who": "Cassius"
@@ -2298,11 +2303,6 @@
    "t": "2026-10-19T20:01:01Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T19:55:21Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -2433,8 +2433,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-10-21",
-  "note": "Paused Oct 21: run complete, 59 sent (30 account 2, 29 account 1), 58 delivered, 1 bounced."
+  "status": "active",
+  "since": "2026-10-22",
+  "note": "Oct 22 salvage run in progress"
  }
 }
