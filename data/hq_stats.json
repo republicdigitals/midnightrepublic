@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T21:03:56+00:00",
+ "generated_at": "2026-10-22T14:44:52+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-22T15:44:41+01:00",
+   "msg": "Outreach: 11 salvage sends drafted (corrected addresses)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-21T22:03:46+01:00",
    "msg": "Warm leads: Kyle second bump sent; +Manoli Katsanevas (Manoli\u2019s), kit sent Oct 21",
    "who": "Cassius"
@@ -2298,24 +2303,16 @@
    "t": "2026-10-19T19:55:21Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T19:43:32Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
-  "researched": 314,
-  "drafted": 147,
+  "researched": 325,
+  "drafted": 158,
   "sent": 146,
   "delivered": 138,
   "bounced": 8,
   "replies": 3,
-  "sent_today": {
-   "liam@jackdinningroom.com": 30,
-   "liam@yeschefgroup.co": 29
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
