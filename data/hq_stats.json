@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-22T15:35:27+00:00",
+ "generated_at": "2026-10-22T18:48:47+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-22T19:48:34+01:00",
+   "msg": "Outreach: 49 fill sends drafted (Instagram leads, both accounts)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-22T16:35:17+01:00",
    "msg": "Outreach: +6 sent, 6 delivered (salvage, account 1)",
    "who": "Cassius"
@@ -2298,16 +2303,11 @@
    "t": "2026-10-19T22:56:20Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-19T22:41:01Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
-  "researched": 325,
-  "drafted": 158,
+  "researched": 367,
+  "drafted": 207,
   "sent": 152,
   "delivered": 144,
   "bounced": 8,
