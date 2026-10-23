@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T13:52:59+00:00",
+ "generated_at": "2026-10-23T14:08:51+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T15:08:40+01:00",
+   "msg": "Outreach: +3 sent (A1: Plaza Garcia, Stink, Joule)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T14:52:48+01:00",
    "msg": "Outreach: +3 sent (A1: Bombay Chaat, Centro, Dovetail Joint)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-22T15:44:41+01:00",
    "msg": "Outreach: 11 salvage sends drafted (corrected addresses)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-21T22:03:46+01:00",
-   "msg": "Warm leads: Kyle second bump sent; +Manoli Katsanevas (Manoli\u2019s), kit sent Oct 21",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 214,
-  "delivered": 203,
+  "sent": 217,
+  "delivered": 206,
   "bounced": 11,
   "replies": 3,
   "sent_today": {
-   "liam@yeschefgroup.co": 6
+   "liam@yeschefgroup.co": 9
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2333,7 +2333,7 @@
     "liam@jackdinningroom.com": 32
    },
    "2026-10-23": {
-    "liam@yeschefgroup.co": 6
+    "liam@yeschefgroup.co": 9
    }
   },
   "by_state": {
@@ -2413,8 +2413,8 @@
     "bounced": 0
    },
    "WA": {
-    "sent": 64,
-    "delivered": 62,
+    "sent": 67,
+    "delivered": 65,
     "bounced": 2
    }
   }
