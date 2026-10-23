@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T19:56:13+00:00",
+ "generated_at": "2026-10-23T20:17:17+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T21:17:05+01:00",
+   "msg": "Outreach: +3 sent (A2 complete: Calle, Hammontree's delivered; Deluca's bounced; Heights Taco delivered; Everett's replied)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T20:56:02+01:00",
    "msg": "Outreach: +3 sent (A2: Rice Box, Cheers delivered; Heights Taco in queue)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-23T04:24:18+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 1)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T04:11:02+01:00",
-   "msg": "Outreach: +3 sent, 2 delivered, 1 bounced (account 1)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 265,
-  "delivered": 251,
-  "bounced": 13,
-  "replies": 3,
+  "sent": 268,
+  "delivered": 254,
+  "bounced": 14,
+  "replies": 4,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 27
+   "liam@jackdinningroom.com": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2335,14 +2335,14 @@
    },
    "2026-10-23": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 27
+    "liam@jackdinningroom.com": 30
    }
   },
   "by_state": {
    "AR": {
-    "sent": 12,
-    "delivered": 10,
-    "bounced": 1
+    "sent": 15,
+    "delivered": 13,
+    "bounced": 2
    },
    "CT": {
     "sent": 3,
