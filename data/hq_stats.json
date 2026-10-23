@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T04:20:07+00:00",
+ "generated_at": "2026-10-23T04:35:05+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T05:34:55+01:00",
+   "msg": "Outreach: +3 sent, 2 delivered (account 1)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T05:19:56+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 1)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-21T20:36:24+01:00",
    "msg": "Outreach Oct 21: +30 sent, +30 delivered (account 2); Antika Grill and Greek Taverna bounced Oct 17 (retry queue resolved)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-21T20:09:24+01:00",
-   "msg": "Outreach Oct 21: +227 researched, +60 drafted logged",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 209,
-  "sent": 202,
-  "delivered": 191,
+  "sent": 205,
+  "delivered": 193,
   "bounced": 11,
   "replies": 3,
   "sent_today": {
-   "liam@yeschefgroup.co": 24,
+   "liam@yeschefgroup.co": 27,
    "liam@jackdinningroom.com": 32
   },
   "sent_by_day": {
@@ -2330,7 +2330,7 @@
     "liam@yeschefgroup.co": 29
    },
    "2026-10-22": {
-    "liam@yeschefgroup.co": 24,
+    "liam@yeschefgroup.co": 27,
     "liam@jackdinningroom.com": 32
    }
   },
@@ -2351,8 +2351,8 @@
     "bounced": 0
    },
    "ID": {
-    "sent": 57,
-    "delivered": 55,
+    "sent": 60,
+    "delivered": 57,
     "bounced": 2
    },
    "MA": {
