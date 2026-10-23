@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T16:18:27+00:00",
+ "generated_at": "2026-10-23T16:36:28+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T17:36:17+01:00",
+   "msg": "Outreach: +3 sent (A1 complete: DC's, Mariscos El Capitan, Cumbia)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T17:18:16+01:00",
    "msg": "Outreach: +3 sent (A1: Maggies Farm, Whatcha Smokin, Giddy Up)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-22T20:46:18+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 2)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-22T20:30:02+01:00",
-   "msg": "Outreach: +3 sent, 3 delivered (account 2)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 235,
-  "delivered": 224,
+  "sent": 238,
+  "delivered": 227,
   "bounced": 11,
   "replies": 3,
   "sent_today": {
-   "liam@yeschefgroup.co": 27
+   "liam@yeschefgroup.co": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2333,7 +2333,7 @@
     "liam@jackdinningroom.com": 32
    },
    "2026-10-23": {
-    "liam@yeschefgroup.co": 27
+    "liam@yeschefgroup.co": 30
    }
   },
   "by_state": {
@@ -2348,8 +2348,8 @@
     "bounced": 0
    },
    "IA": {
-    "sent": 20,
-    "delivered": 20,
+    "sent": 22,
+    "delivered": 22,
     "bounced": 0
    },
    "ID": {
@@ -2368,8 +2368,8 @@
     "bounced": 0
    },
    "NE": {
-    "sent": 4,
-    "delivered": 4,
+    "sent": 5,
+    "delivered": 5,
     "bounced": 0
    },
    "NJ": {
