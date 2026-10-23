@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T15:28:21+00:00",
+ "generated_at": "2026-10-23T15:48:53+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T16:48:42+01:00",
+   "msg": "Outreach: +3 sent (A1: Coa Cantina, Elray's, Donnelly's)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T16:28:11+01:00",
    "msg": "Outreach: +3 sent (A1: Dandy Lion, Locals, LiFT)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-22T20:14:21+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 2)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-22T19:59:15+01:00",
-   "msg": "Outreach: +5 sent, 5 delivered (salvage, account 2)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 229,
-  "delivered": 218,
+  "sent": 232,
+  "delivered": 221,
   "bounced": 11,
   "replies": 3,
   "sent_today": {
-   "liam@yeschefgroup.co": 21
+   "liam@yeschefgroup.co": 24
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2333,7 +2333,7 @@
     "liam@jackdinningroom.com": 32
    },
    "2026-10-23": {
-    "liam@yeschefgroup.co": 21
+    "liam@yeschefgroup.co": 24
    }
   },
   "by_state": {
@@ -2348,8 +2348,8 @@
     "bounced": 0
    },
    "IA": {
-    "sent": 14,
-    "delivered": 14,
+    "sent": 17,
+    "delivered": 17,
     "bounced": 0
    },
    "ID": {
