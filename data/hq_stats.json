@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T04:48:06+00:00",
+ "generated_at": "2026-10-23T13:21:48+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T14:21:38+01:00",
+   "msg": "Outreach: Oct 23 run started",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T05:47:43+01:00",
    "msg": "Outreach paused: Oct 22 run complete",
    "who": "Cassius"
@@ -2298,11 +2303,6 @@
    "t": "2026-10-21T21:31:00+01:00",
    "msg": "Outreach paused: Oct 21 run complete (59 sent)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-21T21:30:53+01:00",
-   "msg": "Outreach: +29 sent (Oct 21, account 1), 28 delivered, 1 bounced; Palooza delivered; Manoli's reply logged",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -2312,10 +2312,7 @@
   "delivered": 197,
   "bounced": 11,
   "replies": 3,
-  "sent_today": {
-   "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 32
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
@@ -2445,8 +2442,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-10-22",
-  "note": "Oct 22 run complete: 60 sent across both accounts"
+  "status": "active",
+  "since": "2026-10-23",
+  "note": "Oct 23 run in progress"
  }
 }
