@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T13:25:39+00:00",
+ "generated_at": "2026-10-23T13:38:51+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T14:38:40+01:00",
+   "msg": "Outreach: +3 sent (A1: Circa, Kobuta & Ookami, Picante)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T14:25:27+01:00",
    "msg": "Outreach: 60 drafted (Oct 23 queue)",
    "who": "Cassius"
@@ -2298,21 +2303,18 @@
    "t": "2026-10-21T21:49:50+01:00",
    "msg": "Warm leads: +Bijal Patel (Kumin Kulture), +Corri Bristow-Sundell (The Root Cafe), media kits sent Oct 21",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-21T21:36:52+01:00",
-   "msg": "Replies: Kumin Kulture and The Root Cafe replied Oct 21 (account 2 batch)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 208,
-  "delivered": 197,
+  "sent": 211,
+  "delivered": 200,
   "bounced": 11,
   "replies": 3,
-  "sent_today": {},
+  "sent_today": {
+   "liam@yeschefgroup.co": 3
+  },
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
@@ -2329,6 +2331,9 @@
    "2026-10-22": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 32
+   },
+   "2026-10-23": {
+    "liam@yeschefgroup.co": 3
    }
   },
   "by_state": {
@@ -2408,8 +2413,8 @@
     "bounced": 0
    },
    "WA": {
-    "sent": 58,
-    "delivered": 56,
+    "sent": 61,
+    "delivered": 59,
     "bounced": 2
    }
   }
