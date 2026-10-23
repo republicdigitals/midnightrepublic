@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T04:47:54+00:00",
+ "generated_at": "2026-10-23T04:48:06+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T05:47:43+01:00",
+   "msg": "Outreach paused: Oct 22 run complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T05:47:41+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 1 complete at 30)",
    "who": "Cassius"
@@ -2298,11 +2303,6 @@
    "t": "2026-10-21T21:30:53+01:00",
    "msg": "Outreach: +29 sent (Oct 21, account 1), 28 delivered, 1 bounced; Palooza delivered; Manoli's reply logged",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-21T20:36:36+01:00",
-   "msg": "Fix: Antika Grill city is Montclair NJ (lead file), not Bloomfield",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -2445,8 +2445,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-22",
-  "note": "Oct 22 salvage run in progress"
+  "note": "Oct 22 run complete: 60 sent across both accounts"
  }
 }
