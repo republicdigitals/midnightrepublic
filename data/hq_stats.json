@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-22T21:26:48+00:00",
+ "generated_at": "2026-10-23T03:11:12+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T04:11:02+01:00",
+   "msg": "Outreach: +3 sent, 2 delivered, 1 bounced (account 1)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-22T22:26:36+01:00",
    "msg": "Outreach: +1 sent, 1 delivered (account 2 complete at 30)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-20T17:43:39Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-20T15:04:42Z",
-   "msg": "Instagram: cleanup",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 209,
-  "sent": 184,
-  "delivered": 175,
-  "bounced": 9,
+  "sent": 187,
+  "delivered": 177,
+  "bounced": 10,
   "replies": 3,
   "sent_today": {
-   "liam@yeschefgroup.co": 6,
+   "liam@yeschefgroup.co": 9,
    "liam@jackdinningroom.com": 32
   },
   "sent_by_day": {
@@ -2330,7 +2330,7 @@
     "liam@yeschefgroup.co": 29
    },
    "2026-10-22": {
-    "liam@yeschefgroup.co": 6,
+    "liam@yeschefgroup.co": 9,
     "liam@jackdinningroom.com": 32
    }
   },
@@ -2351,9 +2351,9 @@
     "bounced": 0
    },
    "ID": {
-    "sent": 39,
-    "delivered": 39,
-    "bounced": 0
+    "sent": 42,
+    "delivered": 41,
+    "bounced": 1
    },
    "MA": {
     "sent": 26,
