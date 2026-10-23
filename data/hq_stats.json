@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T18:33:24+00:00",
+ "generated_at": "2026-10-23T18:47:11+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T19:47:01+01:00",
+   "msg": "Outreach: +3 sent (A2: Chatterbox, Bin 35, Parlor)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T19:33:11+01:00",
    "msg": "Outreach: +3 sent (A2: 1867 Bar, Brunch Box, Everett's)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-22T21:47:36+01:00",
    "msg": "Outreach: +3 sent, 2 delivered, 1 bounced (account 2)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-22T21:29:49+01:00",
-   "msg": "Outreach: +3 sent, 3 delivered (account 2)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 250,
-  "delivered": 238,
+  "sent": 253,
+  "delivered": 241,
   "bounced": 12,
   "replies": 3,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 12
+   "liam@jackdinningroom.com": 15
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2335,7 +2335,7 @@
    },
    "2026-10-23": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 12
+    "liam@jackdinningroom.com": 15
    }
   },
   "by_state": {
@@ -2370,8 +2370,8 @@
     "bounced": 0
    },
    "NE": {
-    "sent": 17,
-    "delivered": 16,
+    "sent": 18,
+    "delivered": 17,
     "bounced": 1
    },
    "NJ": {
@@ -2390,8 +2390,8 @@
     "bounced": 0
    },
    "OK": {
-    "sent": 2,
-    "delivered": 2,
+    "sent": 4,
+    "delivered": 4,
     "bounced": 0
    },
    "RI": {
