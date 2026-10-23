@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T14:08:51+00:00",
+ "generated_at": "2026-10-23T14:23:31+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T15:23:17+01:00",
+   "msg": "Outreach: +3 sent (A1: Avocados, El Lugar, Heyday)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T15:08:40+01:00",
    "msg": "Outreach: +3 sent (A1: Plaza Garcia, Stink, Joule)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-22T15:44:44+01:00",
    "msg": "Outreach active: Oct 22 salvage run",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-22T15:44:41+01:00",
-   "msg": "Outreach: 11 salvage sends drafted (corrected addresses)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 217,
-  "delivered": 206,
+  "sent": 220,
+  "delivered": 209,
   "bounced": 11,
   "replies": 3,
   "sent_today": {
-   "liam@yeschefgroup.co": 9
+   "liam@yeschefgroup.co": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2333,7 +2333,7 @@
     "liam@jackdinningroom.com": 32
    },
    "2026-10-23": {
-    "liam@yeschefgroup.co": 9
+    "liam@yeschefgroup.co": 12
    }
   },
   "by_state": {
@@ -2413,8 +2413,8 @@
     "bounced": 0
    },
    "WA": {
-    "sent": 67,
-    "delivered": 65,
+    "sent": 70,
+    "delivered": 68,
     "bounced": 2
    }
   }
