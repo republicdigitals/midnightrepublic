@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T20:17:17+00:00",
+ "generated_at": "2026-10-23T20:17:30+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T21:17:09+01:00",
+   "msg": "Outreach: Oct 23 run complete (60 sent)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T21:17:05+01:00",
    "msg": "Outreach: +3 sent (A2 complete: Calle, Hammontree's delivered; Deluca's bounced; Heights Taco delivered; Everett's replied)",
    "who": "Cassius"
@@ -2296,11 +2301,6 @@
   },
   {
    "t": "2026-10-23T04:39:20+01:00",
-   "msg": "Outreach: +3 sent, 3 delivered (account 1)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T04:24:18+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 1)",
    "who": "Cassius"
   }
@@ -2449,8 +2449,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-23",
-  "note": "Oct 23 run in progress"
+  "note": "Oct 23 run complete: 60 sent across both accounts"
  }
 }
