@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T18:06:42+00:00",
+ "generated_at": "2026-10-23T18:20:59+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T19:20:48+01:00",
+   "msg": "Outreach: +3 sent (A2: Duffy's, Jukes, B5 Brewing)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T19:06:31+01:00",
    "msg": "Outreach: +3 sent (A2: Brickway, Gilded Feather, Omaha Prime)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-22T21:13:37+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 2)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-22T20:59:56+01:00",
-   "msg": "Warm leads: Ron follow-up + Bijal correction sent Oct 22",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 244,
-  "delivered": 232,
+  "sent": 247,
+  "delivered": 235,
   "bounced": 12,
   "replies": 3,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 6
+   "liam@jackdinningroom.com": 9
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2335,7 +2335,7 @@
    },
    "2026-10-23": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 6
+    "liam@jackdinningroom.com": 9
    }
   },
   "by_state": {
@@ -2370,8 +2370,8 @@
     "bounced": 0
    },
    "NE": {
-    "sent": 11,
-    "delivered": 10,
+    "sent": 14,
+    "delivered": 13,
     "bounced": 1
    },
    "NJ": {
