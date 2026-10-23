@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T19:02:28+00:00",
+ "generated_at": "2026-10-23T19:18:44+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T20:18:34+01:00",
+   "msg": "Outreach: +3 sent (A2: Superior Bathhouse, Camp Taco, Diamond Bear)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T20:02:16+01:00",
    "msg": "Outreach: +3 sent (A2: Wedge, Crain, Carletti's)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-22T22:23:22+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 2)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-22T22:06:13+01:00",
-   "msg": "Outreach: +3 sent, 3 delivered (account 2)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 256,
-  "delivered": 244,
+  "sent": 259,
+  "delivered": 247,
   "bounced": 12,
   "replies": 3,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 18
+   "liam@jackdinningroom.com": 21
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2335,13 +2335,13 @@
    },
    "2026-10-23": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 18
+    "liam@jackdinningroom.com": 21
    }
   },
   "by_state": {
    "AR": {
-    "sent": 3,
-    "delivered": 3,
+    "sent": 6,
+    "delivered": 6,
     "bounced": 0
    },
    "CT": {
