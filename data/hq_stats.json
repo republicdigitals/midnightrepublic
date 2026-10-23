@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T16:36:28+00:00",
+ "generated_at": "2026-10-23T17:54:10+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-23T18:53:57+01:00",
+   "msg": "Outreach: +3 sent A2 (RUB delivered, Red Lion bounced, Vault delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-23T17:36:17+01:00",
    "msg": "Outreach: +3 sent (A1 complete: DC's, Mariscos El Capitan, Cumbia)",
    "who": "Cassius"
@@ -2298,22 +2303,18 @@
    "t": "2026-10-22T20:59:53+01:00",
    "msg": "Warm leads: Ron follow-up + Bijal correction sent, both delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-22T20:46:18+01:00",
-   "msg": "Outreach: +3 sent, 3 delivered (account 2)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 269,
-  "sent": 238,
-  "delivered": 227,
-  "bounced": 11,
+  "sent": 241,
+  "delivered": 229,
+  "bounced": 12,
   "replies": 3,
   "sent_today": {
-   "liam@yeschefgroup.co": 30
+   "liam@yeschefgroup.co": 30,
+   "liam@jackdinningroom.com": 3
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2333,7 +2334,8 @@
     "liam@jackdinningroom.com": 32
    },
    "2026-10-23": {
-    "liam@yeschefgroup.co": 30
+    "liam@yeschefgroup.co": 30,
+    "liam@jackdinningroom.com": 3
    }
   },
   "by_state": {
@@ -2368,9 +2370,9 @@
     "bounced": 0
    },
    "NE": {
-    "sent": 5,
-    "delivered": 5,
-    "bounced": 0
+    "sent": 8,
+    "delivered": 7,
+    "bounced": 1
    },
    "NJ": {
     "sent": 2,
