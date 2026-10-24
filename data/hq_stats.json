@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T16:01:17+00:00",
+ "generated_at": "2026-10-24T16:17:01+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T17:16:50+01:00",
+   "msg": "Outreach: +3 sent (A1: Beyond The Edge, Santorini Spoon, Cataleya)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T17:01:08+01:00",
    "msg": "Outreach: +3 sent (A1: Inman Social, Amicos, Busters Place)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-23T14:52:48+01:00",
    "msg": "Outreach: +3 sent (A1: Bombay Chaat, Centro, Dovetail Joint)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T14:38:40+01:00",
-   "msg": "Outreach: +3 sent (A1: Circa, Kobuta & Ookami, Picante)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 289,
-  "delivered": 273,
+  "sent": 292,
+  "delivered": 276,
   "bounced": 15,
   "replies": 4,
   "sent_today": {
-   "liam@yeschefgroup.co": 21
+   "liam@yeschefgroup.co": 24
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2337,7 +2337,7 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-24": {
-    "liam@yeschefgroup.co": 21
+    "liam@yeschefgroup.co": 24
    }
   },
   "by_state": {
@@ -2407,8 +2407,8 @@
     "bounced": 0
    },
    "TN": {
-    "sent": 26,
-    "delivered": 25,
+    "sent": 29,
+    "delivered": 28,
     "bounced": 1
    },
    "UT": {
