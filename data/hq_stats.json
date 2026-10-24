@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T16:31:05+00:00",
+ "generated_at": "2026-10-24T16:47:30+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T17:47:20+01:00",
+   "msg": "Outreach: +3 sent (A1 complete 30/30: Golden Prawn, Harvest, Sonnys)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T17:30:56+01:00",
    "msg": "Outreach: +3 sent A1 (Plantation Pub, 51 North delivered; Jaspers bounced)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-23T15:23:17+01:00",
    "msg": "Outreach: +3 sent (A1: Avocados, El Lugar, Heyday)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T15:08:40+01:00",
-   "msg": "Outreach: +3 sent (A1: Plaza Garcia, Stink, Joule)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 295,
-  "delivered": 278,
+  "sent": 298,
+  "delivered": 281,
   "bounced": 16,
   "replies": 4,
   "sent_today": {
-   "liam@yeschefgroup.co": 27
+   "liam@yeschefgroup.co": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2337,7 +2337,7 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-24": {
-    "liam@yeschefgroup.co": 27
+    "liam@yeschefgroup.co": 30
    }
   },
   "by_state": {
@@ -2407,8 +2407,8 @@
     "bounced": 0
    },
    "TN": {
-    "sent": 32,
-    "delivered": 30,
+    "sent": 35,
+    "delivered": 33,
     "bounced": 2
    },
    "UT": {
