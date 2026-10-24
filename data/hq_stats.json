@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T17:59:02+00:00",
+ "generated_at": "2026-10-24T18:12:19+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T19:12:10+01:00",
+   "msg": "Outreach: +3 sent (A2: Bodega MP, Chico Feo, Pages Okra MP)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T18:58:53+01:00",
    "msg": "Outreach: +3 sent (A2: Bodega CHS, Johnnys Garage, Reds Ice House); Stanley Supper Club replied (declined)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-23T17:36:17+01:00",
    "msg": "Outreach: +3 sent (A1 complete: DC's, Mariscos El Capitan, Cumbia)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T17:18:16+01:00",
-   "msg": "Outreach: +3 sent (A1: Maggies Farm, Whatcha Smokin, Giddy Up)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 313,
-  "delivered": 295,
+  "sent": 316,
+  "delivered": 298,
   "bounced": 17,
   "replies": 6,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 15
+   "liam@jackdinningroom.com": 18
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2339,7 +2339,7 @@
    },
    "2026-10-24": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 15
+    "liam@jackdinningroom.com": 18
    }
   },
   "by_state": {
@@ -2404,8 +2404,8 @@
     "bounced": 0
    },
    "SC": {
-    "sent": 25,
-    "delivered": 24,
+    "sent": 28,
+    "delivered": 27,
     "bounced": 1
    },
    "TN": {
