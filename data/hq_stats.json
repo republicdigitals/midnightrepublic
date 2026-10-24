@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T17:03:29+00:00",
+ "generated_at": "2026-10-24T17:19:02+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T18:18:52+01:00",
+   "msg": "Outreach: +3 sent A2 (Stone Cottage, Sunflower delivered; Dimas bounced); Brickway replied",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T18:03:17+01:00",
    "msg": "Outreach: +3 sent (A2: Oddstory, Tanasi, Rosecomb)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-23T15:49:43+01:00",
    "msg": "Outreach: +3 sent (A1: Black Sheep, Patton, Charlotte's)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T15:37:00+01:00",
-   "msg": "Outreach: +3 sent (A1: Bellhop Tiki, Hip-Stir, Striking Sparrow)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 301,
-  "delivered": 284,
-  "bounced": 16,
-  "replies": 4,
+  "sent": 304,
+  "delivered": 286,
+  "bounced": 17,
+  "replies": 5,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 3
+   "liam@jackdinningroom.com": 6
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2339,7 +2339,7 @@
    },
    "2026-10-24": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 3
+    "liam@jackdinningroom.com": 6
    }
   },
   "by_state": {
@@ -2404,9 +2404,9 @@
     "bounced": 0
    },
    "SC": {
-    "sent": 13,
-    "delivered": 13,
-    "bounced": 0
+    "sent": 16,
+    "delivered": 15,
+    "bounced": 1
    },
    "TN": {
     "sent": 38,
