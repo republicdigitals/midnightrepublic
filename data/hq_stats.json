@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T17:46:18+00:00",
+ "generated_at": "2026-10-24T17:59:02+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T18:58:53+01:00",
+   "msg": "Outreach: +3 sent (A2: Bodega CHS, Johnnys Garage, Reds Ice House); Stanley Supper Club replied (declined)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T18:46:09+01:00",
    "msg": "Outreach: +3 sent (A2: Pint Station, Blue Heron, The Pass)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-23T17:18:16+01:00",
    "msg": "Outreach: +3 sent (A1: Maggies Farm, Whatcha Smokin, Giddy Up)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T16:48:42+01:00",
-   "msg": "Outreach: +3 sent (A1: Coa Cantina, Elray's, Donnelly's)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 310,
-  "delivered": 292,
+  "sent": 313,
+  "delivered": 295,
   "bounced": 17,
-  "replies": 5,
+  "replies": 6,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 12
+   "liam@jackdinningroom.com": 15
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2339,7 +2339,7 @@
    },
    "2026-10-24": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 12
+    "liam@jackdinningroom.com": 15
    }
   },
   "by_state": {
@@ -2404,8 +2404,8 @@
     "bounced": 0
    },
    "SC": {
-    "sent": 22,
-    "delivered": 21,
+    "sent": 25,
+    "delivered": 24,
     "bounced": 1
    },
    "TN": {
