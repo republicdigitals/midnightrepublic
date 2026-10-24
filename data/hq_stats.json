@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T15:02:51+00:00",
+ "generated_at": "2026-10-24T15:17:08+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T16:16:58+01:00",
+   "msg": "Outreach: +3 sent (A1: Next Level, Juniper, Possum)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T16:02:40+01:00",
    "msg": "Outreach: +3 sent A1 (Mothership, Grumpy Rabbit delivered; Pasta Grill bounced)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-23T05:47:43+01:00",
    "msg": "Outreach paused: Oct 22 run complete",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T05:47:41+01:00",
-   "msg": "Outreach: +3 sent, 3 delivered (account 1 complete at 30)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 277,
-  "delivered": 261,
+  "sent": 280,
+  "delivered": 264,
   "bounced": 15,
   "replies": 4,
   "sent_today": {
-   "liam@yeschefgroup.co": 9
+   "liam@yeschefgroup.co": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2337,7 +2337,7 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-24": {
-    "liam@yeschefgroup.co": 9
+    "liam@yeschefgroup.co": 12
    }
   },
   "by_state": {
@@ -2407,8 +2407,8 @@
     "bounced": 0
    },
    "TN": {
-    "sent": 14,
-    "delivered": 13,
+    "sent": 17,
+    "delivered": 16,
     "bounced": 1
    },
    "UT": {
