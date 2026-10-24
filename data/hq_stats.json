@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T19:09:06+00:00",
+ "generated_at": "2026-10-24T19:09:21+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T20:08:58+01:00",
+   "msg": "Outreach paused: Oct 24 run complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T20:08:55+01:00",
    "msg": "Outreach: +3 sent (A2 complete 30/30: Bettys, Urban Orchard, Cafe Violette); Crabby Mikes delivered",
    "who": "Cassius"
@@ -2297,11 +2302,6 @@
   {
    "t": "2026-10-23T19:47:01+01:00",
    "msg": "Outreach: +3 sent (A2: Chatterbox, Bin 35, Parlor)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T19:33:11+01:00",
-   "msg": "Outreach: +3 sent (A2: 1867 Bar, Brunch Box, Everett's)",
    "who": "Cassius"
   }
  ],
@@ -2453,8 +2453,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-24",
-  "note": "Oct 24 run in progress"
+  "note": "Oct 24 run complete: 60 sent across both accounts"
  }
 }
