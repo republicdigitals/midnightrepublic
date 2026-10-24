@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T14:07:28+00:00",
+ "generated_at": "2026-10-24T14:10:46+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T15:10:37+01:00",
+   "msg": "Outreach: 60 drafted (Oct 24 queue)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T15:07:19+01:00",
    "msg": "Outreach: Oct 24 run started",
    "who": "Cassius"
@@ -2298,16 +2303,11 @@
    "t": "2026-10-23T05:05:59+01:00",
    "msg": "Outreach: +3 sent, 3 delivered (account 1)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T04:53:34+01:00",
-   "msg": "Outreach: +3 sent, 1 delivered, 1 bounced (account 1)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
-  "drafted": 269,
+  "drafted": 329,
   "sent": 268,
   "delivered": 254,
   "bounced": 14,
