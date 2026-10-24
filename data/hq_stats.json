@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T18:40:10+00:00",
+ "generated_at": "2026-10-24T18:53:24+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T19:53:14+01:00",
+   "msg": "Outreach: +3 sent (A2: Boardwalk Billys, Virginias On King, Elas)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T19:40:01+01:00",
    "msg": "Outreach: +3 sent A2 (Break on the Lake, Traditions delivered; Crabby Mikes in retry queue)",
    "who": "Cassius"
@@ -2298,23 +2303,18 @@
    "t": "2026-10-23T19:20:48+01:00",
    "msg": "Outreach: +3 sent (A2: Duffy's, Jukes, B5 Brewing)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T19:06:31+01:00",
-   "msg": "Outreach: +3 sent (A2: Brickway, Gilded Feather, Omaha Prime)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 322,
-  "delivered": 303,
+  "sent": 325,
+  "delivered": 306,
   "bounced": 17,
   "replies": 6,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 24
+   "liam@jackdinningroom.com": 27
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2339,7 +2339,7 @@
    },
    "2026-10-24": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 24
+    "liam@jackdinningroom.com": 27
    }
   },
   "by_state": {
@@ -2404,8 +2404,8 @@
     "bounced": 0
    },
    "SC": {
-    "sent": 34,
-    "delivered": 32,
+    "sent": 37,
+    "delivered": 35,
     "bounced": 1
    },
    "TN": {
