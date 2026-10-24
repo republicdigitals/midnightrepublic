@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T15:17:08+00:00",
+ "generated_at": "2026-10-24T15:30:50+00:00",
  "leads": {
   "total": 717,
   "with_email": 699,
@@ -2155,6 +2155,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-24T16:30:39+01:00",
+   "msg": "Outreach: +3 sent (A1: Hard Knox, Alley on Main, FEED)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-24T16:16:58+01:00",
    "msg": "Outreach: +3 sent (A1: Next Level, Juniper, Possum)",
    "who": "Cassius"
@@ -2298,22 +2303,17 @@
    "t": "2026-10-23T14:21:38+01:00",
    "msg": "Outreach: Oct 23 run started",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T05:47:43+01:00",
-   "msg": "Outreach paused: Oct 22 run complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 329,
-  "sent": 280,
-  "delivered": 264,
+  "sent": 283,
+  "delivered": 267,
   "bounced": 15,
   "replies": 4,
   "sent_today": {
-   "liam@yeschefgroup.co": 12
+   "liam@yeschefgroup.co": 15
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2337,7 +2337,7 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-24": {
-    "liam@yeschefgroup.co": 12
+    "liam@yeschefgroup.co": 15
    }
   },
   "by_state": {
@@ -2407,8 +2407,8 @@
     "bounced": 0
    },
    "TN": {
-    "sent": 17,
-    "delivered": 16,
+    "sent": 20,
+    "delivered": 19,
     "bounced": 1
    },
    "UT": {
