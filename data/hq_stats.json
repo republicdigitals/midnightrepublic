@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T13:13:45+00:00",
+ "generated_at": "2026-10-25T18:29:25+00:00",
  "leads": {
-  "total": 725,
-  "with_email": 707,
+  "total": 730,
+  "with_email": 712,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 337
+   "Instagram": 342
   }
  },
  "states": {
@@ -18,6 +18,14 @@
    "with_email": 24,
    "sources": {
     "Instagram": 24
+   }
+  },
+  "CO": {
+   "name": "Colorado",
+   "leads": 5,
+   "with_email": 5,
+   "sources": {
+    "Instagram": 5
    }
   },
   "CT": {
@@ -729,6 +737,15 @@
    "coords": [
     -95.6776,
     39.049
+   ]
+  },
+  {
+   "city": "Boulder",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -105.2705,
+    40.015
    ]
   },
   {
@@ -2194,9 +2211,32 @@
     -105.5446,
     36.4387
    ]
+  },
+  {
+   "city": "Fort Collins",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.077,
+    40.5872
+   ]
+  },
+  {
+   "city": "Colorado Springs",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.8253,
+    38.834
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T18:29:07Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T13:13:36Z",
    "msg": "Instagram: cleanup",
@@ -2340,11 +2380,6 @@
   {
    "t": "2026-10-23T20:56:02+01:00",
    "msg": "Outreach: +3 sent (A2: Rice Box, Cheers delivered; Heights Taco in queue)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T20:33:57+01:00",
-   "msg": "Outreach: +3 sent A2 (Three Fold, Samantha's delivered; Mt Fuji bounced)",
    "who": "Cassius"
   }
  ],
