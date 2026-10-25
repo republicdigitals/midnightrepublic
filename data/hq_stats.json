@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T23:48:27+00:00",
+ "generated_at": "2026-10-25T23:51:56+00:00",
  "leads": {
-  "total": 781,
-  "with_email": 763,
+  "total": 777,
+  "with_email": 759,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 393
+   "Instagram": 389
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 56,
-   "with_email": 56,
+   "leads": 52,
+   "with_email": 52,
    "sources": {
-    "Instagram": 56
+    "Instagram": 52
    }
   },
   "CT": {
@@ -461,24 +461,6 @@
    ]
   },
   {
-   "city": "Denver",
-   "state": "CO",
-   "leads": 6,
-   "coords": [
-    -104.9849,
-    39.7392
-   ]
-  },
-  {
-   "city": "Durango",
-   "state": "CO",
-   "leads": 6,
-   "coords": [
-    -107.8766,
-    37.2769
-   ]
-  },
-  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -539,6 +521,15 @@
    "coords": [
     -105.2705,
     40.015
+   ]
+  },
+  {
+   "city": "Durango",
+   "state": "CO",
+   "leads": 5,
+   "coords": [
+    -107.8766,
+    37.2769
    ]
   },
   {
@@ -629,6 +620,15 @@
    "coords": [
     -122.4788,
     48.7544
+   ]
+  },
+  {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 4,
+   "coords": [
+    -104.9849,
+    39.7392
    ]
   },
   {
@@ -2384,15 +2384,6 @@
    ]
   },
   {
-   "city": "Grand Lake",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.8231,
-    40.2522
-   ]
-  },
-  {
    "city": "Littleton",
    "state": "CO",
    "leads": 1,
@@ -2475,6 +2466,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T23:51:43Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T23:48:13Z",
    "msg": "Instagram: +5 leads",
@@ -2618,11 +2614,6 @@
   {
    "t": "2026-10-24T17:30:56+01:00",
    "msg": "Outreach: +3 sent A1 (Plantation Pub, 51 North delivered; Jaspers bounced)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T17:16:50+01:00",
-   "msg": "Outreach: +3 sent (A1: Beyond The Edge, Santorini Spoon, Cataleya)",
    "who": "Cassius"
   }
  ],
