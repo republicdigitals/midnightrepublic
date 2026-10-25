@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T19:40:06+00:00",
+ "generated_at": "2026-10-25T22:30:16+00:00",
  "leads": {
-  "total": 751,
-  "with_email": 733,
+  "total": 756,
+  "with_email": 738,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 363
+   "Instagram": 368
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 26,
-   "with_email": 26,
+   "leads": 31,
+   "with_email": 31,
    "sources": {
-    "Instagram": 26
+    "Instagram": 31
    }
   },
   "CT": {
@@ -1235,6 +1235,33 @@
    ]
   },
   {
+   "city": "Steamboat Springs",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -106.8317,
+    40.4848
+   ]
+  },
+  {
+   "city": "Gunnison",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -106.9269,
+    38.5444
+   ]
+  },
+  {
+   "city": "Durango",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -107.8766,
+    37.2769
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2303,24 +2330,6 @@
    ]
   },
   {
-   "city": "Steamboat Springs",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -106.8317,
-    40.4848
-   ]
-  },
-  {
-   "city": "Gunnison",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -106.9269,
-    38.5444
-   ]
-  },
-  {
    "city": "Edwards",
    "state": "CO",
    "leads": 1,
@@ -2348,15 +2357,6 @@
    ]
   },
   {
-   "city": "Durango",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -107.8766,
-    37.2769
-   ]
-  },
-  {
    "city": "Montrose",
    "state": "CO",
    "leads": 1,
@@ -2373,9 +2373,32 @@
     -108.7336,
     39.1589
    ]
+  },
+  {
+   "city": "Minturn",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.4309,
+    39.5864
+   ]
+  },
+  {
+   "city": "Grand Lake",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.8231,
+    40.2522
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T22:30:01Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T19:39:53Z",
    "msg": "Instagram: cleanup",
@@ -2519,11 +2542,6 @@
   {
    "t": "2026-10-24T16:02:40+01:00",
    "msg": "Outreach: +3 sent A1 (Mothership, Grumpy Rabbit delivered; Pasta Grill bounced)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T15:49:02+01:00",
-   "msg": "Outreach: +3 sent (A1: Hail Fellow, Collective, KnightFire)",
    "who": "Cassius"
   }
  ],
