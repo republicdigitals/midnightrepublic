@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T12:50:45+00:00",
+ "generated_at": "2026-10-25T13:07:14+00:00",
  "leads": {
-  "total": 722,
-  "with_email": 704,
+  "total": 727,
+  "with_email": 709,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 334
+   "Instagram": 339
   }
  },
  "states": {
@@ -46,10 +46,10 @@
   },
   "KS": {
    "name": "Kansas",
-   "leads": 5,
-   "with_email": 5,
+   "leads": 8,
+   "with_email": 8,
    "sources": {
-    "Instagram": 5
+    "Instagram": 8
    }
   },
   "MA": {
@@ -58,6 +58,14 @@
    "with_email": 70,
    "sources": {
     "Facebook": 70
+   }
+  },
+  "MO": {
+   "name": "Missouri",
+   "leads": 2,
+   "with_email": 2,
+   "sources": {
+    "Instagram": 2
    }
   },
   "MT": {
@@ -715,6 +723,15 @@
    ]
   },
   {
+   "city": "Topeka",
+   "state": "KS",
+   "leads": 3,
+   "coords": [
+    -95.6776,
+    39.049
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -1156,12 +1173,21 @@
    ]
   },
   {
-   "city": "Topeka",
+   "city": "Leavenworth",
    "state": "KS",
    "leads": 2,
    "coords": [
-    -95.6776,
-    39.049
+    -94.9228,
+    39.3113
+   ]
+  },
+  {
+   "city": "Kansas City",
+   "state": "MO",
+   "leads": 2,
+   "coords": [
+    -94.5781,
+    39.1001
    ]
   },
   {
@@ -2179,16 +2205,21 @@
    ]
   },
   {
-   "city": "Leavenworth",
+   "city": "Salina",
    "state": "KS",
    "leads": 1,
    "coords": [
-    -94.9228,
-    39.3113
+    -97.6114,
+    38.8403
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T13:07:01Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T12:50:31Z",
    "msg": "Instagram: +5 leads",
@@ -2332,11 +2363,6 @@
   {
    "t": "2026-10-23T20:18:34+01:00",
    "msg": "Outreach: +3 sent (A2: Superior Bathhouse, Camp Taco, Diamond Bear)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T20:02:16+01:00",
-   "msg": "Outreach: +3 sent (A2: Wedge, Crain, Carletti's)",
    "who": "Cassius"
   }
  ],
