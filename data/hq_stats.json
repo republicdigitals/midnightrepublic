@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-24T19:09:21+00:00",
+ "generated_at": "2026-10-25T12:50:45+00:00",
  "leads": {
-  "total": 717,
-  "with_email": 699,
+  "total": 722,
+  "with_email": 704,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 329
+   "Instagram": 334
   }
  },
  "states": {
@@ -42,6 +42,14 @@
    "with_email": 63,
    "sources": {
     "Instagram": 63
+   }
+  },
+  "KS": {
+   "name": "Kansas",
+   "leads": 5,
+   "with_email": 5,
+   "sources": {
+    "Instagram": 5
    }
   },
   "MA": {
@@ -1139,6 +1147,24 @@
    ]
   },
   {
+   "city": "Wichita",
+   "state": "KS",
+   "leads": 2,
+   "coords": [
+    -97.3375,
+    37.6922
+   ]
+  },
+  {
+   "city": "Topeka",
+   "state": "KS",
+   "leads": 2,
+   "coords": [
+    -95.6776,
+    39.049
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2151,9 +2177,23 @@
     -105.5446,
     36.4387
    ]
+  },
+  {
+   "city": "Leavenworth",
+   "state": "KS",
+   "leads": 1,
+   "coords": [
+    -94.9228,
+    39.3113
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T12:50:31Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-24T20:08:58+01:00",
    "msg": "Outreach paused: Oct 24 run complete",
@@ -2298,11 +2338,6 @@
    "t": "2026-10-23T20:02:16+01:00",
    "msg": "Outreach: +3 sent (A2: Wedge, Crain, Carletti's)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T19:47:01+01:00",
-   "msg": "Outreach: +3 sent (A2: Chatterbox, Bin 35, Parlor)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -2312,10 +2347,7 @@
   "delivered": 310,
   "bounced": 17,
   "replies": 6,
-  "sent_today": {
-   "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 30
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
