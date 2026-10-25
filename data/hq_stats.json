@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T22:54:41+00:00",
+ "generated_at": "2026-10-25T23:09:29+00:00",
  "leads": {
-  "total": 766,
-  "with_email": 748,
+  "total": 771,
+  "with_email": 753,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 378
+   "Instagram": 383
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 41,
-   "with_email": 41,
+   "leads": 46,
+   "with_email": 46,
    "sources": {
-    "Instagram": 41
+    "Instagram": 46
    }
   },
   "CT": {
@@ -461,6 +461,15 @@
    ]
   },
   {
+   "city": "Durango",
+   "state": "CO",
+   "leads": 6,
+   "coords": [
+    -107.8766,
+    37.2769
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -521,15 +530,6 @@
    "coords": [
     -105.2705,
     40.015
-   ]
-  },
-  {
-   "city": "Durango",
-   "state": "CO",
-   "leads": 5,
-   "coords": [
-    -107.8766,
-    37.2769
    ]
   },
   {
@@ -755,6 +755,15 @@
    "coords": [
     -95.6776,
     39.049
+   ]
+  },
+  {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -104.9849,
+    39.7392
    ]
   },
   {
@@ -1226,12 +1235,12 @@
    ]
   },
   {
-   "city": "Denver",
+   "city": "Golden",
    "state": "CO",
    "leads": 2,
    "coords": [
-    -104.9849,
-    39.7392
+    -105.2206,
+    39.7546
    ]
   },
   {
@@ -2294,15 +2303,6 @@
    ]
   },
   {
-   "city": "Golden",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.2206,
-    39.7546
-   ]
-  },
-  {
    "city": "Erie",
    "state": "CO",
    "leads": 1,
@@ -2427,9 +2427,32 @@
     -106.984,
     38.8698
    ]
+  },
+  {
+   "city": "Salida",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.991,
+    38.5371
+   ]
+  },
+  {
+   "city": "Castle Rock",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.8587,
+    39.3723
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T23:09:15Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T22:54:26Z",
    "msg": "Instagram: +5 leads",
@@ -2573,11 +2596,6 @@
   {
    "t": "2026-10-24T16:46:38+01:00",
    "msg": "Outreach: +3 sent (A1: Southern Grit, Camila, Circa Grill)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T16:30:39+01:00",
-   "msg": "Outreach: +3 sent (A1: Hard Knox, Alley on Main, FEED)",
    "who": "Cassius"
   }
  ],
