@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T13:07:14+00:00",
+ "generated_at": "2026-10-25T13:13:45+00:00",
  "leads": {
-  "total": 727,
-  "with_email": 709,
+  "total": 725,
+  "with_email": 707,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 339
+   "Instagram": 337
   }
  },
  "states": {
@@ -46,10 +46,10 @@
   },
   "KS": {
    "name": "Kansas",
-   "leads": 8,
-   "with_email": 8,
+   "leads": 7,
+   "with_email": 7,
    "sources": {
-    "Instagram": 8
+    "Instagram": 7
    }
   },
   "MA": {
@@ -102,10 +102,10 @@
   },
   "NM": {
    "name": "New Mexico",
-   "leads": 16,
-   "with_email": 16,
+   "leads": 15,
+   "with_email": 15,
    "sources": {
-    "Instagram": 16
+    "Instagram": 15
    }
   },
   "NV": {
@@ -2187,15 +2187,6 @@
    ]
   },
   {
-   "city": "Arroyo Seco",
-   "state": "NM",
-   "leads": 1,
-   "coords": [
-    -105.57,
-    36.516
-   ]
-  },
-  {
    "city": "Taos Pueblo",
    "state": "NM",
    "leads": 1,
@@ -2203,18 +2194,14 @@
     -105.5446,
     36.4387
    ]
-  },
-  {
-   "city": "Salina",
-   "state": "KS",
-   "leads": 1,
-   "coords": [
-    -97.6114,
-    38.8403
-   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T13:13:36Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T13:07:01Z",
    "msg": "Instagram: +5 leads",
@@ -2358,11 +2345,6 @@
   {
    "t": "2026-10-23T20:33:57+01:00",
    "msg": "Outreach: +3 sent A2 (Three Fold, Samantha's delivered; Mt Fuji bounced)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T20:18:34+01:00",
-   "msg": "Outreach: +3 sent (A2: Superior Bathhouse, Camp Taco, Diamond Bear)",
    "who": "Cassius"
   }
  ],
