@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T23:37:11+00:00",
+ "generated_at": "2026-10-25T23:48:27+00:00",
  "leads": {
-  "total": 776,
-  "with_email": 758,
+  "total": 781,
+  "with_email": 763,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 388
+   "Instagram": 393
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 51,
-   "with_email": 51,
+   "leads": 56,
+   "with_email": 56,
    "sources": {
-    "Instagram": 51
+    "Instagram": 56
    }
   },
   "CT": {
@@ -461,6 +461,15 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 6,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
    "city": "Durango",
    "state": "CO",
    "leads": 6,
@@ -620,15 +629,6 @@
    "coords": [
     -122.4788,
     48.7544
-   ]
-  },
-  {
-   "city": "Denver",
-   "state": "CO",
-   "leads": 4,
-   "coords": [
-    -104.9849,
-    39.7392
    ]
   },
   {
@@ -1295,6 +1295,15 @@
    "coords": [
     -107.8763,
     38.4782
+   ]
+  },
+  {
+   "city": "Minturn",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -106.4309,
+    39.5864
    ]
   },
   {
@@ -2375,15 +2384,6 @@
    ]
   },
   {
-   "city": "Minturn",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -106.4309,
-    39.5864
-   ]
-  },
-  {
    "city": "Grand Lake",
    "state": "CO",
    "leads": 1,
@@ -2454,9 +2454,32 @@
     -107.6714,
     38.0228
    ]
+  },
+  {
+   "city": "Lakewood",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.0847,
+    39.7086
+   ]
+  },
+  {
+   "city": "Windsor",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.9014,
+    40.4775
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T23:48:13Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T23:36:57Z",
    "msg": "Instagram: +5 leads",
@@ -2600,11 +2623,6 @@
   {
    "t": "2026-10-24T17:16:50+01:00",
    "msg": "Outreach: +3 sent (A1: Beyond The Edge, Santorini Spoon, Cataleya)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T17:01:08+01:00",
-   "msg": "Outreach: +3 sent (A1: Inman Social, Amicos, Busters Place)",
    "who": "Cassius"
   }
  ],
