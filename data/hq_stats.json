@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T19:28:06+00:00",
+ "generated_at": "2026-10-25T19:37:01+00:00",
  "leads": {
-  "total": 750,
-  "with_email": 732,
+  "total": 755,
+  "with_email": 737,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 362
+   "Instagram": 367
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 25,
-   "with_email": 25,
+   "leads": 30,
+   "with_email": 30,
    "sources": {
-    "Instagram": 25
+    "Instagram": 30
    }
   },
   "CT": {
@@ -2337,9 +2337,59 @@
     -106.594,
     39.6441
    ]
+  },
+  {
+   "city": "Frisco",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.0928,
+    39.5769
+   ]
+  },
+  {
+   "city": "Buena Vista",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.1311,
+    38.8422
+   ]
+  },
+  {
+   "city": "Durango",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -107.8766,
+    37.2769
+   ]
+  },
+  {
+   "city": "Montrose",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -107.8763,
+    38.4782
+   ]
+  },
+  {
+   "city": "Fruita",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -108.7336,
+    39.1589
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T19:36:42Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T19:27:47Z",
    "msg": "Instagram: +5 leads",
@@ -2483,11 +2533,6 @@
   {
    "t": "2026-10-24T15:34:30+01:00",
    "msg": "Outreach: +3 sent (A1: Steinhaus, Draft and Table delivered; Sauce(d) in retry queue)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T15:10:37+01:00",
-   "msg": "Outreach: 60 drafted (Oct 24 queue)",
    "who": "Cassius"
   }
  ],
