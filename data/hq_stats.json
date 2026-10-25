@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T22:30:16+00:00",
+ "generated_at": "2026-10-25T22:40:38+00:00",
  "leads": {
-  "total": 756,
-  "with_email": 738,
+  "total": 761,
+  "with_email": 743,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 368
+   "Instagram": 373
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 31,
-   "with_email": 31,
+   "leads": 36,
+   "with_email": 36,
    "sources": {
-    "Instagram": 31
+    "Instagram": 36
    }
   },
   "CT": {
@@ -521,6 +521,15 @@
    "coords": [
     -105.2705,
     40.015
+   ]
+  },
+  {
+   "city": "Durango",
+   "state": "CO",
+   "leads": 5,
+   "coords": [
+    -107.8766,
+    37.2769
    ]
   },
   {
@@ -1235,6 +1244,15 @@
    ]
   },
   {
+   "city": "Ridgway",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -107.7617,
+    38.1528
+   ]
+  },
+  {
    "city": "Steamboat Springs",
    "state": "CO",
    "leads": 2,
@@ -1250,15 +1268,6 @@
    "coords": [
     -106.9269,
     38.5444
-   ]
-  },
-  {
-   "city": "Durango",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -107.8766,
-    37.2769
    ]
   },
   {
@@ -2321,15 +2330,6 @@
    ]
   },
   {
-   "city": "Ridgway",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -107.7617,
-    38.1528
-   ]
-  },
-  {
    "city": "Edwards",
    "state": "CO",
    "leads": 1,
@@ -2391,9 +2391,23 @@
     -105.8231,
     40.2522
    ]
+  },
+  {
+   "city": "Littleton",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.0166,
+    39.6133
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T22:40:25Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T22:30:01Z",
    "msg": "Instagram: +5 leads",
@@ -2537,11 +2551,6 @@
   {
    "t": "2026-10-24T16:16:58+01:00",
    "msg": "Outreach: +3 sent (A1: Next Level, Juniper, Possum)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T16:02:40+01:00",
-   "msg": "Outreach: +3 sent A1 (Mothership, Grumpy Rabbit delivered; Pasta Grill bounced)",
    "who": "Cassius"
   }
  ],
