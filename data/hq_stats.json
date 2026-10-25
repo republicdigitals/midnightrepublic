@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T18:29:25+00:00",
+ "generated_at": "2026-10-25T18:45:32+00:00",
  "leads": {
-  "total": 730,
-  "with_email": 712,
+  "total": 735,
+  "with_email": 717,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 342
+   "Instagram": 347
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 5,
-   "with_email": 5,
+   "leads": 10,
+   "with_email": 10,
    "sources": {
-    "Instagram": 5
+    "Instagram": 10
    }
   },
   "CT": {
@@ -605,6 +605,15 @@
    ]
   },
   {
+   "city": "Boulder",
+   "state": "CO",
+   "leads": 4,
+   "coords": [
+    -105.2705,
+    40.015
+   ]
+  },
+  {
    "city": "Brookings",
    "state": "SD",
    "leads": 3,
@@ -737,15 +746,6 @@
    "coords": [
     -95.6776,
     39.049
-   ]
-  },
-  {
-   "city": "Boulder",
-   "state": "CO",
-   "leads": 3,
-   "coords": [
-    -105.2705,
-    40.015
    ]
   },
   {
@@ -1205,6 +1205,15 @@
    "coords": [
     -94.5781,
     39.1001
+   ]
+  },
+  {
+   "city": "Fort Collins",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -105.077,
+    40.5872
    ]
   },
   {
@@ -2213,15 +2222,6 @@
    ]
   },
   {
-   "city": "Fort Collins",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.077,
-    40.5872
-   ]
-  },
-  {
    "city": "Colorado Springs",
    "state": "CO",
    "leads": 1,
@@ -2229,9 +2229,41 @@
     -104.8253,
     38.834
    ]
+  },
+  {
+   "city": "Golden",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.2206,
+    39.7546
+   ]
+  },
+  {
+   "city": "Erie",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.05,
+    40.0503
+   ]
+  },
+  {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T18:45:19Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T18:29:07Z",
    "msg": "Instagram: +5 leads",
@@ -2375,11 +2407,6 @@
   {
    "t": "2026-10-23T21:17:05+01:00",
    "msg": "Outreach: +3 sent (A2 complete: Calle, Hammontree's delivered; Deluca's bounced; Heights Taco delivered; Everett's replied)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T20:56:02+01:00",
-   "msg": "Outreach: +3 sent (A2: Rice Box, Cheers delivered; Heights Taco in queue)",
    "who": "Cassius"
   }
  ],
