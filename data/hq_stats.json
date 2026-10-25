@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T23:09:29+00:00",
+ "generated_at": "2026-10-25T23:37:11+00:00",
  "leads": {
-  "total": 771,
-  "with_email": 753,
+  "total": 776,
+  "with_email": 758,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 383
+   "Instagram": 388
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 46,
-   "with_email": 46,
+   "leads": 51,
+   "with_email": 51,
    "sources": {
-    "Instagram": 46
+    "Instagram": 51
    }
   },
   "CT": {
@@ -623,6 +623,24 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 4,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
+   "city": "Steamboat Springs",
+   "state": "CO",
+   "leads": 4,
+   "coords": [
+    -106.8317,
+    40.4848
+   ]
+  },
+  {
    "city": "Brookings",
    "state": "SD",
    "leads": 3,
@@ -758,21 +776,12 @@
    ]
   },
   {
-   "city": "Denver",
+   "city": "Loveland",
    "state": "CO",
    "leads": 3,
    "coords": [
-    -104.9849,
-    39.7392
-   ]
-  },
-  {
-   "city": "Steamboat Springs",
-   "state": "CO",
-   "leads": 3,
-   "coords": [
-    -106.8317,
-    40.4848
+    -105.075,
+    40.3978
    ]
   },
   {
@@ -1235,21 +1244,21 @@
    ]
   },
   {
+   "city": "Colorado Springs",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -104.8253,
+    38.834
+   ]
+  },
+  {
    "city": "Golden",
    "state": "CO",
    "leads": 2,
    "coords": [
     -105.2206,
     39.7546
-   ]
-  },
-  {
-   "city": "Loveland",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -105.075,
-    40.3978
    ]
   },
   {
@@ -2294,15 +2303,6 @@
    ]
   },
   {
-   "city": "Colorado Springs",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -104.8253,
-    38.834
-   ]
-  },
-  {
    "city": "Erie",
    "state": "CO",
    "leads": 1,
@@ -2445,9 +2445,23 @@
     -104.8587,
     39.3723
    ]
+  },
+  {
+   "city": "Ouray",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -107.6714,
+    38.0228
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T23:36:57Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T23:09:15Z",
    "msg": "Instagram: +5 leads",
@@ -2591,11 +2605,6 @@
   {
    "t": "2026-10-24T17:01:08+01:00",
    "msg": "Outreach: +3 sent (A1: Inman Social, Amicos, Busters Place)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T16:46:38+01:00",
-   "msg": "Outreach: +3 sent (A1: Southern Grit, Camila, Circa Grill)",
    "who": "Cassius"
   }
  ],
