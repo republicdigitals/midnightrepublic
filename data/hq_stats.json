@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T19:37:01+00:00",
+ "generated_at": "2026-10-25T19:40:06+00:00",
  "leads": {
-  "total": 755,
-  "with_email": 737,
+  "total": 751,
+  "with_email": 733,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 367
+   "Instagram": 363
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 30,
-   "with_email": 30,
+   "leads": 26,
+   "with_email": 26,
    "sources": {
-    "Instagram": 30
+    "Instagram": 26
    }
   },
   "CT": {
@@ -461,15 +461,6 @@
    ]
   },
   {
-   "city": "Boulder",
-   "state": "CO",
-   "leads": 6,
-   "coords": [
-    -105.2705,
-    40.015
-   ]
-  },
-  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -521,6 +512,15 @@
    "coords": [
     -105.9385,
     35.6876
+   ]
+  },
+  {
+   "city": "Boulder",
+   "state": "CO",
+   "leads": 5,
+   "coords": [
+    -105.2705,
+    40.015
    ]
   },
   {
@@ -746,15 +746,6 @@
    "coords": [
     -95.6776,
     39.049
-   ]
-  },
-  {
-   "city": "Fort Collins",
-   "state": "CO",
-   "leads": 3,
-   "coords": [
-    -105.077,
-    40.5872
    ]
   },
   {
@@ -2276,6 +2267,15 @@
    ]
   },
   {
+   "city": "Fort Collins",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.077,
+    40.5872
+   ]
+  },
+  {
    "city": "Englewood",
    "state": "CO",
    "leads": 1,
@@ -2291,15 +2291,6 @@
    "coords": [
     -105.0005,
     39.5484
-   ]
-  },
-  {
-   "city": "Aurora",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -104.8733,
-    39.7401
    ]
   },
   {
@@ -2385,6 +2376,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T19:39:53Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T19:36:42Z",
    "msg": "Instagram: +5 leads",
@@ -2528,11 +2524,6 @@
   {
    "t": "2026-10-24T15:49:02+01:00",
    "msg": "Outreach: +3 sent (A1: Hail Fellow, Collective, KnightFire)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T15:34:30+01:00",
-   "msg": "Outreach: +3 sent (A1: Steinhaus, Draft and Table delivered; Sauce(d) in retry queue)",
    "who": "Cassius"
   }
  ],
