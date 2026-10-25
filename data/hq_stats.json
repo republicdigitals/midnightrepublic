@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T19:00:30+00:00",
+ "generated_at": "2026-10-25T19:19:49+00:00",
  "leads": {
-  "total": 740,
-  "with_email": 722,
+  "total": 745,
+  "with_email": 727,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 352
+   "Instagram": 357
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 15,
-   "with_email": 15,
+   "leads": 20,
+   "with_email": 20,
    "sources": {
-    "Instagram": 15
+    "Instagram": 20
    }
   },
   "CT": {
@@ -461,6 +461,15 @@
    ]
   },
   {
+   "city": "Boulder",
+   "state": "CO",
+   "leads": 6,
+   "coords": [
+    -105.2705,
+    40.015
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -512,15 +521,6 @@
    "coords": [
     -105.9385,
     35.6876
-   ]
-  },
-  {
-   "city": "Boulder",
-   "state": "CO",
-   "leads": 5,
-   "coords": [
-    -105.2705,
-    40.015
    ]
   },
   {
@@ -746,6 +746,15 @@
    "coords": [
     -95.6776,
     39.049
+   ]
+  },
+  {
+   "city": "Fort Collins",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -105.077,
+    40.5872
    ]
   },
   {
@@ -1208,21 +1217,21 @@
    ]
   },
   {
-   "city": "Fort Collins",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -105.077,
-    40.5872
-   ]
-  },
-  {
    "city": "Denver",
    "state": "CO",
    "leads": 2,
    "coords": [
     -104.9849,
     39.7392
+   ]
+  },
+  {
+   "city": "Loveland",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -105.075,
+    40.3978
    ]
   },
   {
@@ -2258,15 +2267,6 @@
    ]
   },
   {
-   "city": "Loveland",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.075,
-    40.3978
-   ]
-  },
-  {
    "city": "Englewood",
    "state": "CO",
    "leads": 1,
@@ -2283,9 +2283,32 @@
     -105.0005,
     39.5484
    ]
+  },
+  {
+   "city": "Aurora",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.8733,
+    39.7401
+   ]
+  },
+  {
+   "city": "Breckenridge",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.0465,
+    39.4829
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T19:19:35Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T19:00:16Z",
    "msg": "Instagram: +5 leads",
@@ -2429,11 +2452,6 @@
   {
    "t": "2026-10-24T15:07:19+01:00",
    "msg": "Outreach: Oct 24 run started",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-23T21:17:09+01:00",
-   "msg": "Outreach: Oct 23 run complete (60 sent)",
    "who": "Cassius"
   }
  ],
