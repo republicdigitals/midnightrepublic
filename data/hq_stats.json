@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T22:40:38+00:00",
+ "generated_at": "2026-10-25T22:54:41+00:00",
  "leads": {
-  "total": 761,
-  "with_email": 743,
+  "total": 766,
+  "with_email": 748,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 373
+   "Instagram": 378
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 36,
-   "with_email": 36,
+   "leads": 41,
+   "with_email": 41,
    "sources": {
-    "Instagram": 36
+    "Instagram": 41
    }
   },
   "CT": {
@@ -758,6 +758,15 @@
    ]
   },
   {
+   "city": "Steamboat Springs",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -106.8317,
+    40.4848
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -1253,21 +1262,21 @@
    ]
   },
   {
-   "city": "Steamboat Springs",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -106.8317,
-    40.4848
-   ]
-  },
-  {
    "city": "Gunnison",
    "state": "CO",
    "leads": 2,
    "coords": [
     -106.9269,
     38.5444
+   ]
+  },
+  {
+   "city": "Montrose",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -107.8763,
+    38.4782
    ]
   },
   {
@@ -2357,15 +2366,6 @@
    ]
   },
   {
-   "city": "Montrose",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -107.8763,
-    38.4782
-   ]
-  },
-  {
    "city": "Fruita",
    "state": "CO",
    "leads": 1,
@@ -2400,9 +2400,41 @@
     -105.0166,
     39.6133
    ]
+  },
+  {
+   "city": "Grand Junction",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -108.5645,
+    39.0673
+   ]
+  },
+  {
+   "city": "Bayfield",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -107.5981,
+    37.2256
+   ]
+  },
+  {
+   "city": "Crested Butte",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.984,
+    38.8698
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T22:54:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T22:40:25Z",
    "msg": "Instagram: +5 leads",
@@ -2546,11 +2578,6 @@
   {
    "t": "2026-10-24T16:30:39+01:00",
    "msg": "Outreach: +3 sent (A1: Hard Knox, Alley on Main, FEED)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T16:16:58+01:00",
-   "msg": "Outreach: +3 sent (A1: Next Level, Juniper, Possum)",
    "who": "Cassius"
   }
  ],
