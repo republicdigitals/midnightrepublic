@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T19:19:49+00:00",
+ "generated_at": "2026-10-25T19:28:06+00:00",
  "leads": {
-  "total": 745,
-  "with_email": 727,
+  "total": 750,
+  "with_email": 732,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 357
+   "Instagram": 362
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 20,
-   "with_email": 20,
+   "leads": 25,
+   "with_email": 25,
    "sources": {
-    "Instagram": 20
+    "Instagram": 25
    }
   },
   "CT": {
@@ -1235,6 +1235,15 @@
    ]
   },
   {
+   "city": "Breckenridge",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -106.0465,
+    39.4829
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2294,16 +2303,48 @@
    ]
   },
   {
-   "city": "Breckenridge",
+   "city": "Ridgway",
    "state": "CO",
    "leads": 1,
    "coords": [
-    -106.0465,
-    39.4829
+    -107.7617,
+    38.1528
+   ]
+  },
+  {
+   "city": "Steamboat Springs",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.8317,
+    40.4848
+   ]
+  },
+  {
+   "city": "Gunnison",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.9269,
+    38.5444
+   ]
+  },
+  {
+   "city": "Edwards",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -106.594,
+    39.6441
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-25T19:27:47Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-25T19:19:35Z",
    "msg": "Instagram: +5 leads",
@@ -2447,11 +2488,6 @@
   {
    "t": "2026-10-24T15:10:37+01:00",
    "msg": "Outreach: 60 drafted (Oct 24 queue)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T15:07:19+01:00",
-   "msg": "Outreach: Oct 24 run started",
    "who": "Cassius"
   }
  ],
