@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T13:02:20+00:00",
+ "generated_at": "2026-10-26T13:05:17+00:00",
  "leads": {
-  "total": 787,
-  "with_email": 769,
+  "total": 792,
+  "with_email": 774,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 399
+   "Instagram": 404
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 62,
-   "with_email": 62,
+   "leads": 67,
+   "with_email": 67,
    "sources": {
-    "Instagram": 62
+    "Instagram": 67
    }
   },
   "CT": {
@@ -461,6 +461,15 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 6,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -623,12 +632,21 @@
    ]
   },
   {
-   "city": "Denver",
+   "city": "Golden",
    "state": "CO",
    "leads": 4,
    "coords": [
-    -104.9849,
-    39.7392
+    -105.2206,
+    39.7546
+   ]
+  },
+  {
+   "city": "Loveland",
+   "state": "CO",
+   "leads": 4,
+   "coords": [
+    -105.075,
+    40.3978
    ]
   },
   {
@@ -773,24 +791,6 @@
    "coords": [
     -95.6776,
     39.049
-   ]
-  },
-  {
-   "city": "Golden",
-   "state": "CO",
-   "leads": 3,
-   "coords": [
-    -105.2206,
-    39.7546
-   ]
-  },
-  {
-   "city": "Loveland",
-   "state": "CO",
-   "leads": 3,
-   "coords": [
-    -105.075,
-    40.3978
    ]
   },
   {
@@ -1322,6 +1322,15 @@
    "coords": [
     -105.0166,
     39.6133
+   ]
+  },
+  {
+   "city": "Evergreen",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -105.3233,
+    39.6328
    ]
   },
   {
@@ -2510,15 +2519,6 @@
    ]
   },
   {
-   "city": "Evergreen",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.3233,
-    39.6328
-   ]
-  },
-  {
    "city": "Longmont",
    "state": "CO",
    "leads": 1,
@@ -2529,6 +2529,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T13:05:05Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T13:02:09Z",
    "msg": "Outreach: +3 sent (A1 tail complete: Kitchen Table, Sup, Mr.Crab)",
@@ -2672,11 +2677,6 @@
   {
    "t": "2026-10-25T13:13:36Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T13:07:01Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
