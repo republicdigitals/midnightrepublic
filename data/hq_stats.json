@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T13:37:37+00:00",
+ "generated_at": "2026-10-26T13:39:42+00:00",
  "leads": {
   "total": 807,
   "with_email": 789,
@@ -2557,6 +2557,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T13:39:28Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-26T13:37:24Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -2698,11 +2703,6 @@
   },
   {
    "t": "2026-10-25T19:19:35Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T19:00:16Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
