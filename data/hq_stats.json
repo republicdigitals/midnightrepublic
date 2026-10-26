@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T23:40:40+00:00",
+ "generated_at": "2026-10-26T23:47:29+00:00",
  "leads": {
-  "total": 844,
-  "with_email": 826,
+  "total": 849,
+  "with_email": 831,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 456
+   "Instagram": 461
   }
  },
  "states": {
@@ -134,10 +134,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 5,
-   "with_email": 5,
+   "leads": 10,
+   "with_email": 10,
    "sources": {
-    "Instagram": 5
+    "Instagram": 10
    }
   },
   "RI": {
@@ -1441,6 +1441,15 @@
    ]
   },
   {
+   "city": "Salem",
+   "state": "OR",
+   "leads": 2,
+   "coords": [
+    -123.0331,
+    44.9392
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2678,9 +2687,41 @@
     -124.0347,
     44.879
    ]
+  },
+  {
+   "city": "Sherwood",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -122.8404,
+    45.3569
+   ]
+  },
+  {
+   "city": "Carlton",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -123.1765,
+    45.2943
+   ]
+  },
+  {
+   "city": "Portland",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -122.6742,
+    45.5202
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T23:47:11Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T23:40:22Z",
    "msg": "Instagram: +5 leads",
@@ -2824,11 +2865,6 @@
   {
    "t": "2026-10-26T10:03:29Z",
    "msg": "Outreach active: Oct 26 tail run started",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T10:03:27Z",
-   "msg": "Outreach: 33 drafted (Oct 26 tail)",
    "who": "Cassius"
   }
  ],
