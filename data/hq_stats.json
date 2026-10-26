@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T18:41:52+00:00",
+ "generated_at": "2026-10-26T19:23:26+00:00",
  "leads": {
   "total": 834,
   "with_email": 816,
@@ -2638,6 +2638,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T19:23:13Z",
+   "msg": "Outreach: +3 sent (A2 tail: Liberty bounced, Beaujolais, Centro)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-26T18:41:37Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
@@ -2781,22 +2786,18 @@
    "t": "2026-10-25T23:36:57Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T23:09:15Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 362,
-  "sent": 358,
-  "delivered": 339,
-  "bounced": 18,
+  "sent": 361,
+  "delivered": 341,
+  "bounced": 19,
   "replies": 6,
   "sent_today": {
-   "liam@yeschefgroup.co": 30
+   "liam@yeschefgroup.co": 30,
+   "liam@jackdinningroom.com": 3
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2824,7 +2825,8 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-26": {
-    "liam@yeschefgroup.co": 30
+    "liam@yeschefgroup.co": 30,
+    "liam@jackdinningroom.com": 3
    }
   },
   "by_state": {
@@ -2874,9 +2876,9 @@
     "bounced": 0
    },
    "NV": {
-    "sent": 7,
-    "delivered": 7,
-    "bounced": 0
+    "sent": 10,
+    "delivered": 9,
+    "bounced": 1
    },
    "OK": {
     "sent": 7,
