@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T13:39:42+00:00",
+ "generated_at": "2026-10-26T17:33:39+00:00",
  "leads": {
-  "total": 807,
-  "with_email": 789,
+  "total": 812,
+  "with_email": 794,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 419
+   "Instagram": 424
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 82,
-   "with_email": 82,
+   "leads": 87,
+   "with_email": 87,
    "sources": {
-    "Instagram": 82
+    "Instagram": 87
    }
   },
   "CT": {
@@ -247,7 +247,7 @@
   {
    "city": "Denver",
    "state": "CO",
-   "leads": 16,
+   "leads": 18,
    "coords": [
     -104.9849,
     39.7392
@@ -1322,6 +1322,15 @@
    "coords": [
     -105.0166,
     39.6133
+   ]
+  },
+  {
+   "city": "Salida",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -105.991,
+    38.5371
    ]
   },
   {
@@ -2429,15 +2438,6 @@
    ]
   },
   {
-   "city": "Salida",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.991,
-    38.5371
-   ]
-  },
-  {
    "city": "Castle Rock",
    "state": "CO",
    "leads": 1,
@@ -2553,9 +2553,32 @@
     -104.7613,
     39.5185
    ]
+  },
+  {
+   "city": "Rollinsville",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.5018,
+    39.9171
+   ]
+  },
+  {
+   "city": "Centennial",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.8769,
+    39.5792
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T17:33:21Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T13:39:28Z",
    "msg": "Instagram: cleanup",
@@ -2698,11 +2721,6 @@
   },
   {
    "t": "2026-10-25T19:27:47Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T19:19:35Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
