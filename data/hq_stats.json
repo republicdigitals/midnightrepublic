@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T13:05:17+00:00",
+ "generated_at": "2026-10-26T13:14:00+00:00",
  "leads": {
-  "total": 792,
-  "with_email": 774,
+  "total": 797,
+  "with_email": 779,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 404
+   "Instagram": 409
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 67,
-   "with_email": 67,
+   "leads": 72,
+   "with_email": 72,
    "sources": {
-    "Instagram": 67
+    "Instagram": 72
    }
   },
   "CT": {
@@ -371,6 +371,15 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 9,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
@@ -461,15 +470,6 @@
    ]
   },
   {
-   "city": "Denver",
-   "state": "CO",
-   "leads": 6,
-   "coords": [
-    -104.9849,
-    39.7392
-   ]
-  },
-  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -530,6 +530,15 @@
    "coords": [
     -105.2705,
     40.015
+   ]
+  },
+  {
+   "city": "Golden",
+   "state": "CO",
+   "leads": 5,
+   "coords": [
+    -105.2206,
+    39.7546
    ]
   },
   {
@@ -629,15 +638,6 @@
    "coords": [
     -122.4788,
     48.7544
-   ]
-  },
-  {
-   "city": "Golden",
-   "state": "CO",
-   "leads": 4,
-   "coords": [
-    -105.2206,
-    39.7546
    ]
   },
   {
@@ -2526,9 +2526,23 @@
     -105.1019,
     40.1672
    ]
+  },
+  {
+   "city": "Conifer",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.3055,
+    39.5233
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T13:13:47Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T13:05:05Z",
    "msg": "Instagram: +5 leads",
@@ -2672,11 +2686,6 @@
   {
    "t": "2026-10-25T18:29:07Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T13:13:36Z",
-   "msg": "Instagram: cleanup",
    "who": "Caesar"
   }
  ],
