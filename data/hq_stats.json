@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T23:51:56+00:00",
+ "generated_at": "2026-10-26T10:03:38+00:00",
  "leads": {
   "total": 777,
   "with_email": 759,
@@ -2467,6 +2467,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T10:03:27Z",
+   "msg": "Outreach: 33 drafted (Oct 26 tail)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-25T23:51:43Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
@@ -2610,16 +2615,11 @@
    "t": "2026-10-24T17:47:20+01:00",
    "msg": "Outreach: +3 sent (A1 complete 30/30: Golden Prawn, Harvest, Sonnys)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T17:30:56+01:00",
-   "msg": "Outreach: +3 sent A1 (Plantation Pub, 51 North delivered; Jaspers bounced)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
-  "drafted": 329,
+  "drafted": 362,
   "sent": 328,
   "delivered": 310,
   "bounced": 17,
