@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T19:23:26+00:00",
+ "generated_at": "2026-10-26T19:23:40+00:00",
  "leads": {
   "total": 834,
   "with_email": 816,
@@ -2638,6 +2638,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T19:23:16Z",
+   "msg": "Outreach paused: Oct 26 tail run complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-26T19:23:13Z",
    "msg": "Outreach: +3 sent (A2 tail: Liberty bounced, Beaujolais, Centro)",
    "who": "Cassius"
@@ -2779,11 +2784,6 @@
   },
   {
    "t": "2026-10-25T23:48:13Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T23:36:57Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
@@ -2940,8 +2940,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-26",
-  "note": "Oct 26 tail run in progress"
+  "note": "Oct 26 tail complete: 33 sent across both accounts"
  }
 }
