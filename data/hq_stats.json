@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T18:28:02+00:00",
+ "generated_at": "2026-10-26T18:39:26+00:00",
  "leads": {
-  "total": 832,
-  "with_email": 814,
+  "total": 837,
+  "with_email": 819,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 444
+   "Instagram": 449
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 107,
-   "with_email": 107,
+   "leads": 112,
+   "with_email": 112,
    "sources": {
-    "Instagram": 107
+    "Instagram": 112
    }
   },
   "CT": {
@@ -812,6 +812,15 @@
    ]
   },
   {
+   "city": "Grand Junction",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -108.5645,
+    39.0673
+   ]
+  },
+  {
    "city": "Parker",
    "state": "CO",
    "leads": 3,
@@ -1352,15 +1361,6 @@
    ]
   },
   {
-   "city": "Grand Junction",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -108.5645,
-    39.0673
-   ]
-  },
-  {
    "city": "Salida",
    "state": "CO",
    "leads": 2,
@@ -1394,6 +1394,15 @@
    "coords": [
     -105.3233,
     39.6328
+   ]
+  },
+  {
+   "city": "Centennial",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -104.8769,
+    39.5792
    ]
   },
   {
@@ -2564,15 +2573,6 @@
    ]
   },
   {
-   "city": "Centennial",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -104.8769,
-    39.5792
-   ]
-  },
-  {
    "city": "Trinidad",
    "state": "CO",
    "leads": 1,
@@ -2607,9 +2607,41 @@
     -105.1319,
     39.9778
    ]
+  },
+  {
+   "city": "Wheat Ridge",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.0772,
+    39.7661
+   ]
+  },
+  {
+   "city": "Pueblo",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.6142,
+    38.264
+   ]
+  },
+  {
+   "city": "Sedalia",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.9622,
+    39.4375
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T18:39:10Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T18:27:44Z",
    "msg": "Instagram: +5 leads",
@@ -2752,11 +2784,6 @@
   },
   {
    "t": "2026-10-25T22:54:26Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T22:40:25Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
