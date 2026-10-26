@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T19:23:40+00:00",
+ "generated_at": "2026-10-26T22:44:19+00:00",
  "leads": {
-  "total": 834,
-  "with_email": 816,
+  "total": 839,
+  "with_email": 821,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 446
+   "Instagram": 451
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 109,
-   "with_email": 109,
+   "leads": 114,
+   "with_email": 114,
    "sources": {
-    "Instagram": 109
+    "Instagram": 114
    }
   },
   "CT": {
@@ -238,7 +238,7 @@
   {
    "city": "Denver",
    "state": "CO",
-   "leads": 21,
+   "leads": 22,
    "coords": [
     -104.9849,
     39.7392
@@ -479,6 +479,15 @@
    ]
   },
   {
+   "city": "Golden",
+   "state": "CO",
+   "leads": 6,
+   "coords": [
+    -105.2206,
+    39.7546
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -530,15 +539,6 @@
    "coords": [
     -105.9385,
     35.6876
-   ]
-  },
-  {
-   "city": "Golden",
-   "state": "CO",
-   "leads": 5,
-   "coords": [
-    -105.2206,
-    39.7546
    ]
   },
   {
@@ -665,6 +665,15 @@
    "coords": [
     -106.8317,
     40.4848
+   ]
+  },
+  {
+   "city": "Parker",
+   "state": "CO",
+   "leads": 4,
+   "coords": [
+    -104.7613,
+    39.5185
    ]
   },
   {
@@ -809,15 +818,6 @@
    "coords": [
     -108.5645,
     39.0673
-   ]
-  },
-  {
-   "city": "Parker",
-   "state": "CO",
-   "leads": 3,
-   "coords": [
-    -104.7613,
-    39.5185
    ]
   },
   {
@@ -1343,6 +1343,15 @@
    ]
   },
   {
+   "city": "Fruita",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -108.7336,
+    39.1589
+   ]
+  },
+  {
    "city": "Minturn",
    "state": "CO",
    "leads": 2,
@@ -1403,6 +1412,15 @@
    "coords": [
     -104.8769,
     39.5792
+   ]
+  },
+  {
+   "city": "Louisville",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -105.1319,
+    39.9778
    ]
   },
   {
@@ -2447,15 +2465,6 @@
    ]
   },
   {
-   "city": "Fruita",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -108.7336,
-    39.1589
-   ]
-  },
-  {
    "city": "Bayfield",
    "state": "CO",
    "leads": 1,
@@ -2600,15 +2609,6 @@
    ]
   },
   {
-   "city": "Louisville",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.1319,
-    39.9778
-   ]
-  },
-  {
    "city": "Wheat Ridge",
    "state": "CO",
    "leads": 1,
@@ -2637,6 +2637,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T22:44:07Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T19:23:16Z",
    "msg": "Outreach paused: Oct 26 tail run complete",
@@ -2780,11 +2785,6 @@
   {
    "t": "2026-10-25T23:51:43Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T23:48:13Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
