@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T22:44:19+00:00",
+ "generated_at": "2026-10-26T23:40:40+00:00",
  "leads": {
-  "total": 839,
-  "with_email": 821,
+  "total": 844,
+  "with_email": 826,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 451
+   "Instagram": 456
   }
  },
  "states": {
@@ -130,6 +130,14 @@
    "with_email": 7,
    "sources": {
     "Instagram": 7
+   }
+  },
+  "OR": {
+   "name": "Oregon",
+   "leads": 5,
+   "with_email": 5,
+   "sources": {
+    "Instagram": 5
    }
   },
   "RI": {
@@ -1424,6 +1432,15 @@
    ]
   },
   {
+   "city": "Eugene",
+   "state": "OR",
+   "leads": 2,
+   "coords": [
+    -123.0951,
+    44.0505
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2634,9 +2651,41 @@
     -104.9622,
     39.4375
    ]
+  },
+  {
+   "city": "Tigard",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -122.7719,
+    45.4307
+   ]
+  },
+  {
+   "city": "Oregon City",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -122.6068,
+    45.3573
+   ]
+  },
+  {
+   "city": "Gleneden Beach",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -124.0347,
+    44.879
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T23:40:22Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T22:44:07Z",
    "msg": "Instagram: +5 leads",
@@ -2781,11 +2830,6 @@
    "t": "2026-10-26T10:03:27Z",
    "msg": "Outreach: 33 drafted (Oct 26 tail)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-25T23:51:43Z",
-   "msg": "Instagram: cleanup",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
