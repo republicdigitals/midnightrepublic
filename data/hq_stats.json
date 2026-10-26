@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T17:33:39+00:00",
+ "generated_at": "2026-10-26T17:42:46+00:00",
  "leads": {
-  "total": 812,
-  "with_email": 794,
+  "total": 817,
+  "with_email": 799,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 424
+   "Instagram": 429
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 87,
-   "with_email": 87,
+   "leads": 92,
+   "with_email": 92,
    "sources": {
-    "Instagram": 87
+    "Instagram": 92
    }
   },
   "CT": {
@@ -236,21 +236,21 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 21,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
    "city": "Cambridge",
    "state": "MA",
    "leads": 19,
    "coords": [
     -71.104,
     42.3656
-   ]
-  },
-  {
-   "city": "Denver",
-   "state": "CO",
-   "leads": 18,
-   "coords": [
-    -104.9849,
-    39.7392
    ]
   },
   {
@@ -2571,9 +2571,32 @@
     -104.8769,
     39.5792
    ]
+  },
+  {
+   "city": "Trinidad",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.5005,
+    37.1694
+   ]
+  },
+  {
+   "city": "Greeley",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.7091,
+    40.4233
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T17:42:29Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T17:33:21Z",
    "msg": "Instagram: +5 leads",
@@ -2716,11 +2739,6 @@
   },
   {
    "t": "2026-10-25T19:36:42Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T19:27:47Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
