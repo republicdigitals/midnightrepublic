@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T18:13:10+00:00",
+ "generated_at": "2026-10-26T18:28:02+00:00",
  "leads": {
-  "total": 827,
-  "with_email": 809,
+  "total": 832,
+  "with_email": 814,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 439
+   "Instagram": 444
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 102,
-   "with_email": 102,
+   "leads": 107,
+   "with_email": 107,
    "sources": {
-    "Instagram": 102
+    "Instagram": 107
    }
   },
   "CT": {
@@ -803,6 +803,15 @@
    ]
   },
   {
+   "city": "Fort Collins",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -105.077,
+    40.5872
+   ]
+  },
+  {
    "city": "Parker",
    "state": "CO",
    "leads": 3,
@@ -1280,15 +1289,6 @@
    ]
   },
   {
-   "city": "Fort Collins",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -105.077,
-    40.5872
-   ]
-  },
-  {
    "city": "Englewood",
    "state": "CO",
    "leads": 2,
@@ -1352,12 +1352,39 @@
    ]
   },
   {
+   "city": "Grand Junction",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -108.5645,
+    39.0673
+   ]
+  },
+  {
    "city": "Salida",
    "state": "CO",
    "leads": 2,
    "coords": [
     -105.991,
     38.5371
+   ]
+  },
+  {
+   "city": "Castle Rock",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -104.8587,
+    39.3723
+   ]
+  },
+  {
+   "city": "Windsor",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -104.9014,
+    40.4775
    ]
   },
   {
@@ -2420,15 +2447,6 @@
    ]
   },
   {
-   "city": "Grand Junction",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -108.5645,
-    39.0673
-   ]
-  },
-  {
    "city": "Bayfield",
    "state": "CO",
    "leads": 1,
@@ -2447,15 +2465,6 @@
    ]
   },
   {
-   "city": "Castle Rock",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -104.8587,
-    39.3723
-   ]
-  },
-  {
    "city": "Ouray",
    "state": "CO",
    "leads": 1,
@@ -2471,15 +2480,6 @@
    "coords": [
     -105.0847,
     39.7086
-   ]
-  },
-  {
-   "city": "Windsor",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -104.9014,
-    40.4775
    ]
   },
   {
@@ -2598,9 +2598,23 @@
     -105.0372,
     39.8367
    ]
+  },
+  {
+   "city": "Louisville",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.1319,
+    39.9778
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T18:27:44Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T18:12:58Z",
    "msg": "Instagram: +5 leads",
@@ -2743,11 +2757,6 @@
   },
   {
    "t": "2026-10-25T22:40:25Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T22:30:01Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
