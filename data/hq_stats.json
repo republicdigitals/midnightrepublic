@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T17:42:46+00:00",
+ "generated_at": "2026-10-26T17:50:10+00:00",
  "leads": {
-  "total": 817,
-  "with_email": 799,
+  "total": 822,
+  "with_email": 804,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 429
+   "Instagram": 434
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 92,
-   "with_email": 92,
+   "leads": 97,
+   "with_email": 97,
    "sources": {
-    "Instagram": 92
+    "Instagram": 97
    }
   },
   "CT": {
@@ -794,6 +794,15 @@
    ]
   },
   {
+   "city": "Parker",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -104.7613,
+    39.5185
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -1268,6 +1277,24 @@
    "coords": [
     -105.05,
     40.0503
+   ]
+  },
+  {
+   "city": "Fort Collins",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -105.077,
+    40.5872
+   ]
+  },
+  {
+   "city": "Englewood",
+   "state": "CO",
+   "leads": 2,
+   "coords": [
+    -104.988,
+    39.6482
    ]
   },
   {
@@ -2348,24 +2375,6 @@
    ]
   },
   {
-   "city": "Fort Collins",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.077,
-    40.5872
-   ]
-  },
-  {
-   "city": "Englewood",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -104.988,
-    39.6482
-   ]
-  },
-  {
    "city": "Highlands Ranch",
    "state": "CO",
    "leads": 1,
@@ -2546,15 +2555,6 @@
    ]
   },
   {
-   "city": "Parker",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -104.7613,
-    39.5185
-   ]
-  },
-  {
    "city": "Rollinsville",
    "state": "CO",
    "leads": 1,
@@ -2589,9 +2589,23 @@
     -104.7091,
     40.4233
    ]
+  },
+  {
+   "city": "Westminster",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.0372,
+    39.8367
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T17:49:56Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T17:42:29Z",
    "msg": "Instagram: +5 leads",
@@ -2735,11 +2749,6 @@
   {
    "t": "2026-10-25T19:39:53Z",
    "msg": "Instagram: cleanup",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T19:36:42Z",
-   "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
  ],
