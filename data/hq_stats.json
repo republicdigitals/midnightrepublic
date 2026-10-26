@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T12:42:11+00:00",
+ "generated_at": "2026-10-26T12:53:54+00:00",
  "leads": {
-  "total": 782,
-  "with_email": 764,
+  "total": 787,
+  "with_email": 769,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 394
+   "Instagram": 399
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 57,
-   "with_email": 57,
+   "leads": 62,
+   "with_email": 62,
    "sources": {
-    "Instagram": 57
+    "Instagram": 62
    }
   },
   "CT": {
@@ -776,6 +776,15 @@
    ]
   },
   {
+   "city": "Golden",
+   "state": "CO",
+   "leads": 3,
+   "coords": [
+    -105.2206,
+    39.7546
+   ]
+  },
+  {
    "city": "Loveland",
    "state": "CO",
    "leads": 3,
@@ -1253,12 +1262,12 @@
    ]
   },
   {
-   "city": "Golden",
+   "city": "Erie",
    "state": "CO",
    "leads": 2,
    "coords": [
-    -105.2206,
-    39.7546
+    -105.05,
+    40.0503
    ]
   },
   {
@@ -2321,15 +2330,6 @@
    ]
   },
   {
-   "city": "Erie",
-   "state": "CO",
-   "leads": 1,
-   "coords": [
-    -105.05,
-    40.0503
-   ]
-  },
-  {
    "city": "Fort Collins",
    "state": "CO",
    "leads": 1,
@@ -2499,9 +2499,41 @@
     -104.9852,
     39.8696
    ]
+  },
+  {
+   "city": "Aurora",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.8733,
+    39.7401
+   ]
+  },
+  {
+   "city": "Evergreen",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.3233,
+    39.6328
+   ]
+  },
+  {
+   "city": "Longmont",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.1019,
+    40.1672
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T12:53:39Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T12:41:59Z",
    "msg": "Outreach: +3 sent (A1 tail: Top of the Block, Capitol Grill, Beefys)",
@@ -2646,11 +2678,6 @@
    "t": "2026-10-25T12:50:31Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-24T20:08:58+01:00",
-   "msg": "Outreach paused: Oct 24 run complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
