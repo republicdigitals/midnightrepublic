@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T11:55:39+00:00",
+ "generated_at": "2026-10-26T12:08:55+00:00",
  "leads": {
   "total": 777,
   "with_email": 759,
@@ -2467,6 +2467,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T12:08:44Z",
+   "msg": "Outreach: +3 sent (A1 tail: Frenchish, Taos Cow, 315)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-26T11:55:28Z",
    "msg": "Outreach: +3 sent (A1 tail: Miches, Turtle Mountain, Starr Brothers in retry queue)",
    "who": "Cassius"
@@ -2610,22 +2615,17 @@
    "t": "2026-10-24T19:40:01+01:00",
    "msg": "Outreach: +3 sent A2 (Break on the Lake, Traditions delivered; Crabby Mikes in retry queue)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T19:25:51+01:00",
-   "msg": "Outreach: +3 sent (A2: Bowens Landing, Costa, Pages Okra Summerville)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 362,
-  "sent": 346,
-  "delivered": 327,
+  "sent": 349,
+  "delivered": 330,
   "bounced": 18,
   "replies": 6,
   "sent_today": {
-   "liam@yeschefgroup.co": 18
+   "liam@yeschefgroup.co": 21
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2653,7 +2653,7 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-26": {
-    "liam@yeschefgroup.co": 18
+    "liam@yeschefgroup.co": 21
    }
   },
   "by_state": {
@@ -2698,8 +2698,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 8,
-    "delivered": 7,
+    "sent": 11,
+    "delivered": 10,
     "bounced": 0
    },
    "NV": {
