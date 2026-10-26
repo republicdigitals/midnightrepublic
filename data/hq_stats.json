@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T11:06:47+00:00",
+ "generated_at": "2026-10-26T11:21:31+00:00",
  "leads": {
   "total": 777,
   "with_email": 759,
@@ -2467,6 +2467,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T11:21:21Z",
+   "msg": "Outreach: +3 sent (A1 tail: Pasta Joint, Newgrass, Americana)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-26T11:06:35Z",
    "msg": "Outreach: +3 sent (A1 tail: Mills River, French Broad, Hillman); Character Study bounced",
    "who": "Cassius"
@@ -2610,22 +2615,17 @@
    "t": "2026-10-24T18:58:53+01:00",
    "msg": "Outreach: +3 sent (A2: Bodega CHS, Johnnys Garage, Reds Ice House); Stanley Supper Club replied (declined)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-24T18:46:09+01:00",
-   "msg": "Outreach: +3 sent (A2: Pint Station, Blue Heron, The Pass)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 362,
-  "sent": 337,
-  "delivered": 319,
+  "sent": 340,
+  "delivered": 322,
   "bounced": 18,
   "replies": 6,
   "sent_today": {
-   "liam@yeschefgroup.co": 9
+   "liam@yeschefgroup.co": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2653,7 +2653,7 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-26": {
-    "liam@yeschefgroup.co": 9
+    "liam@yeschefgroup.co": 12
    }
   },
   "by_state": {
@@ -2683,8 +2683,8 @@
     "bounced": 4
    },
    "NC": {
-    "sent": 18,
-    "delivered": 18,
+    "sent": 21,
+    "delivered": 21,
     "bounced": 1
    },
    "NE": {
