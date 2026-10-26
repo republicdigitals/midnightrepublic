@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T23:47:29+00:00",
+ "generated_at": "2026-10-26T23:58:11+00:00",
  "leads": {
-  "total": 849,
-  "with_email": 831,
+  "total": 854,
+  "with_email": 836,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 461
+   "Instagram": 466
   }
  },
  "states": {
@@ -134,10 +134,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 10,
-   "with_email": 10,
+   "leads": 15,
+   "with_email": 15,
    "sources": {
-    "Instagram": 10
+    "Instagram": 15
    }
   },
   "RI": {
@@ -565,6 +565,15 @@
    "coords": [
     -107.8766,
     37.2769
+   ]
+  },
+  {
+   "city": "Eugene",
+   "state": "OR",
+   "leads": 5,
+   "coords": [
+    -123.0951,
+    44.0505
    ]
   },
   {
@@ -1432,21 +1441,21 @@
    ]
   },
   {
-   "city": "Eugene",
-   "state": "OR",
-   "leads": 2,
-   "coords": [
-    -123.0951,
-    44.0505
-   ]
-  },
-  {
    "city": "Salem",
    "state": "OR",
    "leads": 2,
    "coords": [
     -123.0331,
     44.9392
+   ]
+  },
+  {
+   "city": "Portland",
+   "state": "OR",
+   "leads": 2,
+   "coords": [
+    -122.6742,
+    45.5202
    ]
   },
   {
@@ -2707,16 +2716,21 @@
    ]
   },
   {
-   "city": "Portland",
+   "city": "Milwaukie",
    "state": "OR",
    "leads": 1,
    "coords": [
-    -122.6742,
-    45.5202
+    -122.6413,
+    45.444
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T23:57:58Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T23:47:11Z",
    "msg": "Instagram: +5 leads",
@@ -2860,11 +2874,6 @@
   {
    "t": "2026-10-26T10:36:16Z",
    "msg": "Outreach: +3 sent (A1 tail: Haywood CC, RAD Brewing, Character Study)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T10:03:29Z",
-   "msg": "Outreach active: Oct 26 tail run started",
    "who": "Cassius"
   }
  ],
