@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T12:53:54+00:00",
+ "generated_at": "2026-10-26T13:02:20+00:00",
  "leads": {
   "total": 787,
   "with_email": 769,
@@ -2530,6 +2530,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T13:02:09Z",
+   "msg": "Outreach: +3 sent (A1 tail complete: Kitchen Table, Sup, Mr.Crab)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-26T12:53:39Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -2673,22 +2678,17 @@
    "t": "2026-10-25T13:07:01Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T12:50:31Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 369,
   "drafted": 362,
-  "sent": 355,
-  "delivered": 336,
+  "sent": 358,
+  "delivered": 339,
   "bounced": 18,
   "replies": 6,
   "sent_today": {
-   "liam@yeschefgroup.co": 27
+   "liam@yeschefgroup.co": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2716,7 +2716,7 @@
     "liam@jackdinningroom.com": 30
    },
    "2026-10-26": {
-    "liam@yeschefgroup.co": 27
+    "liam@yeschefgroup.co": 30
    }
   },
   "by_state": {
@@ -2766,8 +2766,8 @@
     "bounced": 0
    },
    "NV": {
-    "sent": 4,
-    "delivered": 4,
+    "sent": 7,
+    "delivered": 7,
     "bounced": 0
    },
    "OK": {
