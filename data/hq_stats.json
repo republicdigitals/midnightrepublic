@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T13:25:27+00:00",
+ "generated_at": "2026-10-26T13:37:37+00:00",
  "leads": {
-  "total": 802,
-  "with_email": 784,
+  "total": 807,
+  "with_email": 789,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 414
+   "Instagram": 419
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 77,
-   "with_email": 77,
+   "leads": 82,
+   "with_email": 82,
    "sources": {
-    "Instagram": 77
+    "Instagram": 82
    }
   },
   "CT": {
@@ -245,6 +245,15 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 16,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
    "city": "Sioux Falls",
    "state": "SD",
    "leads": 15,
@@ -287,15 +296,6 @@
    "coords": [
     -95.9384,
     41.2587
-   ]
-  },
-  {
-   "city": "Denver",
-   "state": "CO",
-   "leads": 12,
-   "coords": [
-    -104.9849,
-    39.7392
    ]
   },
   {
@@ -2544,9 +2544,23 @@
     -106.9584,
     40.275
    ]
+  },
+  {
+   "city": "Parker",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -104.7613,
+    39.5185
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-26T13:37:24Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T13:25:09Z",
    "msg": "Instagram: +5 leads",
@@ -2689,11 +2703,6 @@
   },
   {
    "t": "2026-10-25T19:00:16Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T18:45:19Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
