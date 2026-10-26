@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T17:50:10+00:00",
+ "generated_at": "2026-10-26T18:13:10+00:00",
  "leads": {
-  "total": 822,
-  "with_email": 804,
+  "total": 827,
+  "with_email": 809,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 434
+   "Instagram": 439
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 97,
-   "with_email": 97,
+   "leads": 102,
+   "with_email": 102,
    "sources": {
-    "Instagram": 97
+    "Instagram": 102
    }
   },
   "CT": {
@@ -238,7 +238,7 @@
   {
    "city": "Denver",
    "state": "CO",
-   "leads": 21,
+   "leads": 22,
    "coords": [
     -104.9849,
     39.7392
@@ -470,6 +470,15 @@
    ]
   },
   {
+   "city": "Boulder",
+   "state": "CO",
+   "leads": 6,
+   "coords": [
+    -105.2705,
+    40.015
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -524,12 +533,12 @@
    ]
   },
   {
-   "city": "Boulder",
+   "city": "Colorado Springs",
    "state": "CO",
    "leads": 5,
    "coords": [
-    -105.2705,
-    40.015
+    -104.8253,
+    38.834
    ]
   },
   {
@@ -1259,15 +1268,6 @@
    "coords": [
     -94.5781,
     39.1001
-   ]
-  },
-  {
-   "city": "Colorado Springs",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -104.8253,
-    38.834
    ]
   },
   {
@@ -2602,6 +2602,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-26T18:12:58Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-26T17:49:56Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -2744,11 +2749,6 @@
   {
    "t": "2026-10-25T22:30:01Z",
    "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-25T19:39:53Z",
-   "msg": "Instagram: cleanup",
    "who": "Caesar"
   }
  ],
