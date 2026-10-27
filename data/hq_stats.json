@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T17:54:15+00:00",
+ "generated_at": "2026-10-27T18:09:36+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T18:09:26Z",
+   "msg": "Outreach: +3 sent (A1 Oct 27: Flagstaff House, Avanti, 503W)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T17:54:04Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: Martin City bounced, Jamaica bounced, Anthonys)",
    "who": "Cassius"
@@ -2906,23 +2911,18 @@
    "t": "2026-10-26T18:12:58Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-26T17:49:56Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 401,
-  "delivered": 374,
+  "sent": 404,
+  "delivered": 377,
   "bounced": 26,
   "replies": 10,
   "sent_today": {
    "liam@jackdinningroom.com": 31,
-   "liam@yeschefgroup.co": 9
+   "liam@yeschefgroup.co": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2955,7 +2955,7 @@
    },
    "2026-10-27": {
     "liam@jackdinningroom.com": 31,
-    "liam@yeschefgroup.co": 9
+    "liam@yeschefgroup.co": 12
    }
   },
   "by_state": {
@@ -2965,8 +2965,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 30,
-    "delivered": 28,
+    "sent": 33,
+    "delivered": 31,
     "bounced": 2
    },
    "CT": {
