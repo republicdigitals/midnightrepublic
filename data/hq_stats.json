@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T17:24:28+00:00",
+ "generated_at": "2026-10-27T17:39:33+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T17:39:22Z",
+   "msg": "Outreach: +3 sent (A1 Oct 27: River City, Suburban, Luis Place)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T17:24:17Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: 6S, Pennant, Iron Rail \u2014 all bounced)",
    "who": "Cassius"
@@ -2906,23 +2911,18 @@
    "t": "2026-10-26T17:42:29Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-26T17:33:21Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 395,
-  "delivered": 370,
+  "sent": 398,
+  "delivered": 373,
   "bounced": 24,
   "replies": 10,
   "sent_today": {
    "liam@jackdinningroom.com": 31,
-   "liam@yeschefgroup.co": 3
+   "liam@yeschefgroup.co": 6
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2955,7 +2955,7 @@
    },
    "2026-10-27": {
     "liam@jackdinningroom.com": 31,
-    "liam@yeschefgroup.co": 3
+    "liam@yeschefgroup.co": 6
    }
   },
   "by_state": {
@@ -2985,8 +2985,8 @@
     "bounced": 2
    },
    "KS": {
-    "sent": 3,
-    "delivered": 0,
+    "sent": 6,
+    "delivered": 3,
     "bounced": 3
    },
    "MA": {
