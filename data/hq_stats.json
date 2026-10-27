@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T13:20:18+00:00",
+ "generated_at": "2026-10-27T13:36:30+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T13:36:19Z",
+   "msg": "Outreach: +3 sent (A2 Oct 27: Bread + Salt, Counter Culture, 2nd Deli)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T13:19:58Z",
    "msg": "Outreach active: Oct 27 run started",
    "who": "Cassius"
@@ -2906,21 +2911,18 @@
    "t": "2026-10-26T12:08:44Z",
    "msg": "Outreach: +3 sent (A1 tail: Frenchish, Taos Cow, 315)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T11:55:28Z",
-   "msg": "Outreach: +3 sent (A1 tail: Miches, Turtle Mountain, Starr Brothers in retry queue)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 429,
   "drafted": 422,
-  "sent": 361,
-  "delivered": 341,
+  "sent": 364,
+  "delivered": 344,
   "bounced": 19,
   "replies": 6,
-  "sent_today": {},
+  "sent_today": {
+   "liam@jackdinningroom.com": 3
+  },
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
@@ -2949,6 +2951,9 @@
    "2026-10-26": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 3
+   },
+   "2026-10-27": {
+    "liam@jackdinningroom.com": 3
    }
   },
   "by_state": {
@@ -2958,8 +2963,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 0,
-    "delivered": 0,
+    "sent": 3,
+    "delivered": 3,
     "bounced": 0
    },
    "CT": {
