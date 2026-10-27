@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T13:20:07+00:00",
+ "generated_at": "2026-10-27T13:20:18+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T13:19:58Z",
+   "msg": "Outreach active: Oct 27 run started",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T13:19:55Z",
    "msg": "Outreach: 60 drafted (Oct 27, producer style)",
    "who": "Cassius"
@@ -2905,11 +2910,6 @@
   {
    "t": "2026-10-26T11:55:28Z",
    "msg": "Outreach: +3 sent (A1 tail: Miches, Turtle Mountain, Starr Brothers in retry queue)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T11:37:02Z",
-   "msg": "Outreach: +3 sent (A1 tail: Heist, Grove Cartel, Il Localetto Rossi)",
    "who": "Cassius"
   }
  ],
@@ -3077,8 +3077,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-10-26",
-  "note": "Oct 26 tail complete: 33 sent across both accounts"
+  "status": "active",
+  "since": "2026-10-27",
+  "note": "Oct 27 run in progress"
  }
 }
