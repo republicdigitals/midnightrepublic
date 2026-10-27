@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T23:58:11+00:00",
+ "generated_at": "2026-10-27T00:06:48+00:00",
  "leads": {
-  "total": 854,
-  "with_email": 836,
+  "total": 859,
+  "with_email": 841,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 466
+   "Instagram": 471
   }
  },
  "states": {
@@ -134,10 +134,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 15,
-   "with_email": 15,
+   "leads": 20,
+   "with_email": 20,
    "sources": {
-    "Instagram": 15
+    "Instagram": 20
    }
   },
   "RI": {
@@ -496,6 +496,15 @@
    ]
   },
   {
+   "city": "Eugene",
+   "state": "OR",
+   "leads": 6,
+   "coords": [
+    -123.0951,
+    44.0505
+   ]
+  },
+  {
    "city": "Logan",
    "state": "UT",
    "leads": 5,
@@ -565,15 +574,6 @@
    "coords": [
     -107.8766,
     37.2769
-   ]
-  },
-  {
-   "city": "Eugene",
-   "state": "OR",
-   "leads": 5,
-   "coords": [
-    -123.0951,
-    44.0505
    ]
   },
   {
@@ -2723,9 +2723,50 @@
     -122.6413,
     45.444
    ]
+  },
+  {
+   "city": "Corvallis",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -123.262,
+    44.5646
+   ]
+  },
+  {
+   "city": "Ashland",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -122.7154,
+    42.1972
+   ]
+  },
+  {
+   "city": "Astoria",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -123.832,
+    46.1882
+   ]
+  },
+  {
+   "city": "McMinnville",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -123.1945,
+    45.21
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-27T00:06:31Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-26T23:57:58Z",
    "msg": "Instagram: +5 leads",
@@ -2869,11 +2910,6 @@
   {
    "t": "2026-10-26T10:51:55Z",
    "msg": "Outreach: +3 sent (A1 tail: Come Back Shack, Gamekeeper, Malvern)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T10:36:16Z",
-   "msg": "Outreach: +3 sent (A1 tail: Haywood CC, RAD Brewing, Character Study)",
    "who": "Cassius"
   }
  ],
