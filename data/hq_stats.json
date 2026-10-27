@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T00:06:48+00:00",
+ "generated_at": "2026-10-27T00:21:17+00:00",
  "leads": {
-  "total": 859,
-  "with_email": 841,
+  "total": 864,
+  "with_email": 846,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 471
+   "Instagram": 476
   }
  },
  "states": {
@@ -134,10 +134,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 20,
-   "with_email": 20,
+   "leads": 25,
+   "with_email": 25,
    "sources": {
-    "Instagram": 20
+    "Instagram": 25
    }
   },
   "RI": {
@@ -442,6 +442,15 @@
    ]
   },
   {
+   "city": "Eugene",
+   "state": "OR",
+   "leads": 7,
+   "coords": [
+    -123.0951,
+    44.0505
+   ]
+  },
+  {
    "city": "Casper",
    "state": "WY",
    "leads": 6,
@@ -493,15 +502,6 @@
    "coords": [
     -105.2206,
     39.7546
-   ]
-  },
-  {
-   "city": "Eugene",
-   "state": "OR",
-   "leads": 6,
-   "coords": [
-    -123.0951,
-    44.0505
    ]
   },
   {
@@ -574,6 +574,15 @@
    "coords": [
     -107.8766,
     37.2769
+   ]
+  },
+  {
+   "city": "Portland",
+   "state": "OR",
+   "leads": 5,
+   "coords": [
+    -122.6742,
+    45.5202
    ]
   },
   {
@@ -1447,15 +1456,6 @@
    "coords": [
     -123.0331,
     44.9392
-   ]
-  },
-  {
-   "city": "Portland",
-   "state": "OR",
-   "leads": 2,
-   "coords": [
-    -122.6742,
-    45.5202
    ]
   },
   {
@@ -2759,9 +2759,23 @@
     -123.1945,
     45.21
    ]
+  },
+  {
+   "city": "Bend",
+   "state": "OR",
+   "leads": 1,
+   "coords": [
+    -121.3153,
+    44.0582
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-27T00:21:06Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-27T00:06:31Z",
    "msg": "Instagram: +5 leads",
@@ -2905,11 +2919,6 @@
   {
    "t": "2026-10-26T11:06:35Z",
    "msg": "Outreach: +3 sent (A1 tail: Mills River, French Broad, Hillman); Character Study bounced",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T10:51:55Z",
-   "msg": "Outreach: +3 sent (A1 tail: Come Back Shack, Gamekeeper, Malvern)",
    "who": "Cassius"
   }
  ],
