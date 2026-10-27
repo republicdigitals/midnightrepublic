@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T17:39:33+00:00",
+ "generated_at": "2026-10-27T17:54:15+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T17:54:04Z",
+   "msg": "Outreach: +3 sent (A1 Oct 27: Martin City bounced, Jamaica bounced, Anthonys)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T17:39:22Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: River City, Suburban, Luis Place)",
    "who": "Cassius"
@@ -2906,23 +2911,18 @@
    "t": "2026-10-26T17:49:56Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-26T17:42:29Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 398,
-  "delivered": 373,
-  "bounced": 24,
+  "sent": 401,
+  "delivered": 374,
+  "bounced": 26,
   "replies": 10,
   "sent_today": {
    "liam@jackdinningroom.com": 31,
-   "liam@yeschefgroup.co": 6
+   "liam@yeschefgroup.co": 9
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2955,7 +2955,7 @@
    },
    "2026-10-27": {
     "liam@jackdinningroom.com": 31,
-    "liam@yeschefgroup.co": 6
+    "liam@yeschefgroup.co": 9
    }
   },
   "by_state": {
@@ -2985,9 +2985,9 @@
     "bounced": 2
    },
    "KS": {
-    "sent": 6,
+    "sent": 7,
     "delivered": 3,
-    "bounced": 3
+    "bounced": 4
    },
    "MA": {
     "sent": 26,
@@ -2995,9 +2995,9 @@
     "bounced": 4
    },
    "MO": {
-    "sent": 0,
-    "delivered": 0,
-    "bounced": 0
+    "sent": 2,
+    "delivered": 1,
+    "bounced": 1
    },
    "NC": {
     "sent": 23,
