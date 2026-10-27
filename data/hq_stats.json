@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T13:36:30+00:00",
+ "generated_at": "2026-10-27T13:51:12+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T13:50:55Z",
+   "msg": "Outreach: +3 sent (A2 Oct 27: PRUF, Hot Tomato, Carver); Honey Seed replied",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T13:36:19Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Bread + Salt, Counter Culture, 2nd Deli)",
    "who": "Cassius"
@@ -2906,22 +2911,17 @@
    "t": "2026-10-26T12:27:10Z",
    "msg": "Outreach: +3 sent (A1 tail: Fable, Boxcar, Lure)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T12:08:44Z",
-   "msg": "Outreach: +3 sent (A1 tail: Frenchish, Taos Cow, 315)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 429,
-  "drafted": 422,
-  "sent": 364,
-  "delivered": 344,
+  "researched": 430,
+  "drafted": 423,
+  "sent": 368,
+  "delivered": 348,
   "bounced": 19,
-  "replies": 6,
+  "replies": 7,
   "sent_today": {
-   "liam@jackdinningroom.com": 3
+   "liam@jackdinningroom.com": 6
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2953,7 +2953,7 @@
     "liam@jackdinningroom.com": 3
    },
    "2026-10-27": {
-    "liam@jackdinningroom.com": 3
+    "liam@jackdinningroom.com": 6
    }
   },
   "by_state": {
@@ -2963,8 +2963,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 3,
-    "delivered": 3,
+    "sent": 6,
+    "delivered": 6,
     "bounced": 0
    },
    "CT": {
@@ -3038,8 +3038,8 @@
     "bounced": 1
    },
    "TN": {
-    "sent": 38,
-    "delivered": 36,
+    "sent": 39,
+    "delivered": 37,
     "bounced": 2
    },
    "UT": {
