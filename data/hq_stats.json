@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T14:57:11+00:00",
+ "generated_at": "2026-10-27T15:00:17+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T15:00:06Z",
+   "msg": "Warm: Ron final close sent (A2 Oct 27)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T14:57:01Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Mill Street, Wooden Nickel, Tahk)",
    "who": "Cassius"
@@ -2906,11 +2911,6 @@
    "t": "2026-10-26T13:05:05Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-26T13:02:09Z",
-   "msg": "Outreach: +3 sent (A1 tail complete: Kitchen Table, Sup, Mr.Crab)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -2921,7 +2921,7 @@
   "bounced": 20,
   "replies": 9,
   "sent_today": {
-   "liam@jackdinningroom.com": 18
+   "liam@jackdinningroom.com": 19
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2953,7 +2953,7 @@
     "liam@jackdinningroom.com": 3
    },
    "2026-10-27": {
-    "liam@jackdinningroom.com": 18
+    "liam@jackdinningroom.com": 19
    }
   },
   "by_state": {
