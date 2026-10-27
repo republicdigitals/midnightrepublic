@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T14:41:38+00:00",
+ "generated_at": "2026-10-27T14:57:11+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T14:57:01Z",
+   "msg": "Outreach: +3 sent (A2 Oct 27: Mill Street, Wooden Nickel, Tahk)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T14:41:26Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Greenwoods, Stone House, Cafe Sol)",
    "who": "Cassius"
@@ -2906,22 +2911,17 @@
    "t": "2026-10-26T13:02:09Z",
    "msg": "Outreach: +3 sent (A1 tail complete: Kitchen Table, Sup, Mr.Crab)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T12:53:39Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 377,
-  "delivered": 356,
+  "sent": 380,
+  "delivered": 359,
   "bounced": 20,
   "replies": 9,
   "sent_today": {
-   "liam@jackdinningroom.com": 15
+   "liam@jackdinningroom.com": 18
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2953,7 +2953,7 @@
     "liam@jackdinningroom.com": 3
    },
    "2026-10-27": {
-    "liam@jackdinningroom.com": 15
+    "liam@jackdinningroom.com": 18
    }
   },
   "by_state": {
@@ -2963,8 +2963,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 15,
-    "delivered": 14,
+    "sent": 18,
+    "delivered": 17,
     "bounced": 1
    },
    "CT": {
