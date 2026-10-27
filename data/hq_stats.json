@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T15:50:53+00:00",
+ "generated_at": "2026-10-27T16:05:39+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T16:05:26Z",
+   "msg": "Outreach: +3 sent (A2 Oct 27 complete: 6 and 40, Minturn CC, Hearth)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T15:50:38Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: MEATBAR, Brickhouse 737, South Park Brewing)",
    "who": "Cassius"
@@ -2906,22 +2911,17 @@
    "t": "2026-10-26T13:39:28Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-26T13:37:24Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 389,
-  "delivered": 367,
+  "sent": 392,
+  "delivered": 370,
   "bounced": 21,
   "replies": 10,
   "sent_today": {
-   "liam@jackdinningroom.com": 28
+   "liam@jackdinningroom.com": 31
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2953,7 +2953,7 @@
     "liam@jackdinningroom.com": 3
    },
    "2026-10-27": {
-    "liam@jackdinningroom.com": 28
+    "liam@jackdinningroom.com": 31
    }
   },
   "by_state": {
@@ -2963,8 +2963,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 27,
-    "delivered": 25,
+    "sent": 30,
+    "delivered": 28,
     "bounced": 2
    },
    "CT": {
