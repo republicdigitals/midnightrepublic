@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T19:12:23+00:00",
+ "generated_at": "2026-10-27T19:30:34+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T19:30:23Z",
+   "msg": "Outreach: +3 sent (A1 Oct 27: Giampietro, Taco Del Gnar, Creekside); Door 222 late bounce",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T19:12:10Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: High Society, Door 222, Barchetta)",
    "who": "Cassius"
@@ -2906,23 +2911,18 @@
    "t": "2026-10-26T19:23:16Z",
    "msg": "Outreach paused: Oct 26 tail run complete",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T19:23:13Z",
-   "msg": "Outreach: +3 sent (A2 tail: Liberty bounced, Beaujolais, Centro)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 416,
-  "delivered": 389,
-  "bounced": 26,
+  "sent": 419,
+  "delivered": 392,
+  "bounced": 27,
   "replies": 10,
   "sent_today": {
    "liam@jackdinningroom.com": 31,
-   "liam@yeschefgroup.co": 24
+   "liam@yeschefgroup.co": 27
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2955,7 +2955,7 @@
    },
    "2026-10-27": {
     "liam@jackdinningroom.com": 31,
-    "liam@yeschefgroup.co": 24
+    "liam@yeschefgroup.co": 27
    }
   },
   "by_state": {
@@ -2965,9 +2965,9 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 45,
-    "delivered": 43,
-    "bounced": 2
+    "sent": 48,
+    "delivered": 46,
+    "bounced": 3
    },
    "CT": {
     "sent": 3,
