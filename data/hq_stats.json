@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T19:30:34+00:00",
+ "generated_at": "2026-10-27T19:46:31+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T19:46:20Z",
+   "msg": "Outreach: +3 sent (A1 Oct 27 complete: The Dive, The Crown, Juniper)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T19:30:23Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: Giampietro, Taco Del Gnar, Creekside); Door 222 late bounce",
    "who": "Cassius"
@@ -2906,23 +2911,18 @@
    "t": "2026-10-26T22:44:07Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-26T19:23:16Z",
-   "msg": "Outreach paused: Oct 26 tail run complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 419,
-  "delivered": 392,
+  "sent": 422,
+  "delivered": 395,
   "bounced": 27,
   "replies": 10,
   "sent_today": {
    "liam@jackdinningroom.com": 31,
-   "liam@yeschefgroup.co": 27
+   "liam@yeschefgroup.co": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2955,7 +2955,7 @@
    },
    "2026-10-27": {
     "liam@jackdinningroom.com": 31,
-    "liam@yeschefgroup.co": 27
+    "liam@yeschefgroup.co": 30
    }
   },
   "by_state": {
@@ -2965,8 +2965,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 48,
-    "delivered": 46,
+    "sent": 51,
+    "delivered": 49,
     "bounced": 3
    },
    "CT": {
