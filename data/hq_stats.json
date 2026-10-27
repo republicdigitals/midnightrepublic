@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T00:25:31+00:00",
+ "generated_at": "2026-10-27T13:20:07+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T13:19:55Z",
+   "msg": "Outreach: 60 drafted (Oct 27, producer style)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T00:24:16Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
@@ -2906,24 +2911,16 @@
    "t": "2026-10-26T11:37:02Z",
    "msg": "Outreach: +3 sent (A1 tail: Heist, Grove Cartel, Il Localetto Rossi)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T11:21:21Z",
-   "msg": "Outreach: +3 sent (A1 tail: Pasta Joint, Newgrass, Americana)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 369,
-  "drafted": 362,
+  "researched": 429,
+  "drafted": 422,
   "sent": 361,
   "delivered": 341,
   "bounced": 19,
   "replies": 6,
-  "sent_today": {
-   "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 3
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
@@ -2960,6 +2957,11 @@
     "delivered": 20,
     "bounced": 3
    },
+   "CO": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
    "CT": {
     "sent": 3,
     "delivered": 3,
@@ -2975,10 +2977,20 @@
     "delivered": 61,
     "bounced": 2
    },
+   "KS": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
    "MA": {
     "sent": 26,
     "delivered": 22,
     "bounced": 4
+   },
+   "MO": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
    },
    "NC": {
     "sent": 23,
