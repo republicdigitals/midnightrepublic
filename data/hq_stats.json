@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T00:21:17+00:00",
+ "generated_at": "2026-10-27T00:25:31+00:00",
  "leads": {
-  "total": 864,
-  "with_email": 846,
+  "total": 862,
+  "with_email": 844,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 476
+   "Instagram": 474
   }
  },
  "states": {
@@ -22,10 +22,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 114,
-   "with_email": 114,
+   "leads": 113,
+   "with_email": 113,
    "sources": {
-    "Instagram": 114
+    "Instagram": 113
    }
   },
   "CT": {
@@ -134,10 +134,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 25,
-   "with_email": 25,
+   "leads": 24,
+   "with_email": 24,
    "sources": {
-    "Instagram": 25
+    "Instagram": 24
    }
   },
   "RI": {
@@ -1441,15 +1441,6 @@
    ]
   },
   {
-   "city": "Louisville",
-   "state": "CO",
-   "leads": 2,
-   "coords": [
-    -105.1319,
-    39.9778
-   ]
-  },
-  {
    "city": "Salem",
    "state": "OR",
    "leads": 2,
@@ -2644,6 +2635,15 @@
    ]
   },
   {
+   "city": "Louisville",
+   "state": "CO",
+   "leads": 1,
+   "coords": [
+    -105.1319,
+    39.9778
+   ]
+  },
+  {
    "city": "Wheat Ridge",
    "state": "CO",
    "leads": 1,
@@ -2752,15 +2752,6 @@
    ]
   },
   {
-   "city": "McMinnville",
-   "state": "OR",
-   "leads": 1,
-   "coords": [
-    -123.1945,
-    45.21
-   ]
-  },
-  {
    "city": "Bend",
    "state": "OR",
    "leads": 1,
@@ -2771,6 +2762,11 @@
   }
  ],
  "events": [
+  {
+   "t": "2026-10-27T00:24:16Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-27T00:21:06Z",
    "msg": "Instagram: +5 leads",
@@ -2914,11 +2910,6 @@
   {
    "t": "2026-10-26T11:21:21Z",
    "msg": "Outreach: +3 sent (A1 tail: Pasta Joint, Newgrass, Americana)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T11:06:35Z",
-   "msg": "Outreach: +3 sent (A1 tail: Mills River, French Broad, Hillman); Character Study bounced",
    "who": "Cassius"
   }
  ],
