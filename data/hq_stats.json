@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T14:08:03+00:00",
+ "generated_at": "2026-10-27T14:26:32+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-27T14:26:20Z",
+   "msg": "Outreach: +3 sent (A2 Oct 27: Piccino, El Moro bounced, Olde Schoolhouse)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-27T14:07:50Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Back Country, Rocky Mtn Taco, Brass); PRUF + Counter Culture replied",
    "who": "Cassius"
@@ -2906,22 +2911,17 @@
    "t": "2026-10-26T12:41:59Z",
    "msg": "Outreach: +3 sent (A1 tail: Top of the Block, Capitol Grill, Beefys)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-26T12:37:22Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 430,
   "drafted": 423,
-  "sent": 371,
-  "delivered": 351,
-  "bounced": 19,
+  "sent": 374,
+  "delivered": 353,
+  "bounced": 20,
   "replies": 9,
   "sent_today": {
-   "liam@jackdinningroom.com": 9
+   "liam@jackdinningroom.com": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2953,7 +2953,7 @@
     "liam@jackdinningroom.com": 3
    },
    "2026-10-27": {
-    "liam@jackdinningroom.com": 9
+    "liam@jackdinningroom.com": 12
    }
   },
   "by_state": {
@@ -2963,9 +2963,9 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 9,
-    "delivered": 9,
-    "bounced": 0
+    "sent": 12,
+    "delivered": 11,
+    "bounced": 1
    },
    "CT": {
     "sent": 3,
