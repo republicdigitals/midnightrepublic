@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T12:30:49+00:00",
+ "generated_at": "2026-10-28T12:35:25+00:00",
  "leads": {
-  "total": 862,
-  "with_email": 844,
+  "total": 864,
+  "with_email": 846,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 474
+   "Instagram": 476
   }
  },
  "states": {
@@ -86,10 +86,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 24,
-   "with_email": 24,
+   "leads": 26,
+   "with_email": 26,
    "sources": {
-    "Instagram": 24
+    "Instagram": 26
    }
   },
   "NE": {
@@ -826,6 +826,15 @@
    "coords": [
     -79.8678,
     32.7928
+   ]
+  },
+  {
+   "city": "Charlotte",
+   "state": "NC",
+   "leads": 3,
+   "coords": [
+    -80.8431,
+    35.2272
    ]
   },
   {
@@ -2419,15 +2428,6 @@
    ]
   },
   {
-   "city": "Charlotte",
-   "state": "NC",
-   "leads": 1,
-   "coords": [
-    -80.8431,
-    35.2272
-   ]
-  },
-  {
    "city": "China Grove",
    "state": "NC",
    "leads": 1,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:35:14Z",
+   "msg": "Instagram: +2 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-28T12:30:36Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Cast Iron, Erie Social, Golden Outpost)",
    "who": "Cassius"
@@ -2905,11 +2910,6 @@
   {
    "t": "2026-10-27T13:19:58Z",
    "msg": "Outreach active: Oct 27 run started",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T13:19:55Z",
-   "msg": "Outreach: 60 drafted (Oct 27, producer style)",
    "who": "Cassius"
   }
  ],
