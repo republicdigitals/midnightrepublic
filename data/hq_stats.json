@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T16:35:55+00:00",
+ "generated_at": "2026-10-28T16:46:33+00:00",
  "leads": {
   "total": 900,
   "with_email": 882,
@@ -2924,6 +2924,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T10:46:20-06:00",
+   "msg": "Outreach: +3 sent (A2 Oct 28: Scileppi's, Henry's, Handlebar)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T16:35:36Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3067,23 +3072,18 @@
    "t": "2026-10-28T10:24:46Z",
    "msg": "Outreach: 60 drafted (Oct 28, producer style)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T19:46:25Z",
-   "msg": "Outreach paused: Oct 27 run complete (60 sent)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 470,
-  "delivered": 440,
+  "sent": 473,
+  "delivered": 443,
   "bounced": 30,
   "replies": 11,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 18
+   "liam@jackdinningroom.com": 21
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3120,7 +3120,7 @@
    },
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 18
+    "liam@jackdinningroom.com": 21
    }
   },
   "by_state": {
@@ -3130,8 +3130,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 99,
-    "delivered": 94,
+    "sent": 102,
+    "delivered": 97,
     "bounced": 6
    },
    "CT": {
