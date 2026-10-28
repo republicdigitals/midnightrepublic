@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T13:35:42+00:00",
+ "generated_at": "2026-10-28T13:49:09+00:00",
  "leads": {
-  "total": 867,
-  "with_email": 849,
+  "total": 872,
+  "with_email": 854,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 479
+   "Instagram": 484
   }
  },
  "states": {
@@ -34,6 +34,14 @@
    "with_email": 5,
    "sources": {
     "Facebook": 5
+   }
+  },
+  "FL": {
+   "name": "Florida",
+   "leads": 5,
+   "with_email": 5,
+   "sources": {
+    "Instagram": 5
    }
   },
   "IA": {
@@ -853,6 +861,15 @@
    "coords": [
     -78.6391,
     35.7804
+   ]
+  },
+  {
+   "city": "Tampa",
+   "state": "FL",
+   "leads": 3,
+   "coords": [
+    -82.4583,
+    27.945
    ]
   },
   {
@@ -2777,9 +2794,32 @@
     -78.8336,
     35.6513
    ]
+  },
+  {
+   "city": "Saint Petersburg",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -82.634,
+    27.7712
+   ]
+  },
+  {
+   "city": "Orlando",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -81.379,
+    28.5421
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T13:48:52Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T13:35:31Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: La Foret, Gusto, Oak Creek Tavern)",
@@ -2923,11 +2963,6 @@
   {
    "t": "2026-10-27T15:18:20Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Sams No 3, Drift In bounced, Chimayo)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T15:00:06Z",
-   "msg": "Warm: Ron final close sent (A2 Oct 27)",
    "who": "Cassius"
   }
  ],
