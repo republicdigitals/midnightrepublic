@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T17:45:02+00:00",
+ "generated_at": "2026-10-28T18:00:21+00:00",
  "leads": {
   "total": 910,
   "with_email": 892,
@@ -2933,6 +2933,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:00:10-06:00",
+   "msg": "Outreach: 35 drafted (account 3 queue)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T17:44:49Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3076,16 +3081,11 @@
    "t": "2026-10-28T12:43:18Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Hogshead, Loveland Tap, Cactus Jack's)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T12:35:14Z",
-   "msg": "Instagram: +2 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
-  "researched": 490,
-  "drafted": 483,
+  "researched": 525,
+  "drafted": 518,
   "sent": 482,
   "delivered": 450,
   "bounced": 32,
@@ -3148,6 +3148,11 @@
     "delivered": 3,
     "bounced": 0
    },
+   "FL": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
+   },
    "IA": {
     "sent": 22,
     "delivered": 22,
@@ -3201,6 +3206,11 @@
    "OK": {
     "sent": 7,
     "delivered": 7,
+    "bounced": 0
+   },
+   "OR": {
+    "sent": 0,
+    "delivered": 0,
     "bounced": 0
    },
    "RI": {
