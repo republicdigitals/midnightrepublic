@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T15:18:05+00:00",
+ "generated_at": "2026-10-28T15:35:03+00:00",
  "leads": {
   "total": 890,
   "with_email": 872,
@@ -2897,6 +2897,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T15:34:49Z",
+   "msg": "Outreach: +3 sent (A2 Oct 28: Uncorked Kitchen, Jovanina's, Shells and Sauce)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T15:17:52Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Victoria Tavern, Gold Dirt, Vin Rouge)",
    "who": "Cassius"
@@ -3040,23 +3045,18 @@
    "t": "2026-10-27T18:26:39Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: SALT, River and Woods, Trailhead)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T18:09:26Z",
-   "msg": "Outreach: +3 sent (A1 Oct 27: Flagstaff House, Avanti, 503W)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 455,
-  "delivered": 425,
+  "sent": 458,
+  "delivered": 428,
   "bounced": 30,
   "replies": 10,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 3
+   "liam@jackdinningroom.com": 6
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3093,7 +3093,7 @@
    },
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 3
+    "liam@jackdinningroom.com": 6
    }
   },
   "by_state": {
@@ -3103,8 +3103,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 84,
-    "delivered": 79,
+    "sent": 87,
+    "delivered": 82,
     "bounced": 6
    },
    "CT": {
