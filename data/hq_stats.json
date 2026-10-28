@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T13:16:04+00:00",
+ "generated_at": "2026-10-28T13:18:47+00:00",
  "leads": {
   "total": 867,
   "with_email": 849,
@@ -676,15 +676,6 @@
    ]
   },
   {
-   "city": "Charlotte",
-   "state": "NC",
-   "leads": 4,
-   "coords": [
-    -80.8431,
-    35.2272
-   ]
-  },
-  {
    "city": "Colorado Springs",
    "state": "CO",
    "leads": 4,
@@ -853,6 +844,15 @@
    "coords": [
     -108.5645,
     39.0673
+   ]
+  },
+  {
+   "city": "Raleigh",
+   "state": "NC",
+   "leads": 3,
+   "coords": [
+    -78.6391,
+    35.7804
    ]
   },
   {
@@ -1279,6 +1279,15 @@
    ]
   },
   {
+   "city": "Charlotte",
+   "state": "NC",
+   "leads": 2,
+   "coords": [
+    -80.8431,
+    35.2272
+   ]
+  },
+  {
    "city": "Rio Rancho",
    "state": "NM",
    "leads": 2,
@@ -1456,15 +1465,6 @@
    "coords": [
     -123.0331,
     44.9392
-   ]
-  },
-  {
-   "city": "Raleigh",
-   "state": "NC",
-   "leads": 2,
-   "coords": [
-    -78.6391,
-    35.7804
    ]
   },
   {
@@ -2768,9 +2768,23 @@
     -121.3153,
     44.0582
    ]
+  },
+  {
+   "city": "Holly Springs",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -78.8336,
+    35.6513
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T13:18:34Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T13:15:53Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Snowpack and Trellis delivered; Miners Saloon bounced)",
@@ -2914,11 +2928,6 @@
   {
    "t": "2026-10-27T14:57:01Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Mill Street, Wooden Nickel, Tahk)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T14:41:26Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: Greenwoods, Stone House, Cafe Sol)",
    "who": "Cassius"
   }
  ],
