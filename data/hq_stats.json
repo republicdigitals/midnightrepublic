@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T14:07:15+00:00",
+ "generated_at": "2026-10-28T14:29:02+00:00",
  "leads": {
-  "total": 877,
-  "with_email": 859,
+  "total": 882,
+  "with_email": 864,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 489
+   "Instagram": 494
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 10,
-   "with_email": 10,
+   "leads": 15,
+   "with_email": 15,
    "sources": {
-    "Instagram": 10
+    "Instagram": 15
    }
   },
   "IA": {
@@ -1485,6 +1485,15 @@
    ]
   },
   {
+   "city": "Orlando",
+   "state": "FL",
+   "leads": 2,
+   "coords": [
+    -81.379,
+    28.5421
+   ]
+  },
+  {
    "city": "Spearfish",
    "state": "SD",
    "leads": 1,
@@ -2805,15 +2814,6 @@
    ]
   },
   {
-   "city": "Orlando",
-   "state": "FL",
-   "leads": 1,
-   "coords": [
-    -81.379,
-    28.5421
-   ]
-  },
-  {
    "city": "Winter Park",
    "state": "FL",
    "leads": 1,
@@ -2821,9 +2821,50 @@
     -81.351,
     28.5978
    ]
+  },
+  {
+   "city": "Oviedo",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -81.2085,
+    28.6703
+   ]
+  },
+  {
+   "city": "Cutler Bay",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -80.3377,
+    25.5783
+   ]
+  },
+  {
+   "city": "Miami Springs",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -80.2895,
+    25.8223
+   ]
+  },
+  {
+   "city": "Davie",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -80.2331,
+    26.0629
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T14:28:42Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T14:07:05Z",
    "msg": "Outreach: +3 sent (A1 Oct 28 complete: Sidecar, Retro Room, Owl Saloon)",
@@ -2967,11 +3008,6 @@
   {
    "t": "2026-10-27T17:24:17Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: 6S, Pennant, Iron Rail \u2014 all bounced)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T16:05:26Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27 complete: 6 and 40, Minturn CC, Hearth)",
    "who": "Cassius"
   }
  ],
