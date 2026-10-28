@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T16:06:14+00:00",
+ "generated_at": "2026-10-28T16:07:39+00:00",
  "leads": {
-  "total": 890,
-  "with_email": 872,
+  "total": 895,
+  "with_email": 877,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 502
+   "Instagram": 507
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 23,
-   "with_email": 23,
+   "leads": 28,
+   "with_email": 28,
    "sources": {
-    "Instagram": 23
+    "Instagram": 28
    }
   },
   "IA": {
@@ -396,6 +396,15 @@
    ]
   },
   {
+   "city": "Tampa",
+   "state": "FL",
+   "leads": 9,
+   "coords": [
+    -82.4583,
+    27.945
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
@@ -420,15 +429,6 @@
    "coords": [
     -91.5299,
     41.6613
-   ]
-  },
-  {
-   "city": "Tampa",
-   "state": "FL",
-   "leads": 8,
-   "coords": [
-    -82.4583,
-    27.945
    ]
   },
   {
@@ -465,6 +465,15 @@
    "coords": [
     -123.0951,
     44.0505
+   ]
+  },
+  {
+   "city": "Orlando",
+   "state": "FL",
+   "leads": 7,
+   "coords": [
+    -81.379,
+    28.5421
    ]
   },
   {
@@ -870,15 +879,6 @@
    "coords": [
     -78.6391,
     35.7804
-   ]
-  },
-  {
-   "city": "Orlando",
-   "state": "FL",
-   "leads": 3,
-   "coords": [
-    -81.379,
-    28.5421
    ]
   },
   {
@@ -2897,6 +2897,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T16:07:26Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-28T16:06:03Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Artisan Pizza, Broadways, Sonny Lubick)",
    "who": "Cassius"
@@ -3039,11 +3044,6 @@
   {
    "t": "2026-10-27T19:12:10Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: High Society, Door 222, Barchetta)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T18:56:10Z",
-   "msg": "Outreach: +3 sent (A1 Oct 27: AKA Kitchen, Denver Milk Market, ZOMO)",
    "who": "Cassius"
   }
  ],
