@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T12:58:01+00:00",
+ "generated_at": "2026-10-28T13:12:41+00:00",
  "leads": {
-  "total": 864,
-  "with_email": 846,
+  "total": 869,
+  "with_email": 851,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 476
+   "Instagram": 481
   }
  },
  "states": {
@@ -86,10 +86,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 26,
-   "with_email": 26,
+   "leads": 31,
+   "with_email": 31,
    "sources": {
-    "Instagram": 26
+    "Instagram": 31
    }
   },
   "NE": {
@@ -676,6 +676,15 @@
    ]
   },
   {
+   "city": "Charlotte",
+   "state": "NC",
+   "leads": 4,
+   "coords": [
+    -80.8431,
+    35.2272
+   ]
+  },
+  {
    "city": "Colorado Springs",
    "state": "CO",
    "leads": 4,
@@ -829,15 +838,6 @@
    ]
   },
   {
-   "city": "Charlotte",
-   "state": "NC",
-   "leads": 3,
-   "coords": [
-    -80.8431,
-    35.2272
-   ]
-  },
-  {
    "city": "Topeka",
    "state": "KS",
    "leads": 3,
@@ -853,6 +853,15 @@
    "coords": [
     -108.5645,
     39.0673
+   ]
+  },
+  {
+   "city": "Raleigh",
+   "state": "NC",
+   "leads": 3,
+   "coords": [
+    -78.6391,
+    35.7804
    ]
   },
   {
@@ -2759,9 +2768,23 @@
     -121.3153,
     44.0582
    ]
+  },
+  {
+   "city": "Durham",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -78.9018,
+    35.9967
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T13:12:25Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T12:57:52Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Wyman's delivered; Sputnik and Mozarts bounced)",
@@ -2905,11 +2928,6 @@
   {
    "t": "2026-10-27T14:07:50Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Back Country, Rocky Mtn Taco, Brass); PRUF + Counter Culture replied",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T13:50:55Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: PRUF, Hot Tomato, Carver); Honey Seed replied",
    "who": "Cassius"
   }
  ],
