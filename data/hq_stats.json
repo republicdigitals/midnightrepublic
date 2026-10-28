@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T13:14:08+00:00",
+ "generated_at": "2026-10-28T13:16:04+00:00",
  "leads": {
   "total": 867,
   "with_email": 849,
@@ -2772,6 +2772,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T13:15:53Z",
+   "msg": "Outreach: +3 sent (A1 Oct 28: Snowpack and Trellis delivered; Miners Saloon bounced)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T13:13:58Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
@@ -2915,22 +2920,17 @@
    "t": "2026-10-27T14:41:26Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Greenwoods, Stone House, Cafe Sol)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T14:26:20Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: Piccino, El Moro bounced, Olde Schoolhouse)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 440,
-  "delivered": 411,
-  "bounced": 29,
+  "sent": 443,
+  "delivered": 413,
+  "bounced": 30,
   "replies": 10,
   "sent_today": {
-   "liam@yeschefgroup.co": 18
+   "liam@yeschefgroup.co": 21
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2966,7 +2966,7 @@
     "liam@yeschefgroup.co": 30
    },
    "2026-10-28": {
-    "liam@yeschefgroup.co": 18
+    "liam@yeschefgroup.co": 21
    }
   },
   "by_state": {
@@ -2976,9 +2976,9 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 69,
-    "delivered": 65,
-    "bounced": 5
+    "sent": 72,
+    "delivered": 67,
+    "bounced": 6
    },
    "CT": {
     "sent": 3,
