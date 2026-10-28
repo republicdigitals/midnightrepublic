@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T17:33:14+00:00",
+ "generated_at": "2026-10-28T17:33:28+00:00",
  "leads": {
   "total": 905,
   "with_email": 887,
@@ -2933,6 +2933,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T11:33:04-06:00",
+   "msg": "Outreach paused: Oct 28 run complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T11:33:01-06:00",
    "msg": "Outreach: +3 sent (A2 Oct 28 complete: Pony Up and Mannie & Bo's delivered; Hilltop bounced)",
    "who": "Cassius"
@@ -3075,11 +3080,6 @@
   {
    "t": "2026-10-28T12:30:36Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Cast Iron, Erie Social, Golden Outpost)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T12:15:47Z",
-   "msg": "Outreach: +3 sent (A1 Oct 28: Wood Paddle, Wildflower, 300 Suns)",
    "who": "Cassius"
   }
  ],
@@ -3258,8 +3258,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-28",
-  "note": "Oct 28 run in progress"
+  "note": "Oct 28 run complete: 60 sent"
  }
 }
