@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T19:09:48+00:00",
+ "generated_at": "2026-10-28T19:13:55+00:00",
  "leads": {
-  "total": 920,
-  "with_email": 902,
+  "total": 925,
+  "with_email": 907,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 532
+   "Instagram": 537
   }
  },
  "states": {
@@ -182,10 +182,10 @@
   },
   "TX": {
    "name": "Texas",
-   "leads": 9,
-   "with_email": 9,
+   "leads": 14,
+   "with_email": 14,
    "sources": {
-    "Instagram": 9
+    "Instagram": 14
    }
   },
   "UT": {
@@ -491,6 +491,15 @@
    "coords": [
     -97.7474,
     30.2649
+   ]
+  },
+  {
+   "city": "Houston",
+   "state": "TX",
+   "leads": 7,
+   "coords": [
+    -95.3677,
+    29.7589
    ]
   },
   {
@@ -1544,15 +1553,6 @@
    "coords": [
     -81.3931,
     30.2947
-   ]
-  },
-  {
-   "city": "Houston",
-   "state": "TX",
-   "leads": 2,
-   "coords": [
-    -95.3677,
-    29.7589
    ]
   },
   {
@@ -2959,6 +2959,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T19:13:42Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-28T13:09:35-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 4) - 12 of 30, all delivered",
    "who": "Cassius"
@@ -3102,11 +3107,6 @@
    "t": "2026-10-28T14:07:05Z",
    "msg": "Outreach: +3 sent (A1 Oct 28 complete: Sidecar, Retro Room, Owl Saloon)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T13:59:52Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
