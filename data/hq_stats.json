@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T18:27:37+00:00",
+ "generated_at": "2026-10-28T18:40:23+00:00",
  "leads": {
   "total": 915,
   "with_email": 897,
@@ -2950,6 +2950,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:40:11-06:00",
+   "msg": "Outreach: +3 sent (account 3, batch 2) - 6 of 30, all delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T12:27:24-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 1) - 3 delivered, Cooper Mountain replied",
    "who": "Cassius"
@@ -3093,24 +3098,19 @@
    "t": "2026-10-28T13:35:31Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: La Foret, Gusto, Oak Creek Tavern)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T13:18:34Z",
-   "msg": "Instagram: cleanup",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 525,
   "drafted": 518,
-  "sent": 485,
-  "delivered": 453,
+  "sent": 488,
+  "delivered": 456,
   "bounced": 32,
   "replies": 12,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
    "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 3
+   "contact@jackdinningroom.com": 6
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3148,7 +3148,7 @@
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 3
+    "contact@jackdinningroom.com": 6
    }
   },
   "by_state": {
@@ -3228,8 +3228,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 3,
-    "delivered": 3,
+    "sent": 6,
+    "delivered": 6,
     "bounced": 0
    },
    "RI": {
