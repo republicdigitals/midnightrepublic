@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T19:13:55+00:00",
+ "generated_at": "2026-10-28T19:25:46+00:00",
  "leads": {
   "total": 925,
   "with_email": 907,
@@ -2959,6 +2959,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T13:25:34-06:00",
+   "msg": "Outreach: +3 sent (account 3, batch 5) - 15 of 30; Tacovore address inactive, corrected address given",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T19:13:42Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3102,24 +3107,19 @@
    "t": "2026-10-28T14:28:42Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T14:07:05Z",
-   "msg": "Outreach: +3 sent (A1 Oct 28 complete: Sidecar, Retro Room, Owl Saloon)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 525,
   "drafted": 518,
-  "sent": 494,
-  "delivered": 462,
+  "sent": 497,
+  "delivered": 465,
   "bounced": 32,
-  "replies": 12,
+  "replies": 13,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
    "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 12
+   "contact@jackdinningroom.com": 15
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3157,7 +3157,7 @@
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 12
+    "contact@jackdinningroom.com": 15
    }
   },
   "by_state": {
@@ -3237,8 +3237,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 12,
-    "delivered": 12,
+    "sent": 15,
+    "delivered": 15,
     "bounced": 0
    },
    "RI": {
