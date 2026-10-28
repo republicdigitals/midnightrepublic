@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T12:01:39+00:00",
+ "generated_at": "2026-10-28T12:15:59+00:00",
  "leads": {
   "total": 862,
   "with_email": 844,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:15:47Z",
+   "msg": "Outreach: +3 sent (A1 Oct 28: Wood Paddle, Wildflower, 300 Suns)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T12:01:28Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: La Nonna, Colorado Tap House, Satire)",
    "who": "Cassius"
@@ -2906,22 +2911,17 @@
    "t": "2026-10-27T00:24:16Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-27T00:21:06Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 428,
-  "delivered": 401,
+  "sent": 431,
+  "delivered": 404,
   "bounced": 27,
   "replies": 10,
   "sent_today": {
-   "liam@yeschefgroup.co": 6
+   "liam@yeschefgroup.co": 9
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2957,7 +2957,7 @@
     "liam@yeschefgroup.co": 30
    },
    "2026-10-28": {
-    "liam@yeschefgroup.co": 6
+    "liam@yeschefgroup.co": 9
    }
   },
   "by_state": {
@@ -2967,8 +2967,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 57,
-    "delivered": 55,
+    "sent": 60,
+    "delivered": 58,
     "bounced": 3
    },
    "CT": {
