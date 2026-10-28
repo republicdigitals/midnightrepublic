@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T12:35:25+00:00",
+ "generated_at": "2026-10-28T12:43:29+00:00",
  "leads": {
   "total": 864,
   "with_email": 846,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:43:18Z",
+   "msg": "Outreach: +3 sent (A1 Oct 28: Hogshead, Loveland Tap, Cactus Jack's)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T12:35:14Z",
    "msg": "Instagram: +2 leads",
    "who": "Caesar"
@@ -2906,22 +2911,17 @@
    "t": "2026-10-27T13:36:19Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Bread + Salt, Counter Culture, 2nd Deli)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T13:19:58Z",
-   "msg": "Outreach active: Oct 27 run started",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 434,
-  "delivered": 407,
+  "sent": 437,
+  "delivered": 410,
   "bounced": 27,
   "replies": 10,
   "sent_today": {
-   "liam@yeschefgroup.co": 12
+   "liam@yeschefgroup.co": 15
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2957,7 +2957,7 @@
     "liam@yeschefgroup.co": 30
    },
    "2026-10-28": {
-    "liam@yeschefgroup.co": 12
+    "liam@yeschefgroup.co": 15
    }
   },
   "by_state": {
@@ -2967,8 +2967,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 63,
-    "delivered": 61,
+    "sent": 66,
+    "delivered": 64,
     "bounced": 3
    },
    "CT": {
