@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T18:40:23+00:00",
+ "generated_at": "2026-10-28T18:53:16+00:00",
  "leads": {
-  "total": 915,
-  "with_email": 897,
+  "total": 920,
+  "with_email": 902,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 527
+   "Instagram": 532
   }
  },
  "states": {
@@ -182,10 +182,10 @@
   },
   "TX": {
    "name": "Texas",
-   "leads": 4,
-   "with_email": 4,
+   "leads": 9,
+   "with_email": 9,
    "sources": {
-    "Instagram": 4
+    "Instagram": 9
    }
   },
   "UT": {
@@ -485,6 +485,15 @@
    ]
   },
   {
+   "city": "Austin",
+   "state": "TX",
+   "leads": 7,
+   "coords": [
+    -97.7474,
+    30.2649
+   ]
+  },
+  {
    "city": "Casper",
    "state": "WY",
    "leads": 6,
@@ -743,15 +752,6 @@
    "coords": [
     -81.6579,
     30.3262
-   ]
-  },
-  {
-   "city": "Austin",
-   "state": "TX",
-   "leads": 4,
-   "coords": [
-    -97.7474,
-    30.2649
    ]
   },
   {
@@ -1544,6 +1544,15 @@
    "coords": [
     -81.3931,
     30.2947
+   ]
+  },
+  {
+   "city": "Houston",
+   "state": "TX",
+   "leads": 2,
+   "coords": [
+    -95.3677,
+    29.7589
    ]
   },
   {
@@ -2950,6 +2959,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T18:53:01Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-28T12:40:11-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 2) - 6 of 30, all delivered",
    "who": "Cassius"
@@ -3093,11 +3107,6 @@
    "t": "2026-10-28T13:48:52Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T13:35:31Z",
-   "msg": "Outreach: +3 sent (A1 Oct 28: La Foret, Gusto, Oak Creek Tavern)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
