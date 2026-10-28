@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T16:33:01+00:00",
+ "generated_at": "2026-10-28T16:35:55+00:00",
  "leads": {
-  "total": 895,
-  "with_email": 877,
+  "total": 900,
+  "with_email": 882,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 507
+   "Instagram": 512
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 28,
-   "with_email": 28,
+   "leads": 33,
+   "with_email": 33,
    "sources": {
-    "Instagram": 28
+    "Instagram": 33
    }
   },
   "IA": {
@@ -432,6 +432,15 @@
    ]
   },
   {
+   "city": "Orlando",
+   "state": "FL",
+   "leads": 8,
+   "coords": [
+    -81.379,
+    28.5421
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -465,15 +474,6 @@
    "coords": [
     -123.0951,
     44.0505
-   ]
-  },
-  {
-   "city": "Orlando",
-   "state": "FL",
-   "leads": 7,
-   "coords": [
-    -81.379,
-    28.5421
    ]
   },
   {
@@ -1500,6 +1500,15 @@
    "coords": [
     -123.0331,
     44.9392
+   ]
+  },
+  {
+   "city": "Jacksonville",
+   "state": "FL",
+   "leads": 2,
+   "coords": [
+    -81.6579,
+    30.3262
    ]
   },
   {
@@ -2893,9 +2902,32 @@
     -82.8452,
     27.8913
    ]
+  },
+  {
+   "city": "Saint Augustine",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -81.3145,
+    29.8947
+   ]
+  },
+  {
+   "city": "Jacksonville Beach",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -81.3931,
+    30.2947
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T16:35:36Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T16:32:48Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Olivia, Knucklehead, Pelican Jo's)",
@@ -3039,11 +3071,6 @@
   {
    "t": "2026-10-27T19:46:25Z",
    "msg": "Outreach paused: Oct 27 run complete (60 sent)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T19:46:20Z",
-   "msg": "Outreach: +3 sent (A1 Oct 27 complete: The Dive, The Crown, Juniper)",
    "who": "Cassius"
   }
  ],
