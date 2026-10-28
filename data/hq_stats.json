@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T18:00:21+00:00",
+ "generated_at": "2026-10-28T18:00:35+00:00",
  "leads": {
   "total": 910,
   "with_email": 892,
@@ -2933,6 +2933,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:00:12-06:00",
+   "msg": "Outreach active: account 3 batch of 30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T12:00:10-06:00",
    "msg": "Outreach: 35 drafted (account 3 queue)",
    "who": "Cassius"
@@ -3075,11 +3080,6 @@
   {
    "t": "2026-10-28T12:57:52Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Wyman's delivered; Sputnik and Mozarts bounced)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T12:43:18Z",
-   "msg": "Outreach: +3 sent (A1 Oct 28: Hogshead, Loveland Tap, Cactus Jack's)",
    "who": "Cassius"
   }
  ],
@@ -3268,8 +3268,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "2026-10-28",
-  "note": "Oct 28 run complete: 60 sent"
+  "note": "Account 3 batch running: final 30 of today."
  }
 }
