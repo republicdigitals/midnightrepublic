@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T18:00:35+00:00",
+ "generated_at": "2026-10-28T18:05:17+00:00",
  "leads": {
   "total": 910,
   "with_email": 892,
@@ -2933,6 +2933,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:05:05-06:00",
+   "msg": "Outreach paused: user fixing account 3 signature",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T12:00:12-06:00",
    "msg": "Outreach active: account 3 batch of 30",
    "who": "Cassius"
@@ -3076,11 +3081,6 @@
    "t": "2026-10-28T13:12:25Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T12:57:52Z",
-   "msg": "Outreach: +3 sent (A1 Oct 28: Wyman's delivered; Sputnik and Mozarts bounced)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3268,8 +3268,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-28",
-  "note": "Account 3 batch running: final 30 of today."
+  "note": "Account 3 batch paused by user to fix signature."
  }
 }
