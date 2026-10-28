@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T14:00:05+00:00",
+ "generated_at": "2026-10-28T14:07:15+00:00",
  "leads": {
   "total": 877,
   "with_email": 859,
@@ -2825,6 +2825,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T14:07:05Z",
+   "msg": "Outreach: +3 sent (A1 Oct 28 complete: Sidecar, Retro Room, Owl Saloon)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T13:59:52Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -2968,22 +2973,17 @@
    "t": "2026-10-27T16:05:26Z",
    "msg": "Outreach: +3 sent (A2 Oct 27 complete: 6 and 40, Minturn CC, Hearth)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T15:50:38Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: MEATBAR, Brickhouse 737, South Park Brewing)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 449,
-  "delivered": 419,
+  "sent": 452,
+  "delivered": 422,
   "bounced": 30,
   "replies": 10,
   "sent_today": {
-   "liam@yeschefgroup.co": 27
+   "liam@yeschefgroup.co": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3019,7 +3019,7 @@
     "liam@yeschefgroup.co": 30
    },
    "2026-10-28": {
-    "liam@yeschefgroup.co": 27
+    "liam@yeschefgroup.co": 30
    }
   },
   "by_state": {
@@ -3029,8 +3029,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 78,
-    "delivered": 73,
+    "sent": 81,
+    "delivered": 76,
     "bounced": 6
    },
    "CT": {
