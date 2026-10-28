@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T18:08:41+00:00",
+ "generated_at": "2026-10-28T18:18:34+00:00",
  "leads": {
-  "total": 910,
-  "with_email": 892,
+  "total": 915,
+  "with_email": 897,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 522
+   "Instagram": 527
   }
  },
  "states": {
@@ -174,10 +174,18 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 43,
-   "with_email": 43,
+   "leads": 44,
+   "with_email": 44,
    "sources": {
-    "Instagram": 43
+    "Instagram": 44
+   }
+  },
+  "TX": {
+   "name": "Texas",
+   "leads": 4,
+   "with_email": 4,
+   "sources": {
+    "Instagram": 4
    }
   },
   "UT": {
@@ -270,6 +278,15 @@
    ]
   },
   {
+   "city": "Nashville",
+   "state": "TN",
+   "leads": 16,
+   "coords": [
+    -86.7743,
+    36.1623
+   ]
+  },
+  {
    "city": "Sioux Falls",
    "state": "SD",
    "leads": 15,
@@ -285,15 +302,6 @@
    "coords": [
     -110.7618,
     43.48
-   ]
-  },
-  {
-   "city": "Nashville",
-   "state": "TN",
-   "leads": 15,
-   "coords": [
-    -86.7743,
-    36.1623
    ]
   },
   {
@@ -735,6 +743,15 @@
    "coords": [
     -81.6579,
     30.3262
+   ]
+  },
+  {
+   "city": "Austin",
+   "state": "TX",
+   "leads": 4,
+   "coords": [
+    -97.7474,
+    30.2649
    ]
   },
   {
@@ -2933,6 +2950,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T18:18:17Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-28T12:08:27-06:00",
    "msg": "Outreach active: account 3 batch of 30 resumed",
    "who": "Cassius"
@@ -3076,11 +3098,6 @@
    "t": "2026-10-28T13:15:53Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Snowpack and Trellis delivered; Miners Saloon bounced)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T13:13:58Z",
-   "msg": "Instagram: cleanup",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
