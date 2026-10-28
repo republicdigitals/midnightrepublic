@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T13:18:47+00:00",
+ "generated_at": "2026-10-28T13:35:42+00:00",
  "leads": {
   "total": 867,
   "with_email": 849,
@@ -2781,6 +2781,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T13:35:31Z",
+   "msg": "Outreach: +3 sent (A1 Oct 28: La Foret, Gusto, Oak Creek Tavern)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T13:18:34Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
@@ -2924,22 +2929,17 @@
    "t": "2026-10-27T15:00:06Z",
    "msg": "Warm: Ron final close sent (A2 Oct 27)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T14:57:01Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: Mill Street, Wooden Nickel, Tahk)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 443,
-  "delivered": 413,
+  "sent": 446,
+  "delivered": 416,
   "bounced": 30,
   "replies": 10,
   "sent_today": {
-   "liam@yeschefgroup.co": 21
+   "liam@yeschefgroup.co": 24
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2975,7 +2975,7 @@
     "liam@yeschefgroup.co": 30
    },
    "2026-10-28": {
-    "liam@yeschefgroup.co": 21
+    "liam@yeschefgroup.co": 24
    }
   },
   "by_state": {
@@ -2985,8 +2985,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 72,
-    "delivered": 67,
+    "sent": 75,
+    "delivered": 70,
     "bounced": 6
    },
    "CT": {
