@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T14:29:02+00:00",
+ "generated_at": "2026-10-28T14:44:46+00:00",
  "leads": {
-  "total": 882,
-  "with_email": 864,
+  "total": 887,
+  "with_email": 869,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 494
+   "Instagram": 499
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 15,
-   "with_email": 15,
+   "leads": 20,
+   "with_email": 20,
    "sources": {
-    "Instagram": 15
+    "Instagram": 20
    }
   },
   "IA": {
@@ -423,6 +423,15 @@
    ]
   },
   {
+   "city": "Tampa",
+   "state": "FL",
+   "leads": 8,
+   "coords": [
+    -82.4583,
+    27.945
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -456,15 +465,6 @@
    "coords": [
     -123.0951,
     44.0505
-   ]
-  },
-  {
-   "city": "Tampa",
-   "state": "FL",
-   "leads": 7,
-   "coords": [
-    -82.4583,
-    27.945
    ]
   },
   {
@@ -870,6 +870,15 @@
    "coords": [
     -78.6391,
     35.7804
+   ]
+  },
+  {
+   "city": "Orlando",
+   "state": "FL",
+   "leads": 3,
+   "coords": [
+    -81.379,
+    28.5421
    ]
   },
   {
@@ -1485,12 +1494,12 @@
    ]
   },
   {
-   "city": "Orlando",
+   "city": "Fort Lauderdale",
    "state": "FL",
    "leads": 2,
    "coords": [
-    -81.379,
-    28.5421
+    -80.1434,
+    26.1223
    ]
   },
   {
@@ -2857,9 +2866,23 @@
     -80.2331,
     26.0629
    ]
+  },
+  {
+   "city": "Largo",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -82.7873,
+    27.9095
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T14:44:30Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T14:28:42Z",
    "msg": "Instagram: +5 leads",
@@ -3003,11 +3026,6 @@
   {
    "t": "2026-10-27T17:39:22Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: River City, Suburban, Luis Place)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T17:24:17Z",
-   "msg": "Outreach: +3 sent (A1 Oct 27: 6S, Pennant, Iron Rail \u2014 all bounced)",
    "who": "Cassius"
   }
  ],
