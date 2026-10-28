@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T16:46:33+00:00",
+ "generated_at": "2026-10-28T16:58:59+00:00",
  "leads": {
-  "total": 900,
-  "with_email": 882,
+  "total": 905,
+  "with_email": 887,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 512
+   "Instagram": 517
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 33,
-   "with_email": 33,
+   "leads": 38,
+   "with_email": 38,
    "sources": {
-    "Instagram": 33
+    "Instagram": 38
    }
   },
   "IA": {
@@ -726,6 +726,15 @@
    "coords": [
     -104.7613,
     39.5185
+   ]
+  },
+  {
+   "city": "Jacksonville",
+   "state": "FL",
+   "leads": 4,
+   "coords": [
+    -81.6579,
+    30.3262
    ]
   },
   {
@@ -1503,12 +1512,21 @@
    ]
   },
   {
-   "city": "Jacksonville",
+   "city": "Saint Augustine",
    "state": "FL",
    "leads": 2,
    "coords": [
-    -81.6579,
-    30.3262
+    -81.3145,
+    29.8947
+   ]
+  },
+  {
+   "city": "Jacksonville Beach",
+   "state": "FL",
+   "leads": 2,
+   "coords": [
+    -81.3931,
+    30.2947
    ]
   },
   {
@@ -2904,25 +2922,21 @@
    ]
   },
   {
-   "city": "Saint Augustine",
+   "city": "Ponte Vedra Beach",
    "state": "FL",
    "leads": 1,
    "coords": [
-    -81.3145,
-    29.8947
-   ]
-  },
-  {
-   "city": "Jacksonville Beach",
-   "state": "FL",
-   "leads": 1,
-   "coords": [
-    -81.3931,
-    30.2947
+    -81.3801,
+    30.2275
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T16:58:45Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T10:46:20-06:00",
    "msg": "Outreach: +3 sent (A2 Oct 28: Scileppi's, Henry's, Handlebar)",
@@ -3066,11 +3080,6 @@
   {
    "t": "2026-10-28T11:27:03Z",
    "msg": "Outreach active: Oct 28 run started",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T10:24:46Z",
-   "msg": "Outreach: 60 drafted (Oct 28, producer style)",
    "who": "Cassius"
   }
  ],
