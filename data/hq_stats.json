@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T17:33:28+00:00",
+ "generated_at": "2026-10-28T17:45:02+00:00",
  "leads": {
-  "total": 905,
-  "with_email": 887,
+  "total": 910,
+  "with_email": 892,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 517
+   "Instagram": 522
   }
  },
  "states": {
@@ -174,10 +174,10 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 38,
-   "with_email": 38,
+   "leads": 43,
+   "with_email": 43,
    "sources": {
-    "Instagram": 38
+    "Instagram": 43
    }
   },
   "UT": {
@@ -288,6 +288,15 @@
    ]
   },
   {
+   "city": "Nashville",
+   "state": "TN",
+   "leads": 15,
+   "coords": [
+    -86.7743,
+    36.1623
+   ]
+  },
+  {
    "city": "Jersey City",
    "state": "NJ",
    "leads": 14,
@@ -321,15 +330,6 @@
    "coords": [
     -113.9953,
     46.8701
-   ]
-  },
-  {
-   "city": "Nashville",
-   "state": "TN",
-   "leads": 10,
-   "coords": [
-    -86.7743,
-    36.1623
    ]
   },
   {
@@ -2933,6 +2933,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T17:44:49Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-28T11:33:04-06:00",
    "msg": "Outreach paused: Oct 28 run complete",
    "who": "Cassius"
@@ -3076,11 +3081,6 @@
    "t": "2026-10-28T12:35:14Z",
    "msg": "Instagram: +2 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T12:30:36Z",
-   "msg": "Outreach: +3 sent (A1 Oct 28: Cast Iron, Erie Social, Golden Outpost)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
