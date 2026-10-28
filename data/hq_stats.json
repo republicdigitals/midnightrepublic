@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T20:24:02+00:00",
+ "generated_at": "2026-10-28T20:37:57+00:00",
  "leads": {
   "total": 930,
   "with_email": 912,
@@ -2968,6 +2968,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T14:37:46-06:00",
+   "msg": "Outreach: +3 sent (account 3, batch 10) - account 3 COMPLETE 30 of 30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T14:23:50-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 9) - 27 of 30, all delivered",
    "who": "Cassius"
@@ -3111,24 +3116,19 @@
    "t": "2026-10-28T16:06:03Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Artisan Pizza, Broadways, Sonny Lubick)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T15:49:31Z",
-   "msg": "Outreach: +3 sent (A2 Oct 28: Cart-Driver, Patrick's, Parker Pour House)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 525,
   "drafted": 518,
-  "sent": 508,
-  "delivered": 476,
+  "sent": 511,
+  "delivered": 479,
   "bounced": 32,
-  "replies": 15,
+  "replies": 16,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
    "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 26
+   "contact@jackdinningroom.com": 29
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3166,7 +3166,7 @@
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 26
+    "contact@jackdinningroom.com": 29
    }
   },
   "by_state": {
@@ -3186,8 +3186,8 @@
     "bounced": 0
    },
    "FL": {
-    "sent": 4,
-    "delivered": 4,
+    "sent": 7,
+    "delivered": 7,
     "bounced": 0
    },
    "IA": {
