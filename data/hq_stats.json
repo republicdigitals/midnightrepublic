@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T13:49:09+00:00",
+ "generated_at": "2026-10-28T13:50:41+00:00",
  "leads": {
   "total": 872,
   "with_email": 854,
@@ -2816,6 +2816,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T13:50:29Z",
+   "msg": "Outreach: +3 sent (A1 Oct 28: Love Shack, Candlelight, 20 Mile Tap House)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T13:48:52Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -2959,22 +2964,17 @@
    "t": "2026-10-27T15:34:19Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: New Terrain, 105 West, Black Steer); Carver replied (declined)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T15:18:20Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: Sams No 3, Drift In bounced, Chimayo)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 446,
-  "delivered": 416,
+  "sent": 449,
+  "delivered": 419,
   "bounced": 30,
   "replies": 10,
   "sent_today": {
-   "liam@yeschefgroup.co": 24
+   "liam@yeschefgroup.co": 27
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3010,7 +3010,7 @@
     "liam@yeschefgroup.co": 30
    },
    "2026-10-28": {
-    "liam@yeschefgroup.co": 24
+    "liam@yeschefgroup.co": 27
    }
   },
   "by_state": {
@@ -3020,8 +3020,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 75,
-    "delivered": 70,
+    "sent": 78,
+    "delivered": 73,
     "bounced": 6
    },
    "CT": {
