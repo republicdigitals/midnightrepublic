@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T16:21:17+00:00",
+ "generated_at": "2026-10-28T16:33:01+00:00",
  "leads": {
   "total": 895,
   "with_email": 877,
@@ -2897,6 +2897,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T16:32:48Z",
+   "msg": "Outreach: +3 sent (A2 Oct 28: Olivia, Knucklehead, Pelican Jo's)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T16:21:06Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Park Center, Salad or Bust, Bitter Bar); Sonny Lubick replied",
    "who": "Cassius"
@@ -3040,23 +3045,18 @@
    "t": "2026-10-27T19:46:20Z",
    "msg": "Outreach: +3 sent (A1 Oct 27 complete: The Dive, The Crown, Juniper)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T19:30:23Z",
-   "msg": "Outreach: +3 sent (A1 Oct 27: Giampietro, Taco Del Gnar, Creekside); Door 222 late bounce",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 467,
-  "delivered": 437,
+  "sent": 470,
+  "delivered": 440,
   "bounced": 30,
   "replies": 11,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 15
+   "liam@jackdinningroom.com": 18
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3093,7 +3093,7 @@
    },
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 15
+    "liam@jackdinningroom.com": 18
    }
   },
   "by_state": {
@@ -3103,8 +3103,8 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 96,
-    "delivered": 91,
+    "sent": 99,
+    "delivered": 94,
     "bounced": 6
    },
    "CT": {
