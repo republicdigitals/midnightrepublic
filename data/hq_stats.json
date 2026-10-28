@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T14:44:46+00:00",
+ "generated_at": "2026-10-28T15:00:40+00:00",
  "leads": {
-  "total": 887,
-  "with_email": 869,
+  "total": 890,
+  "with_email": 872,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 499
+   "Instagram": 502
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 20,
-   "with_email": 20,
+   "leads": 23,
+   "with_email": 23,
    "sources": {
-    "Instagram": 20
+    "Instagram": 23
    }
   },
   "IA": {
@@ -882,6 +882,15 @@
    ]
   },
   {
+   "city": "Fort Lauderdale",
+   "state": "FL",
+   "leads": 3,
+   "coords": [
+    -80.1434,
+    26.1223
+   ]
+  },
+  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -1491,15 +1500,6 @@
    "coords": [
     -123.0331,
     44.9392
-   ]
-  },
-  {
-   "city": "Fort Lauderdale",
-   "state": "FL",
-   "leads": 2,
-   "coords": [
-    -80.1434,
-    26.1223
    ]
   },
   {
@@ -2875,9 +2875,32 @@
     -82.7873,
     27.9095
    ]
+  },
+  {
+   "city": "West Palm Beach",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -80.0533,
+    26.7154
+   ]
+  },
+  {
+   "city": "Indian Rocks Beach",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -82.8452,
+    27.8913
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T15:00:23Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T14:44:30Z",
    "msg": "Instagram: +5 leads",
@@ -3021,11 +3044,6 @@
   {
    "t": "2026-10-27T17:54:04Z",
    "msg": "Outreach: +3 sent (A1 Oct 27: Martin City bounced, Jamaica bounced, Anthonys)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T17:39:22Z",
-   "msg": "Outreach: +3 sent (A1 Oct 27: River City, Suburban, Luis Place)",
    "who": "Cassius"
   }
  ],
