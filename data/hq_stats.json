@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T20:09:16+00:00",
+ "generated_at": "2026-10-28T20:24:02+00:00",
  "leads": {
   "total": 930,
   "with_email": 912,
@@ -2968,6 +2968,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T14:23:50-06:00",
+   "msg": "Outreach: +3 sent (account 3, batch 9) - 27 of 30, all delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T14:09:05-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 8) - 24 of 30, all delivered",
    "who": "Cassius"
@@ -3111,24 +3116,19 @@
    "t": "2026-10-28T15:49:31Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Cart-Driver, Patrick's, Parker Pour House)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T15:34:49Z",
-   "msg": "Outreach: +3 sent (A2 Oct 28: Uncorked Kitchen, Jovanina's, Shells and Sauce)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 525,
   "drafted": 518,
-  "sent": 506,
-  "delivered": 474,
+  "sent": 508,
+  "delivered": 476,
   "bounced": 32,
   "replies": 15,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
    "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 24
+   "contact@jackdinningroom.com": 26
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3166,7 +3166,7 @@
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 24
+    "contact@jackdinningroom.com": 26
    }
   },
   "by_state": {
@@ -3186,8 +3186,8 @@
     "bounced": 0
    },
    "FL": {
-    "sent": 2,
-    "delivered": 2,
+    "sent": 4,
+    "delivered": 4,
     "bounced": 0
    },
    "IA": {
