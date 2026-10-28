@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T19:25:46+00:00",
+ "generated_at": "2026-10-28T19:40:11+00:00",
  "leads": {
-  "total": 925,
-  "with_email": 907,
+  "total": 930,
+  "with_email": 912,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 537
+   "Instagram": 542
   }
  },
  "states": {
@@ -182,10 +182,10 @@
   },
   "TX": {
    "name": "Texas",
-   "leads": 14,
-   "with_email": 14,
+   "leads": 19,
+   "with_email": 19,
    "sources": {
-    "Instagram": 14
+    "Instagram": 19
    }
   },
   "UT": {
@@ -413,6 +413,15 @@
    ]
   },
   {
+   "city": "Houston",
+   "state": "TX",
+   "leads": 9,
+   "coords": [
+    -95.3677,
+    29.7589
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
@@ -491,15 +500,6 @@
    "coords": [
     -97.7474,
     30.2649
-   ]
-  },
-  {
-   "city": "Houston",
-   "state": "TX",
-   "leads": 7,
-   "coords": [
-    -95.3677,
-    29.7589
    ]
   },
   {
@@ -923,6 +923,15 @@
    "coords": [
     -80.1434,
     26.1223
+   ]
+  },
+  {
+   "city": "San Antonio",
+   "state": "TX",
+   "leads": 3,
+   "coords": [
+    -98.4951,
+    29.4246
    ]
   },
   {
@@ -2959,6 +2968,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T19:39:53Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-28T13:25:34-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 5) - 15 of 30; Tacovore address inactive, corrected address given",
    "who": "Cassius"
@@ -3100,11 +3114,6 @@
   },
   {
    "t": "2026-10-28T14:44:30Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T14:28:42Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
