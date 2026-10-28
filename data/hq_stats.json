@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T16:58:59+00:00",
+ "generated_at": "2026-10-28T17:02:03+00:00",
  "leads": {
   "total": 905,
   "with_email": 887,
@@ -2933,6 +2933,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T11:01:45-06:00",
+   "msg": "Outreach: +3 sent (A2 Oct 28: Vinnola's and Graham's delivered; Nonna's bounced)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T16:58:45Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3076,23 +3081,18 @@
    "t": "2026-10-28T11:46:20Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Jade Cafe, 303 Sports Grill, Wild Cider)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T11:27:03Z",
-   "msg": "Outreach active: Oct 28 run started",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 473,
-  "delivered": 443,
-  "bounced": 30,
+  "sent": 476,
+  "delivered": 445,
+  "bounced": 31,
   "replies": 11,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 21
+   "liam@jackdinningroom.com": 24
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3129,7 +3129,7 @@
    },
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 21
+    "liam@jackdinningroom.com": 24
    }
   },
   "by_state": {
@@ -3139,9 +3139,9 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 102,
-    "delivered": 97,
-    "bounced": 6
+    "sent": 105,
+    "delivered": 99,
+    "bounced": 7
    },
    "CT": {
     "sent": 3,
