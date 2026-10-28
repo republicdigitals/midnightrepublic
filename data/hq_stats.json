@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T13:12:41+00:00",
+ "generated_at": "2026-10-28T13:14:08+00:00",
  "leads": {
-  "total": 869,
-  "with_email": 851,
+  "total": 867,
+  "with_email": 849,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 481
+   "Instagram": 479
   }
  },
  "states": {
@@ -86,10 +86,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 31,
-   "with_email": 31,
+   "leads": 29,
+   "with_email": 29,
    "sources": {
-    "Instagram": 31
+    "Instagram": 29
    }
   },
   "NE": {
@@ -856,15 +856,6 @@
    ]
   },
   {
-   "city": "Raleigh",
-   "state": "NC",
-   "leads": 3,
-   "coords": [
-    -78.6391,
-    35.7804
-   ]
-  },
-  {
    "city": "Custer",
    "state": "SD",
    "leads": 2,
@@ -1465,6 +1456,15 @@
    "coords": [
     -123.0331,
     44.9392
+   ]
+  },
+  {
+   "city": "Raleigh",
+   "state": "NC",
+   "leads": 2,
+   "coords": [
+    -78.6391,
+    35.7804
    ]
   },
   {
@@ -2768,18 +2768,14 @@
     -121.3153,
     44.0582
    ]
-  },
-  {
-   "city": "Durham",
-   "state": "NC",
-   "leads": 1,
-   "coords": [
-    -78.9018,
-    35.9967
-   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T13:13:58Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T13:12:25Z",
    "msg": "Instagram: +5 leads",
@@ -2923,11 +2919,6 @@
   {
    "t": "2026-10-27T14:26:20Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: Piccino, El Moro bounced, Olde Schoolhouse)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T14:07:50Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: Back Country, Rocky Mtn Taco, Brass); PRUF + Counter Culture replied",
    "who": "Cassius"
   }
  ],
