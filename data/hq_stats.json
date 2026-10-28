@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T17:17:55+00:00",
+ "generated_at": "2026-10-28T17:33:14+00:00",
  "leads": {
   "total": 905,
   "with_email": 887,
@@ -2933,6 +2933,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T11:33:01-06:00",
+   "msg": "Outreach: +3 sent (A2 Oct 28 complete: Pony Up and Mannie & Bo's delivered; Hilltop bounced)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T11:17:43-06:00",
    "msg": "Outreach: +3 sent (A2 Oct 28: Wide Open Saloon, Junct'n Square, Fruita Tavern)",
    "who": "Cassius"
@@ -3076,23 +3081,18 @@
    "t": "2026-10-28T12:15:47Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Wood Paddle, Wildflower, 300 Suns)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T12:01:28Z",
-   "msg": "Outreach: +3 sent (A1 Oct 28: La Nonna, Colorado Tap House, Satire)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 479,
-  "delivered": 448,
-  "bounced": 31,
+  "sent": 482,
+  "delivered": 450,
+  "bounced": 32,
   "replies": 11,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 27
+   "liam@jackdinningroom.com": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3129,7 +3129,7 @@
    },
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 27
+    "liam@jackdinningroom.com": 30
    }
   },
   "by_state": {
@@ -3139,9 +3139,9 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 108,
-    "delivered": 102,
-    "bounced": 7
+    "sent": 111,
+    "delivered": 104,
+    "bounced": 8
    },
    "CT": {
     "sent": 3,
