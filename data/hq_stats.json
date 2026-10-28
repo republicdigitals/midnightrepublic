@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T19:41:28+00:00",
+ "generated_at": "2026-10-28T19:55:00+00:00",
  "leads": {
   "total": 930,
   "with_email": 912,
@@ -2968,6 +2968,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T13:54:48-06:00",
+   "msg": "Outreach: +3 sent (account 3, batch 7) - 21 of 30, all delivered; Milwaukie Cafe replied",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T13:41:16-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 6) - 18 of 30, all delivered; Laurelwood replied",
    "who": "Cassius"
@@ -3111,24 +3116,19 @@
    "t": "2026-10-28T15:17:52Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Victoria Tavern, Gold Dirt, Vin Rouge)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T15:00:23Z",
-   "msg": "Instagram: cleanup",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 525,
   "drafted": 518,
-  "sent": 500,
-  "delivered": 468,
+  "sent": 503,
+  "delivered": 471,
   "bounced": 32,
-  "replies": 14,
+  "replies": 15,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
    "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 18
+   "contact@jackdinningroom.com": 21
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3166,7 +3166,7 @@
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 18
+    "contact@jackdinningroom.com": 21
    }
   },
   "by_state": {
@@ -3216,8 +3216,8 @@
     "bounced": 1
    },
    "NC": {
-    "sent": 24,
-    "delivered": 24,
+    "sent": 27,
+    "delivered": 27,
     "bounced": 1
    },
    "NE": {
