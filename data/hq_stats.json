@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T13:50:41+00:00",
+ "generated_at": "2026-10-28T14:00:05+00:00",
  "leads": {
-  "total": 872,
-  "with_email": 854,
+  "total": 877,
+  "with_email": 859,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 484
+   "Instagram": 489
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 5,
-   "with_email": 5,
+   "leads": 10,
+   "with_email": 10,
    "sources": {
-    "Instagram": 5
+    "Instagram": 10
    }
   },
   "IA": {
@@ -459,6 +459,15 @@
    ]
   },
   {
+   "city": "Tampa",
+   "state": "FL",
+   "leads": 7,
+   "coords": [
+    -82.4583,
+    27.945
+   ]
+  },
+  {
    "city": "Casper",
    "state": "WY",
    "leads": 6,
@@ -861,15 +870,6 @@
    "coords": [
     -78.6391,
     35.7804
-   ]
-  },
-  {
-   "city": "Tampa",
-   "state": "FL",
-   "leads": 3,
-   "coords": [
-    -82.4583,
-    27.945
    ]
   },
   {
@@ -2812,9 +2812,23 @@
     -81.379,
     28.5421
    ]
+  },
+  {
+   "city": "Winter Park",
+   "state": "FL",
+   "leads": 1,
+   "coords": [
+    -81.351,
+    28.5978
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T13:59:52Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T13:50:29Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Love Shack, Candlelight, 20 Mile Tap House)",
@@ -2958,11 +2972,6 @@
   {
    "t": "2026-10-27T15:50:38Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: MEATBAR, Brickhouse 737, South Park Brewing)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T15:34:19Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: New Terrain, 105 West, Black Steer); Carver replied (declined)",
    "who": "Cassius"
   }
  ],
