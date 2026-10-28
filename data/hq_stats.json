@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T20:38:13+00:00",
+ "generated_at": "2026-10-28T21:53:44+00:00",
  "leads": {
-  "total": 930,
-  "with_email": 912,
+  "total": 931,
+  "with_email": 913,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 542
+   "Instagram": 543
   }
  },
  "states": {
@@ -66,6 +66,14 @@
    "with_email": 7,
    "sources": {
     "Instagram": 7
+   }
+  },
+  "KY": {
+   "name": "Kentucky",
+   "leads": 1,
+   "with_email": 1,
+   "sources": {
+    "Instagram": 1
    }
   },
   "MA": {
@@ -2964,9 +2972,23 @@
     -81.3801,
     30.2275
    ]
+  },
+  {
+   "city": "Louisville",
+   "state": "KY",
+   "leads": 1,
+   "coords": [
+    -85.7594,
+    38.2542
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-28T21:53:31Z",
+   "msg": "Instagram: +1 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-28T14:37:49-06:00",
    "msg": "Outreach paused: Oct 28 run complete (90 sent)",
@@ -3111,11 +3133,6 @@
    "t": "2026-10-28T16:21:06Z",
    "msg": "Outreach: +3 sent (A2 Oct 28: Park Center, Salad or Bust, Bitter Bar); Sonny Lubick replied",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T16:07:26Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
