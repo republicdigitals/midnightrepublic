@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T12:43:29+00:00",
+ "generated_at": "2026-10-28T12:58:01+00:00",
  "leads": {
   "total": 864,
   "with_email": 846,
@@ -2763,6 +2763,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-28T12:57:52Z",
+   "msg": "Outreach: +3 sent (A1 Oct 28: Wyman's delivered; Sputnik and Mozarts bounced)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T12:43:18Z",
    "msg": "Outreach: +3 sent (A1 Oct 28: Hogshead, Loveland Tap, Cactus Jack's)",
    "who": "Cassius"
@@ -2906,22 +2911,17 @@
    "t": "2026-10-27T13:50:55Z",
    "msg": "Outreach: +3 sent (A2 Oct 27: PRUF, Hot Tomato, Carver); Honey Seed replied",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-27T13:36:19Z",
-   "msg": "Outreach: +3 sent (A2 Oct 27: Bread + Salt, Counter Culture, 2nd Deli)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 490,
   "drafted": 483,
-  "sent": 437,
-  "delivered": 410,
-  "bounced": 27,
+  "sent": 440,
+  "delivered": 411,
+  "bounced": 29,
   "replies": 10,
   "sent_today": {
-   "liam@yeschefgroup.co": 15
+   "liam@yeschefgroup.co": 18
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -2957,7 +2957,7 @@
     "liam@yeschefgroup.co": 30
    },
    "2026-10-28": {
-    "liam@yeschefgroup.co": 15
+    "liam@yeschefgroup.co": 18
    }
   },
   "by_state": {
@@ -2967,9 +2967,9 @@
     "bounced": 3
    },
    "CO": {
-    "sent": 66,
-    "delivered": 64,
-    "bounced": 3
+    "sent": 69,
+    "delivered": 65,
+    "bounced": 5
    },
    "CT": {
     "sent": 3,
