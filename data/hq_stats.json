@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T17:17:56+00:00",
+ "generated_at": "2026-10-29T17:18:07+00:00",
  "leads": {
   "total": 938,
   "with_email": 920,
@@ -2984,6 +2984,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T11:17:49-06:00",
+   "msg": "Outreach paused: Oct 29 account 2 run complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-29T11:17:46-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 10 final) - 30 of 30 done, 28 delivered, 2 bounced",
    "who": "Cassius"
@@ -3126,11 +3131,6 @@
   {
    "t": "2026-10-28T12:40:11-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 2) - 6 of 30, all delivered",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T12:27:24-06:00",
-   "msg": "Outreach: +3 sent (account 3, batch 1) - 3 delivered, Cooper Mountain replied",
    "who": "Cassius"
   }
  ],
@@ -3322,8 +3322,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-29",
-  "note": "Oct 29 outreach running on account 2."
+  "note": "Oct 29 account 2 run complete: 30 sent, 28 delivered, 2 bounced."
  }
 }
