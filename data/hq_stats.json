@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T22:01:50+00:00",
+ "generated_at": "2026-10-29T14:36:26+00:00",
  "leads": {
   "total": 926,
   "with_email": 908,
@@ -2967,6 +2967,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T08:36:15-06:00",
+   "msg": "Outreach: 30 drafted (Oct 29 account 2 queue)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-28T22:01:37Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
@@ -3110,25 +3115,16 @@
    "t": "2026-10-28T16:35:36Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T16:32:48Z",
-   "msg": "Outreach: +3 sent (A2 Oct 28: Olivia, Knucklehead, Pelican Jo's)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 525,
-  "drafted": 518,
+  "researched": 555,
+  "drafted": 548,
   "sent": 511,
   "delivered": 479,
   "bounced": 32,
   "replies": 16,
-  "sent_today": {
-   "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 29
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
