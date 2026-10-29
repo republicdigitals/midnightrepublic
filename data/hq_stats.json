@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T17:11:48+00:00",
+ "generated_at": "2026-10-29T17:17:56+00:00",
  "leads": {
   "total": 938,
   "with_email": 920,
@@ -2984,6 +2984,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T11:17:46-06:00",
+   "msg": "Outreach: +3 sent (Oct 29 account 2, batch 10 final) - 30 of 30 done, 28 delivered, 2 bounced",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-29T17:11:34Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3127,22 +3132,17 @@
    "t": "2026-10-28T12:27:24-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 1) - 3 delivered, Cooper Mountain replied",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T18:18:17Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 555,
   "drafted": 548,
-  "sent": 538,
-  "delivered": 505,
-  "bounced": 33,
+  "sent": 541,
+  "delivered": 507,
+  "bounced": 34,
   "replies": 17,
   "sent_today": {
-   "liam@jackdinningroom.com": 27
+   "liam@jackdinningroom.com": 30
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3183,7 +3183,7 @@
     "contact@jackdinningroom.com": 29
    },
    "2026-10-29": {
-    "liam@jackdinningroom.com": 27
+    "liam@jackdinningroom.com": 30
    }
   },
   "by_state": {
@@ -3203,9 +3203,9 @@
     "bounced": 0
    },
    "FL": {
-    "sent": 33,
-    "delivered": 32,
-    "bounced": 1
+    "sent": 36,
+    "delivered": 34,
+    "bounced": 2
    },
    "IA": {
     "sent": 22,
