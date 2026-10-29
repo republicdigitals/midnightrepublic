@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T17:02:09+00:00",
+ "generated_at": "2026-10-29T17:11:48+00:00",
  "leads": {
-  "total": 933,
-  "with_email": 915,
+  "total": 938,
+  "with_email": 920,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 545
+   "Instagram": 550
   }
  },
  "states": {
@@ -174,10 +174,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 36,
-   "with_email": 36,
+   "leads": 41,
+   "with_email": 41,
    "sources": {
-    "Instagram": 36
+    "Instagram": 41
    }
   },
   "SD": {
@@ -348,6 +348,15 @@
    ]
   },
   {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 12,
+   "coords": [
+    -79.9399,
+    32.7884
+   ]
+  },
+  {
    "city": "Missoula",
    "state": "MT",
    "leads": 11,
@@ -498,15 +507,6 @@
    "coords": [
     -83.921,
     35.9604
-   ]
-  },
-  {
-   "city": "Charleston",
-   "state": "SC",
-   "leads": 7,
-   "coords": [
-    -79.9399,
-    32.7884
    ]
   },
   {
@@ -2984,6 +2984,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T17:11:34Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-29T11:01:59-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 9) - 27 of 30",
    "who": "Cassius"
@@ -3127,11 +3132,6 @@
    "t": "2026-10-28T18:18:17Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T12:08:27-06:00",
-   "msg": "Outreach active: account 3 batch of 30 resumed",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
