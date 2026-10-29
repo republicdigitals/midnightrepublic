@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T17:18:07+00:00",
+ "generated_at": "2026-10-29T17:25:15+00:00",
  "leads": {
-  "total": 938,
-  "with_email": 920,
+  "total": 943,
+  "with_email": 925,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 550
+   "Instagram": 555
   }
  },
  "states": {
@@ -174,10 +174,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 41,
-   "with_email": 41,
+   "leads": 46,
+   "with_email": 46,
    "sources": {
-    "Instagram": 41
+    "Instagram": 46
    }
   },
   "SD": {
@@ -321,6 +321,15 @@
    ]
   },
   {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 15,
+   "coords": [
+    -79.9399,
+    32.7884
+   ]
+  },
+  {
    "city": "Jersey City",
    "state": "NJ",
    "leads": 14,
@@ -345,15 +354,6 @@
    "coords": [
     -95.9384,
     41.2587
-   ]
-  },
-  {
-   "city": "Charleston",
-   "state": "SC",
-   "leads": 12,
-   "coords": [
-    -79.9399,
-    32.7884
    ]
   },
   {
@@ -606,6 +606,15 @@
    "coords": [
     -116.7812,
     47.6743
+   ]
+  },
+  {
+   "city": "Mount Pleasant",
+   "state": "SC",
+   "leads": 5,
+   "coords": [
+    -79.8678,
+    32.7928
    ]
   },
   {
@@ -894,15 +903,6 @@
    "coords": [
     -94.1574,
     36.0626
-   ]
-  },
-  {
-   "city": "Mount Pleasant",
-   "state": "SC",
-   "leads": 3,
-   "coords": [
-    -79.8678,
-    32.7928
    ]
   },
   {
@@ -2984,6 +2984,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T17:25:01Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-29T11:17:49-06:00",
    "msg": "Outreach paused: Oct 29 account 2 run complete",
    "who": "Cassius"
@@ -3127,11 +3132,6 @@
    "t": "2026-10-28T18:53:01Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T12:40:11-06:00",
-   "msg": "Outreach: +3 sent (account 3, batch 2) - 6 of 30, all delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
