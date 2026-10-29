@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T15:07:33+00:00",
+ "generated_at": "2026-10-29T15:21:18+00:00",
  "leads": {
   "total": 926,
   "with_email": 908,
@@ -2967,6 +2967,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T09:21:05-06:00",
+   "msg": "Outreach: +3 sent (Oct 29 account 2, batch 2) - 6 of 30, all delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-29T09:07:21-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 1) - 2 delivered, Trophy Fish bounced",
    "who": "Cassius"
@@ -3110,22 +3115,17 @@
    "t": "2026-10-28T11:01:45-06:00",
    "msg": "Outreach: +3 sent (A2 Oct 28: Vinnola's and Graham's delivered; Nonna's bounced)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T16:58:45Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
   "researched": 555,
   "drafted": 548,
-  "sent": 514,
-  "delivered": 481,
+  "sent": 517,
+  "delivered": 484,
   "bounced": 33,
   "replies": 16,
   "sent_today": {
-   "liam@jackdinningroom.com": 3
+   "liam@jackdinningroom.com": 6
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3166,7 +3166,7 @@
     "contact@jackdinningroom.com": 29
    },
    "2026-10-29": {
-    "liam@jackdinningroom.com": 3
+    "liam@jackdinningroom.com": 6
    }
   },
   "by_state": {
@@ -3186,8 +3186,8 @@
     "bounced": 0
    },
    "FL": {
-    "sent": 9,
-    "delivered": 8,
+    "sent": 12,
+    "delivered": 11,
     "bounced": 1
    },
    "IA": {
