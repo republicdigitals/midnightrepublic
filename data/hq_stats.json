@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T23:10:57+00:00",
+ "generated_at": "2026-10-29T23:22:20+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T17:22:11-06:00",
+   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 5) - 15 of 30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-29T17:10:46-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 4) - 12 of 30, Taqueria De Diez bounced",
    "who": "Cassius"
@@ -3179,23 +3184,18 @@
    "t": "2026-10-28T14:23:50-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 9) - 27 of 30, all delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T14:09:05-06:00",
-   "msg": "Outreach: +3 sent (account 3, batch 8) - 24 of 30, all delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 561,
-  "drafted": 554,
-  "sent": 553,
-  "delivered": 518,
+  "researched": 564,
+  "drafted": 557,
+  "sent": 556,
+  "delivered": 521,
   "bounced": 35,
   "replies": 17,
   "sent_today": {
    "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 12
+   "contact@jackdinningroom.com": 15
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3237,7 +3237,7 @@
    },
    "2026-10-29": {
     "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 12
+    "contact@jackdinningroom.com": 15
    }
   },
   "by_state": {
@@ -3337,8 +3337,8 @@
     "bounced": 2
    },
    "TX": {
-    "sent": 5,
-    "delivered": 4,
+    "sent": 8,
+    "delivered": 7,
     "bounced": 1
    },
    "UT": {
