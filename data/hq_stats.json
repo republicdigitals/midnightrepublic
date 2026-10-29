@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T20:24:59+00:00",
+ "generated_at": "2026-10-29T22:00:46+00:00",
  "leads": {
-  "total": 953,
-  "with_email": 935,
+  "total": 958,
+  "with_email": 940,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 565
+   "Instagram": 570
   }
  },
  "states": {
@@ -118,10 +118,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 33,
-   "with_email": 33,
+   "leads": 35,
+   "with_email": 35,
    "sources": {
-    "Instagram": 33
+    "Instagram": 35
    }
   },
   "NE": {
@@ -206,10 +206,10 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 43,
-   "with_email": 43,
+   "leads": 46,
+   "with_email": 46,
    "sources": {
-    "Instagram": 43
+    "Instagram": 46
    }
   },
   "TX": {
@@ -436,6 +436,15 @@
    ]
   },
   {
+   "city": "Knoxville",
+   "state": "TN",
+   "leads": 9,
+   "coords": [
+    -83.921,
+    35.9604
+   ]
+  },
+  {
    "city": "Chattanooga",
    "state": "TN",
    "leads": 9,
@@ -514,15 +523,6 @@
    "coords": [
     -74.0643,
     40.3471
-   ]
-  },
-  {
-   "city": "Knoxville",
-   "state": "TN",
-   "leads": 7,
-   "coords": [
-    -83.921,
-    35.9604
    ]
   },
   {
@@ -679,6 +679,15 @@
    ]
   },
   {
+   "city": "Raleigh",
+   "state": "NC",
+   "leads": 5,
+   "coords": [
+    -78.6391,
+    35.7804
+   ]
+  },
+  {
    "city": "Jacksonville",
    "state": "FL",
    "leads": 5,
@@ -802,15 +811,6 @@
    "coords": [
     -104.7613,
     39.5185
-   ]
-  },
-  {
-   "city": "Raleigh",
-   "state": "NC",
-   "leads": 4,
-   "coords": [
-    -78.6391,
-    35.7804
    ]
   },
   {
@@ -1333,6 +1333,15 @@
    "coords": [
     -82.3529,
     36.3168
+   ]
+  },
+  {
+   "city": "Maryville",
+   "state": "TN",
+   "leads": 2,
+   "coords": [
+    -83.9705,
+    35.7565
    ]
   },
   {
@@ -2389,15 +2398,6 @@
    ]
   },
   {
-   "city": "Maryville",
-   "state": "TN",
-   "leads": 1,
-   "coords": [
-    -83.9705,
-    35.7565
-   ]
-  },
-  {
    "city": "Thompsons Station",
    "state": "TN",
    "leads": 1,
@@ -3023,9 +3023,23 @@
     -90.0629,
     29.9575
    ]
+  },
+  {
+   "city": "Greensboro",
+   "state": "NC",
+   "leads": 1,
+   "coords": [
+    -79.792,
+    36.0726
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-29T22:00:32Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-29T20:24:45Z",
    "msg": "Instagram: +5 leads",
@@ -3170,11 +3184,6 @@
    "t": "2026-10-28T19:13:42Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T13:09:35-06:00",
-   "msg": "Outreach: +3 sent (account 3, batch 4) - 12 of 30, all delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
