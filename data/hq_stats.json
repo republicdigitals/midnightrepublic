@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T16:33:54+00:00",
+ "generated_at": "2026-10-29T16:44:38+00:00",
  "leads": {
-  "total": 926,
-  "with_email": 908,
+  "total": 933,
+  "with_email": 915,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 538
+   "Instagram": 545
   }
  },
  "states": {
@@ -38,10 +38,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 37,
-   "with_email": 37,
+   "leads": 38,
+   "with_email": 38,
    "sources": {
-    "Instagram": 37
+    "Instagram": 38
    }
   },
   "IA": {
@@ -86,10 +86,10 @@
   },
   "MO": {
    "name": "Missouri",
-   "leads": 2,
-   "with_email": 2,
+   "leads": 3,
+   "with_email": 3,
    "sources": {
-    "Instagram": 2
+    "Instagram": 3
    }
   },
   "MT": {
@@ -140,12 +140,20 @@
     "Instagram": 10
    }
   },
+  "OH": {
+   "name": "Ohio",
+   "leads": 1,
+   "with_email": 1,
+   "sources": {
+    "Instagram": 1
+   }
+  },
   "OK": {
    "name": "Oklahoma",
-   "leads": 7,
-   "with_email": 7,
+   "leads": 10,
+   "with_email": 10,
    "sources": {
-    "Instagram": 7
+    "Instagram": 10
    }
   },
   "OR": {
@@ -182,10 +190,10 @@
   },
   "TN": {
    "name": "Tennessee",
-   "leads": 42,
-   "with_email": 42,
+   "leads": 43,
+   "with_email": 43,
    "sources": {
-    "Instagram": 42
+    "Instagram": 43
    }
   },
   "TX": {
@@ -304,6 +312,15 @@
    ]
   },
   {
+   "city": "Nashville",
+   "state": "TN",
+   "leads": 15,
+   "coords": [
+    -86.7743,
+    36.1623
+   ]
+  },
+  {
    "city": "Jersey City",
    "state": "NJ",
    "leads": 14,
@@ -319,15 +336,6 @@
    "coords": [
     -71.0995,
     42.3876
-   ]
-  },
-  {
-   "city": "Nashville",
-   "state": "TN",
-   "leads": 14,
-   "coords": [
-    -86.7743,
-    36.1623
    ]
   },
   {
@@ -454,6 +462,15 @@
    "coords": [
     -91.5299,
     41.6613
+   ]
+  },
+  {
+   "city": "Oklahoma City",
+   "state": "OK",
+   "leads": 8,
+   "coords": [
+    -97.5171,
+    35.473
    ]
   },
   {
@@ -592,15 +609,6 @@
    ]
   },
   {
-   "city": "Oklahoma City",
-   "state": "OK",
-   "leads": 5,
-   "coords": [
-    -97.5171,
-    35.473
-   ]
-  },
-  {
    "city": "Boone",
    "state": "NC",
    "leads": 5,
@@ -643,6 +651,15 @@
    "coords": [
     -122.6742,
     45.5202
+   ]
+  },
+  {
+   "city": "Jacksonville",
+   "state": "FL",
+   "leads": 5,
+   "coords": [
+    -81.6579,
+    30.3262
    ]
   },
   {
@@ -760,15 +777,6 @@
    "coords": [
     -104.7613,
     39.5185
-   ]
-  },
-  {
-   "city": "Jacksonville",
-   "state": "FL",
-   "leads": 4,
-   "coords": [
-    -81.6579,
-    30.3262
    ]
   },
   {
@@ -904,6 +912,15 @@
    "coords": [
     -95.6776,
     39.049
+   ]
+  },
+  {
+   "city": "Kansas City",
+   "state": "MO",
+   "leads": 3,
+   "coords": [
+    -94.5781,
+    39.1001
    ]
   },
   {
@@ -1390,15 +1407,6 @@
    "coords": [
     -94.9228,
     39.3113
-   ]
-  },
-  {
-   "city": "Kansas City",
-   "state": "MO",
-   "leads": 2,
-   "coords": [
-    -94.5781,
-    39.1001
    ]
   },
   {
@@ -2963,9 +2971,23 @@
     -85.7594,
     38.2542
    ]
+  },
+  {
+   "city": "Columbus",
+   "state": "OH",
+   "leads": 1,
+   "coords": [
+    -83.0007,
+    39.9623
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-29T16:44:24Z",
+   "msg": "Instagram: +4 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-29T10:33:42-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 7) - 21 of 30",
@@ -3109,11 +3131,6 @@
   {
    "t": "2026-10-28T12:00:12-06:00",
    "msg": "Outreach active: account 3 batch of 30",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T12:00:10-06:00",
-   "msg": "Outreach: 35 drafted (account 3 queue)",
    "who": "Cassius"
   }
  ],
