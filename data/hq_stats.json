@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T15:37:07+00:00",
+ "generated_at": "2026-10-29T15:50:38+00:00",
  "leads": {
   "total": 926,
   "with_email": 908,
@@ -2967,6 +2967,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T09:50:26-06:00",
+   "msg": "Outreach: +3 sent (Oct 29 account 2, batch 4) - 12 of 30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-29T09:36:55-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 3) - 9 of 30",
    "who": "Cassius"
@@ -3110,22 +3115,17 @@
    "t": "2026-10-28T11:33:01-06:00",
    "msg": "Outreach: +3 sent (A2 Oct 28 complete: Pony Up and Mannie & Bo's delivered; Hilltop bounced)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T11:17:43-06:00",
-   "msg": "Outreach: +3 sent (A2 Oct 28: Wide Open Saloon, Junct'n Square, Fruita Tavern)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 555,
   "drafted": 548,
-  "sent": 520,
-  "delivered": 487,
+  "sent": 523,
+  "delivered": 490,
   "bounced": 33,
   "replies": 16,
   "sent_today": {
-   "liam@jackdinningroom.com": 9
+   "liam@jackdinningroom.com": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3166,7 +3166,7 @@
     "contact@jackdinningroom.com": 29
    },
    "2026-10-29": {
-    "liam@jackdinningroom.com": 9
+    "liam@jackdinningroom.com": 12
    }
   },
   "by_state": {
@@ -3186,8 +3186,8 @@
     "bounced": 0
    },
    "FL": {
-    "sent": 15,
-    "delivered": 14,
+    "sent": 18,
+    "delivered": 17,
     "bounced": 1
    },
    "IA": {
