@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T22:00:46+00:00",
+ "generated_at": "2026-10-29T22:10:09+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T16:10:00-06:00",
+   "msg": "Outreach active: Oct 29 account 3 run (5 sends)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-29T22:00:32Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3179,11 +3184,6 @@
    "t": "2026-10-28T13:25:34-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 5) - 15 of 30; Tacovore address inactive, corrected address given",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T19:13:42Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -3374,8 +3374,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "2026-10-29",
-  "note": "Oct 29 account 2 run complete: 30 sent, 28 delivered, 2 bounced."
+  "note": "Oct 29 account 3 run: final 5 drafted leads."
  }
 }
