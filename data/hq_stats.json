@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T18:40:46+00:00",
+ "generated_at": "2026-10-29T20:24:59+00:00",
  "leads": {
-  "total": 948,
-  "with_email": 930,
+  "total": 953,
+  "with_email": 935,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 560
+   "Instagram": 565
   }
  },
  "states": {
@@ -84,6 +84,14 @@
     "Instagram": 1
    }
   },
+  "LA": {
+   "name": "Louisiana",
+   "leads": 1,
+   "with_email": 1,
+   "sources": {
+    "Instagram": 1
+   }
+  },
   "MA": {
    "name": "Massachusetts",
    "leads": 70,
@@ -110,10 +118,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 29,
-   "with_email": 29,
+   "leads": 33,
+   "with_email": 33,
    "sources": {
-    "Instagram": 29
+    "Instagram": 33
    }
   },
   "NE": {
@@ -797,6 +805,15 @@
    ]
   },
   {
+   "city": "Raleigh",
+   "state": "NC",
+   "leads": 4,
+   "coords": [
+    -78.6391,
+    35.7804
+   ]
+  },
+  {
    "city": "Brookings",
    "state": "SD",
    "leads": 3,
@@ -941,15 +958,6 @@
    ]
   },
   {
-   "city": "Raleigh",
-   "state": "NC",
-   "leads": 3,
-   "coords": [
-    -78.6391,
-    35.7804
-   ]
-  },
-  {
    "city": "Fort Lauderdale",
    "state": "FL",
    "leads": 3,
@@ -965,6 +973,15 @@
    "coords": [
     -81.0921,
     32.079
+   ]
+  },
+  {
+   "city": "Durham",
+   "state": "NC",
+   "leads": 3,
+   "coords": [
+    -78.9018,
+    35.9967
    ]
   },
   {
@@ -2997,9 +3014,23 @@
     -83.0007,
     39.9623
    ]
+  },
+  {
+   "city": "New Orleans",
+   "state": "LA",
+   "leads": 1,
+   "coords": [
+    -90.0629,
+    29.9575
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-10-29T20:24:45Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-10-29T18:40:30Z",
    "msg": "Instagram: +5 leads",
@@ -3143,11 +3174,6 @@
   {
    "t": "2026-10-28T13:09:35-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 4) - 12 of 30, all delivered",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T12:54:09-06:00",
-   "msg": "Outreach: +3 sent (account 3, batch 3) - 9 of 30, all delivered",
    "who": "Cassius"
   }
  ],
