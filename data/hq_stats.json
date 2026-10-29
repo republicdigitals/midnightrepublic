@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-10-29T17:25:15+00:00",
+ "generated_at": "2026-10-29T18:40:46+00:00",
  "leads": {
-  "total": 943,
-  "with_email": 925,
+  "total": 948,
+  "with_email": 930,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 555
+   "Instagram": 560
   }
  },
  "states": {
@@ -42,6 +42,14 @@
    "with_email": 38,
    "sources": {
     "Instagram": 38
+   }
+  },
+  "GA": {
+   "name": "Georgia",
+   "leads": 3,
+   "with_email": 3,
+   "sources": {
+    "Instagram": 3
    }
   },
   "IA": {
@@ -102,10 +110,10 @@
   },
   "NC": {
    "name": "North Carolina",
-   "leads": 28,
-   "with_email": 28,
+   "leads": 29,
+   "with_email": 29,
    "sources": {
-    "Instagram": 28
+    "Instagram": 29
    }
   },
   "NE": {
@@ -174,10 +182,10 @@
   },
   "SC": {
    "name": "South Carolina",
-   "leads": 46,
-   "with_email": 46,
+   "leads": 47,
+   "with_email": 47,
    "sources": {
-    "Instagram": 46
+    "Instagram": 47
    }
   },
   "SD": {
@@ -294,6 +302,15 @@
    ]
   },
   {
+   "city": "Charleston",
+   "state": "SC",
+   "leads": 16,
+   "coords": [
+    -79.9399,
+    32.7884
+   ]
+  },
+  {
    "city": "Sioux Falls",
    "state": "SD",
    "leads": 15,
@@ -318,15 +335,6 @@
    "coords": [
     -86.7743,
     36.1623
-   ]
-  },
-  {
-   "city": "Charleston",
-   "state": "SC",
-   "leads": 15,
-   "coords": [
-    -79.9399,
-    32.7884
    ]
   },
   {
@@ -363,6 +371,15 @@
    "coords": [
     -113.9953,
     46.8701
+   ]
+  },
+  {
+   "city": "Asheville",
+   "state": "NC",
+   "leads": 10,
+   "coords": [
+    -82.5508,
+    35.5954
    ]
   },
   {
@@ -417,15 +434,6 @@
    "coords": [
     -85.3095,
     35.0457
-   ]
-  },
-  {
-   "city": "Asheville",
-   "state": "NC",
-   "leads": 9,
-   "coords": [
-    -82.5508,
-    35.5954
    ]
   },
   {
@@ -948,6 +956,15 @@
    "coords": [
     -80.1434,
     26.1223
+   ]
+  },
+  {
+   "city": "Savannah",
+   "state": "GA",
+   "leads": 3,
+   "coords": [
+    -81.0921,
+    32.079
    ]
   },
   {
@@ -2984,6 +3001,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T18:40:30Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-10-29T17:25:01Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3127,11 +3149,6 @@
    "t": "2026-10-28T12:54:09-06:00",
    "msg": "Outreach: +3 sent (account 3, batch 3) - 9 of 30, all delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-28T18:53:01Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
