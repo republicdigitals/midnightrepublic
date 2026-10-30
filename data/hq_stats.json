@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-30T11:02:49+00:00",
+ "generated_at": "2026-10-30T11:20:49+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-30T05:20:40-06:00",
+   "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 6) - account 1 at 18 of 23; Collins Quarter replied (logged, unopened)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-30T05:02:39-06:00",
    "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 5) - account 1 at 15 of 23",
    "who": "Cassius"
@@ -3179,20 +3184,15 @@
    "t": "2026-10-29T10:03:51-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 5) - 15 of 30; Uncle Hanks replied",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T09:50:26-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 2, batch 4) - 12 of 30",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 594,
-  "drafted": 587,
-  "sent": 586,
-  "delivered": 550,
+  "researched": 597,
+  "drafted": 590,
+  "sent": 589,
+  "delivered": 553,
   "bounced": 36,
-  "replies": 18,
+  "replies": 19,
   "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
@@ -3235,7 +3235,7 @@
    "2026-10-29": {
     "liam@jackdinningroom.com": 30,
     "contact@jackdinningroom.com": 30,
-    "liam@yeschefgroup.co": 15
+    "liam@yeschefgroup.co": 18
    }
   },
   "by_state": {
@@ -3300,8 +3300,8 @@
     "bounced": 1
    },
    "NC": {
-    "sent": 30,
-    "delivered": 30,
+    "sent": 33,
+    "delivered": 33,
     "bounced": 1
    },
    "NE": {
