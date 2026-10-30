@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-30T00:07:20+00:00",
+ "generated_at": "2026-10-30T00:25:11+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-29T18:25:00-06:00",
+   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 9) - 27 of 30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-29T18:07:10-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 8) - 24 of 30; Turner's auto-replied",
    "who": "Cassius"
@@ -3179,23 +3184,18 @@
    "t": "2026-10-28T22:01:37Z",
    "msg": "Instagram: cleanup",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-28T21:53:31Z",
-   "msg": "Instagram: +1 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
-  "researched": 573,
-  "drafted": 566,
-  "sent": 565,
-  "delivered": 530,
+  "researched": 576,
+  "drafted": 569,
+  "sent": 568,
+  "delivered": 533,
   "bounced": 35,
   "replies": 18,
   "sent_today": {
    "liam@jackdinningroom.com": 30,
-   "contact@jackdinningroom.com": 24
+   "contact@jackdinningroom.com": 27
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3237,7 +3237,7 @@
    },
    "2026-10-29": {
     "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 24
+    "contact@jackdinningroom.com": 27
    }
   },
   "by_state": {
@@ -3276,6 +3276,11 @@
     "delivered": 3,
     "bounced": 4
    },
+   "KY": {
+    "sent": 1,
+    "delivered": 1,
+    "bounced": 0
+   },
    "MA": {
     "sent": 26,
     "delivered": 22,
@@ -3311,6 +3316,11 @@
     "delivered": 9,
     "bounced": 1
    },
+   "OH": {
+    "sent": 1,
+    "delivered": 1,
+    "bounced": 0
+   },
    "OK": {
     "sent": 7,
     "delivered": 7,
@@ -3337,8 +3347,8 @@
     "bounced": 2
    },
    "TX": {
-    "sent": 17,
-    "delivered": 16,
+    "sent": 18,
+    "delivered": 17,
     "bounced": 1
    },
    "UT": {
