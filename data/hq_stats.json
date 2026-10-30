@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-30T11:42:35+00:00",
+ "generated_at": "2026-10-30T11:42:47+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-30T05:42:28-06:00",
+   "msg": "Outreach paused: Oct 29 run complete (83 sent)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-30T05:42:26-06:00",
    "msg": "Outreach: +2 sent (Oct 29 run, account 1, final batch) - account 1 complete: 23 sent, 22 delivered, 1 bounced; day total 83 sent",
    "who": "Cassius"
@@ -3179,11 +3184,6 @@
    "t": "2026-10-29T16:44:24Z",
    "msg": "Instagram: +4 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-29T10:33:42-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 2, batch 7) - 21 of 30",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3399,8 +3399,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
-  "since": "2026-10-29",
-  "note": "Oct 29 account 3 run: final 5 drafted leads."
+  "status": "paused",
+  "since": "2026-10-30",
+  "note": "Oct 29 run complete: 83 sent across 3 accounts (30 account 2, 30 account 3, 23 account 1). Clean lead supply exhausted; awaiting Devin top-up."
  }
 }
