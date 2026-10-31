@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-31T18:11:13+00:00",
+ "generated_at": "2026-10-31T18:20:20+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-31T12:20:11-06:00",
+   "msg": "Outreach: +1 sent (Oct 31, account 1) - Sushi Secreto delivered; all-time cold sent 900",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-31T12:11:01-06:00",
    "msg": "Outreach active: Oct 31 single send (Sushi Secreto, account 1)",
    "who": "Cassius"
@@ -3179,21 +3184,18 @@
    "t": "2026-10-29T11:01:59-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 9) - 27 of 30",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T10:48:23-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 2, batch 8) - 24 of 30",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 602,
-  "drafted": 595,
-  "sent": 594,
-  "delivered": 558,
+  "researched": 603,
+  "drafted": 596,
+  "sent": 595,
+  "delivered": 559,
   "bounced": 36,
   "replies": 19,
-  "sent_today": {},
+  "sent_today": {
+   "liam@yeschefgroup.co": 1
+  },
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
@@ -3236,6 +3238,9 @@
     "liam@jackdinningroom.com": 30,
     "contact@jackdinningroom.com": 30,
     "liam@yeschefgroup.co": 23
+   },
+   "2026-10-31": {
+    "liam@yeschefgroup.co": 1
    }
   },
   "by_state": {
@@ -3350,8 +3355,8 @@
     "bounced": 2
    },
    "TN": {
-    "sent": 47,
-    "delivered": 45,
+    "sent": 48,
+    "delivered": 46,
     "bounced": 2
    },
    "TX": {
