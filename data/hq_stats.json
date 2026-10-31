@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-31T20:32:16+00:00",
+ "generated_at": "2026-10-31T20:32:27+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-31T14:32:05-06:00",
+   "msg": "Outreach paused: Oct 31 held-pile sends complete (4 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-31T14:32:03-06:00",
    "msg": "Outreach: +3 sent (Oct 31, account 1) - Late Air, T'aha (corrected domains) and Chai Pani all delivered; all-time cold sent 903",
    "who": "Cassius"
@@ -3179,11 +3184,6 @@
    "t": "2026-10-29T17:25:01Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-10-29T11:17:49-06:00",
-   "msg": "Outreach paused: Oct 29 account 2 run complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3404,8 +3404,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-10-31",
-  "note": "Oct 31 sends from account 1: Late Air, T'aha, Chai Pani (user approved)."
+  "note": "Oct 31 held-pile sends complete: Sushi Secreto, Late Air, T'aha, Chai Pani all delivered from account 1. Clean lead supply exhausted; awaiting Devin top-up."
  }
 }
