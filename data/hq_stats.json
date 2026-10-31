@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-30T11:42:47+00:00",
+ "generated_at": "2026-10-31T18:11:13+00:00",
  "leads": {
   "total": 958,
   "with_email": 940,
@@ -3036,6 +3036,11 @@
  ],
  "events": [
   {
+   "t": "2026-10-31T12:11:01-06:00",
+   "msg": "Outreach active: Oct 31 single send (Sushi Secreto, account 1)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-10-30T05:42:28-06:00",
    "msg": "Outreach paused: Oct 29 run complete (83 sent)",
    "who": "Cassius"
@@ -3179,11 +3184,6 @@
    "t": "2026-10-29T10:48:23-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 2, batch 8) - 24 of 30",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T16:44:24Z",
-   "msg": "Instagram: +4 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
@@ -3399,8 +3399,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-10-30",
-  "note": "Oct 29 run complete: 83 sent across 3 accounts (30 account 2, 30 account 3, 23 account 1). Clean lead supply exhausted; awaiting Devin top-up."
+  "status": "active",
+  "since": "2026-10-31",
+  "note": "Single send Oct 31: Sushi Secreto from account 1."
  }
 }
