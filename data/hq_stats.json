@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T23:13:09+00:00",
+ "generated_at": "2026-11-01T23:21:15+00:00",
  "leads": {
-  "total": 990,
-  "with_email": 972,
+  "total": 995,
+  "with_email": 977,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 602
+   "Instagram": 607
   }
  },
  "states": {
@@ -110,10 +110,10 @@
   },
   "MD": {
    "name": "Maryland",
-   "leads": 5,
-   "with_email": 5,
+   "leads": 10,
+   "with_email": 10,
    "sources": {
-    "Instagram": 5
+    "Instagram": 10
    }
   },
   "MO": {
@@ -451,6 +451,15 @@
    ]
   },
   {
+   "city": "Baltimore",
+   "state": "MD",
+   "leads": 10,
+   "coords": [
+    -76.6108,
+    39.2909
+   ]
+  },
+  {
    "city": "Cheyenne",
    "state": "WY",
    "leads": 9,
@@ -745,15 +754,6 @@
    "coords": [
     -81.6579,
     30.3262
-   ]
-  },
-  {
-   "city": "Baltimore",
-   "state": "MD",
-   "leads": 5,
-   "coords": [
-    -76.6108,
-    39.2909
    ]
   },
   {
@@ -3129,6 +3129,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-01T23:21:03Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-01T23:12:55Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3271,11 +3276,6 @@
   {
    "t": "2026-10-29T16:57:01-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 3) - 9 of 30",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T16:42:41-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 2) - 6 of 30",
    "who": "Cassius"
   }
  ],
