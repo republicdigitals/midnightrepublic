@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T21:46:38+00:00",
+ "generated_at": "2026-11-01T21:59:54+00:00",
  "leads": {
-  "total": 970,
-  "with_email": 952,
+  "total": 975,
+  "with_email": 957,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 582
+   "Instagram": 587
   }
  },
  "states": {
@@ -190,10 +190,10 @@
   },
   "PA": {
    "name": "Pennsylvania",
-   "leads": 1,
-   "with_email": 1,
+   "leads": 6,
+   "with_email": 6,
    "sources": {
-    "Instagram": 1
+    "Instagram": 6
    }
   },
   "RI": {
@@ -728,6 +728,15 @@
    "coords": [
     -81.6579,
     30.3262
+   ]
+  },
+  {
+   "city": "Pittsburgh",
+   "state": "PA",
+   "leads": 5,
+   "coords": [
+    -80.0026,
+    40.4407
    ]
   },
   {
@@ -3077,16 +3086,21 @@
    ]
   },
   {
-   "city": "Pittsburgh",
+   "city": "Finleyville",
    "state": "PA",
    "leads": 1,
    "coords": [
-    -80.0026,
-    40.4407
+    -80.0028,
+    40.2523
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-01T21:59:43Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-01T21:46:24Z",
    "msg": "Instagram: +5 leads",
@@ -3229,11 +3243,6 @@
   },
   {
    "t": "2026-10-29T22:00:32Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
-  },
-  {
-   "t": "2026-10-29T20:24:45Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
   }
