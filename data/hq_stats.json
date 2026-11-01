@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T23:36:11+00:00",
+ "generated_at": "2026-11-01T23:48:57+00:00",
  "leads": {
-  "total": 1000,
-  "with_email": 982,
+  "total": 1005,
+  "with_email": 987,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 612
+   "Instagram": 617
   }
  },
  "states": {
@@ -110,10 +110,10 @@
   },
   "MD": {
    "name": "Maryland",
-   "leads": 15,
-   "with_email": 15,
+   "leads": 20,
+   "with_email": 20,
    "sources": {
-    "Instagram": 15
+    "Instagram": 20
    }
   },
   "MO": {
@@ -343,6 +343,15 @@
    ]
   },
   {
+   "city": "Baltimore",
+   "state": "MD",
+   "leads": 18,
+   "coords": [
+    -76.6108,
+    39.2909
+   ]
+  },
+  {
    "city": "Charleston",
    "state": "SC",
    "leads": 16,
@@ -394,15 +403,6 @@
    "coords": [
     -71.0995,
     42.3876
-   ]
-  },
-  {
-   "city": "Baltimore",
-   "state": "MD",
-   "leads": 14,
-   "coords": [
-    -76.6108,
-    39.2909
    ]
   },
   {
@@ -3134,9 +3134,23 @@
     -76.659,
     39.4923
    ]
+  },
+  {
+   "city": "Middle River",
+   "state": "MD",
+   "leads": 1,
+   "coords": [
+    -76.4394,
+    39.3343
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-01T23:48:44Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-01T23:35:55Z",
    "msg": "Instagram: +5 leads",
@@ -3280,11 +3294,6 @@
   {
    "t": "2026-10-29T17:22:11-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 5) - 15 of 30",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T17:10:46-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 4) - 12 of 30, Taqueria De Diez bounced",
    "who": "Cassius"
   }
  ],
