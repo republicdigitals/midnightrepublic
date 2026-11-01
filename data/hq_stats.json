@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T21:59:54+00:00",
+ "generated_at": "2026-11-01T22:31:54+00:00",
  "leads": {
-  "total": 975,
-  "with_email": 957,
+  "total": 980,
+  "with_email": 962,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 587
+   "Instagram": 592
   }
  },
  "states": {
@@ -190,10 +190,10 @@
   },
   "PA": {
    "name": "Pennsylvania",
-   "leads": 6,
-   "with_email": 6,
+   "leads": 11,
+   "with_email": 11,
    "sources": {
-    "Instagram": 6
+    "Instagram": 11
    }
   },
   "RI": {
@@ -497,6 +497,15 @@
    ]
   },
   {
+   "city": "Pittsburgh",
+   "state": "PA",
+   "leads": 9,
+   "coords": [
+    -80.0026,
+    40.4407
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
@@ -728,15 +737,6 @@
    "coords": [
     -81.6579,
     30.3262
-   ]
-  },
-  {
-   "city": "Pittsburgh",
-   "state": "PA",
-   "leads": 5,
-   "coords": [
-    -80.0026,
-    40.4407
    ]
   },
   {
@@ -3093,9 +3093,23 @@
     -80.0028,
     40.2523
    ]
+  },
+  {
+   "city": "Sewickley",
+   "state": "PA",
+   "leads": 1,
+   "coords": [
+    -80.1805,
+    40.5403
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-01T22:31:41Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-01T21:59:43Z",
    "msg": "Instagram: +5 leads",
@@ -3240,11 +3254,6 @@
    "t": "2026-10-29T16:10:00-06:00",
    "msg": "Outreach active: Oct 29 account 3 run (5 sends)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T22:00:32Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
