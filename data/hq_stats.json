@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T15:31:34+00:00",
+ "generated_at": "2026-11-02T15:43:30+00:00",
  "leads": {
-  "total": 1075,
-  "with_email": 1057,
+  "total": 1080,
+  "with_email": 1062,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 687
+   "Instagram": 692
   }
  },
  "states": {
@@ -206,10 +206,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 49,
-   "with_email": 49,
+   "leads": 54,
+   "with_email": 54,
    "sources": {
-    "Instagram": 49
+    "Instagram": 54
    }
   },
   "PA": {
@@ -326,7 +326,7 @@
   {
    "city": "Portland",
    "state": "OR",
-   "leads": 30,
+   "leads": 35,
    "coords": [
     -122.6742,
     45.5202
@@ -3263,6 +3263,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T15:43:17Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-02T15:31:19Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3405,11 +3410,6 @@
   {
    "t": "2026-10-31T12:11:01-06:00",
    "msg": "Outreach active: Oct 31 single send (Sushi Secreto, account 1)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-30T05:42:28-06:00",
-   "msg": "Outreach paused: Oct 29 run complete (83 sent)",
    "who": "Cassius"
   }
  ],
