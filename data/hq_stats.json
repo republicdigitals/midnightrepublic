@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T23:48:57+00:00",
+ "generated_at": "2026-11-02T00:06:51+00:00",
  "leads": {
-  "total": 1005,
-  "with_email": 987,
+  "total": 1010,
+  "with_email": 992,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 617
+   "Instagram": 622
   }
  },
  "states": {
@@ -110,10 +110,10 @@
   },
   "MD": {
    "name": "Maryland",
-   "leads": 20,
-   "with_email": 20,
+   "leads": 25,
+   "with_email": 25,
    "sources": {
-    "Instagram": 20
+    "Instagram": 25
    }
   },
   "MO": {
@@ -334,21 +334,21 @@
    ]
   },
   {
+   "city": "Baltimore",
+   "state": "MD",
+   "leads": 21,
+   "coords": [
+    -76.6108,
+    39.2909
+   ]
+  },
+  {
    "city": "Cambridge",
    "state": "MA",
    "leads": 19,
    "coords": [
     -71.104,
     42.3656
-   ]
-  },
-  {
-   "city": "Baltimore",
-   "state": "MD",
-   "leads": 18,
-   "coords": [
-    -76.6108,
-    39.2909
    ]
   },
   {
@@ -3143,9 +3143,32 @@
     -76.4394,
     39.3343
    ]
+  },
+  {
+   "city": "Essex",
+   "state": "MD",
+   "leads": 1,
+   "coords": [
+    -76.479,
+    39.3075
+   ]
+  },
+  {
+   "city": "Bowie",
+   "state": "MD",
+   "leads": 1,
+   "coords": [
+    -76.7798,
+    39.0081
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-02T00:06:37Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-01T23:48:44Z",
    "msg": "Instagram: +5 leads",
@@ -3289,11 +3312,6 @@
   {
    "t": "2026-10-29T17:35:35-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 6) - 18 of 30",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T17:22:11-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 5) - 15 of 30",
    "who": "Cassius"
   }
  ],
