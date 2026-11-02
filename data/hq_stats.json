@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T01:03:43+00:00",
+ "generated_at": "2026-11-02T01:35:20+00:00",
  "leads": {
-  "total": 1025,
-  "with_email": 1007,
+  "total": 1030,
+  "with_email": 1012,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 637
+   "Instagram": 642
   }
  },
  "states": {
@@ -116,6 +116,14 @@
     "Instagram": 26
    }
   },
+  "MN": {
+   "name": "Minnesota",
+   "leads": 3,
+   "with_email": 3,
+   "sources": {
+    "Instagram": 3
+   }
+  },
   "MO": {
    "name": "Missouri",
    "leads": 3,
@@ -206,11 +214,11 @@
   },
   "RI": {
    "name": "Rhode Island",
-   "leads": 53,
-   "with_email": 53,
+   "leads": 55,
+   "with_email": 55,
    "sources": {
     "Facebook": 39,
-    "Instagram": 14
+    "Instagram": 16
    }
   },
   "SC": {
@@ -292,7 +300,7 @@
   {
    "city": "Providence",
    "state": "RI",
-   "leads": 38,
+   "leads": 40,
    "coords": [
     -71.4128,
     41.824
@@ -1682,6 +1690,15 @@
    "coords": [
     -87.9091,
     43.0386
+   ]
+  },
+  {
+   "city": "Minneapolis",
+   "state": "MN",
+   "leads": 2,
+   "coords": [
+    -93.2655,
+    44.9773
    ]
   },
   {
@@ -3180,9 +3197,23 @@
     -71.4586,
     41.6993
    ]
+  },
+  {
+   "city": "Saint Paul",
+   "state": "MN",
+   "leads": 1,
+   "coords": [
+    -93.0931,
+    44.9497
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-02T01:35:04Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-02T01:03:30Z",
    "msg": "Instagram: +5 leads",
@@ -3326,11 +3357,6 @@
   {
    "t": "2026-10-29T18:41:04-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 10 final) - account 3 complete: 30 sent, 29 delivered, 1 bounced",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T18:25:00-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 9) - 27 of 30",
    "who": "Cassius"
   }
  ],
