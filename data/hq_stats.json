@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T13:54:00+00:00",
+ "generated_at": "2026-11-02T14:47:05+00:00",
  "leads": {
-  "total": 1050,
-  "with_email": 1032,
+  "total": 1055,
+  "with_email": 1037,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 662
+   "Instagram": 667
   }
  },
  "states": {
@@ -206,10 +206,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 24,
-   "with_email": 24,
+   "leads": 29,
+   "with_email": 29,
    "sources": {
-    "Instagram": 24
+    "Instagram": 29
    }
   },
   "PA": {
@@ -474,6 +474,15 @@
    "coords": [
     -119.8127,
     39.5262
+   ]
+  },
+  {
+   "city": "Portland",
+   "state": "OR",
+   "leads": 10,
+   "coords": [
+    -122.6742,
+    45.5202
    ]
   },
   {
@@ -762,15 +771,6 @@
    "coords": [
     -107.8766,
     37.2769
-   ]
-  },
-  {
-   "city": "Portland",
-   "state": "OR",
-   "leads": 5,
-   "coords": [
-    -122.6742,
-    45.5202
    ]
   },
   {
@@ -3263,6 +3263,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T14:46:46Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-02T13:53:42Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3405,11 +3410,6 @@
   {
    "t": "2026-10-30T05:02:39-06:00",
    "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 5) - account 1 at 15 of 23",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-30T04:48:46-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 4) - account 1 at 12 of 23",
    "who": "Cassius"
   }
  ],
