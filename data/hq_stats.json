@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T14:47:05+00:00",
+ "generated_at": "2026-11-02T14:57:27+00:00",
  "leads": {
-  "total": 1055,
-  "with_email": 1037,
+  "total": 1060,
+  "with_email": 1042,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 667
+   "Instagram": 672
   }
  },
  "states": {
@@ -206,10 +206,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 29,
-   "with_email": 29,
+   "leads": 34,
+   "with_email": 34,
    "sources": {
-    "Instagram": 29
+    "Instagram": 34
    }
   },
   "PA": {
@@ -405,6 +405,15 @@
    ]
   },
   {
+   "city": "Portland",
+   "state": "OR",
+   "leads": 15,
+   "coords": [
+    -122.6742,
+    45.5202
+   ]
+  },
+  {
    "city": "Jersey City",
    "state": "NJ",
    "leads": 14,
@@ -474,15 +483,6 @@
    "coords": [
     -119.8127,
     39.5262
-   ]
-  },
-  {
-   "city": "Portland",
-   "state": "OR",
-   "leads": 10,
-   "coords": [
-    -122.6742,
-    45.5202
    ]
   },
   {
@@ -3263,6 +3263,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T14:57:11Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-02T14:46:46Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3405,11 +3410,6 @@
   {
    "t": "2026-10-30T05:20:40-06:00",
    "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 6) - account 1 at 18 of 23; Collins Quarter replied (logged, unopened)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-30T05:02:39-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 5) - account 1 at 15 of 23",
    "who": "Cassius"
   }
  ],
