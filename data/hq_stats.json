@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T00:25:27+00:00",
+ "generated_at": "2026-11-02T00:42:24+00:00",
  "leads": {
-  "total": 1015,
-  "with_email": 997,
+  "total": 1020,
+  "with_email": 1002,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 627
+   "Instagram": 632
   }
  },
  "states": {
@@ -206,11 +206,11 @@
   },
   "RI": {
    "name": "Rhode Island",
-   "leads": 43,
-   "with_email": 43,
+   "leads": 48,
+   "with_email": 48,
    "sources": {
     "Facebook": 39,
-    "Instagram": 4
+    "Instagram": 9
    }
   },
   "SC": {
@@ -301,7 +301,7 @@
   {
    "city": "Providence",
    "state": "RI",
-   "leads": 29,
+   "leads": 33,
    "coords": [
     -71.4128,
     41.824
@@ -947,6 +947,15 @@
    ]
   },
   {
+   "city": "Cranston",
+   "state": "RI",
+   "leads": 3,
+   "coords": [
+    -71.4367,
+    41.7796
+   ]
+  },
+  {
    "city": "Hoboken",
    "state": "NJ",
    "leads": 3,
@@ -1196,15 +1205,6 @@
    "coords": [
     -111.2919,
     47.5049
-   ]
-  },
-  {
-   "city": "Cranston",
-   "state": "RI",
-   "leads": 2,
-   "coords": [
-    -71.4367,
-    41.7796
    ]
   },
   {
@@ -3184,6 +3184,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T00:42:14Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-02T00:25:13Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3326,11 +3331,6 @@
   {
    "t": "2026-10-29T18:07:10-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 8) - 24 of 30; Turner's auto-replied",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T17:52:23-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 7) - 21 of 30",
    "who": "Cassius"
   }
  ],
