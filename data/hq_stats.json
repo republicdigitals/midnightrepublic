@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T13:46:11+00:00",
+ "generated_at": "2026-11-02T13:54:00+00:00",
  "leads": {
-  "total": 1045,
-  "with_email": 1027,
+  "total": 1050,
+  "with_email": 1032,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 657
+   "Instagram": 662
   }
  },
  "states": {
@@ -118,10 +118,10 @@
   },
   "MI": {
    "name": "Michigan",
-   "leads": 7,
-   "with_email": 7,
+   "leads": 12,
+   "with_email": 12,
    "sources": {
-    "Instagram": 7
+    "Instagram": 12
    }
   },
   "MN": {
@@ -540,6 +540,15 @@
    ]
   },
   {
+   "city": "Detroit",
+   "state": "MI",
+   "leads": 9,
+   "coords": [
+    -83.0466,
+    42.3316
+   ]
+  },
+  {
    "city": "Montclair",
    "state": "NJ",
    "leads": 8,
@@ -672,15 +681,6 @@
    "coords": [
     -105.2206,
     39.7546
-   ]
-  },
-  {
-   "city": "Detroit",
-   "state": "MI",
-   "leads": 6,
-   "coords": [
-    -83.0466,
-    42.3316
    ]
   },
   {
@@ -3241,9 +3241,32 @@
     -83.1036,
     42.462
    ]
+  },
+  {
+   "city": "Ypsilanti",
+   "state": "MI",
+   "leads": 1,
+   "coords": [
+    -83.6118,
+    42.2411
+   ]
+  },
+  {
+   "city": "Ann Arbor",
+   "state": "MI",
+   "leads": 1,
+   "coords": [
+    -83.7485,
+    42.2814
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-02T13:53:42Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-02T13:45:45Z",
    "msg": "Instagram: +5 leads",
@@ -3387,11 +3410,6 @@
   {
    "t": "2026-10-30T04:48:46-06:00",
    "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 4) - account 1 at 12 of 23",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-30T04:33:03-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 3) - 2 delivered, 1 bounced (Five Loaves, dead domain); account 1 at 9 of 23",
    "who": "Cassius"
   }
  ],
