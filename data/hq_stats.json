@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T17:04:45+00:00",
+ "generated_at": "2026-11-02T17:11:36+00:00",
  "leads": {
-  "total": 1095,
-  "with_email": 1077,
+  "total": 1098,
+  "with_email": 1080,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 707
+   "Instagram": 710
   }
  },
  "states": {
@@ -30,10 +30,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 125,
-   "with_email": 125,
+   "leads": 128,
+   "with_email": 128,
    "sources": {
-    "Instagram": 125
+    "Instagram": 128
    }
   },
   "CT": {
@@ -315,6 +315,15 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 37,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
    "city": "Portland",
    "state": "OR",
    "leads": 37,
@@ -330,15 +339,6 @@
    "coords": [
     -71.0578,
     42.3588
-   ]
-  },
-  {
-   "city": "Denver",
-   "state": "CO",
-   "leads": 34,
-   "coords": [
-    -104.9849,
-    39.7392
    ]
   },
   {
@@ -3263,6 +3263,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T17:11:14Z",
+   "msg": "Instagram: +3 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-02T17:04:29Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3405,11 +3410,6 @@
   {
    "t": "2026-10-31T14:32:03-06:00",
    "msg": "Outreach: +3 sent (Oct 31, account 1) - Late Air, T'aha (corrected domains) and Chai Pani all delivered; all-time cold sent 903",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-31T14:16:06-06:00",
-   "msg": "Outreach active: Oct 31 held-pile sends (account 1)",
    "who": "Cassius"
   }
  ],
