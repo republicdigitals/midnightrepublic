@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T01:35:20+00:00",
+ "generated_at": "2026-11-02T01:51:23+00:00",
  "leads": {
-  "total": 1030,
-  "with_email": 1012,
+  "total": 1035,
+  "with_email": 1017,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 642
+   "Instagram": 647
   }
  },
  "states": {
@@ -118,10 +118,10 @@
   },
   "MN": {
    "name": "Minnesota",
-   "leads": 3,
-   "with_email": 3,
+   "leads": 8,
+   "with_email": 8,
    "sources": {
-    "Instagram": 3
+    "Instagram": 8
    }
   },
   "MO": {
@@ -610,6 +610,15 @@
    "coords": [
     -97.7474,
     30.2649
+   ]
+  },
+  {
+   "city": "Minneapolis",
+   "state": "MN",
+   "leads": 7,
+   "coords": [
+    -93.2655,
+    44.9773
    ]
   },
   {
@@ -1690,15 +1699,6 @@
    "coords": [
     -87.9091,
     43.0386
-   ]
-  },
-  {
-   "city": "Minneapolis",
-   "state": "MN",
-   "leads": 2,
-   "coords": [
-    -93.2655,
-    44.9773
    ]
   },
   {
@@ -3210,6 +3210,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T01:51:11Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-02T01:35:04Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3352,11 +3357,6 @@
   {
    "t": "2026-10-30T04:02:13-06:00",
    "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 1) - account 1 at 3 of 23",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T18:41:04-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 10 final) - account 3 complete: 30 sent, 29 delivered, 1 bounced",
    "who": "Cassius"
   }
  ],
