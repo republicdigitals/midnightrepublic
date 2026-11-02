@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T01:51:23+00:00",
+ "generated_at": "2026-11-02T13:34:34+00:00",
  "leads": {
-  "total": 1035,
-  "with_email": 1017,
+  "total": 1040,
+  "with_email": 1022,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 647
+   "Instagram": 652
   }
  },
  "states": {
@@ -116,12 +116,20 @@
     "Instagram": 26
    }
   },
+  "MI": {
+   "name": "Michigan",
+   "leads": 2,
+   "with_email": 2,
+   "sources": {
+    "Instagram": 2
+   }
+  },
   "MN": {
    "name": "Minnesota",
-   "leads": 8,
-   "with_email": 8,
+   "leads": 11,
+   "with_email": 11,
    "sources": {
-    "Instagram": 8
+    "Instagram": 11
    }
   },
   "MO": {
@@ -577,6 +585,15 @@
    ]
   },
   {
+   "city": "Minneapolis",
+   "state": "MN",
+   "leads": 8,
+   "coords": [
+    -93.2655,
+    44.9773
+   ]
+  },
+  {
    "city": "Red Bank",
    "state": "NJ",
    "leads": 7,
@@ -610,15 +627,6 @@
    "coords": [
     -97.7474,
     30.2649
-   ]
-  },
-  {
-   "city": "Minneapolis",
-   "state": "MN",
-   "leads": 7,
-   "coords": [
-    -93.2655,
-    44.9773
    ]
   },
   {
@@ -1699,6 +1707,24 @@
    "coords": [
     -87.9091,
     43.0386
+   ]
+  },
+  {
+   "city": "Saint Paul",
+   "state": "MN",
+   "leads": 2,
+   "coords": [
+    -93.0931,
+    44.9497
+   ]
+  },
+  {
+   "city": "Detroit",
+   "state": "MI",
+   "leads": 2,
+   "coords": [
+    -83.0466,
+    42.3316
    ]
   },
   {
@@ -3199,16 +3225,21 @@
    ]
   },
   {
-   "city": "Saint Paul",
+   "city": "Shoreview",
    "state": "MN",
    "leads": 1,
    "coords": [
-    -93.0931,
-    44.9497
+    -93.1283,
+    45.0722
    ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-02T13:34:17Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-02T01:51:11Z",
    "msg": "Instagram: +5 leads",
@@ -3352,11 +3383,6 @@
   {
    "t": "2026-10-30T04:17:02-06:00",
    "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 2) - account 1 at 6 of 23",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-30T04:02:13-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 run, account 1, batch 1) - account 1 at 3 of 23",
    "who": "Cassius"
   }
  ],
