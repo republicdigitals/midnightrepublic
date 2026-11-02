@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T20:44:09+00:00",
+ "generated_at": "2026-11-02T20:48:38+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T20:48:25Z",
+   "msg": "Outreach: +3 sent (account 1 batch 7)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-02T20:35:29Z",
    "msg": "Outreach: +3 sent (Baltimore/Annapolis, account 1 batch 6)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-01T23:35:55Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
-  },
-  {
-   "t": "2026-11-01T23:21:03Z",
-   "msg": "Instagram: +5 leads",
-   "who": "Caesar"
   }
  ],
  "sent_log": {
-  "researched": 623,
-  "drafted": 617,
-  "sent": 616,
-  "delivered": 578,
+  "researched": 626,
+  "drafted": 620,
+  "sent": 619,
+  "delivered": 580,
   "bounced": 38,
   "replies": 19,
   "sent_today": {
-   "liam@yeschefgroup.co": 18
+   "liam@yeschefgroup.co": 21
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3452,7 +3452,7 @@
     "liam@yeschefgroup.co": 4
    },
    "2026-11-02": {
-    "liam@yeschefgroup.co": 18
+    "liam@yeschefgroup.co": 21
    }
   },
   "by_state": {
@@ -3512,8 +3512,8 @@
     "bounced": 4
    },
    "MD": {
-    "sent": 18,
-    "delivered": 16,
+    "sent": 21,
+    "delivered": 18,
     "bounced": 2
    },
    "MO": {
