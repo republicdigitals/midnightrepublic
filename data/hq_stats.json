@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T00:06:51+00:00",
+ "generated_at": "2026-11-02T00:25:27+00:00",
  "leads": {
-  "total": 1010,
-  "with_email": 992,
+  "total": 1015,
+  "with_email": 997,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 622
+   "Instagram": 627
   }
  },
  "states": {
@@ -110,10 +110,10 @@
   },
   "MD": {
    "name": "Maryland",
-   "leads": 25,
-   "with_email": 25,
+   "leads": 26,
+   "with_email": 26,
    "sources": {
-    "Instagram": 25
+    "Instagram": 26
    }
   },
   "MO": {
@@ -206,10 +206,11 @@
   },
   "RI": {
    "name": "Rhode Island",
-   "leads": 39,
-   "with_email": 39,
+   "leads": 43,
+   "with_email": 43,
    "sources": {
-    "Facebook": 39
+    "Facebook": 39,
+    "Instagram": 4
    }
   },
   "SC": {
@@ -298,21 +299,21 @@
    ]
   },
   {
+   "city": "Providence",
+   "state": "RI",
+   "leads": 29,
+   "coords": [
+    -71.4128,
+    41.824
+   ]
+  },
+  {
    "city": "Boise",
    "state": "ID",
    "leads": 28,
    "coords": [
     -116.2009,
     43.6166
-   ]
-  },
-  {
-   "city": "Providence",
-   "state": "RI",
-   "leads": 27,
-   "coords": [
-    -71.4128,
-    41.824
    ]
   },
   {
@@ -336,7 +337,7 @@
   {
    "city": "Baltimore",
    "state": "MD",
-   "leads": 21,
+   "leads": 22,
    "coords": [
     -76.6108,
     39.2909
@@ -3161,9 +3162,32 @@
     -76.7798,
     39.0081
    ]
+  },
+  {
+   "city": "Coventry",
+   "state": "RI",
+   "leads": 1,
+   "coords": [
+    -71.6828,
+    41.7001
+   ]
+  },
+  {
+   "city": "Warwick",
+   "state": "RI",
+   "leads": 1,
+   "coords": [
+    -71.4586,
+    41.6993
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-02T00:25:13Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-02T00:06:37Z",
    "msg": "Instagram: +5 leads",
@@ -3307,11 +3331,6 @@
   {
    "t": "2026-10-29T17:52:23-06:00",
    "msg": "Outreach: +3 sent (Oct 29 account 3, batch 7) - 21 of 30",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-29T17:35:35-06:00",
-   "msg": "Outreach: +3 sent (Oct 29 account 3, batch 6) - 18 of 30",
    "who": "Cassius"
   }
  ],
