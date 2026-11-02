@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T16:24:54+00:00",
+ "generated_at": "2026-11-02T16:40:02+00:00",
  "leads": {
-  "total": 1085,
-  "with_email": 1067,
+  "total": 1090,
+  "with_email": 1072,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 697
+   "Instagram": 702
   }
  },
  "states": {
@@ -30,10 +30,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 115,
-   "with_email": 115,
+   "leads": 120,
+   "with_email": 120,
    "sources": {
-    "Instagram": 115
+    "Instagram": 120
    }
   },
   "CT": {
@@ -333,21 +333,21 @@
    ]
   },
   {
+   "city": "Denver",
+   "state": "CO",
+   "leads": 29,
+   "coords": [
+    -104.9849,
+    39.7392
+   ]
+  },
+  {
    "city": "Boise",
    "state": "ID",
    "leads": 28,
    "coords": [
     -116.2009,
     43.6166
-   ]
-  },
-  {
-   "city": "Denver",
-   "state": "CO",
-   "leads": 24,
-   "coords": [
-    -104.9849,
-    39.7392
    ]
   },
   {
@@ -3263,6 +3263,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-02T16:39:46Z",
+   "msg": "Instagram: +5 leads",
+   "who": "Caesar"
+  },
+  {
    "t": "2026-11-02T16:24:38Z",
    "msg": "Instagram: +5 leads",
    "who": "Caesar"
@@ -3405,11 +3410,6 @@
   {
    "t": "2026-10-31T12:20:13-06:00",
    "msg": "Outreach paused: Oct 31 single send complete",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-31T12:20:11-06:00",
-   "msg": "Outreach: +1 sent (Oct 31, account 1) - Sushi Secreto delivered; all-time cold sent 900",
    "who": "Cassius"
   }
  ],
