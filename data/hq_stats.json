@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T17:11:36+00:00",
+ "generated_at": "2026-11-02T17:21:30+00:00",
  "leads": {
-  "total": 1098,
-  "with_email": 1080,
+  "total": 1045,
+  "with_email": 1027,
   "without_email": 18,
   "sources": {
    "Web research": 220,
    "Facebook": 168,
-   "Instagram": 710
+   "Instagram": 657
   }
  },
  "states": {
@@ -30,10 +30,10 @@
   },
   "CO": {
    "name": "Colorado",
-   "leads": 128,
-   "with_email": 128,
+   "leads": 120,
+   "with_email": 120,
    "sources": {
-    "Instagram": 128
+    "Instagram": 120
    }
   },
   "CT": {
@@ -46,10 +46,10 @@
   },
   "FL": {
    "name": "Florida",
-   "leads": 38,
-   "with_email": 38,
+   "leads": 33,
+   "with_email": 33,
    "sources": {
-    "Instagram": 38
+    "Instagram": 33
    }
   },
   "GA": {
@@ -110,26 +110,26 @@
   },
   "MD": {
    "name": "Maryland",
-   "leads": 26,
-   "with_email": 26,
+   "leads": 22,
+   "with_email": 22,
    "sources": {
-    "Instagram": 26
+    "Instagram": 22
    }
   },
   "MI": {
    "name": "Michigan",
-   "leads": 12,
-   "with_email": 12,
+   "leads": 8,
+   "with_email": 8,
    "sources": {
-    "Instagram": 12
+    "Instagram": 8
    }
   },
   "MN": {
    "name": "Minnesota",
-   "leads": 11,
-   "with_email": 11,
+   "leads": 6,
+   "with_email": 6,
    "sources": {
-    "Instagram": 11
+    "Instagram": 6
    }
   },
   "MO": {
@@ -206,10 +206,10 @@
   },
   "OR": {
    "name": "Oregon",
-   "leads": 57,
-   "with_email": 57,
+   "leads": 38,
+   "with_email": 38,
    "sources": {
-    "Instagram": 57
+    "Instagram": 38
    }
   },
   "PA": {
@@ -222,11 +222,11 @@
   },
   "RI": {
    "name": "Rhode Island",
-   "leads": 55,
-   "with_email": 55,
+   "leads": 48,
+   "with_email": 48,
    "sources": {
     "Facebook": 39,
-    "Instagram": 16
+    "Instagram": 9
    }
   },
   "SC": {
@@ -255,10 +255,10 @@
   },
   "TX": {
    "name": "Texas",
-   "leads": 18,
-   "with_email": 18,
+   "leads": 17,
+   "with_email": 17,
    "sources": {
-    "Instagram": 18
+    "Instagram": 17
    }
   },
   "UT": {
@@ -306,9 +306,18 @@
    ]
   },
   {
+   "city": "Boston",
+   "state": "MA",
+   "leads": 36,
+   "coords": [
+    -71.0578,
+    42.3588
+   ]
+  },
+  {
    "city": "Providence",
    "state": "RI",
-   "leads": 40,
+   "leads": 35,
    "coords": [
     -71.4128,
     41.824
@@ -317,28 +326,10 @@
   {
    "city": "Denver",
    "state": "CO",
-   "leads": 37,
+   "leads": 29,
    "coords": [
     -104.9849,
     39.7392
-   ]
-  },
-  {
-   "city": "Portland",
-   "state": "OR",
-   "leads": 37,
-   "coords": [
-    -122.6742,
-    45.5202
-   ]
-  },
-  {
-   "city": "Boston",
-   "state": "MA",
-   "leads": 36,
-   "coords": [
-    -71.0578,
-    42.3588
    ]
   },
   {
@@ -360,21 +351,30 @@
    ]
   },
   {
-   "city": "Baltimore",
-   "state": "MD",
-   "leads": 22,
-   "coords": [
-    -76.6108,
-    39.2909
-   ]
-  },
-  {
    "city": "Cambridge",
    "state": "MA",
    "leads": 19,
    "coords": [
     -71.104,
     42.3656
+   ]
+  },
+  {
+   "city": "Baltimore",
+   "state": "MD",
+   "leads": 19,
+   "coords": [
+    -76.6108,
+    39.2909
+   ]
+  },
+  {
+   "city": "Portland",
+   "state": "OR",
+   "leads": 18,
+   "coords": [
+    -122.6742,
+    45.5202
    ]
   },
   {
@@ -443,7 +443,7 @@
   {
    "city": "Pittsburgh",
    "state": "PA",
-   "leads": 13,
+   "leads": 12,
    "coords": [
     -80.0026,
     40.4407
@@ -531,30 +531,12 @@
    ]
   },
   {
-   "city": "Tampa",
-   "state": "FL",
-   "leads": 9,
-   "coords": [
-    -82.4583,
-    27.945
-   ]
-  },
-  {
    "city": "Houston",
    "state": "TX",
    "leads": 9,
    "coords": [
     -95.3677,
     29.7589
-   ]
-  },
-  {
-   "city": "Detroit",
-   "state": "MI",
-   "leads": 9,
-   "coords": [
-    -83.0466,
-    42.3316
    ]
   },
   {
@@ -594,21 +576,12 @@
    ]
   },
   {
-   "city": "Orlando",
+   "city": "Tampa",
    "state": "FL",
    "leads": 8,
    "coords": [
-    -81.379,
-    28.5421
-   ]
-  },
-  {
-   "city": "Minneapolis",
-   "state": "MN",
-   "leads": 8,
-   "coords": [
-    -93.2655,
-    44.9773
+    -82.4583,
+    27.945
    ]
   },
   {
@@ -639,12 +612,12 @@
    ]
   },
   {
-   "city": "Austin",
-   "state": "TX",
+   "city": "Orlando",
+   "state": "FL",
    "leads": 7,
    "coords": [
-    -97.7474,
-    30.2649
+    -81.379,
+    28.5421
    ]
   },
   {
@@ -690,6 +663,15 @@
    "coords": [
     -105.2206,
     39.7546
+   ]
+  },
+  {
+   "city": "Austin",
+   "state": "TX",
+   "leads": 6,
+   "coords": [
+    -97.7474,
+    30.2649
    ]
   },
   {
@@ -783,12 +765,12 @@
    ]
   },
   {
-   "city": "Jacksonville",
-   "state": "FL",
+   "city": "Detroit",
+   "state": "MI",
    "leads": 5,
    "coords": [
-    -81.6579,
-    30.3262
+    -83.0466,
+    42.3316
    ]
   },
   {
@@ -1086,6 +1068,15 @@
    "coords": [
     -78.9018,
     35.9967
+   ]
+  },
+  {
+   "city": "Minneapolis",
+   "state": "MN",
+   "leads": 3,
+   "coords": [
+    -93.2655,
+    44.9773
    ]
   },
   {
@@ -1707,6 +1698,15 @@
    "coords": [
     -81.3931,
     30.2947
+   ]
+  },
+  {
+   "city": "Jacksonville",
+   "state": "FL",
+   "leads": 2,
+   "coords": [
+    -81.6579,
+    30.3262
    ]
   },
   {
@@ -3198,33 +3198,6 @@
    ]
   },
   {
-   "city": "Bowie",
-   "state": "MD",
-   "leads": 1,
-   "coords": [
-    -76.7798,
-    39.0081
-   ]
-  },
-  {
-   "city": "Coventry",
-   "state": "RI",
-   "leads": 1,
-   "coords": [
-    -71.6828,
-    41.7001
-   ]
-  },
-  {
-   "city": "Warwick",
-   "state": "RI",
-   "leads": 1,
-   "coords": [
-    -71.4586,
-    41.6993
-   ]
-  },
-  {
    "city": "Shoreview",
    "state": "MN",
    "leads": 1,
@@ -3259,9 +3232,23 @@
     -83.7485,
     42.2814
    ]
+  },
+  {
+   "city": "Philadelphia",
+   "state": "PA",
+   "leads": 1,
+   "coords": [
+    -75.1635,
+    39.9527
+   ]
   }
  ],
  "events": [
+  {
+   "t": "2026-11-02T17:21:03Z",
+   "msg": "Instagram: cleanup",
+   "who": "Caesar"
+  },
   {
    "t": "2026-11-02T17:11:14Z",
    "msg": "Instagram: +3 leads",
@@ -3405,11 +3392,6 @@
   {
    "t": "2026-10-31T14:32:05-06:00",
    "msg": "Outreach paused: Oct 31 held-pile sends complete (4 delivered)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-10-31T14:32:03-06:00",
-   "msg": "Outreach: +3 sent (Oct 31, account 1) - Late Air, T'aha (corrected domains) and Chai Pani all delivered; all-time cold sent 903",
    "who": "Cassius"
   }
  ],
