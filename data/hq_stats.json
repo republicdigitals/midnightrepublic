@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-03T09:18:06+00:00",
+ "generated_at": "2026-11-03T09:18:21+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-03T09:17:57Z",
+   "msg": "Outreach: run complete, back to paused",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-03T09:17:54Z",
    "msg": "Outreach: account 3 complete, 28 sent 26 delivered",
    "who": "Cassius"
@@ -3340,7 +3345,7 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-02T23:40:48Z",
+   "t": "2026-11-03T00:42:56Z",
    "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
@@ -3596,8 +3601,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-11-02",
-  "note": "Nov 2 outreach run in progress: 88 new leads across 3 accounts."
+  "note": "Nov 2 run complete: 88 sent across 3 accounts"
  }
 }
