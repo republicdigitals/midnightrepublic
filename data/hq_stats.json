@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-03T04:10:10+00:00",
+ "generated_at": "2026-11-03T04:22:18+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3347,11 +3347,6 @@
   {
    "t": "2026-11-02T18:52:37Z",
    "msg": "Outreach: Nov 2 run started (88 new leads)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-02T17:21:31Z",
-   "msg": "Update city coords cache",
    "who": "Cassius"
   }
  ],
