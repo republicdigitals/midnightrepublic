@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-03T14:09:12+00:00",
+ "generated_at": "2026-11-03T14:52:54+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-03T14:52:41Z",
+   "msg": "Outreach: Nov 3 account 3 run started",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-03T09:17:57Z",
    "msg": "Outreach: run complete, back to paused",
    "who": "Cassius"
@@ -3332,11 +3337,6 @@
   {
    "t": "2026-11-03T02:31:14Z",
    "msg": "Outreach: +3 sent (Portland, account 2 batch 3)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-03T02:17:14Z",
-   "msg": "Outreach: +3 sent (Pittsburgh, account 2 batch 2)",
    "who": "Cassius"
   }
  ],
@@ -3591,8 +3591,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-11-02",
-  "note": "Nov 2 run complete: 88 sent across 3 accounts"
+  "status": "active",
+  "since": "2026-11-03",
+  "note": "Nov 3 account 3 sends: Mabel Gray + Street Disco recovery drafts"
  }
 }
