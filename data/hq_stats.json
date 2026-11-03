@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-03T02:39:12+00:00",
+ "generated_at": "2026-11-03T02:43:37+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-03T02:43:25Z",
+   "msg": "Outreach: +3 sent (Portland, account 2 batch 4)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-03T02:31:14Z",
    "msg": "Outreach: +3 sent (Portland, account 2 batch 3)",
    "who": "Cassius"
@@ -3370,21 +3375,21 @@
    "who": "Caesar"
   },
   {
-   "t": "2026-11-02T13:53:42Z",
-   "msg": "Instagram: +5 leads",
+   "t": "2026-11-02T13:54:00Z",
+   "msg": "Update city coords cache",
    "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 644,
-  "drafted": 638,
-  "sent": 637,
-  "delivered": 598,
+  "researched": 647,
+  "drafted": 641,
+  "sent": 640,
+  "delivered": 601,
   "bounced": 38,
   "replies": 19,
   "sent_today": {
    "liam@yeschefgroup.co": 30,
-   "liam@jackdinningroom.com": 9
+   "liam@jackdinningroom.com": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3434,7 +3439,7 @@
    },
    "2026-11-02": {
     "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 9
+    "liam@jackdinningroom.com": 12
    }
   },
   "by_state": {
@@ -3539,8 +3544,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 21,
-    "delivered": 21,
+    "sent": 24,
+    "delivered": 24,
     "bounced": 0
    },
    "PA": {
