@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-03T01:23:10+00:00",
+ "generated_at": "2026-11-03T01:41:49+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3375,8 +3375,8 @@
    "who": "Caesar"
   },
   {
-   "t": "2026-11-02T01:35:04Z",
-   "msg": "Instagram: +5 leads",
+   "t": "2026-11-02T01:35:20Z",
+   "msg": "Update city coords cache",
    "who": "Cassius"
   }
  ],
