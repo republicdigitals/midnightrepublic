@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T18:52:18+00:00",
+ "generated_at": "2026-11-04T19:09:20+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T19:09:09Z",
+   "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 4)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T18:52:07Z",
    "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 3)",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-04T01:19:26Z",
    "msg": "Outreach: +2 sent (Mabel Gray, Street Disco, account 3)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-03T14:52:41Z",
-   "msg": "Outreach: Nov 3 account 3 run started",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 755,
-  "drafted": 749,
-  "sent": 748,
-  "delivered": 701,
-  "bounced": 43,
+  "researched": 758,
+  "drafted": 752,
+  "sent": 751,
+  "delivered": 703,
+  "bounced": 44,
   "replies": 20,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "liam@jackdinningroom.com": 21,
-   "features@yeschefguides.us": 9
+   "features@yeschefguides.us": 12
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3464,7 +3464,7 @@
    "2026-11-04": {
     "liam@yeschefsupply.com": 30,
     "liam@jackdinningroom.com": 21,
-    "features@yeschefguides.us": 9
+    "features@yeschefguides.us": 12
    }
   },
   "by_state": {
@@ -3479,9 +3479,9 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 8,
-    "delivered": 8,
-    "bounced": 0
+    "sent": 11,
+    "delivered": 10,
+    "bounced": 1
    },
    "CO": {
     "sent": 117,
