@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T01:19:51+00:00",
+ "generated_at": "2026-11-04T11:46:47+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3340,8 +3340,8 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T02:43:25Z",
-   "msg": "Outreach: +3 sent (Portland, account 2 batch 4)",
+   "t": "2026-11-03T02:54:13Z",
+   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
@@ -3352,9 +3352,7 @@
   "delivered": 646,
   "bounced": 40,
   "replies": 20,
-  "sent_today": {
-   "contact@jackdinningroom.com": 2
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
