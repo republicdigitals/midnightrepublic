@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T20:54:25+00:00",
+ "generated_at": "2026-11-04T20:54:40+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T20:54:14Z",
+   "msg": "Outreach: run closed, status paused (acct2, 30 sent)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T20:54:11Z",
    "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 10)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-04T15:58:32Z",
    "msg": "Agent HQ: second outreach operator joined, joint agency now running in parallel",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T15:43:14Z",
-   "msg": "Outreach: +3 sent (Ig nov02, batch 4)",
    "who": "Cassius"
   }
  ],
@@ -3668,8 +3668,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-11-04",
-  "note": "Outreach run started 2026-11-04: Ig leads nov02, second account features@yeschefguides.us, Liam Henning, batch 1 in progress"
+  "note": "Outreach run 2026-11-04, second account features@yeschefguides.us: 30 sent, 29 delivered, 1 bounced (Mama), 0 pending; Ig leads nov02 batch 10 complete"
  }
 }
