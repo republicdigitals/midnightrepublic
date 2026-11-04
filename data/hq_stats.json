@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T17:57:13+00:00",
+ "generated_at": "2026-11-04T18:05:14+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T18:03:38Z",
+   "msg": "Outreach: second account run started 2026-11-04",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T17:55:05Z",
    "msg": "Outreach: +3 sent (nov03 batch 3, account 2)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-03T07:41:14Z",
    "msg": "Outreach: +3 sent (Denver, account 3 batch 4)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-03T07:27:55Z",
-   "msg": "Outreach: +3 sent (Detroit, account 3 batch 3)",
    "who": "Cassius"
   }
  ],
@@ -3666,8 +3666,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "2026-11-04",
-  "note": "Outreach run closed 2026-11-04: Ig leads nov02, Liam Henning, 30 sent, 28 delivered, 2 pending (Aquitaine, Bogie's Place in retry queue), 0 bounced"
+  "note": "Outreach run started 2026-11-04: Ig leads nov02, second account features@yeschefguides.us, Liam Henning, batch 1 in progress"
  }
 }
