@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-03T14:52:54+00:00",
+ "generated_at": "2026-11-04T01:19:37+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T01:19:26Z",
+   "msg": "Outreach: +2 sent (Mabel Gray, Street Disco, account 3)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-03T14:52:41Z",
    "msg": "Outreach: Nov 3 account 3 run started",
    "who": "Cassius"
@@ -3335,19 +3340,21 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T02:31:14Z",
-   "msg": "Outreach: +3 sent (Portland, account 2 batch 3)",
+   "t": "2026-11-03T02:39:00Z",
+   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 693,
-  "drafted": 687,
-  "sent": 686,
-  "delivered": 644,
+  "researched": 695,
+  "drafted": 689,
+  "sent": 688,
+  "delivered": 646,
   "bounced": 40,
-  "replies": 19,
-  "sent_today": {},
+  "replies": 20,
+  "sent_today": {
+   "contact@jackdinningroom.com": 2
+  },
   "sent_by_day": {
    "2026-10-15": {
     "liam@yeschefgroup.co": 30,
@@ -3398,6 +3405,9 @@
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
     "contact@jackdinningroom.com": 28
+   },
+   "2026-11-03": {
+    "contact@jackdinningroom.com": 2
    }
   },
   "by_state": {
@@ -3467,8 +3477,8 @@
     "bounced": 2
    },
    "MI": {
-    "sent": 7,
-    "delivered": 7,
+    "sent": 8,
+    "delivered": 8,
     "bounced": 0
    },
    "MN": {
@@ -3517,8 +3527,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 31,
-    "delivered": 30,
+    "sent": 32,
+    "delivered": 31,
     "bounced": 1
    },
    "PA": {
