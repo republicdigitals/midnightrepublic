@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T16:26:01+00:00",
+ "generated_at": "2026-11-04T16:39:25+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T16:39:10Z",
+   "msg": "Outreach: +3 sent (Ig nov02, batch 7)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T16:25:48Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 6)",
    "who": "Cassius"
@@ -3355,20 +3360,20 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T04:34:36Z",
+   "t": "2026-11-03T04:49:14Z",
    "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 713,
-  "drafted": 707,
-  "sent": 706,
-  "delivered": 664,
+  "researched": 716,
+  "drafted": 710,
+  "sent": 709,
+  "delivered": 667,
   "bounced": 40,
   "replies": 20,
   "sent_today": {
-   "liam@yeschefsupply.com": 18
+   "liam@yeschefsupply.com": 21
   },
   "sent_by_day": {
    "2026-10-15": {
@@ -3425,7 +3430,7 @@
     "contact@jackdinningroom.com": 2
    },
    "2026-11-04": {
-    "liam@yeschefsupply.com": 18
+    "liam@yeschefsupply.com": 21
    }
   },
   "by_state": {
@@ -3490,8 +3495,8 @@
     "bounced": 0
    },
    "MA": {
-    "sent": 27,
-    "delivered": 23,
+    "sent": 29,
+    "delivered": 25,
     "bounced": 4
    },
    "MD": {
@@ -3540,8 +3545,8 @@
     "bounced": 1
    },
    "NY": {
-    "sent": 2,
-    "delivered": 2,
+    "sent": 3,
+    "delivered": 3,
     "bounced": 0
    },
    "OH": {
