@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T17:39:08+00:00",
+ "generated_at": "2026-11-04T17:39:22+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T17:38:58Z",
+   "msg": "Outreach: run closed 2026-11-04, status paused",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T17:38:55Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 10)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-03T07:04:21Z",
    "msg": "Outreach: +3 sent (Minneapolis, account 3 batch 1)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-03T06:03:21Z",
-   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
@@ -3666,8 +3666,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-11-04",
-  "note": "Joint agency: partner nov02 run + Cassius nov03 run on account 2, both in progress"
+  "note": "Outreach run closed 2026-11-04: Ig leads nov02, Liam Henning, 30 sent, 28 delivered, 2 pending (Aquitaine, Bogie's Place in retry queue), 0 bounced"
  }
 }
