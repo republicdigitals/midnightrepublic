@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T14:14:35+00:00",
+ "generated_at": "2026-11-04T14:22:01+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T14:21:50Z",
+   "msg": "Outreach: run started (Ig leads nov02)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T01:19:28Z",
    "msg": "Outreach: Nov 3 sends complete, back to paused",
    "who": "Cassius"
@@ -3325,8 +3330,8 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T03:21:23Z",
-   "msg": "Outreach: +3 sent (Providence, account 2 batch 7)",
+   "t": "2026-11-03T03:22:20Z",
+   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
@@ -3584,8 +3589,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-11-03",
-  "note": "Nov 3 account 3 sends complete: Mabel Gray + Street Disco delivered"
+  "status": "active",
+  "since": "2026-11-04",
+  "note": "Outreach run started 2026-11-04: Ig leads nov02, Liam Henning, batch 1 in progress"
  }
 }
