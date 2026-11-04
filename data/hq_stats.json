@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T12:01:18+00:00",
+ "generated_at": "2026-11-04T12:15:28+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3335,8 +3335,8 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T02:54:29Z",
-   "msg": "Outreach: +3 sent (Portland, account 2 batch 5)",
+   "t": "2026-11-03T03:05:13Z",
+   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
