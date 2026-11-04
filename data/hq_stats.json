@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T15:58:46+00:00",
+ "generated_at": "2026-11-04T15:59:00+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T15:58:45Z",
+   "msg": "Outreach: joint agency note, status stays active while the nov02 run is live",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T15:58:32Z",
    "msg": "Agent HQ: second outreach operator joined, joint agency now running in parallel",
    "who": "Cassius"
@@ -3342,11 +3347,6 @@
   {
    "t": "2026-11-03T04:02:23Z",
    "msg": "Outreach: account 2 complete, 30 attempted 29 delivered",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-03T03:59:44Z",
-   "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
@@ -3619,8 +3619,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "2026-11-04",
-  "note": "Joint agency: a second outreach operator now runs in parallel from this repo"
+  "note": "Joint agency: second outreach operator running in parallel, nov02 run in progress"
  }
 }
