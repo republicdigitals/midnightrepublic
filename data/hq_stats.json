@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T15:43:29+00:00",
+ "generated_at": "2026-11-04T15:58:46+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T15:58:32Z",
+   "msg": "Agent HQ: second outreach operator joined, joint agency now running in parallel",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T15:43:14Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 4)",
    "who": "Cassius"
@@ -3340,7 +3345,7 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T03:51:40Z",
+   "t": "2026-11-03T03:59:44Z",
    "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
@@ -3614,8 +3619,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-11-04",
-  "note": "Outreach run started 2026-11-04: Ig leads nov02, Liam Henning, batch 1 in progress"
+  "note": "Joint agency: a second outreach operator now runs in parallel from this repo"
  }
 }
