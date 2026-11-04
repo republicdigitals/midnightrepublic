@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T17:01:02+00:00",
+ "generated_at": "2026-11-04T17:11:54+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T17:11:41Z",
+   "msg": "Outreach: queue reserved, 21 drafted (nov03 file, account 2)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T17:00:48Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 8)",
    "who": "Cassius"
@@ -3365,14 +3370,14 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T05:00:58Z",
+   "t": "2026-11-03T05:07:51Z",
    "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 719,
-  "drafted": 713,
+  "researched": 740,
+  "drafted": 734,
   "sent": 712,
   "delivered": 669,
   "bounced": 40,
