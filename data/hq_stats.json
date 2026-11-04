@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T17:11:54+00:00",
+ "generated_at": "2026-11-04T17:12:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-04T17:11:44Z",
+   "msg": "Outreach: Cassius nov03 run started on account 2 (joint agency)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T17:11:41Z",
    "msg": "Outreach: queue reserved, 21 drafted (nov03 file, account 2)",
    "who": "Cassius"
@@ -3370,7 +3375,7 @@
    "who": "Cassius"
   },
   {
-   "t": "2026-11-03T05:07:51Z",
+   "t": "2026-11-03T05:21:51Z",
    "msg": "Instagram: +5 leads",
    "who": "Cassius"
   }
@@ -3646,6 +3651,6 @@
  "outreach": {
   "status": "active",
   "since": "2026-11-04",
-  "note": "Joint agency: second outreach operator running in parallel, nov02 run in progress"
+  "note": "Joint agency: partner nov02 run + Cassius nov03 run on account 2, both in progress"
  }
 }
