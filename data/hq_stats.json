@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T12:29:35+00:00",
+ "generated_at": "2026-11-04T14:14:35+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3327,11 +3327,6 @@
   {
    "t": "2026-11-03T03:21:23Z",
    "msg": "Outreach: +3 sent (Providence, account 2 batch 7)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-03T03:09:05Z",
-   "msg": "Outreach: +3 sent, 1 bounced (Portland, account 2 batch 6)",
    "who": "Cassius"
   }
  ],
