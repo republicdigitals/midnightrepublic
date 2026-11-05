@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T15:39:30+00:00",
+ "generated_at": "2026-11-05T16:18:19+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,16 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T16:18:08Z",
+   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 2)",
+   "who": "Cassius"
+  },
+  {
+   "t": "2026-11-05T16:04:24Z",
+   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 1)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T15:39:17Z",
    "msg": "Outreach: run resumed 2026-11-05 (acct1 liam, batch 1)",
    "who": "Cassius"
@@ -3373,31 +3383,19 @@
    "t": "2026-11-04T17:11:44Z",
    "msg": "Outreach: Cassius nov03 run started on account 2 (joint agency)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T17:11:41Z",
-   "msg": "Outreach: queue reserved, 21 drafted (nov03 file, account 2)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T17:00:48Z",
-   "msg": "Outreach: +3 sent (Ig nov02, batch 8)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 776,
-  "drafted": 770,
-  "sent": 769,
-  "delivered": 721,
+  "researched": 782,
+  "drafted": 776,
+  "sent": 775,
+  "delivered": 727,
   "bounced": 44,
   "replies": 20,
-  "sent_today": {},
+  "sent_today": {
+   "liam@yeschefsupply.com": 6
+  },
   "sent_by_day": {
-   "2026-10-15": {
-    "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 22
-   },
    "2026-10-16": {
     "liam@yeschefgroup.co": 16,
     "liam@jackdinningroom.com": 16
@@ -3451,6 +3449,9 @@
     "liam@yeschefsupply.com": 30,
     "liam@jackdinningroom.com": 21,
     "features@yeschefguides.us": 30
+   },
+   "2026-11-05": {
+    "liam@yeschefsupply.com": 6
    }
   },
   "by_state": {
@@ -3550,8 +3551,8 @@
     "bounced": 1
    },
    "NJ": {
-    "sent": 2,
-    "delivered": 0,
+    "sent": 3,
+    "delivered": 1,
     "bounced": 2
    },
    "NM": {
@@ -3585,8 +3586,8 @@
     "bounced": 1
    },
    "PA": {
-    "sent": 30,
-    "delivered": 29,
+    "sent": 35,
+    "delivered": 34,
     "bounced": 0
    },
    "RI": {
