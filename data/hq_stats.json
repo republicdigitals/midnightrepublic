@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T15:25:31+00:00",
+ "generated_at": "2026-11-05T15:38:17+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T15:38:04Z",
+   "msg": "Outreach: paused, liam sign-in blocked (password rejected)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T15:25:17Z",
    "msg": "Outreach: run started 2026-11-05 (acct1 liam)",
    "who": "Cassius"
@@ -3377,11 +3382,6 @@
   {
    "t": "2026-11-04T16:39:10Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 7)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T16:25:48Z",
-   "msg": "Outreach: +3 sent (Ig nov02, batch 6)",
    "who": "Cassius"
   }
  ],
@@ -3654,8 +3654,8 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "2026-11-05",
-  "note": "Outreach run started 2026-11-05: Ig leads nov02, first account liam@yeschefsupply.com, Liam Henning, batch 1 in progress"
+  "note": "Outreach run 2026-11-05 paused at sign-in: saved password for liam@yeschefsupply.com rejected by Zoho, no emails sent; awaiting password update"
  }
 }
