@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T16:36:56+00:00",
+ "generated_at": "2026-11-05T16:48:50+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T16:48:38Z",
+   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 4)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T16:36:43Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 3); Royal Boucherie replied",
    "who": "Cassius"
@@ -3378,22 +3383,17 @@
    "t": "2026-11-04T17:38:55Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 10)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T17:32:00Z",
-   "msg": "Outreach: +3 sent (nov03 batch 1, account 2)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 785,
-  "drafted": 779,
-  "sent": 778,
-  "delivered": 730,
+  "researched": 788,
+  "drafted": 782,
+  "sent": 781,
+  "delivered": 733,
   "bounced": 45,
   "replies": 21,
   "sent_today": {
-   "liam@yeschefsupply.com": 9
+   "liam@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-10-16": {
@@ -3451,7 +3451,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-05": {
-    "liam@yeschefsupply.com": 9
+    "liam@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3516,8 +3516,8 @@
     "bounced": 0
    },
    "MA": {
-    "sent": 37,
-    "delivered": 31,
+    "sent": 39,
+    "delivered": 33,
     "bounced": 5
    },
    "MD": {
@@ -3566,8 +3566,8 @@
     "bounced": 1
    },
    "NY": {
-    "sent": 5,
-    "delivered": 5,
+    "sent": 6,
+    "delivered": 6,
     "bounced": 0
    },
    "OH": {
