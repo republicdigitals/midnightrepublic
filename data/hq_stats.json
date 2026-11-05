@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T17:07:00+00:00",
+ "generated_at": "2026-11-05T17:22:54+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T17:22:43Z",
+   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 6)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T17:06:43Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 5); Himmel venue bounced (Nov 5 undeliverable notice)",
    "who": "Cassius"
@@ -3378,22 +3383,17 @@
    "t": "2026-11-04T17:43:29Z",
    "msg": "Outreach: +3 sent (nov03 batch 2, account 2)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T17:38:58Z",
-   "msg": "Outreach: run closed 2026-11-04, status paused",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 791,
-  "drafted": 785,
-  "sent": 784,
-  "delivered": 736,
+  "researched": 794,
+  "drafted": 788,
+  "sent": 787,
+  "delivered": 739,
   "bounced": 46,
   "replies": 21,
   "sent_today": {
-   "liam@yeschefsupply.com": 15
+   "liam@yeschefsupply.com": 18
   },
   "sent_by_day": {
    "2026-10-16": {
@@ -3451,7 +3451,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-05": {
-    "liam@yeschefsupply.com": 15
+    "liam@yeschefsupply.com": 18
    }
   },
   "by_state": {
@@ -3466,8 +3466,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 29,
-    "delivered": 28,
+    "sent": 30,
+    "delivered": 29,
     "bounced": 1
    },
    "CO": {
@@ -3516,8 +3516,8 @@
     "bounced": 0
    },
    "MA": {
-    "sent": 42,
-    "delivered": 36,
+    "sent": 44,
+    "delivered": 38,
     "bounced": 6
    },
    "MD": {
