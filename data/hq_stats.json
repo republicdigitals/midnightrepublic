@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T10:00:18+00:00",
+ "generated_at": "2026-11-05T15:25:31+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T15:25:17Z",
+   "msg": "Outreach: run started 2026-11-05 (acct1 liam)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-04T20:54:14Z",
    "msg": "Outreach: run closed, status paused (acct2, 30 sent)",
    "who": "Cassius"
@@ -3377,11 +3382,6 @@
   {
    "t": "2026-11-04T16:25:48Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 6)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T16:07:12Z",
-   "msg": "Outreach: +3 sent (Ig nov02, batch 5)",
    "who": "Cassius"
   }
  ],
@@ -3654,8 +3654,8 @@
   }
  ],
  "outreach": {
-  "status": "paused",
-  "since": "2026-11-04",
-  "note": "Outreach run 2026-11-04, second account features@yeschefguides.us: 30 sent, 29 delivered, 1 bounced (Mama), 0 pending; Ig leads nov02 batch 10 complete"
+  "status": "active",
+  "since": "2026-11-05",
+  "note": "Outreach run started 2026-11-05: Ig leads nov02, first account liam@yeschefsupply.com, Liam Henning, batch 1 in progress"
  }
 }
