@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T20:48:26+00:00",
+ "generated_at": "2026-11-05T21:03:03+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T21:02:50Z",
+   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 9)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T20:48:13Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 8); Katana delivered; Elvira replied",
    "who": "Cassius"
@@ -3383,23 +3388,18 @@
    "t": "2026-11-04T19:42:52Z",
    "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 6)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T19:25:53Z",
-   "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 5)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 830,
-  "drafted": 824,
-  "sent": 823,
-  "delivered": 774,
+  "researched": 833,
+  "drafted": 827,
+  "sent": 826,
+  "delivered": 777,
   "bounced": 46,
   "replies": 24,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
-   "features@yeschefguides.us": 24
+   "features@yeschefguides.us": 27
   },
   "sent_by_day": {
    "2026-10-16": {
@@ -3458,7 +3458,7 @@
    },
    "2026-11-05": {
     "liam@yeschefsupply.com": 30,
-    "features@yeschefguides.us": 24
+    "features@yeschefguides.us": 27
    }
   },
   "by_state": {
@@ -3618,8 +3618,8 @@
     "bounced": 2
    },
    "TX": {
-    "sent": 19,
-    "delivered": 18,
+    "sent": 22,
+    "delivered": 21,
     "bounced": 1
    },
    "UT": {
