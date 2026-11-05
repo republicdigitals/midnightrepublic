@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T16:18:19+00:00",
+ "generated_at": "2026-11-05T16:18:32+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T16:18:11Z",
+   "msg": "Outreach: Buttermilk & Bourbon bounced (Nov 4 Gmail 5.1.3 failure notice, overrides Delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T16:18:08Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 2)",
    "who": "Cassius"
@@ -3378,11 +3383,6 @@
    "t": "2026-11-04T17:19:26Z",
    "msg": "Outreach: +3 sent (Ig nov02, batch 9)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T17:11:44Z",
-   "msg": "Outreach: Cassius nov03 run started on account 2 (joint agency)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3390,7 +3390,7 @@
   "drafted": 776,
   "sent": 775,
   "delivered": 727,
-  "bounced": 44,
+  "bounced": 45,
   "replies": 20,
   "sent_today": {
    "liam@yeschefsupply.com": 6
@@ -3518,7 +3518,7 @@
    "MA": {
     "sent": 37,
     "delivered": 31,
-    "bounced": 4
+    "bounced": 5
    },
    "MD": {
     "sent": 22,
