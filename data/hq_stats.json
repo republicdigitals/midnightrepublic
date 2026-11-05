@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T09:35:52+00:00",
+ "generated_at": "2026-11-05T09:54:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3387,11 +3387,6 @@
   {
    "t": "2026-11-04T15:58:45Z",
    "msg": "Outreach: joint agency note, status stays active while the nov02 run is live",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T15:58:32Z",
-   "msg": "Agent HQ: second outreach operator joined, joint agency now running in parallel",
    "who": "Cassius"
   }
  ],
