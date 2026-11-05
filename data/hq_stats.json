@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T20:02:01+00:00",
+ "generated_at": "2026-11-05T20:14:56+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-05T20:14:44Z",
+   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 6) + Bar Etoile replied",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T20:01:48Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 5) + Tigre's Fuego replied",
    "who": "Cassius"
@@ -3383,23 +3388,18 @@
    "t": "2026-11-04T18:52:07Z",
    "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 3)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T18:42:40Z",
-   "msg": "Outreach: +3 sent (nov03 batch 7, account 2, run complete)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 821,
-  "drafted": 815,
-  "sent": 814,
-  "delivered": 765,
+  "researched": 824,
+  "drafted": 818,
+  "sent": 817,
+  "delivered": 768,
   "bounced": 46,
-  "replies": 22,
+  "replies": 23,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
-   "features@yeschefguides.us": 15
+   "features@yeschefguides.us": 18
   },
   "sent_by_day": {
    "2026-10-16": {
@@ -3458,7 +3458,7 @@
    },
    "2026-11-05": {
     "liam@yeschefsupply.com": 30,
-    "features@yeschefguides.us": 15
+    "features@yeschefguides.us": 18
    }
   },
   "by_state": {
@@ -3473,8 +3473,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 55,
-    "delivered": 53,
+    "sent": 58,
+    "delivered": 56,
     "bounced": 1
    },
    "CO": {
