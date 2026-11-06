@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:42:21+00:00",
+ "generated_at": "2026-11-06T13:45:38+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T13:45:26Z",
+   "msg": "Outreach: +1 sent (Paraiso Taqueria, Washington, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:42:10Z",
    "msg": "Outreach: +1 sent (Ellie Bird, Falls Church, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T17:06:43Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 5); Himmel venue bounced (Nov 5 undeliverable notice)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T16:48:38Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 4)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 847,
-  "drafted": 841,
-  "sent": 840,
-  "delivered": 790,
+  "researched": 848,
+  "drafted": 842,
+  "sent": 841,
+  "delivered": 791,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 11
+   "partnerships@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 11
+    "partnerships@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3491,8 +3491,8 @@
     "bounced": 0
    },
    "DC": {
-    "sent": 3,
-    "delivered": 3,
+    "sent": 4,
+    "delivered": 4,
     "bounced": 0
    },
    "DK": {
