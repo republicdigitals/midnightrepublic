@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:31:48+00:00",
+ "generated_at": "2026-11-06T13:34:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T13:33:58Z",
+   "msg": "Outreach: +1 sent (Seoul Sky, Quezon City, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:31:37Z",
    "msg": "Outreach: +1 sent (Genki Wagyu Shabu House, Rockville, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T16:18:08Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 2)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T16:04:24Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 1)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 843,
-  "drafted": 837,
-  "sent": 836,
-  "delivered": 786,
+  "researched": 844,
+  "drafted": 838,
+  "sent": 837,
+  "delivered": 787,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 7
+   "partnerships@yeschefsupply.com": 8
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 7
+    "partnerships@yeschefsupply.com": 8
    }
   },
   "by_state": {
