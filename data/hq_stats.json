@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:40:11+00:00",
+ "generated_at": "2026-11-06T13:42:21+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T13:42:10Z",
+   "msg": "Outreach: +1 sent (Ellie Bird, Falls Church, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:40:00Z",
    "msg": "Outreach: +1 sent (Ariake, Fairfax, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T16:48:38Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 4)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T16:36:43Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 3); Royal Boucherie replied",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 846,
-  "drafted": 840,
-  "sent": 839,
-  "delivered": 789,
+  "researched": 847,
+  "drafted": 841,
+  "sent": 840,
+  "delivered": 790,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 10
+   "partnerships@yeschefsupply.com": 11
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 10
+    "partnerships@yeschefsupply.com": 11
    }
   },
   "by_state": {
@@ -3636,8 +3636,8 @@
     "bounced": 0
    },
    "VA": {
-    "sent": 2,
-    "delivered": 2,
+    "sent": 3,
+    "delivered": 3,
     "bounced": 0
    },
    "WA": {
