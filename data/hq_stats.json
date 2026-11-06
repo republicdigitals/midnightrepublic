@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T11:02:59+00:00",
+ "generated_at": "2026-11-06T12:37:02+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T12:36:51Z",
+   "msg": "Outreach: +1 sent (Ogyu, Ardmore, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T11:02:45Z",
    "msg": "Outreach: Beeside Balcony replied (Nov 5 acct1)",
    "who": "Cassius"
@@ -3383,26 +3388,19 @@
    "t": "2026-11-04T20:54:11Z",
    "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 10)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T20:31:36Z",
-   "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 9)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 836,
-  "drafted": 830,
-  "sent": 829,
-  "delivered": 780,
+  "researched": 837,
+  "drafted": 831,
+  "sent": 830,
+  "delivered": 781,
   "bounced": 46,
   "replies": 25,
-  "sent_today": {},
+  "sent_today": {
+   "partnerships@yeschefsupply.com": 1
+  },
   "sent_by_day": {
-   "2026-10-16": {
-    "liam@yeschefgroup.co": 16,
-    "liam@jackdinningroom.com": 16
-   },
    "2026-10-21": {
     "liam@jackdinningroom.com": 30,
     "liam@yeschefgroup.co": 29
@@ -3456,6 +3454,9 @@
    "2026-11-05": {
     "liam@yeschefsupply.com": 30,
     "features@yeschefguides.us": 30
+   },
+   "2026-11-06": {
+    "partnerships@yeschefsupply.com": 1
    }
   },
   "by_state": {
@@ -3595,8 +3596,8 @@
     "bounced": 1
    },
    "PA": {
-    "sent": 38,
-    "delivered": 37,
+    "sent": 39,
+    "delivered": 38,
     "bounced": 0
    },
    "RI": {
