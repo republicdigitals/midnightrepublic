@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:54:49+00:00",
+ "generated_at": "2026-11-06T13:57:07+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T13:56:54Z",
+   "msg": "Outreach: run started (features, Nov 6)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:54:38Z",
    "msg": "Outreach: +1 sent (Nina May, Washington, partnerships)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-05T18:05:39Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 9)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T17:52:15Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 8)",
    "who": "Cassius"
   }
  ],
@@ -3680,7 +3680,7 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "",
   "note": ""
  }
