@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:20:27+00:00",
+ "generated_at": "2026-11-06T13:22:02+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T13:21:50Z",
+   "msg": "Outreach: +1 sent (Shinwa Izakaya, Washington, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:20:15Z",
    "msg": "Outreach: +1 sent (Dassai Blue, Hyde Park, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T15:25:17Z",
    "msg": "Outreach: run started 2026-11-05 (acct1 liam)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T21:19:25Z",
-   "msg": "Instagram: cleanup nov03",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 839,
-  "drafted": 833,
-  "sent": 832,
-  "delivered": 783,
+  "researched": 840,
+  "drafted": 834,
+  "sent": 833,
+  "delivered": 784,
   "bounced": 46,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 3
+   "partnerships@yeschefsupply.com": 4
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 3
+    "partnerships@yeschefsupply.com": 4
    }
   },
   "by_state": {
@@ -3488,6 +3488,11 @@
    "CT": {
     "sent": 3,
     "delivered": 3,
+    "bounced": 0
+   },
+   "DC": {
+    "sent": 1,
+    "delivered": 1,
     "bounced": 0
    },
    "DK": {
