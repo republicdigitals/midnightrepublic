@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:24:05+00:00",
+ "generated_at": "2026-11-06T13:29:22+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T13:29:03Z",
+   "msg": "Outreach: +1 sent (Enmaru, Jakarta, partnerships) - bounced",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:23:54Z",
    "msg": "Outreach: +1 sent (Bantam King, Washington, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T15:39:17Z",
    "msg": "Outreach: run resumed 2026-11-05 (acct1 liam, batch 1)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T15:38:04Z",
-   "msg": "Outreach: paused, liam sign-in blocked (password rejected)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 841,
-  "drafted": 835,
-  "sent": 834,
+  "researched": 842,
+  "drafted": 836,
+  "sent": 835,
   "delivered": 785,
-  "bounced": 46,
+  "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 5
+   "partnerships@yeschefsupply.com": 6
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 5
+    "partnerships@yeschefsupply.com": 6
    }
   },
   "by_state": {
