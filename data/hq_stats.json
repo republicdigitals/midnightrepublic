@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:45:38+00:00",
+ "generated_at": "2026-11-06T13:49:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T13:48:58Z",
+   "msg": "Outreach: +1 sent (Il Piatto, Washington, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:45:26Z",
    "msg": "Outreach: +1 sent (Paraiso Taqueria, Washington, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T17:22:43Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 6)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T17:06:43Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 5); Himmel venue bounced (Nov 5 undeliverable notice)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 848,
-  "drafted": 842,
-  "sent": 841,
-  "delivered": 791,
+  "researched": 849,
+  "drafted": 843,
+  "sent": 842,
+  "delivered": 792,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 12
+   "partnerships@yeschefsupply.com": 13
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 12
+    "partnerships@yeschefsupply.com": 13
    }
   },
   "by_state": {
@@ -3491,8 +3491,8 @@
     "bounced": 0
    },
    "DC": {
-    "sent": 4,
-    "delivered": 4,
+    "sent": 5,
+    "delivered": 5,
     "bounced": 0
    },
    "DK": {
