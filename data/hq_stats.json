@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T14:19:03+00:00",
+ "generated_at": "2026-11-06T14:20:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T14:20:18Z",
+   "msg": "Outreach: features run active (Nov 6, 30-send queue)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T14:18:52Z",
    "msg": "Outreach: manual link queue closed, pause",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-05T20:48:13Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 8); Katana delivered; Elvira replied",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T20:35:36Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 7)",
    "who": "Cassius"
   }
  ],
@@ -3685,7 +3685,7 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "",
   "note": ""
  }
