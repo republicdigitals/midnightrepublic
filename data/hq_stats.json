@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T12:37:02+00:00",
+ "generated_at": "2026-11-06T12:59:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T12:58:53Z",
+   "msg": "Outreach: +1 sent (Gyu Shige, Fairfax, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T12:36:51Z",
    "msg": "Outreach: +1 sent (Ogyu, Ardmore, partnerships)",
    "who": "Cassius"
@@ -3383,22 +3388,17 @@
    "t": "2026-11-04T20:54:14Z",
    "msg": "Outreach: run closed, status paused (acct2, 30 sent)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T20:54:11Z",
-   "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 10)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 837,
-  "drafted": 831,
-  "sent": 830,
-  "delivered": 781,
+  "researched": 838,
+  "drafted": 832,
+  "sent": 831,
+  "delivered": 782,
   "bounced": 46,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 1
+   "partnerships@yeschefsupply.com": 2
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3456,7 +3456,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 1
+    "partnerships@yeschefsupply.com": 2
    }
   },
   "by_state": {
@@ -3621,6 +3621,11 @@
     "bounced": 1
    },
    "UT": {
+    "sent": 1,
+    "delivered": 1,
+    "bounced": 0
+   },
+   "VA": {
     "sent": 1,
     "delivered": 1,
     "bounced": 0
