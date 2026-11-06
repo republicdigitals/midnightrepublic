@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T14:04:21+00:00",
+ "generated_at": "2026-11-06T14:08:19+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T14:08:06Z",
+   "msg": "Outreach: +1 sent (Gogi Yogi BBQ, Washington, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T14:04:10Z",
    "msg": "Outreach: +1 sent (Kema by Kenaki, Potomac, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T19:29:34Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 3)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T19:11:10Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 2) + Quince delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 854,
-  "drafted": 848,
-  "sent": 847,
-  "delivered": 797,
+  "researched": 855,
+  "drafted": 849,
+  "sent": 848,
+  "delivered": 798,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 18
+   "partnerships@yeschefsupply.com": 19
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 18
+    "partnerships@yeschefsupply.com": 19
    }
   },
   "by_state": {
@@ -3491,8 +3491,8 @@
     "bounced": 0
    },
    "DC": {
-    "sent": 7,
-    "delivered": 7,
+    "sent": 8,
+    "delivered": 8,
     "bounced": 0
    },
    "DK": {
