@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T21:19:05+00:00",
+ "generated_at": "2026-11-06T11:02:59+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T11:02:45Z",
+   "msg": "Outreach: Beeside Balcony replied (Nov 5 acct1)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-05T21:18:50Z",
    "msg": "Outreach: pause at end of Nov 5 run",
    "who": "Cassius"
@@ -3383,11 +3388,6 @@
    "t": "2026-11-04T20:31:36Z",
    "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 9)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-04T20:15:13Z",
-   "msg": "Outreach: +3 sent (Ig nov02, acct2 batch 8)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3396,11 +3396,8 @@
   "sent": 829,
   "delivered": 780,
   "bounced": 46,
-  "replies": 24,
-  "sent_today": {
-   "liam@yeschefsupply.com": 30,
-   "features@yeschefguides.us": 30
-  },
+  "replies": 25,
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-16": {
     "liam@yeschefgroup.co": 16,
