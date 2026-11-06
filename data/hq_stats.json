@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T14:11:02+00:00",
+ "generated_at": "2026-11-06T14:14:26+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T14:14:14Z",
+   "msg": "Outreach: +1 sent (Kappo DC, Washington, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T14:10:51Z",
    "msg": "Outreach: +1 sent (GyuGyu, Markham, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T20:01:48Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 5) + Tigre's Fuego replied",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T19:45:00Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 4)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 856,
-  "drafted": 850,
-  "sent": 849,
-  "delivered": 799,
+  "researched": 857,
+  "drafted": 851,
+  "sent": 850,
+  "delivered": 800,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 20
+   "partnerships@yeschefsupply.com": 21
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 20
+    "partnerships@yeschefsupply.com": 21
    }
   },
   "by_state": {
@@ -3491,8 +3491,8 @@
     "bounced": 0
    },
    "DC": {
-    "sent": 8,
-    "delivered": 8,
+    "sent": 9,
+    "delivered": 9,
     "bounced": 0
    },
    "DK": {
