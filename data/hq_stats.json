@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T13:57:53+00:00",
+ "generated_at": "2026-11-06T14:00:53+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-06T14:00:41Z",
+   "msg": "Outreach: +1 sent (Hot Spot Hot Pot, Fairfax, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T13:57:42Z",
    "msg": "Outreach: +1 sent (The Falls, Falls Church, partnerships)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-05T18:54:05Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 1)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T18:25:06Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct1 batch 10)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 852,
-  "drafted": 846,
-  "sent": 845,
-  "delivered": 795,
+  "researched": 853,
+  "drafted": 847,
+  "sent": 846,
+  "delivered": 796,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 16
+   "partnerships@yeschefsupply.com": 17
   },
   "sent_by_day": {
    "2026-10-21": {
@@ -3461,7 +3461,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-06": {
-    "partnerships@yeschefsupply.com": 16
+    "partnerships@yeschefsupply.com": 17
    }
   },
   "by_state": {
@@ -3636,8 +3636,8 @@
     "bounced": 0
    },
    "VA": {
-    "sent": 4,
-    "delivered": 4,
+    "sent": 5,
+    "delivered": 5,
     "bounced": 0
    },
    "WA": {
