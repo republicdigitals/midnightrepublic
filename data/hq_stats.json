@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T21:57:42+00:00",
+ "generated_at": "2026-11-07T22:17:12+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T22:17:00Z",
+   "msg": "Nov 07 liam batch 6: Lazy Bear, Woodhouse Fish Co, Epic Steak sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T21:57:31Z",
    "msg": "Nov 07 liam batch 5: AIONA, Orphan Breakfast House, Manaao Thai sent+delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-06T13:23:54Z",
    "msg": "Outreach: +1 sent (Bantam King, Washington, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:21:50Z",
-   "msg": "Outreach: +1 sent (Shinwa Izakaya, Washington, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 873,
-  "drafted": 867,
-  "sent": 866,
-  "delivered": 816,
+  "researched": 876,
+  "drafted": 870,
+  "sent": 869,
+  "delivered": 819,
   "bounced": 48,
   "replies": 25,
   "sent_today": {
-   "liam@yeschefsupply.com": 15
+   "liam@yeschefsupply.com": 18
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3460,7 +3460,7 @@
     "partnerships@yeschefsupply.com": 22
    },
    "2026-11-07": {
-    "liam@yeschefsupply.com": 15
+    "liam@yeschefsupply.com": 18
    }
   },
   "by_state": {
@@ -3475,8 +3475,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 77,
-    "delivered": 75,
+    "sent": 80,
+    "delivered": 78,
     "bounced": 1
    },
    "CO": {
