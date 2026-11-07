@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T23:05:46+00:00",
+ "generated_at": "2026-11-07T23:07:28+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T23:07:17Z",
+   "msg": "Nov 07 liam top-up batch 1: Pamplona, Rock-n-Sake, Carrello sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T23:05:34Z",
    "msg": "Outreach log: backfill Nov 5 account 3 link sends (28 delivered, Mooncussers sent)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-06T13:45:26Z",
    "msg": "Outreach: +1 sent (Paraiso Taqueria, Washington, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:42:10Z",
-   "msg": "Outreach: +1 sent (Ellie Bird, Falls Church, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 923,
-  "drafted": 917,
-  "sent": 916,
-  "delivered": 862,
+  "researched": 925,
+  "drafted": 919,
+  "sent": 919,
+  "delivered": 865,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
-   "liam@yeschefsupply.com": 24,
+   "liam@yeschefsupply.com": 27,
    "contact@jackdinningroom.com": 12
   },
   "sent_by_day": {
@@ -3462,7 +3462,7 @@
     "partnerships@yeschefsupply.com": 22
    },
    "2026-11-07": {
-    "liam@yeschefsupply.com": 24,
+    "liam@yeschefsupply.com": 27,
     "contact@jackdinningroom.com": 12
    }
   },
@@ -3538,8 +3538,8 @@
     "bounced": 0
    },
    "LA": {
-    "sent": 5,
-    "delivered": 5,
+    "sent": 7,
+    "delivered": 7,
     "bounced": 0
    },
    "MA": {
@@ -3653,8 +3653,8 @@
     "bounced": 0
    },
    "WA": {
-    "sent": 73,
-    "delivered": 71,
+    "sent": 74,
+    "delivered": 72,
     "bounced": 2
    },
    "WI": {
