@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T20:56:29+00:00",
+ "generated_at": "2026-11-07T21:14:01+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T21:13:48Z",
+   "msg": "Nov 07 liam batch 3: Egg Plantation, FatJoesOside, Regal Seagull sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T20:56:17Z",
    "msg": "Nov 07 liam batch 2: Creminis, Willow Osteria, R10 Social House sent+delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-06T12:36:51Z",
    "msg": "Outreach: +1 sent (Ogyu, Ardmore, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T11:02:45Z",
-   "msg": "Outreach: Beeside Balcony replied (Nov 5 acct1)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 864,
-  "drafted": 858,
-  "sent": 857,
-  "delivered": 807,
+  "researched": 867,
+  "drafted": 861,
+  "sent": 860,
+  "delivered": 810,
   "bounced": 47,
   "replies": 25,
   "sent_today": {
-   "liam@yeschefsupply.com": 6
+   "liam@yeschefsupply.com": 9
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3460,7 +3460,7 @@
     "partnerships@yeschefsupply.com": 22
    },
    "2026-11-07": {
-    "liam@yeschefsupply.com": 6
+    "liam@yeschefsupply.com": 9
    }
   },
   "by_state": {
@@ -3475,8 +3475,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 68,
-    "delivered": 66,
+    "sent": 71,
+    "delivered": 69,
     "bounced": 1
    },
    "CO": {
