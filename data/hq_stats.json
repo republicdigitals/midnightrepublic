@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T20:14:32+00:00",
+ "generated_at": "2026-11-07T20:40:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T20:39:59Z",
+   "msg": "Nov 07 liam batch 1: Kulturas, Salt Creek Grille, GAKU sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T20:14:21Z",
    "msg": "Outreach run active: liam Nov 07, 24 leads from instagram_leads_nov05.csv",
    "who": "Cassius"
@@ -3388,26 +3393,19 @@
    "t": "2026-11-05T21:18:50Z",
    "msg": "Outreach: pause at end of Nov 5 run",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T21:18:42Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 10)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 858,
-  "drafted": 852,
-  "sent": 851,
-  "delivered": 801,
+  "researched": 861,
+  "drafted": 855,
+  "sent": 854,
+  "delivered": 804,
   "bounced": 47,
   "replies": 25,
-  "sent_today": {},
+  "sent_today": {
+   "liam@yeschefsupply.com": 3
+  },
   "sent_by_day": {
-   "2026-10-21": {
-    "liam@jackdinningroom.com": 30,
-    "liam@yeschefgroup.co": 29
-   },
    "2026-10-22": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 32
@@ -3460,6 +3458,9 @@
    },
    "2026-11-06": {
     "partnerships@yeschefsupply.com": 22
+   },
+   "2026-11-07": {
+    "liam@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3474,8 +3475,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 63,
-    "delivered": 61,
+    "sent": 66,
+    "delivered": 64,
     "bounced": 1
    },
    "CO": {
