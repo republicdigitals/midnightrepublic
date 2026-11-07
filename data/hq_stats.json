@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T22:32:07+00:00",
+ "generated_at": "2026-11-07T22:47:03+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T22:46:50Z",
+   "msg": "Nov 07 liam batch 8: Bricks Corner, Snow City Cafe, Sasha's on Demun sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T22:31:54Z",
    "msg": "Nov 07 liam batch 7: La Nena Cantina, MONTE delivered; Junah bounced",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-06T13:31:37Z",
    "msg": "Outreach: +1 sent (Genki Wagyu Shabu House, Rockville, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:29:03Z",
-   "msg": "Outreach: +1 sent (Enmaru, Jakarta, partnerships) - bounced",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 879,
-  "drafted": 873,
-  "sent": 872,
-  "delivered": 821,
+  "researched": 882,
+  "drafted": 876,
+  "sent": 875,
+  "delivered": 824,
   "bounced": 49,
   "replies": 25,
   "sent_today": {
-   "liam@yeschefsupply.com": 21
+   "liam@yeschefsupply.com": 24
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3460,10 +3460,15 @@
     "partnerships@yeschefsupply.com": 22
    },
    "2026-11-07": {
-    "liam@yeschefsupply.com": 21
+    "liam@yeschefsupply.com": 24
    }
   },
   "by_state": {
+   "AK": {
+    "sent": 1,
+    "delivered": 1,
+    "bounced": 0
+   },
    "AR": {
     "sent": 24,
     "delivered": 20,
@@ -3555,8 +3560,8 @@
     "bounced": 0
    },
    "MO": {
-    "sent": 3,
-    "delivered": 2,
+    "sent": 4,
+    "delivered": 3,
     "bounced": 1
    },
    "NC": {
@@ -3635,8 +3640,8 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 3,
-    "delivered": 2,
+    "sent": 4,
+    "delivered": 3,
     "bounced": 1
    },
    "VA": {
