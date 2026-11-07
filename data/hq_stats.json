@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T19:54:00+00:00",
+ "generated_at": "2026-11-07T20:14:32+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T20:14:21Z",
+   "msg": "Outreach run active: liam Nov 07, 24 leads from instagram_leads_nov05.csv",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T19:53:45Z",
    "msg": "Outreach: Nov 6 features run held by Ethan, back to paused (0 sent)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-05T21:18:42Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 10)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T21:02:50Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 9)",
    "who": "Cassius"
   }
  ],
@@ -3683,7 +3683,7 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "",
   "note": ""
  }
