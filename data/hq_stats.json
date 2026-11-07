@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T21:14:01+00:00",
+ "generated_at": "2026-11-07T21:21:12+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T21:21:01Z",
+   "msg": "Outreach: Georges French Bistro bounced (retry queue resolved Nov 7)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T21:13:48Z",
    "msg": "Nov 07 liam batch 3: Egg Plantation, FatJoesOside, Regal Seagull sent+delivered",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-06T12:58:53Z",
    "msg": "Outreach: +1 sent (Gyu Shige, Fairfax, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T12:36:51Z",
-   "msg": "Outreach: +1 sent (Ogyu, Ardmore, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3400,7 +3400,7 @@
   "drafted": 861,
   "sent": 860,
   "delivered": 810,
-  "bounced": 47,
+  "bounced": 48,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 9
@@ -3522,7 +3522,7 @@
    "KS": {
     "sent": 10,
     "delivered": 5,
-    "bounced": 4
+    "bounced": 5
    },
    "KY": {
     "sent": 1,
