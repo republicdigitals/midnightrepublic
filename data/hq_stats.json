@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T23:07:28+00:00",
+ "generated_at": "2026-11-07T23:22:11+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T23:22:01Z",
+   "msg": "Nov 07 liam top-up batch 2: Velvet Banjo, Dad Lounge, Oregon City Brewing sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T23:07:17Z",
    "msg": "Nov 07 liam top-up batch 1: Pamplona, Rock-n-Sake, Carrello sent+delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-06T13:48:58Z",
    "msg": "Outreach: +1 sent (Il Piatto, Washington, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:45:26Z",
-   "msg": "Outreach: +1 sent (Paraiso Taqueria, Washington, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 925,
-  "drafted": 919,
-  "sent": 919,
-  "delivered": 865,
+  "researched": 928,
+  "drafted": 922,
+  "sent": 922,
+  "delivered": 868,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
-   "liam@yeschefsupply.com": 27,
+   "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12
   },
   "sent_by_day": {
@@ -3462,7 +3462,7 @@
     "partnerships@yeschefsupply.com": 22
    },
    "2026-11-07": {
-    "liam@yeschefsupply.com": 27,
+    "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12
    }
   },
@@ -3488,8 +3488,8 @@
     "bounced": 1
    },
    "CO": {
-    "sent": 117,
-    "delivered": 110,
+    "sent": 119,
+    "delivered": 112,
     "bounced": 8
    },
    "CT": {
@@ -3613,8 +3613,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 32,
-    "delivered": 31,
+    "sent": 33,
+    "delivered": 32,
     "bounced": 1
    },
    "PA": {
