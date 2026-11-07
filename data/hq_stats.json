@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T23:03:41+00:00",
+ "generated_at": "2026-11-07T23:05:46+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T23:05:34Z",
+   "msg": "Outreach log: backfill Nov 5 account 3 link sends (28 delivered, Mooncussers sent)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T23:03:29Z",
    "msg": "Outreach log: backfill Nov 7 account 3 link sends (10 delivered, 2 bounced)",
    "who": "Cassius"
@@ -3388,18 +3393,13 @@
    "t": "2026-11-06T13:42:10Z",
    "msg": "Outreach: +1 sent (Ellie Bird, Falls Church, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:40:00Z",
-   "msg": "Outreach: +1 sent (Ariake, Fairfax, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 894,
-  "drafted": 888,
-  "sent": 887,
-  "delivered": 834,
+  "researched": 923,
+  "drafted": 917,
+  "sent": 916,
+  "delivered": 862,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
@@ -3455,7 +3455,8 @@
    },
    "2026-11-05": {
     "liam@yeschefsupply.com": 30,
-    "features@yeschefguides.us": 30
+    "features@yeschefguides.us": 30,
+    "contact@jackdinningroom.com": 29
    },
    "2026-11-06": {
     "partnerships@yeschefsupply.com": 22
@@ -3482,8 +3483,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 82,
-    "delivered": 80,
+    "sent": 84,
+    "delivered": 82,
     "bounced": 1
    },
    "CO": {
@@ -3507,8 +3508,8 @@
     "bounced": 0
    },
    "FL": {
-    "sent": 54,
-    "delivered": 49,
+    "sent": 61,
+    "delivered": 56,
     "bounced": 5
    },
    "GA": {
@@ -3542,8 +3543,8 @@
     "bounced": 0
    },
    "MA": {
-    "sent": 44,
-    "delivered": 38,
+    "sent": 63,
+    "delivered": 56,
     "bounced": 6
    },
    "MD": {
@@ -3592,8 +3593,8 @@
     "bounced": 3
    },
    "NY": {
-    "sent": 9,
-    "delivered": 9,
+    "sent": 10,
+    "delivered": 10,
     "bounced": 0
    },
    "OH": {
