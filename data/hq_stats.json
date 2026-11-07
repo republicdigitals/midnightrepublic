@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T22:17:12+00:00",
+ "generated_at": "2026-11-07T22:32:07+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T22:31:54Z",
+   "msg": "Nov 07 liam batch 7: La Nena Cantina, MONTE delivered; Junah bounced",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T22:17:00Z",
    "msg": "Nov 07 liam batch 6: Lazy Bear, Woodhouse Fish Co, Epic Steak sent+delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-06T13:29:03Z",
    "msg": "Outreach: +1 sent (Enmaru, Jakarta, partnerships) - bounced",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:23:54Z",
-   "msg": "Outreach: +1 sent (Bantam King, Washington, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 876,
-  "drafted": 870,
-  "sent": 869,
-  "delivered": 819,
-  "bounced": 48,
+  "researched": 879,
+  "drafted": 873,
+  "sent": 872,
+  "delivered": 821,
+  "bounced": 49,
   "replies": 25,
   "sent_today": {
-   "liam@yeschefsupply.com": 18
+   "liam@yeschefsupply.com": 21
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3460,7 +3460,7 @@
     "partnerships@yeschefsupply.com": 22
    },
    "2026-11-07": {
-    "liam@yeschefsupply.com": 18
+    "liam@yeschefsupply.com": 21
    }
   },
   "by_state": {
@@ -3475,8 +3475,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 80,
-    "delivered": 78,
+    "sent": 81,
+    "delivered": 79,
     "bounced": 1
    },
    "CO": {
@@ -3635,9 +3635,9 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 1,
-    "delivered": 1,
-    "bounced": 0
+    "sent": 3,
+    "delivered": 2,
+    "bounced": 1
    },
    "VA": {
     "sent": 6,
