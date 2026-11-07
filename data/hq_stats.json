@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T14:20:33+00:00",
+ "generated_at": "2026-11-07T19:54:00+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T19:53:45Z",
+   "msg": "Outreach: Nov 6 features run held by Ethan, back to paused (0 sent)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-06T14:20:18Z",
    "msg": "Outreach: features run active (Nov 6, 30-send queue)",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-05T21:02:50Z",
    "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 9)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-05T20:48:13Z",
-   "msg": "Outreach: +3 sent (Ig nov02, nov05 acct2 batch 8); Katana delivered; Elvira replied",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3402,9 +3402,7 @@
   "delivered": 801,
   "bounced": 47,
   "replies": 25,
-  "sent_today": {
-   "partnerships@yeschefsupply.com": 22
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-21": {
     "liam@jackdinningroom.com": 30,
@@ -3685,7 +3683,7 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "",
   "note": ""
  }
