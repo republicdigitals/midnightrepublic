@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-07T22:47:16+00:00",
+ "generated_at": "2026-11-07T22:50:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-07T22:49:58Z",
+   "msg": "Outreach run active: liam Nov 07 top-up, last 6 of cap",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-07T22:46:55Z",
    "msg": "Outreach run paused: liam Nov 07 complete, 24 sent",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-06T13:36:17Z",
    "msg": "Outreach: +1 sent (Perry's, Washington, partnerships)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:33:58Z",
-   "msg": "Outreach: +1 sent (Seoul Sky, Quezon City, partnerships)",
    "who": "Cassius"
   }
  ],
@@ -3689,7 +3689,7 @@
   }
  ],
  "outreach": {
-  "status": "paused",
+  "status": "active",
   "since": "",
   "note": ""
  }
