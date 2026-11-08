@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T01:18:33+00:00",
+ "generated_at": "2026-11-08T01:33:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T01:32:54Z",
+   "msg": "Nov 07 features batch 6: The Shack on 8th, MDRD, Littlebird sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T01:18:20Z",
    "msg": "Nov 07 features batch 5: La Oficina, fin & tonic, THE GRILL DC sent+delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-06T14:10:51Z",
    "msg": "Outreach: +1 sent (GyuGyu, Markham, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T14:08:06Z",
-   "msg": "Outreach: +1 sent (Gogi Yogi BBQ, Washington, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 943,
-  "drafted": 937,
-  "sent": 937,
-  "delivered": 883,
+  "researched": 946,
+  "drafted": 940,
+  "sent": 940,
+  "delivered": 886,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 15
+   "features@yeschefguides.us": 18
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3465,7 +3465,7 @@
    "2026-11-07": {
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 15
+    "features@yeschefguides.us": 18
    }
   },
   "by_state": {
@@ -3555,8 +3555,8 @@
     "bounced": 2
    },
    "MI": {
-    "sent": 8,
-    "delivered": 8,
+    "sent": 10,
+    "delivered": 10,
     "bounced": 0
    },
    "MN": {
@@ -3650,8 +3650,8 @@
     "bounced": 1
    },
    "VA": {
-    "sent": 8,
-    "delivered": 8,
+    "sent": 9,
+    "delivered": 9,
     "bounced": 0
    },
    "WA": {
