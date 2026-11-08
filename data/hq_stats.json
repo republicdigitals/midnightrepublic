@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:14:02+00:00",
+ "generated_at": "2026-11-08T10:19:28+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:19:17Z",
+   "msg": "Outreach: +1 scheduled (The Waterboy, Sacramento, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:13:45Z",
    "msg": "Outreach: +1 replied (Dassai Blue, Hyde Park, partnerships)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T20:39:59Z",
    "msg": "Nov 07 liam batch 1: Kulturas, Salt Creek Grille, GAKU sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T20:14:21Z",
-   "msg": "Outreach run active: liam Nov 07, 24 leads from instagram_leads_nov05.csv",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 959,
-  "drafted": 953,
+  "researched": 960,
+  "drafted": 954,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
