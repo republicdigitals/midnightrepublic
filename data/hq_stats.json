@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:52:41+00:00",
+ "generated_at": "2026-11-08T10:54:18+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:54:06Z",
+   "msg": "Log The Blanca Tatanka researched/drafted/scheduled (partnerships, Mon Nov 9 5:52am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:52:31Z",
    "msg": "Log Bratskellar + Dinnerhorn researched/drafted/scheduled (partnerships, Mon Nov 9 5:48am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T23:22:01Z",
    "msg": "Nov 07 liam top-up batch 2: Velvet Banjo, Dad Lounge, Oregon City Brewing sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T23:07:17Z",
-   "msg": "Nov 07 liam top-up batch 1: Pamplona, Rock-n-Sake, Carrello sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 973,
-  "drafted": 967,
+  "researched": 974,
+  "drafted": 968,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
