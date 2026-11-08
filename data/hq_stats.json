@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:20:10+00:00",
+ "generated_at": "2026-11-08T11:21:49+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:21:37Z",
+   "msg": "Log scheduled outreach: gute Laune Wurstbar, Bozeman MT (researched/drafted/scheduled), Tue Nov 10 2026 5:07 AM Pacific",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:19:58Z",
    "msg": "Log Seven (Bozeman MT) scheduled Tue Nov 10 2026 5:03 AM PT - partnerships",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T10:32:22Z",
    "msg": "Log The Morning Fork researched/drafted/scheduled (partnerships, Mon Nov 9 5:10am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:30:58Z",
-   "msg": "Log Mulvaney's B&L researched/drafted/scheduled (partnerships, Mon Nov 9 5:07am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 991,
-  "drafted": 985,
+  "researched": 992,
+  "drafted": 986,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
