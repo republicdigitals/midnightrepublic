@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:08:05+00:00",
+ "generated_at": "2026-11-08T11:09:31+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:09:20Z",
+   "msg": "Log Skaneateles Fields Resort & Spa (partnerships): researched, drafted, scheduled for Mon Nov 9 2026 6:24 AM PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:07:54Z",
    "msg": "Log Belhurst Castle and Winery (Geneva, NY) scheduled Mon Nov 9 2026 6:20 AM Pacific",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T01:32:54Z",
    "msg": "Nov 07 features batch 6: The Shack on 8th, MDRD, Littlebird sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T01:18:20Z",
-   "msg": "Nov 07 features batch 5: La Oficina, fin & tonic, THE GRILL DC sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 981,
-  "drafted": 975,
+  "researched": 982,
+  "drafted": 976,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
