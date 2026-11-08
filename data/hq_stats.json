@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:11:35+00:00",
+ "generated_at": "2026-11-08T11:13:24+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:13:14Z",
+   "msg": "Log Fink's Delicatessen (Bozeman) scheduled Mon Nov 9 2026 6:35 AM Pacific - researched/drafted/scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:11:25Z",
    "msg": "Log Ponderosa Social (Bozeman MT) scheduled for Mon Nov 9 2026 6:31 AM Pacific",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T02:11:40Z",
    "msg": "Nov 07 features batch 9: Buffalo Chophouse, Perla, Prescott's Provisions sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T01:58:15Z",
-   "msg": "Nov 07 features batch 8: HancockGR, PostBoy, Sardine sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 984,
-  "drafted": 978,
+  "researched": 985,
+  "drafted": 979,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
