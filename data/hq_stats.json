@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:58:11+00:00",
+ "generated_at": "2026-11-08T10:59:30+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:59:19Z",
+   "msg": "Log Hideaway Bay Resort researched/drafted/scheduled (partnerships, Mon Nov 9 6:09am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:57:59Z",
    "msg": "Log Plonk Bozeman researched/drafted/scheduled (partnerships, Mon Nov 9 6:04am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T00:41:45Z",
    "msg": "Nov 07 features batch 2: Heirloom Market BBQ, Banshee ATL, 7th House sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T00:27:34Z",
-   "msg": "Nov 07 features batch 1: THE CHASTAIN, JenChan's, The White Bull sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 977,
-  "drafted": 971,
+  "researched": 978,
+  "drafted": 972,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
