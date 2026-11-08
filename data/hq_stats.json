@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:10:49+00:00",
+ "generated_at": "2026-11-08T11:11:35+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:11:25Z",
+   "msg": "Log Ponderosa Social (Bozeman MT) scheduled for Mon Nov 9 2026 6:31 AM Pacific",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:10:38Z",
    "msg": "Log Revelry Bozeman scheduled Mon Nov 9 2026 6:27 AM PT",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T01:58:15Z",
    "msg": "Nov 07 features batch 8: HancockGR, PostBoy, Sardine sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T01:45:44Z",
-   "msg": "Nov 07 features batch 7: Modern Bird, Pennyroyal, The Sovengard sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 983,
-  "drafted": 977,
+  "researched": 984,
+  "drafted": 978,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
