@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:44:06+00:00",
+ "generated_at": "2026-11-08T10:45:18+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:45:07Z",
+   "msg": "Log Trailhead Bar | Grill | Wood Fired Pizza researched/drafted/scheduled (partnerships, Mon Nov 9 5:28am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:43:54Z",
    "msg": "Log Cassie's Steakhouse & Saloon researched/drafted/scheduled (partnerships, Mon Nov 9 5:25am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T22:46:50Z",
    "msg": "Nov 07 liam batch 8: Bricks Corner, Snow City Cafe, Sasha's on Demun sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T22:31:54Z",
-   "msg": "Nov 07 liam batch 7: La Nena Cantina, MONTE delivered; Junah bounced",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 967,
-  "drafted": 961,
+  "researched": 968,
+  "drafted": 962,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
