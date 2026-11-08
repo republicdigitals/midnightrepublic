@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T02:11:52+00:00",
+ "generated_at": "2026-11-08T02:24:34+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T02:24:22Z",
+   "msg": "Nov 07 features batch 10: Rick's On Main, Patron Saint, Redd Wood sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T02:11:40Z",
    "msg": "Nov 07 features batch 9: Buffalo Chophouse, Perla, Prescott's Provisions sent+delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-06T14:20:18Z",
    "msg": "Outreach: features run active (Nov 6, 30-send queue)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T14:18:52Z",
-   "msg": "Outreach: manual link queue closed, pause",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 955,
-  "drafted": 949,
-  "sent": 949,
-  "delivered": 895,
+  "researched": 958,
+  "drafted": 952,
+  "sent": 952,
+  "delivered": 898,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 27
+   "features@yeschefguides.us": 30
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3465,7 +3465,7 @@
    "2026-11-07": {
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 27
+    "features@yeschefguides.us": 30
    }
   },
   "by_state": {
@@ -3595,8 +3595,8 @@
     "bounced": 3
    },
    "NY": {
-    "sent": 13,
-    "delivered": 13,
+    "sent": 16,
+    "delivered": 16,
     "bounced": 0
    },
    "OH": {
