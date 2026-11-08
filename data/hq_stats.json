@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:30:16+00:00",
+ "generated_at": "2026-11-08T10:31:08+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:30:58Z",
+   "msg": "Log Mulvaney's B&L researched/drafted/scheduled (partnerships, Mon Nov 9 5:07am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:30:03Z",
    "msg": "Log Zocalo researched/drafted/scheduled (partnerships, Mon Nov 9 5:03am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T21:13:48Z",
    "msg": "Nov 07 liam batch 3: Egg Plantation, FatJoesOside, Regal Seagull sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T20:56:17Z",
-   "msg": "Nov 07 liam batch 2: Creminis, Willow Osteria, R10 Social House sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 961,
-  "drafted": 955,
+  "researched": 962,
+  "drafted": 956,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
