@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:15:17+00:00",
+ "generated_at": "2026-11-08T11:16:25+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:16:13Z",
+   "msg": "Log Jam! on Main (Bozeman) - researched/drafted/scheduled, Mon Nov 9 6:46 AM Pacific",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:15:04Z",
    "msg": "Log Nina's Tacos (Bozeman) - researched/drafted/scheduled for Mon Nov 9 2026 6:42 AM PT",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T10:13:45Z",
    "msg": "Outreach: +1 replied (Dassai Blue, Hyde Park, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T02:24:24Z",
-   "msg": "Outreach paused: Nov 07 features run closed, 30/30 cap reached",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 987,
-  "drafted": 981,
+  "researched": 988,
+  "drafted": 982,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
