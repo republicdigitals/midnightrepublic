@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T01:58:26+00:00",
+ "generated_at": "2026-11-08T02:11:52+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T02:11:40Z",
+   "msg": "Nov 07 features batch 9: Buffalo Chophouse, Perla, Prescott's Provisions sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T01:58:15Z",
    "msg": "Nov 07 features batch 8: HancockGR, PostBoy, Sardine sent+delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-06T14:18:52Z",
    "msg": "Outreach: manual link queue closed, pause",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T14:17:36Z",
-   "msg": "Outreach: +1 sent (Sushi Friends Hashi, Fairfax, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 952,
-  "drafted": 946,
-  "sent": 946,
-  "delivered": 892,
+  "researched": 955,
+  "drafted": 949,
+  "sent": 949,
+  "delivered": 895,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 24
+   "features@yeschefguides.us": 27
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3465,7 +3465,7 @@
    "2026-11-07": {
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 24
+    "features@yeschefguides.us": 27
    }
   },
   "by_state": {
@@ -3595,8 +3595,8 @@
     "bounced": 3
    },
    "NY": {
-    "sent": 10,
-    "delivered": 10,
+    "sent": 13,
+    "delivered": 13,
     "bounced": 0
    },
    "OH": {
