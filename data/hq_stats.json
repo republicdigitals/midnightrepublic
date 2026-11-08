@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:14:07+00:00",
+ "generated_at": "2026-11-08T11:15:17+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:15:04Z",
+   "msg": "Log Nina's Tacos (Bozeman) - researched/drafted/scheduled for Mon Nov 9 2026 6:42 AM PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:13:56Z",
    "msg": "Log Bitterroot Bistro (Bozeman MT) scheduled Mon Nov 9 2026 6:39 AM Pacific, partnerships",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T02:24:24Z",
    "msg": "Outreach paused: Nov 07 features run closed, 30/30 cap reached",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T02:24:22Z",
-   "msg": "Nov 07 features batch 10: Rick's On Main, Patron Saint, Redd Wood sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 986,
-  "drafted": 980,
+  "researched": 987,
+  "drafted": 981,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
