@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T02:24:34+00:00",
+ "generated_at": "2026-11-08T02:24:48+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T02:24:24Z",
+   "msg": "Outreach paused: Nov 07 features run closed, 30/30 cap reached",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T02:24:22Z",
    "msg": "Nov 07 features batch 10: Rick's On Main, Patron Saint, Redd Wood sent+delivered",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-07T19:53:45Z",
    "msg": "Outreach: Nov 6 features run held by Ethan, back to paused (0 sent)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T14:20:18Z",
-   "msg": "Outreach: features run active (Nov 6, 30-send queue)",
    "who": "Cassius"
   }
  ],
@@ -3694,7 +3694,7 @@
   }
  ],
  "outreach": {
-  "status": "active",
+  "status": "paused",
   "since": "",
   "note": ""
  }
