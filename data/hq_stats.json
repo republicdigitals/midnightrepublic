@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T01:06:59+00:00",
+ "generated_at": "2026-11-08T01:18:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T01:18:20Z",
+   "msg": "Nov 07 features batch 5: La Oficina, fin & tonic, THE GRILL DC sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T01:06:48Z",
    "msg": "Nov 07 features batch 4: CHELSEA CORNER, Tatsu Dallas, EBESU Robata & Sushi sent+delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-06T14:08:06Z",
    "msg": "Outreach: +1 sent (Gogi Yogi BBQ, Washington, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T14:04:10Z",
-   "msg": "Outreach: +1 sent (Kema by Kenaki, Potomac, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 940,
-  "drafted": 934,
-  "sent": 934,
-  "delivered": 880,
+  "researched": 943,
+  "drafted": 937,
+  "sent": 937,
+  "delivered": 883,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 12
+   "features@yeschefguides.us": 15
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3465,7 +3465,7 @@
    "2026-11-07": {
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 12
+    "features@yeschefguides.us": 15
    }
   },
   "by_state": {
@@ -3500,8 +3500,8 @@
     "bounced": 0
    },
    "DC": {
-    "sent": 9,
-    "delivered": 9,
+    "sent": 10,
+    "delivered": 10,
     "bounced": 0
    },
    "DK": {
@@ -3650,8 +3650,8 @@
     "bounced": 1
    },
    "VA": {
-    "sent": 6,
-    "delivered": 6,
+    "sent": 8,
+    "delivered": 8,
     "bounced": 0
    },
    "WA": {
