@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T01:45:55+00:00",
+ "generated_at": "2026-11-08T01:58:26+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T01:58:15Z",
+   "msg": "Nov 07 features batch 8: HancockGR, PostBoy, Sardine sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T01:45:44Z",
    "msg": "Nov 07 features batch 7: Modern Bird, Pennyroyal, The Sovengard sent+delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-06T14:17:36Z",
    "msg": "Outreach: +1 sent (Sushi Friends Hashi, Fairfax, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T14:14:14Z",
-   "msg": "Outreach: +1 sent (Kappo DC, Washington, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 949,
-  "drafted": 943,
-  "sent": 943,
-  "delivered": 889,
+  "researched": 952,
+  "drafted": 946,
+  "sent": 946,
+  "delivered": 892,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 21
+   "features@yeschefguides.us": 24
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3465,7 +3465,7 @@
    "2026-11-07": {
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 21
+    "features@yeschefguides.us": 24
    }
   },
   "by_state": {
@@ -3555,8 +3555,8 @@
     "bounced": 2
    },
    "MI": {
-    "sent": 13,
-    "delivered": 13,
+    "sent": 15,
+    "delivered": 15,
     "bounced": 0
    },
    "MN": {
@@ -3660,8 +3660,8 @@
     "bounced": 2
    },
    "WI": {
-    "sent": 2,
-    "delivered": 2,
+    "sent": 3,
+    "delivered": 3,
     "bounced": 0
    }
   }
