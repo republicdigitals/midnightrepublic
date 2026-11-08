@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:07:03+00:00",
+ "generated_at": "2026-11-08T11:08:05+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:07:54Z",
+   "msg": "Log Belhurst Castle and Winery (Geneva, NY) scheduled Mon Nov 9 2026 6:20 AM Pacific",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:06:53Z",
    "msg": "Log Deer Mountain Inn (Tannersville, NY) scheduled for Mon Nov 9 2026 6:16 AM PT - researched/drafted/scheduled",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T01:18:20Z",
    "msg": "Nov 07 features batch 5: La Oficina, fin & tonic, THE GRILL DC sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T01:06:48Z",
-   "msg": "Nov 07 features batch 4: CHELSEA CORNER, Tatsu Dallas, EBESU Robata & Sushi sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 980,
-  "drafted": 974,
+  "researched": 981,
+  "drafted": 975,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
