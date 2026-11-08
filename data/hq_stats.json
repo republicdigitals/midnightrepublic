@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:34:56+00:00",
+ "generated_at": "2026-11-08T10:36:19+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:36:08Z",
+   "msg": "Log Tower Cafe researched/drafted/scheduled (partnerships, Mon Nov 9 5:18am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:34:44Z",
    "msg": "Log Omakase Por Favor Midtown researched/drafted/scheduled (partnerships, Mon Nov 9 5:15am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T21:57:31Z",
    "msg": "Nov 07 liam batch 5: AIONA, Orphan Breakfast House, Manaao Thai sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T21:36:30Z",
-   "msg": "Nov 07 liam batch 4: Coal Bunker, Craft House, Firehouse Crawfish sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 964,
-  "drafted": 958,
+  "researched": 965,
+  "drafted": 959,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
