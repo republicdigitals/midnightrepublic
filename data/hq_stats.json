@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:46:57+00:00",
+ "generated_at": "2026-11-08T10:48:32+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:48:22Z",
+   "msg": "Log Racca's Pizzeria Napoletana researched/drafted/scheduled (partnerships, Mon Nov 9 5:37am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:46:44Z",
    "msg": "Log Shabby Shack Eatery & Terra's Kraft Kitchen researched/drafted/scheduled (partnerships, Mon Nov 9 5:33am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T22:49:58Z",
    "msg": "Outreach run active: liam Nov 07 top-up, last 6 of cap",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T22:46:55Z",
-   "msg": "Outreach run paused: liam Nov 07 complete, 24 sent",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 969,
-  "drafted": 963,
+  "researched": 970,
+  "drafted": 964,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
