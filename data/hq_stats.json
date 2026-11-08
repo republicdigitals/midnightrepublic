@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:50:23+00:00",
+ "generated_at": "2026-11-08T10:51:24+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:51:14Z",
+   "msg": "Log Blue Barn Provisions researched/drafted/scheduled (partnerships, Mon Nov 9 5:45am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:50:11Z",
    "msg": "Log Balcony One researched/drafted/scheduled (partnerships, Mon Nov 9 5:40am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T23:05:34Z",
    "msg": "Outreach log: backfill Nov 5 account 3 link sends (28 delivered, Mooncussers sent)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T23:03:29Z",
-   "msg": "Outreach log: backfill Nov 7 account 3 link sends (10 delivered, 2 bounced)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 971,
-  "drafted": 965,
+  "researched": 972,
+  "drafted": 966,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
