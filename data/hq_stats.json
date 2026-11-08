@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:55:35+00:00",
+ "generated_at": "2026-11-08T10:56:55+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:56:44Z",
+   "msg": "Log Old Shell Store researched/drafted/scheduled (partnerships, Mon Nov 9 6:00am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:55:24Z",
    "msg": "Log Copper Whiskey Bar & Grill researched/drafted/scheduled (partnerships, Mon Nov 9 5:57am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T00:11:54Z",
    "msg": "Outreach run active: features Nov 07, held 30",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T23:22:21Z",
-   "msg": "Outreach paused: Nov 07 liam run closed, 30/30 cap reached",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 975,
-  "drafted": 969,
+  "researched": 976,
+  "drafted": 970,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
