@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T00:53:31+00:00",
+ "generated_at": "2026-11-08T01:06:59+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T01:06:48Z",
+   "msg": "Nov 07 features batch 4: CHELSEA CORNER, Tatsu Dallas, EBESU Robata & Sushi sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T00:53:20Z",
    "msg": "Nov 07 features batch 3: Madeira Park, Polanco Fine Cuisine, Plank Provisions sent+delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-06T14:04:10Z",
    "msg": "Outreach: +1 sent (Kema by Kenaki, Potomac, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T14:00:41Z",
-   "msg": "Outreach: +1 sent (Hot Spot Hot Pot, Fairfax, partnerships)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 937,
-  "drafted": 931,
-  "sent": 931,
-  "delivered": 877,
+  "researched": 940,
+  "drafted": 934,
+  "sent": 934,
+  "delivered": 880,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 9
+   "features@yeschefguides.us": 12
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3465,7 +3465,7 @@
    "2026-11-07": {
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 9
+    "features@yeschefguides.us": 12
    }
   },
   "by_state": {
@@ -3640,8 +3640,8 @@
     "bounced": 2
    },
    "TX": {
-    "sent": 25,
-    "delivered": 24,
+    "sent": 28,
+    "delivered": 27,
     "bounced": 1
    },
    "UT": {
