@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:05:59+00:00",
+ "generated_at": "2026-11-08T11:07:03+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:06:53Z",
+   "msg": "Log Deer Mountain Inn (Tannersville, NY) scheduled for Mon Nov 9 2026 6:16 AM PT - researched/drafted/scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:05:47Z",
    "msg": "Log Geneva on the Lake scheduled Mon Nov 9 2026 6:12 AM Pacific (partnerships)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T01:06:48Z",
    "msg": "Nov 07 features batch 4: CHELSEA CORNER, Tatsu Dallas, EBESU Robata & Sushi sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T00:53:20Z",
-   "msg": "Nov 07 features batch 3: Madeira Park, Polanco Fine Cuisine, Plank Provisions sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 979,
-  "drafted": 973,
+  "researched": 980,
+  "drafted": 974,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
