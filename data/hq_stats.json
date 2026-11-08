@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T02:24:48+00:00",
+ "generated_at": "2026-11-08T10:14:02+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:13:45Z",
+   "msg": "Outreach: +1 replied (Dassai Blue, Hyde Park, partnerships)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T02:24:24Z",
    "msg": "Outreach paused: Nov 07 features run closed, 30/30 cap reached",
    "who": "Cassius"
@@ -3388,25 +3393,16 @@
    "t": "2026-11-07T20:14:21Z",
    "msg": "Outreach run active: liam Nov 07, 24 leads from instagram_leads_nov05.csv",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T19:53:45Z",
-   "msg": "Outreach: Nov 6 features run held by Ethan, back to paused (0 sent)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 958,
-  "drafted": 952,
-  "sent": 952,
-  "delivered": 898,
+  "researched": 959,
+  "drafted": 953,
+  "sent": 953,
+  "delivered": 899,
   "bounced": 51,
-  "replies": 25,
-  "sent_today": {
-   "liam@yeschefsupply.com": 30,
-   "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 30
-  },
+  "replies": 26,
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-22": {
     "liam@yeschefgroup.co": 30,
@@ -3595,8 +3591,8 @@
     "bounced": 3
    },
    "NY": {
-    "sent": 16,
-    "delivered": 16,
+    "sent": 17,
+    "delivered": 17,
     "bounced": 0
    },
    "OH": {
