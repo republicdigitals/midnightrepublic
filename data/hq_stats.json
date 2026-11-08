@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T00:27:44+00:00",
+ "generated_at": "2026-11-08T00:41:55+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T00:41:45Z",
+   "msg": "Nov 07 features batch 2: Heirloom Market BBQ, Banshee ATL, 7th House sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T00:27:34Z",
    "msg": "Nov 07 features batch 1: THE CHASTAIN, JenChan's, The White Bull sent+delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-06T13:57:42Z",
    "msg": "Outreach: +1 sent (The Falls, Falls Church, partnerships)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-06T13:56:54Z",
-   "msg": "Outreach: run started (features, Nov 6)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 931,
-  "drafted": 925,
-  "sent": 925,
-  "delivered": 871,
+  "researched": 934,
+  "drafted": 928,
+  "sent": 928,
+  "delivered": 874,
   "bounced": 51,
   "replies": 25,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 12,
-   "features@yeschefguides.us": 3
+   "features@yeschefguides.us": 6
   },
   "sent_by_day": {
    "2026-10-22": {
@@ -3465,7 +3465,7 @@
    "2026-11-07": {
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 3
+    "features@yeschefguides.us": 6
    }
   },
   "by_state": {
@@ -3515,8 +3515,8 @@
     "bounced": 5
    },
    "GA": {
-    "sent": 8,
-    "delivered": 8,
+    "sent": 11,
+    "delivered": 11,
     "bounced": 0
    },
    "IA": {
