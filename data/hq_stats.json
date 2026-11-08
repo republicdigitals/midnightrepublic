@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:39:13+00:00",
+ "generated_at": "2026-11-08T10:44:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:43:54Z",
+   "msg": "Log Cassie's Steakhouse & Saloon researched/drafted/scheduled (partnerships, Mon Nov 9 5:25am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:39:02Z",
    "msg": "Log OBO' Italian Table & Bar researched/drafted/scheduled (partnerships, Mon Nov 9 5:21am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T22:31:54Z",
    "msg": "Nov 07 liam batch 7: La Nena Cantina, MONTE delivered; Junah bounced",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T22:17:00Z",
-   "msg": "Nov 07 liam batch 6: Lazy Bear, Woodhouse Fish Co, Epic Steak sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 966,
-  "drafted": 960,
+  "researched": 967,
+  "drafted": 961,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
@@ -3658,6 +3658,11 @@
    "WI": {
     "sent": 3,
     "delivered": 3,
+    "bounced": 0
+   },
+   "WY": {
+    "sent": 0,
+    "delivered": 0,
     "bounced": 0
    }
   }
