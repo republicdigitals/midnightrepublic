@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:19:02+00:00",
+ "generated_at": "2026-11-08T11:20:10+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T11:19:58Z",
+   "msg": "Log Seven (Bozeman MT) scheduled Tue Nov 10 2026 5:03 AM PT - partnerships",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:18:52Z",
    "msg": "Log Feed Cafe (Bozeman, MT) scheduled Tue Nov 10 2026 5:00 AM Pacific - researched/drafted/scheduled",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-08T10:30:58Z",
    "msg": "Log Mulvaney's B&L researched/drafted/scheduled (partnerships, Mon Nov 9 5:07am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:30:03Z",
-   "msg": "Log Zocalo researched/drafted/scheduled (partnerships, Mon Nov 9 5:03am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 990,
-  "drafted": 984,
+  "researched": 991,
+  "drafted": 985,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
