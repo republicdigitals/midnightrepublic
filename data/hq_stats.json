@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T10:54:18+00:00",
+ "generated_at": "2026-11-08T10:55:35+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T10:55:24Z",
+   "msg": "Log Copper Whiskey Bar & Grill researched/drafted/scheduled (partnerships, Mon Nov 9 5:57am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T10:54:06Z",
    "msg": "Log The Blanca Tatanka researched/drafted/scheduled (partnerships, Mon Nov 9 5:52am PT)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-07T23:22:21Z",
    "msg": "Outreach paused: Nov 07 liam run closed, 30/30 cap reached",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-07T23:22:01Z",
-   "msg": "Nov 07 liam top-up batch 2: Velvet Banjo, Dad Lounge, Oregon City Brewing sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 974,
-  "drafted": 968,
+  "researched": 975,
+  "drafted": 969,
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
@@ -3564,6 +3564,11 @@
     "sent": 4,
     "delivered": 3,
     "bounced": 1
+   },
+   "MT": {
+    "sent": 0,
+    "delivered": 0,
+    "bounced": 0
    },
    "NC": {
     "sent": 36,
