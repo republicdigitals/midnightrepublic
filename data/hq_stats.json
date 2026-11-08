@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T11:21:49+00:00",
+ "generated_at": "2026-11-08T20:28:15+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-08T20:28:03Z",
+   "msg": "Log replied rows for 19 venues found in Nov 8 inbox check",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T11:21:37Z",
    "msg": "Log scheduled outreach: gute Laune Wurstbar, Bozeman MT (researched/drafted/scheduled), Tue Nov 10 2026 5:07 AM Pacific",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-08T10:34:44Z",
    "msg": "Log Omakase Por Favor Midtown researched/drafted/scheduled (partnerships, Mon Nov 9 5:15am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:32:22Z",
-   "msg": "Log The Morning Fork researched/drafted/scheduled (partnerships, Mon Nov 9 5:10am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3401,7 +3401,7 @@
   "sent": 953,
   "delivered": 899,
   "bounced": 51,
-  "replies": 26,
+  "replies": 45,
   "sent_today": {},
   "sent_by_day": {
    "2026-10-22": {
