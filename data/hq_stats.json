@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T01:37:47+00:00",
+ "generated_at": "2026-11-09T14:44:12+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T14:44:00Z",
+   "msg": "Log Shabby Shack reply (partnerships, 2026-11-09)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T01:37:31Z",
    "msg": "Log Aquitaine + Bogie's Place bounced (Nov 8 permanent delivery failures, host not reachable; both were pending in retry queue since Nov 4)",
    "who": "Cassius"
@@ -3388,20 +3393,15 @@
    "t": "2026-11-08T10:39:02Z",
    "msg": "Log OBO' Italian Table & Bar researched/drafted/scheduled (partnerships, Mon Nov 9 5:21am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:36:08Z",
-   "msg": "Log Tower Cafe researched/drafted/scheduled (partnerships, Mon Nov 9 5:18am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 992,
   "drafted": 986,
-  "sent": 953,
-  "delivered": 899,
+  "sent": 954,
+  "delivered": 900,
   "bounced": 53,
-  "replies": 45,
+  "replies": 46,
   "sent_today": {},
   "sent_by_day": {
    "2026-10-22": {
@@ -3671,8 +3671,8 @@
     "bounced": 0
    },
    "WY": {
-    "sent": 0,
-    "delivered": 0,
+    "sent": 1,
+    "delivered": 1,
     "bounced": 0
    }
   }
