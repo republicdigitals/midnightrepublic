@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T16:17:09+00:00",
+ "generated_at": "2026-11-09T16:28:57+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T16:28:46Z",
+   "msg": "Nov 9 liam batch 6: Macera's Italian Restaurant, IL Fornello Italian Restaurant, Wine & Cheese Restaurant (3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T16:16:55Z",
    "msg": "Nov 9 liam batch 5: Raphael's Restaurant delivered, Red Ginger BOUNCED 552 (mailbox not found), Island House Restaurant delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T10:54:06Z",
    "msg": "Log The Blanca Tatanka researched/drafted/scheduled (partnerships, Mon Nov 9 5:52am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:52:31Z",
-   "msg": "Log Bratskellar + Dinnerhorn researched/drafted/scheduled (partnerships, Mon Nov 9 5:48am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1007,
-  "drafted": 1001,
-  "sent": 969,
-  "delivered": 913,
+  "researched": 1010,
+  "drafted": 1004,
+  "sent": 972,
+  "delivered": 916,
   "bounced": 55,
   "replies": 46,
   "sent_today": {
-   "liam@yeschefsupply.com": 15
+   "liam@yeschefsupply.com": 18
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3462,7 +3462,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 15
+    "liam@yeschefsupply.com": 18
    }
   },
   "by_state": {
@@ -3632,8 +3632,8 @@
     "bounced": 0
    },
    "RI": {
-    "sent": 13,
-    "delivered": 12,
+    "sent": 16,
+    "delivered": 15,
     "bounced": 1
    },
    "SC": {
