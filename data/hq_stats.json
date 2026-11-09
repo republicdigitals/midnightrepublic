@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-08T20:28:15+00:00",
+ "generated_at": "2026-11-09T01:37:47+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T01:37:31Z",
+   "msg": "Log Aquitaine + Bogie's Place bounced (Nov 8 permanent delivery failures, host not reachable; both were pending in retry queue since Nov 4)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-08T20:28:03Z",
    "msg": "Log replied rows for 19 venues found in Nov 8 inbox check",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-08T10:36:08Z",
    "msg": "Log Tower Cafe researched/drafted/scheduled (partnerships, Mon Nov 9 5:18am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:34:44Z",
-   "msg": "Log Omakase Por Favor Midtown researched/drafted/scheduled (partnerships, Mon Nov 9 5:15am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3400,7 +3400,7 @@
   "drafted": 986,
   "sent": 953,
   "delivered": 899,
-  "bounced": 51,
+  "bounced": 53,
   "replies": 45,
   "sent_today": {},
   "sent_by_day": {
@@ -3543,7 +3543,7 @@
    "MA": {
     "sent": 63,
     "delivered": 56,
-    "bounced": 6
+    "bounced": 8
    },
    "MD": {
     "sent": 24,
