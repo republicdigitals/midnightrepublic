@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T16:53:06+00:00",
+ "generated_at": "2026-11-09T16:53:25+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T16:53:12Z",
+   "msg": "Outreach: +1 sent row (888 Sushi & Robata, Nov 9 link batch)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T16:52:53Z",
    "msg": "Outreach: +29 sent, 28 delivered, 1 bounced (Nov 9 link batch)",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-08T10:59:19Z",
    "msg": "Log Hideaway Bay Resort researched/drafted/scheduled (partnerships, Mon Nov 9 6:09am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:57:59Z",
-   "msg": "Log Plonk Bozeman researched/drafted/scheduled (partnerships, Mon Nov 9 6:04am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3404,7 +3404,7 @@
   "replies": 47,
   "sent_today": {
    "liam@yeschefsupply.com": 21,
-   "contact@jackdinningroom.com": 30
+   "contact@jackdinningroom.com": 31
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-09": {
     "liam@yeschefsupply.com": 21,
-    "contact@jackdinningroom.com": 30
+    "contact@jackdinningroom.com": 31
    }
   },
   "by_state": {
