@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T18:21:20+00:00",
+ "generated_at": "2026-11-09T18:31:20+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,16 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T18:30:20Z",
+   "msg": "Nov 11 scheduled batch 6: The Pit 6:00am PT, Kitch Organic 6:04am PT, Carolyn's Soul Food 6:08am PT (Send Later, Outbox total 48)",
+   "who": "Cassius"
+  },
+  {
+   "t": "2026-11-09T18:25:26Z",
+   "msg": "Nov 11 scheduled batch 5: Taco Drive 5:48am PT, Harry's Daughter 5:52am PT, Swadist 5:56am PT (Send Later, Outbox total 45)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T18:21:08Z",
    "msg": "Nov 11 scheduled batch 4: Pierogies House 5:36am PT, Tavern off the Green 5:40am PT, Bombay River 5:44am PT (Send Later, Outbox total 42)",
    "who": "Cassius"
@@ -3383,27 +3393,17 @@
    "t": "2026-11-09T15:10:21Z",
    "msg": "Nov 9 liam run started: status running (346-queue, 30 live today + scheduled tail)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T15:01:27Z",
-   "msg": "Log Cremini's Nov 8 and Nov 9 replies (replied rows); Don's reply with 3 NYC feature links sent Nov 9, Delivered",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T14:44:00Z",
-   "msg": "Log Shabby Shack reply (partnerships, 2026-11-09)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1094,
-  "drafted": 1088,
-  "sent": 1056,
+  "researched": 1100,
+  "drafted": 1094,
+  "sent": 1062,
   "delivered": 955,
   "bounced": 57,
   "replies": 47,
   "sent_today": {
-   "liam@yeschefsupply.com": 72,
+   "liam@yeschefsupply.com": 78,
    "contact@jackdinningroom.com": 31
   },
   "sent_by_day": {
@@ -3463,7 +3463,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 72,
+    "liam@yeschefsupply.com": 78,
     "contact@jackdinningroom.com": 31
    }
   },
@@ -3589,7 +3589,7 @@
     "bounced": 0
    },
    "NJ": {
-    "sent": 32,
+    "sent": 38,
     "delivered": 1,
     "bounced": 2
    },
