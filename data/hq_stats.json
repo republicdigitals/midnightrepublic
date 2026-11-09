@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T15:33:33+00:00",
+ "generated_at": "2026-11-09T15:44:13+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T15:44:00Z",
+   "msg": "Nov 9 liam batch 2: Ratchet Brewery, Buoy Beer Company, Van Henion Brewing (3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T15:33:21Z",
    "msg": "Nov 9 liam batch 1: Native Eatery and Bar, Duende at Silo City, Root & Rye (3 sent, 3 delivered)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T10:48:22Z",
    "msg": "Log Racca's Pizzeria Napoletana researched/drafted/scheduled (partnerships, Mon Nov 9 5:37am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:46:44Z",
-   "msg": "Log Shabby Shack Eatery & Terra's Kraft Kitchen researched/drafted/scheduled (partnerships, Mon Nov 9 5:33am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 995,
-  "drafted": 989,
-  "sent": 957,
-  "delivered": 903,
+  "researched": 998,
+  "drafted": 992,
+  "sent": 960,
+  "delivered": 906,
   "bounced": 53,
   "replies": 46,
   "sent_today": {
-   "liam@yeschefsupply.com": 3
+   "liam@yeschefsupply.com": 6
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3462,7 +3462,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 3
+    "liam@yeschefsupply.com": 6
    }
   },
   "by_state": {
@@ -3622,8 +3622,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 34,
-    "delivered": 33,
+    "sent": 37,
+    "delivered": 36,
     "bounced": 1
    },
    "PA": {
