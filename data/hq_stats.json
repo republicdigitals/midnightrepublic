@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T15:44:13+00:00",
+ "generated_at": "2026-11-09T15:54:34+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T15:54:21Z",
+   "msg": "Nov 9 liam batch 3: Viking Brewing Company, Leikam Brewing, Wonder Bar (3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T15:44:00Z",
    "msg": "Nov 9 liam batch 2: Ratchet Brewery, Buoy Beer Company, Van Henion Brewing (3 sent, 3 delivered)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T10:50:11Z",
    "msg": "Log Balcony One researched/drafted/scheduled (partnerships, Mon Nov 9 5:40am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:48:22Z",
-   "msg": "Log Racca's Pizzeria Napoletana researched/drafted/scheduled (partnerships, Mon Nov 9 5:37am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 998,
-  "drafted": 992,
-  "sent": 960,
-  "delivered": 906,
+  "researched": 1001,
+  "drafted": 995,
+  "sent": 963,
+  "delivered": 909,
   "bounced": 53,
   "replies": 46,
   "sent_today": {
-   "liam@yeschefsupply.com": 6
+   "liam@yeschefsupply.com": 9
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3462,7 +3462,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 6
+    "liam@yeschefsupply.com": 9
    }
   },
   "by_state": {
@@ -3622,8 +3622,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 37,
-    "delivered": 36,
+    "sent": 39,
+    "delivered": 38,
     "bounced": 1
    },
    "PA": {
@@ -3647,8 +3647,8 @@
     "bounced": 2
    },
    "TX": {
-    "sent": 28,
-    "delivered": 27,
+    "sent": 29,
+    "delivered": 28,
     "bounced": 1
    },
    "UT": {
