@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T15:10:35+00:00",
+ "generated_at": "2026-11-09T15:33:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T15:33:21Z",
+   "msg": "Nov 9 liam batch 1: Native Eatery and Bar, Duende at Silo City, Root & Rye (3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T15:10:21Z",
    "msg": "Nov 9 liam run started: status running (346-queue, 30 live today + scheduled tail)",
    "who": "Cassius"
@@ -3388,26 +3393,19 @@
    "t": "2026-11-08T10:46:44Z",
    "msg": "Log Shabby Shack Eatery & Terra's Kraft Kitchen researched/drafted/scheduled (partnerships, Mon Nov 9 5:33am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:45:07Z",
-   "msg": "Log Trailhead Bar | Grill | Wood Fired Pizza researched/drafted/scheduled (partnerships, Mon Nov 9 5:28am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 992,
-  "drafted": 986,
-  "sent": 954,
-  "delivered": 900,
+  "researched": 995,
+  "drafted": 989,
+  "sent": 957,
+  "delivered": 903,
   "bounced": 53,
   "replies": 46,
-  "sent_today": {},
+  "sent_today": {
+   "liam@yeschefsupply.com": 3
+  },
   "sent_by_day": {
-   "2026-10-22": {
-    "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 32
-   },
    "2026-10-23": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30
@@ -3462,6 +3460,9 @@
     "liam@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 12,
     "features@yeschefguides.us": 30
+   },
+   "2026-11-09": {
+    "liam@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3601,8 +3602,8 @@
     "bounced": 3
    },
    "NY": {
-    "sent": 17,
-    "delivered": 17,
+    "sent": 19,
+    "delivered": 19,
     "bounced": 0
    },
    "OH": {
@@ -3621,8 +3622,8 @@
     "bounced": 0
    },
    "OR": {
-    "sent": 33,
-    "delivered": 32,
+    "sent": 34,
+    "delivered": 33,
     "bounced": 1
    },
    "PA": {
