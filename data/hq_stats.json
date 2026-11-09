@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T18:31:20+00:00",
+ "generated_at": "2026-11-09T18:34:14+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T18:34:03Z",
+   "msg": "Nov 11 scheduled batch 7: The Belgian Plate 6:12am PT, Charm Thai Cuisine 6:16am PT, Kai Yang 6:20am PT (Send Later, Outbox total 51)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T18:30:20Z",
    "msg": "Nov 11 scheduled batch 6: The Pit 6:00am PT, Kitch Organic 6:04am PT, Carolyn's Soul Food 6:08am PT (Send Later, Outbox total 48)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-09T15:33:21Z",
    "msg": "Nov 9 liam batch 1: Native Eatery and Bar, Duende at Silo City, Root & Rye (3 sent, 3 delivered)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T15:10:21Z",
-   "msg": "Nov 9 liam run started: status running (346-queue, 30 live today + scheduled tail)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1100,
-  "drafted": 1094,
-  "sent": 1062,
+  "researched": 1103,
+  "drafted": 1097,
+  "sent": 1065,
   "delivered": 955,
   "bounced": 57,
   "replies": 47,
   "sent_today": {
-   "liam@yeschefsupply.com": 78,
+   "liam@yeschefsupply.com": 81,
    "contact@jackdinningroom.com": 31
   },
   "sent_by_day": {
@@ -3463,7 +3463,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 78,
+    "liam@yeschefsupply.com": 81,
     "contact@jackdinningroom.com": 31
    }
   },
@@ -3589,7 +3589,7 @@
     "bounced": 0
    },
    "NJ": {
-    "sent": 38,
+    "sent": 41,
     "delivered": 1,
     "bounced": 2
    },
