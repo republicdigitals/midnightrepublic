@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T17:21:14+00:00",
+ "generated_at": "2026-11-09T17:27:22+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T17:27:09Z",
+   "msg": "Nov 10 scheduled batch 1: Rooftop at the Providence G 5:00am PT, Parkside Rotisserie and Bar 5:04am PT, The East End 5:08am PT (Send Later, verified in Outbox)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T17:21:01Z",
    "msg": "Nov 9 liam batch 10: Revel Lounge and Bistro sent (In Retry Queue, pending), Lounge at Sarto BOUNCED 550 5.7.133 (restricted group), Arias Lounge delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T11:09:20Z",
    "msg": "Log Skaneateles Fields Resort & Spa (partnerships): researched, drafted, scheduled for Mon Nov 9 2026 6:24 AM PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T11:07:54Z",
-   "msg": "Log Belhurst Castle and Winery (Geneva, NY) scheduled Mon Nov 9 2026 6:20 AM Pacific",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1052,
-  "drafted": 1046,
-  "sent": 1014,
+  "researched": 1055,
+  "drafted": 1049,
+  "sent": 1017,
   "delivered": 955,
   "bounced": 57,
   "replies": 47,
   "sent_today": {
-   "liam@yeschefsupply.com": 30,
+   "liam@yeschefsupply.com": 33,
    "contact@jackdinningroom.com": 31
   },
   "sent_by_day": {
@@ -3463,7 +3463,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 30,
+    "liam@yeschefsupply.com": 33,
     "contact@jackdinningroom.com": 31
    }
   },
@@ -3634,7 +3634,7 @@
     "bounced": 0
    },
    "RI": {
-    "sent": 28,
+    "sent": 31,
     "delivered": 25,
     "bounced": 2
    },
