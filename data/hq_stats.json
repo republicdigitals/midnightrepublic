@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T17:38:13+00:00",
+ "generated_at": "2026-11-09T17:41:45+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T17:41:34Z",
+   "msg": "Nov 10 scheduled batch 5: Modern Bistro 5:48am PT, The Hamilton Inn 5:52am PT, Light Horse Tavern 5:56am PT (Send Later, Outbox total 15)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T17:38:01Z",
    "msg": "Nov 10 scheduled batch 4: Dehlicious 5:36am PT, Chaska Restaurant 5:40am PT, La Familia Cumberland 5:44am PT (Send Later, Outbox total 12)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T11:13:56Z",
    "msg": "Log Bitterroot Bistro (Bozeman MT) scheduled Mon Nov 9 2026 6:39 AM Pacific, partnerships",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T11:13:14Z",
-   "msg": "Log Fink's Delicatessen (Bozeman) scheduled Mon Nov 9 2026 6:35 AM Pacific - researched/drafted/scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1064,
-  "drafted": 1058,
-  "sent": 1026,
+  "researched": 1067,
+  "drafted": 1061,
+  "sent": 1029,
   "delivered": 955,
   "bounced": 57,
   "replies": 47,
   "sent_today": {
-   "liam@yeschefsupply.com": 42,
+   "liam@yeschefsupply.com": 45,
    "contact@jackdinningroom.com": 31
   },
   "sent_by_day": {
@@ -3463,7 +3463,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 42,
+    "liam@yeschefsupply.com": 45,
     "contact@jackdinningroom.com": 31
    }
   },
@@ -3589,7 +3589,7 @@
     "bounced": 0
    },
    "NJ": {
-    "sent": 3,
+    "sent": 5,
     "delivered": 1,
     "bounced": 2
    },
@@ -3634,7 +3634,7 @@
     "bounced": 0
    },
    "RI": {
-    "sent": 40,
+    "sent": 41,
     "delivered": 25,
     "bounced": 2
    },
