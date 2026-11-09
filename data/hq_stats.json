@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T16:06:20+00:00",
+ "generated_at": "2026-11-09T16:17:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T16:16:55Z",
+   "msg": "Nov 9 liam batch 5: Raphael's Restaurant delivered, Red Ginger BOUNCED 552 (mailbox not found), Island House Restaurant delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T16:06:09Z",
    "msg": "Nov 9 liam batch 4: Coughlin's Law Kitchen and Ale House delivered, Necio Mexican Kitchen BOUNCED 550 5.1.1 (address does not exist), Fleur Providence delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T10:52:31Z",
    "msg": "Log Bratskellar + Dinnerhorn researched/drafted/scheduled (partnerships, Mon Nov 9 5:48am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:51:14Z",
-   "msg": "Log Blue Barn Provisions researched/drafted/scheduled (partnerships, Mon Nov 9 5:45am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1004,
-  "drafted": 998,
-  "sent": 966,
-  "delivered": 911,
-  "bounced": 54,
+  "researched": 1007,
+  "drafted": 1001,
+  "sent": 969,
+  "delivered": 913,
+  "bounced": 55,
   "replies": 46,
   "sent_today": {
-   "liam@yeschefsupply.com": 12
+   "liam@yeschefsupply.com": 15
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3462,7 +3462,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 12
+    "liam@yeschefsupply.com": 15
    }
   },
   "by_state": {
@@ -3632,9 +3632,9 @@
     "bounced": 0
    },
    "RI": {
-    "sent": 10,
-    "delivered": 10,
-    "bounced": 0
+    "sent": 13,
+    "delivered": 12,
+    "bounced": 1
    },
    "SC": {
     "sent": 46,
