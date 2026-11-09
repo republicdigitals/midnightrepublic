@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T16:28:57+00:00",
+ "generated_at": "2026-11-09T16:40:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T16:39:51Z",
+   "msg": "Nov 9 liam batch 7: Andino's Restaurant, India Restaurant, M\u00e9m\u00e8re's (3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T16:28:46Z",
    "msg": "Nov 9 liam batch 6: Macera's Italian Restaurant, IL Fornello Italian Restaurant, Wine & Cheese Restaurant (3 sent, 3 delivered)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T10:55:24Z",
    "msg": "Log Copper Whiskey Bar & Grill researched/drafted/scheduled (partnerships, Mon Nov 9 5:57am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:54:06Z",
-   "msg": "Log The Blanca Tatanka researched/drafted/scheduled (partnerships, Mon Nov 9 5:52am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1010,
-  "drafted": 1004,
-  "sent": 972,
-  "delivered": 916,
+  "researched": 1013,
+  "drafted": 1007,
+  "sent": 975,
+  "delivered": 919,
   "bounced": 55,
   "replies": 46,
   "sent_today": {
-   "liam@yeschefsupply.com": 18
+   "liam@yeschefsupply.com": 21
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3462,7 +3462,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 18
+    "liam@yeschefsupply.com": 21
    }
   },
   "by_state": {
@@ -3632,8 +3632,8 @@
     "bounced": 0
    },
    "RI": {
-    "sent": 16,
-    "delivered": 15,
+    "sent": 19,
+    "delivered": 18,
     "bounced": 1
    },
    "SC": {
