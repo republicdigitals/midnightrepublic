@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T16:40:06+00:00",
+ "generated_at": "2026-11-09T16:41:35+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T16:41:23Z",
+   "msg": "Root & Rye Hop Farm and Brewery replied 2026-11-09 (Shelly Bigley, owner; wants a meeting with her and Brewer Bobby; Ethan replied himself 8:34 AM PST with media kit)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T16:39:51Z",
    "msg": "Nov 9 liam batch 7: Andino's Restaurant, India Restaurant, M\u00e9m\u00e8re's (3 sent, 3 delivered)",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-08T10:56:44Z",
    "msg": "Log Old Shell Store researched/drafted/scheduled (partnerships, Mon Nov 9 6:00am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:55:24Z",
-   "msg": "Log Copper Whiskey Bar & Grill researched/drafted/scheduled (partnerships, Mon Nov 9 5:57am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3401,7 +3401,7 @@
   "sent": 975,
   "delivered": 919,
   "bounced": 55,
-  "replies": 46,
+  "replies": 47,
   "sent_today": {
    "liam@yeschefsupply.com": 21
   },
