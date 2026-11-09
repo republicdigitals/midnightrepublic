@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T15:54:34+00:00",
+ "generated_at": "2026-11-09T16:06:20+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T16:06:09Z",
+   "msg": "Nov 9 liam batch 4: Coughlin's Law Kitchen and Ale House delivered, Necio Mexican Kitchen BOUNCED 550 5.1.1 (address does not exist), Fleur Providence delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T15:54:21Z",
    "msg": "Nov 9 liam batch 3: Viking Brewing Company, Leikam Brewing, Wonder Bar (3 sent, 3 delivered)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-08T10:51:14Z",
    "msg": "Log Blue Barn Provisions researched/drafted/scheduled (partnerships, Mon Nov 9 5:45am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:50:11Z",
-   "msg": "Log Balcony One researched/drafted/scheduled (partnerships, Mon Nov 9 5:40am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1001,
-  "drafted": 995,
-  "sent": 963,
-  "delivered": 909,
-  "bounced": 53,
+  "researched": 1004,
+  "drafted": 998,
+  "sent": 966,
+  "delivered": 911,
+  "bounced": 54,
   "replies": 46,
   "sent_today": {
-   "liam@yeschefsupply.com": 9
+   "liam@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3462,7 +3462,7 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 9
+    "liam@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3487,9 +3487,9 @@
     "bounced": 1
    },
    "CO": {
-    "sent": 119,
+    "sent": 120,
     "delivered": 112,
-    "bounced": 8
+    "bounced": 9
    },
    "CT": {
     "sent": 3,
@@ -3627,13 +3627,13 @@
     "bounced": 1
    },
    "PA": {
-    "sent": 39,
-    "delivered": 38,
+    "sent": 40,
+    "delivered": 39,
     "bounced": 0
    },
    "RI": {
-    "sent": 9,
-    "delivered": 9,
+    "sent": 10,
+    "delivered": 10,
     "bounced": 0
    },
    "SC": {
