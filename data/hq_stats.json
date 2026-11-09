@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T16:41:35+00:00",
+ "generated_at": "2026-11-09T16:53:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-09T16:52:53Z",
+   "msg": "Outreach: +29 sent, 28 delivered, 1 bounced (Nov 9 link batch)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-09T16:41:23Z",
    "msg": "Root & Rye Hop Farm and Brewery replied 2026-11-09 (Shelly Bigley, owner; wants a meeting with her and Brewer Bobby; Ethan replied himself 8:34 AM PST with media kit)",
    "who": "Cassius"
@@ -3388,22 +3393,18 @@
    "t": "2026-11-08T10:57:59Z",
    "msg": "Log Plonk Bozeman researched/drafted/scheduled (partnerships, Mon Nov 9 6:04am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-08T10:56:44Z",
-   "msg": "Log Old Shell Store researched/drafted/scheduled (partnerships, Mon Nov 9 6:00am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1013,
-  "drafted": 1007,
-  "sent": 975,
-  "delivered": 919,
-  "bounced": 55,
+  "researched": 1043,
+  "drafted": 1037,
+  "sent": 1005,
+  "delivered": 948,
+  "bounced": 56,
   "replies": 47,
   "sent_today": {
-   "liam@yeschefsupply.com": 21
+   "liam@yeschefsupply.com": 21,
+   "contact@jackdinningroom.com": 30
   },
   "sent_by_day": {
    "2026-10-23": {
@@ -3462,7 +3463,8 @@
     "features@yeschefguides.us": 30
    },
    "2026-11-09": {
-    "liam@yeschefsupply.com": 21
+    "liam@yeschefsupply.com": 21,
+    "contact@jackdinningroom.com": 30
    }
   },
   "by_state": {
@@ -3482,8 +3484,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 84,
-    "delivered": 82,
+    "sent": 91,
+    "delivered": 89,
     "bounced": 1
    },
    "CO": {
@@ -3597,9 +3599,9 @@
     "bounced": 1
    },
    "NV": {
-    "sent": 21,
-    "delivered": 18,
-    "bounced": 3
+    "sent": 44,
+    "delivered": 40,
+    "bounced": 4
    },
    "NY": {
     "sent": 19,
