@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-10T17:10:51+00:00",
+ "generated_at": "2026-11-10T17:25:07+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-10T17:24:52Z",
+   "msg": "Outreach: +3 sent (New York/Brooklyn)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-10T17:10:33Z",
    "msg": "Outreach: Mooncussers Tavern bounced (Harwich Port)",
    "who": "Cassius"
@@ -3388,26 +3393,19 @@
    "t": "2026-11-09T16:16:55Z",
    "msg": "Nov 9 liam batch 5: Raphael's Restaurant delivered, Red Ginger BOUNCED 552 (mailbox not found), Island House Restaurant delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T16:06:09Z",
-   "msg": "Nov 9 liam batch 4: Coughlin's Law Kitchen and Ale House delivered, Necio Mexican Kitchen BOUNCED 550 5.1.1 (address does not exist), Fleur Providence delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1109,
-  "drafted": 1103,
-  "sent": 1071,
-  "delivered": 955,
+  "researched": 1112,
+  "drafted": 1106,
+  "sent": 1074,
+  "delivered": 958,
   "bounced": 58,
   "replies": 47,
-  "sent_today": {},
+  "sent_today": {
+   "contact@jackdinningroom.com": 3
+  },
   "sent_by_day": {
-   "2026-10-23": {
-    "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 30
-   },
    "2026-10-24": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30
@@ -3462,6 +3460,9 @@
    "2026-11-09": {
     "liam@yeschefsupply.com": 87,
     "contact@jackdinningroom.com": 31
+   },
+   "2026-11-10": {
+    "contact@jackdinningroom.com": 3
    }
   },
   "by_state": {
@@ -3601,8 +3602,8 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 19,
-    "delivered": 19,
+    "sent": 22,
+    "delivered": 22,
     "bounced": 0
    },
    "OH": {
