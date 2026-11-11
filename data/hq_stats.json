@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T06:35:15+00:00",
+ "generated_at": "2026-11-11T06:39:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T06:39:20Z",
+   "msg": "Nov 12 liam batch 6: The Local, Dempsey's, Cattleman's scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T06:35:04Z",
    "msg": "Nov 12 liam batch 5: Cook's Kitchen, Nick's, Depot scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T17:27:09Z",
    "msg": "Nov 10 scheduled batch 1: Rooftop at the Providence G 5:00am PT, Parkside Rotisserie and Bar 5:04am PT, The East End 5:08am PT (Send Later, verified in Outbox)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T17:21:01Z",
-   "msg": "Nov 9 liam batch 10: Revel Lounge and Bistro sent (In Retry Queue, pending), Lounge at Sarto BOUNCED 550 5.7.133 (restricted group), Arias Lounge delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1136,
-  "drafted": 1130,
-  "sent": 1098,
+  "researched": 1139,
+  "drafted": 1133,
+  "sent": 1101,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 21
+   "liam@yeschefsupply.com": 24
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 21
+    "liam@yeschefsupply.com": 24
    }
   },
   "by_state": {
@@ -3644,7 +3644,7 @@
     "bounced": 2
    },
    "SD": {
-    "sent": 15,
+    "sent": 18,
     "delivered": 0,
     "bounced": 0
    },
