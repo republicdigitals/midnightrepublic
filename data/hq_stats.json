@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T06:49:59+00:00",
+ "generated_at": "2026-11-11T06:53:38+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T06:53:10Z",
+   "msg": "Nov 12 liam batch 9: 2 Doors Down, Sanford's, Luxury Diner scheduled \u2014 Thursday liam complete 30/30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T06:49:48Z",
    "msg": "Nov 12 liam batch 8: Bella Fuoco, Metropolitan, Accomplice scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T17:38:01Z",
    "msg": "Nov 10 scheduled batch 4: Dehlicious 5:36am PT, Chaska Restaurant 5:40am PT, La Familia Cumberland 5:44am PT (Send Later, Outbox total 12)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T17:34:25Z",
-   "msg": "Nov 10 scheduled batch 3: MamaJuana Restaurant 5:24am PT, Sea Craft Restaurant 5:28am PT, Providence G Pub 5:32am PT (Send Later, Outbox total 9)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1145,
-  "drafted": 1139,
-  "sent": 1107,
+  "researched": 1148,
+  "drafted": 1142,
+  "sent": 1110,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 30
+   "liam@yeschefsupply.com": 33
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 30
+    "liam@yeschefsupply.com": 33
    }
   },
   "by_state": {
@@ -3679,7 +3679,7 @@
     "bounced": 0
    },
    "WY": {
-    "sent": 5,
+    "sent": 8,
     "delivered": 1,
     "bounced": 0
    }
