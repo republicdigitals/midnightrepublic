@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T06:46:40+00:00",
+ "generated_at": "2026-11-11T06:49:59+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T06:49:48Z",
+   "msg": "Nov 12 liam batch 8: Bella Fuoco, Metropolitan, Accomplice scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T06:46:29Z",
    "msg": "Nov 12 liam batch 7: Ben's Brewing, Cafe Brule, Albany scheduled (bodies + signatures verified in Outbox)",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T17:34:25Z",
    "msg": "Nov 10 scheduled batch 3: MamaJuana Restaurant 5:24am PT, Sea Craft Restaurant 5:28am PT, Providence G Pub 5:32am PT (Send Later, Outbox total 9)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T17:30:44Z",
-   "msg": "Nov 10 scheduled batch 2: CAV 5:12am PT, Providence Oyster Bar (East Greenwich) 5:16am PT, Trattoria Appia 5:20am PT (Send Later, Outbox total 6)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1142,
-  "drafted": 1136,
-  "sent": 1104,
+  "researched": 1145,
+  "drafted": 1139,
+  "sent": 1107,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 27
+   "liam@yeschefsupply.com": 30
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 27
+    "liam@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3679,7 +3679,7 @@
     "bounced": 0
    },
    "WY": {
-    "sent": 2,
+    "sent": 5,
     "delivered": 1,
     "bounced": 0
    }
