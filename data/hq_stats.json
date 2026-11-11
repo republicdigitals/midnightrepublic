@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:17:09+00:00",
+ "generated_at": "2026-11-11T07:20:26+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:20:15Z",
+   "msg": "Nov 13 liam batch 8: Beehive Grill, Bella Marie's, Ogden Pizzeria scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:16:58Z",
    "msg": "Nov 13 liam batch 7: Taste of India, Blind Dog, Tandoori Oven scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T18:12:46Z",
    "msg": "Nov 11 scheduled batch 2: Battello 5:12am PT, Portofino's 5:16am PT, JBJ Soul Kitchen 5:20am PT (Send Later, Outbox total 36)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T18:07:39Z",
-   "msg": "Nov 11 scheduled batch 1: Crockett's Fish Fry 5:00am PT, The Frog and the Peach 5:04am PT, Porta 5:08am PT (Send Later, Outbox total 33)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1169,
-  "drafted": 1163,
-  "sent": 1131,
+  "researched": 1172,
+  "drafted": 1166,
+  "sent": 1134,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 54
+   "liam@yeschefsupply.com": 57
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 54
+    "liam@yeschefsupply.com": 57
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 22,
+    "sent": 25,
     "delivered": 3,
     "bounced": 1
    },
