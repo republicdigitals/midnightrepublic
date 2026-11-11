@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T16:59:56+00:00",
+ "generated_at": "2026-11-11T17:02:47+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T17:02:36Z",
+   "msg": "Partnerships Nov 12 batch 7: Mangy Moose, Black Tooth Brewing, Mint Bar scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T16:59:44Z",
    "msg": "Partnerships Nov 12 batch 6: Cafe Genevieve, Hatch Taqueria, Calico scheduled",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T06:59:52Z",
    "msg": "Nov 13 liam batch 2: Himalayan Kitchen, Tuscany, Feldman's Deli scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T06:56:15Z",
-   "msg": "Nov 13 liam batch 1: One Eyed Buffalo, Pinky G's, Bella's scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1280,
-  "drafted": 1274,
-  "sent": 1274,
+  "researched": 1283,
+  "drafted": 1277,
+  "sent": 1277,
   "delivered": 1037,
   "bounced": 65,
   "replies": 59,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 42
+   "partnerships@yeschefsupply.com": 45
   },
   "sent_by_day": {
    "2026-10-26": {
@@ -3464,7 +3464,7 @@
     "partnerships@yeschefsupply.com": 27
    },
    "2026-11-11": {
-    "partnerships@yeschefsupply.com": 42
+    "partnerships@yeschefsupply.com": 45
    }
   },
   "by_state": {
@@ -3684,7 +3684,7 @@
     "bounced": 0
    },
    "WY": {
-    "sent": 34,
+    "sent": 37,
     "delivered": 6,
     "bounced": 0
    }
