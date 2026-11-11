@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T04:46:01+00:00",
+ "generated_at": "2026-11-11T06:02:23+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T06:02:11Z",
+   "msg": "Nov 11 liam batch 1: OAK, Alcove, Battery Wharf scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T04:45:50Z",
    "msg": "Outreach: +3 sent (New York/Los Angeles)",
    "who": "Cassius"
@@ -3388,22 +3393,18 @@
    "t": "2026-11-09T16:39:51Z",
    "msg": "Nov 9 liam batch 7: Andino's Restaurant, India Restaurant, M\u00e9m\u00e8re's (3 sent, 3 delivered)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T16:28:46Z",
-   "msg": "Nov 9 liam batch 6: Macera's Italian Restaurant, IL Fornello Italian Restaurant, Wine & Cheese Restaurant (3 sent, 3 delivered)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1115,
-  "drafted": 1109,
-  "sent": 1077,
+  "researched": 1118,
+  "drafted": 1112,
+  "sent": 1080,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
-   "contact@jackdinningroom.com": 6
+   "contact@jackdinningroom.com": 6,
+   "liam@yeschefsupply.com": 3
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3462,7 +3463,8 @@
     "contact@jackdinningroom.com": 31
    },
    "2026-11-10": {
-    "contact@jackdinningroom.com": 6
+    "contact@jackdinningroom.com": 6,
+    "liam@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3542,7 +3544,7 @@
     "bounced": 0
    },
    "MA": {
-    "sent": 63,
+    "sent": 66,
     "delivered": 56,
     "bounced": 9
    },
