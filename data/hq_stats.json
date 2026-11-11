@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T08:01:43+00:00",
+ "generated_at": "2026-11-11T14:06:50+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T14:06:39Z",
+   "msg": "Outreach: +3 sent (Indianapolis/Los Angeles/Phoenix)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T08:01:32Z",
    "msg": "Nov 16 liam batch 1: Stacey's, Hana, Burger Dive scheduled \u2014 liam tail complete 123/123",
    "who": "Cassius"
@@ -3388,18 +3393,13 @@
    "t": "2026-11-11T06:22:35Z",
    "msg": "Nov 12 liam batch 2: Big Sioux, Chef Lance's, Tally's scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T06:11:53Z",
-   "msg": "Nov 12 liam batch 1: Sanaa's, Crawford's, M.B. Haskett scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1211,
-  "drafted": 1205,
-  "sent": 1173,
-  "delivered": 961,
+  "researched": 1214,
+  "drafted": 1208,
+  "sent": 1176,
+  "delivered": 964,
   "bounced": 58,
   "replies": 47,
   "sent_today": {},
@@ -3460,7 +3460,7 @@
     "contact@jackdinningroom.com": 31
    },
    "2026-11-10": {
-    "contact@jackdinningroom.com": 6,
+    "contact@jackdinningroom.com": 9,
     "liam@yeschefsupply.com": 96
    }
   },
@@ -3476,13 +3476,13 @@
     "bounced": 3
    },
    "AZ": {
-    "sent": 1,
-    "delivered": 1,
+    "sent": 2,
+    "delivered": 2,
     "bounced": 0
    },
    "CA": {
-    "sent": 93,
-    "delivered": 91,
+    "sent": 94,
+    "delivered": 92,
     "bounced": 1
    },
    "CO": {
@@ -3524,6 +3524,11 @@
     "sent": 64,
     "delivered": 62,
     "bounced": 2
+   },
+   "IN": {
+    "sent": 1,
+    "delivered": 1,
+    "bounced": 0
    },
    "KS": {
     "sent": 10,
