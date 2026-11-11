@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:43:52+00:00",
+ "generated_at": "2026-11-11T07:47:27+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:47:13Z",
+   "msg": "Nov 14 liam batch 6: HSL, Log Haven, Herm's Inn scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:43:39Z",
    "msg": "Nov 14 liam batch 5: Nomad East, Finn's, Mi Ranchito Grill scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-10T17:10:33Z",
    "msg": "Outreach: Mooncussers Tavern bounced (Harwich Port)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T18:46:22Z",
-   "msg": "Nov 12 scheduled batch 1 (liam): From Scratch 5:00am PT, Salted Lime 5:04am PT, Verve 5:08am PT (Send Later, Outbox total 57). Session expired before first compose, restored via OTP, nothing lost or duplicated.",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1193,
-  "drafted": 1187,
-  "sent": 1155,
+  "researched": 1196,
+  "drafted": 1190,
+  "sent": 1158,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 78
+   "liam@yeschefsupply.com": 81
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 78
+    "liam@yeschefsupply.com": 81
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 46,
+    "sent": 49,
     "delivered": 3,
     "bounced": 1
    },
