@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T06:02:23+00:00",
+ "generated_at": "2026-11-11T06:07:54+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T06:07:43Z",
+   "msg": "Nov 11 liam batch 2: Westland, Rosebud, Anaya Sushi scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T06:02:11Z",
    "msg": "Nov 11 liam batch 1: OAK, Alcove, Battery Wharf scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T16:41:23Z",
    "msg": "Root & Rye Hop Farm and Brewery replied 2026-11-09 (Shelly Bigley, owner; wants a meeting with her and Brewer Bobby; Ethan replied himself 8:34 AM PST with media kit)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T16:39:51Z",
-   "msg": "Nov 9 liam batch 7: Andino's Restaurant, India Restaurant, M\u00e9m\u00e8re's (3 sent, 3 delivered)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1118,
-  "drafted": 1112,
-  "sent": 1080,
+  "researched": 1121,
+  "drafted": 1115,
+  "sent": 1083,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 3
+   "liam@yeschefsupply.com": 6
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 3
+    "liam@yeschefsupply.com": 6
    }
   },
   "by_state": {
@@ -3494,7 +3494,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 3,
+    "sent": 4,
     "delivered": 3,
     "bounced": 0
    },
@@ -3544,7 +3544,7 @@
     "bounced": 0
    },
    "MA": {
-    "sent": 66,
+    "sent": 68,
     "delivered": 56,
     "bounced": 9
    },
