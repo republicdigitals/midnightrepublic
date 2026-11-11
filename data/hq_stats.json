@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T17:10:02+00:00",
+ "generated_at": "2026-11-11T17:13:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T17:12:44Z",
+   "msg": "Partnerships Nov 12 batch 10: Cowfish, Lander Bar, Bozeman Trail Steakhouse scheduled - Thursday complete 30/30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T17:09:51Z",
    "msg": "Partnerships Nov 12 batch 9: Pizza Carrello, Santa Fe Southwest Grill, Buddha's Bar scheduled",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T07:09:19Z",
    "msg": "Nov 13 liam batch 5: Bruges, Stoneground, El Farol scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T07:06:14Z",
-   "msg": "Nov 13 liam batch 4: Copper Onion, Robin's Nest, Laurel Brasserie scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1289,
-  "drafted": 1283,
-  "sent": 1283,
+  "researched": 1292,
+  "drafted": 1286,
+  "sent": 1286,
   "delivered": 1037,
   "bounced": 65,
   "replies": 59,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 51
+   "partnerships@yeschefsupply.com": 54
   },
   "sent_by_day": {
    "2026-10-26": {
@@ -3464,7 +3464,7 @@
     "partnerships@yeschefsupply.com": 27
    },
    "2026-11-11": {
-    "partnerships@yeschefsupply.com": 51
+    "partnerships@yeschefsupply.com": 54
    }
   },
   "by_state": {
@@ -3684,7 +3684,7 @@
     "bounced": 0
    },
    "WY": {
-    "sent": 43,
+    "sent": 46,
     "delivered": 6,
     "bounced": 0
    }
