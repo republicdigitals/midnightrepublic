@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:30:59+00:00",
+ "generated_at": "2026-11-11T07:34:27+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:34:17Z",
+   "msg": "Nov 14 liam batch 2: Nomad Eatery, Papi's, Holy Grill scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:30:48Z",
    "msg": "Nov 14 liam batch 1: Swad Cabin, SLC Eatery, Frankie's Pizza scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T18:30:20Z",
    "msg": "Nov 11 scheduled batch 6: The Pit 6:00am PT, Kitch Organic 6:04am PT, Carolyn's Soul Food 6:08am PT (Send Later, Outbox total 48)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T18:25:26Z",
-   "msg": "Nov 11 scheduled batch 5: Taco Drive 5:48am PT, Harry's Daughter 5:52am PT, Swadist 5:56am PT (Send Later, Outbox total 45)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1181,
-  "drafted": 1175,
-  "sent": 1143,
+  "researched": 1184,
+  "drafted": 1178,
+  "sent": 1146,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 66
+   "liam@yeschefsupply.com": 69
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 66
+    "liam@yeschefsupply.com": 69
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 34,
+    "sent": 37,
     "delivered": 3,
     "bounced": 1
    },
