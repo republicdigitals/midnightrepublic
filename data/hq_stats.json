@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T18:25:03+00:00",
+ "generated_at": "2026-11-11T18:26:08+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T18:25:58Z",
+   "msg": "Partnerships Nov 16 batch 1: Matt's Place Drive-In, Le Petit Outre, Parker's Bistro scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T18:22:19Z",
    "msg": "Partnerships Nov 14 batch 10: DeSoto Grill, Tupelo Grille, Little Star Diner scheduled - Saturday 30/30 complete",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T16:48:07Z",
    "msg": "Partnerships Nov 12 batch 2: Born in a Barn, Altitude Chophouse, Library Sports Grille scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T16:44:52Z",
-   "msg": "Partnerships Nov 12 batch 1: Silver Fox, Eggington's, Sweet Melissa scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1352,
-  "drafted": 1346,
-  "sent": 1346,
+  "researched": 1355,
+  "drafted": 1349,
+  "sent": 1349,
   "delivered": 1037,
   "bounced": 65,
   "replies": 59,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 114
+   "partnerships@yeschefsupply.com": 117
   },
   "sent_by_day": {
    "2026-10-26": {
@@ -3464,7 +3464,7 @@
     "partnerships@yeschefsupply.com": 27
    },
    "2026-11-11": {
-    "partnerships@yeschefsupply.com": 114
+    "partnerships@yeschefsupply.com": 117
    }
   },
   "by_state": {
@@ -3574,7 +3574,7 @@
     "bounced": 1
    },
    "MT": {
-    "sent": 35,
+    "sent": 37,
     "delivered": 10,
     "bounced": 2
    },
@@ -3649,7 +3649,7 @@
     "bounced": 2
    },
    "SD": {
-    "sent": 20,
+    "sent": 21,
     "delivered": 0,
     "bounced": 0
    },
