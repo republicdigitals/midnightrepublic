@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:40:59+00:00",
+ "generated_at": "2026-11-11T07:43:52+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:43:39Z",
+   "msg": "Nov 14 liam batch 5: Nomad East, Finn's, Mi Ranchito Grill scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:40:48Z",
    "msg": "Nov 14 liam batch 4: Valter's Osteria, Per Noi, Arlo scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T18:46:22Z",
    "msg": "Nov 12 scheduled batch 1 (liam): From Scratch 5:00am PT, Salted Lime 5:04am PT, Verve 5:08am PT (Send Later, Outbox total 57). Session expired before first compose, restored via OTP, nothing lost or duplicated.",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T18:37:36Z",
-   "msg": "Nov 11 scheduled batch 8: Grasshopper off the Green 6:24am PT, Gringo's 6:28am PT, Alfonso's 6:32am PT (Send Later, Outbox total 54, Nov 11 batch COMPLETE)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1190,
-  "drafted": 1184,
-  "sent": 1152,
+  "researched": 1193,
+  "drafted": 1187,
+  "sent": 1155,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 75
+   "liam@yeschefsupply.com": 78
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 75
+    "liam@yeschefsupply.com": 78
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 43,
+    "sent": 46,
     "delivered": 3,
     "bounced": 1
    },
