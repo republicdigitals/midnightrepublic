@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T17:30:32+00:00",
+ "generated_at": "2026-11-11T17:33:43+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T17:33:33Z",
+   "msg": "Partnerships Nov 13 batch 6: Trailhead Public House, Beaumont Bakery, Matteo scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T17:30:18Z",
    "msg": "Partnerships Nov 13 batch 5: Muertos Cantina, Murphy's Cafe 126, Maize scheduled",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T07:30:48Z",
    "msg": "Nov 14 liam batch 1: Swad Cabin, SLC Eatery, Frankie's Pizza scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T07:27:27Z",
-   "msg": "Nov 13 liam batch 10: Soldier Hollow, Cafe Galleria, Tosh's Ramen scheduled \u2014 Friday liam complete 30/30",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1307,
-  "drafted": 1301,
-  "sent": 1301,
+  "researched": 1310,
+  "drafted": 1304,
+  "sent": 1304,
   "delivered": 1037,
   "bounced": 65,
   "replies": 59,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 69
+   "partnerships@yeschefsupply.com": 72
   },
   "sent_by_day": {
    "2026-10-26": {
@@ -3464,7 +3464,7 @@
     "partnerships@yeschefsupply.com": 27
    },
    "2026-11-11": {
-    "partnerships@yeschefsupply.com": 69
+    "partnerships@yeschefsupply.com": 72
    }
   },
   "by_state": {
@@ -3664,7 +3664,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 77,
+    "sent": 80,
     "delivered": 4,
     "bounced": 1
    },
