@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:06:25+00:00",
+ "generated_at": "2026-11-11T07:09:30+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:09:19Z",
+   "msg": "Nov 13 liam batch 5: Bruges, Stoneground, El Farol scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:06:14Z",
    "msg": "Nov 13 liam batch 4: Copper Onion, Robin's Nest, Laurel Brasserie scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T17:57:45Z",
    "msg": "Nov 10 scheduled batch 9: Madison Bar & Grill 6:36am PT, Fujiya Ramen 6:40am PT, Char Steakhouse 6:44am PT (Send Later, Outbox total 27)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T17:53:32Z",
-   "msg": "Nov 10 scheduled batch 8: White Star Bar 6:24am PT, The Factory 6:28am PT, JR's 6:32am PT (Send Later, Outbox total 24)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1160,
-  "drafted": 1154,
-  "sent": 1122,
+  "researched": 1163,
+  "drafted": 1157,
+  "sent": 1125,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 45
+   "liam@yeschefsupply.com": 48
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 45
+    "liam@yeschefsupply.com": 48
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 13,
+    "sent": 16,
     "delivered": 3,
     "bounced": 1
    },
