@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:09:30+00:00",
+ "generated_at": "2026-11-11T07:12:47+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:12:37Z",
+   "msg": "Nov 13 liam batch 6: Baja Cantina, Juniper, Five5eed scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:09:19Z",
    "msg": "Nov 13 liam batch 5: Bruges, Stoneground, El Farol scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T18:02:18Z",
    "msg": "Nov 10 scheduled batch 10: The Bistro at Red Bank 6:48am PT, Il Tavolo di Palmisano 6:52am PT, Luigino's Parmigiana 6:56am PT (Send Later, Outbox total 30, Nov 10 batch COMPLETE)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T17:57:45Z",
-   "msg": "Nov 10 scheduled batch 9: Madison Bar & Grill 6:36am PT, Fujiya Ramen 6:40am PT, Char Steakhouse 6:44am PT (Send Later, Outbox total 27)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1163,
-  "drafted": 1157,
-  "sent": 1125,
+  "researched": 1166,
+  "drafted": 1160,
+  "sent": 1128,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 48
+   "liam@yeschefsupply.com": 51
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 48
+    "liam@yeschefsupply.com": 51
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 16,
+    "sent": 19,
     "delivered": 3,
     "bounced": 1
    },
