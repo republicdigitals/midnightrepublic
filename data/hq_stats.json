@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T18:37:48+00:00",
+ "generated_at": "2026-11-11T22:47:10+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T22:46:54Z",
+   "msg": "Log replied rows: Harry's Daughter, JBJ Soul Kitchen, Kawa Revolving Sushi (2026-11-11, liam)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T18:37:32Z",
    "msg": "Outreach paused: partnerships scheduling complete (Thu 30, Fri 30, Sat 30, Mon 11)",
    "who": "Cassius"
@@ -3388,20 +3393,15 @@
    "t": "2026-11-11T17:02:36Z",
    "msg": "Partnerships Nov 12 batch 7: Mangy Moose, Black Tooth Brewing, Mint Bar scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T16:59:44Z",
-   "msg": "Partnerships Nov 12 batch 6: Cafe Genevieve, Hatch Taqueria, Calico scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1363,
-  "drafted": 1357,
-  "sent": 1357,
-  "delivered": 1037,
+  "researched": 1364,
+  "drafted": 1358,
+  "sent": 1358,
+  "delivered": 1039,
   "bounced": 65,
-  "replies": 59,
+  "replies": 61,
   "sent_today": {
    "partnerships@yeschefsupply.com": 125
   },
@@ -3594,8 +3594,8 @@
     "bounced": 0
    },
    "NJ": {
-    "sent": 53,
-    "delivered": 7,
+    "sent": 54,
+    "delivered": 9,
     "bounced": 2
    },
    "NM": {
