@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T06:12:04+00:00",
+ "generated_at": "2026-11-11T06:22:46+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T06:22:35Z",
+   "msg": "Nov 12 liam batch 2: Big Sioux, Chef Lance's, Tally's scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T06:11:53Z",
    "msg": "Nov 12 liam batch 1: Sanaa's, Crawford's, M.B. Haskett scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T16:53:12Z",
    "msg": "Outreach: +1 sent row (888 Sushi & Robata, Nov 9 link batch)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T16:52:53Z",
-   "msg": "Outreach: +29 sent, 28 delivered, 1 bounced (Nov 9 link batch)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1124,
-  "drafted": 1118,
-  "sent": 1086,
+  "researched": 1127,
+  "drafted": 1121,
+  "sent": 1089,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 9
+   "liam@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 9
+    "liam@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3644,7 +3644,7 @@
     "bounced": 2
    },
    "SD": {
-    "sent": 3,
+    "sent": 6,
     "delivered": 0,
     "bounced": 0
    },
