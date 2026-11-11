@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T16:45:03+00:00",
+ "generated_at": "2026-11-11T16:48:19+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T16:48:07Z",
+   "msg": "Partnerships Nov 12 batch 2: Born in a Barn, Altitude Chophouse, Library Sports Grille scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T16:44:52Z",
    "msg": "Partnerships Nov 12 batch 1: Silver Fox, Eggington's, Sweet Melissa scheduled",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T06:39:20Z",
    "msg": "Nov 12 liam batch 6: The Local, Dempsey's, Cattleman's scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T06:35:04Z",
-   "msg": "Nov 12 liam batch 5: Cook's Kitchen, Nick's, Depot scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1265,
-  "drafted": 1259,
-  "sent": 1259,
+  "researched": 1268,
+  "drafted": 1262,
+  "sent": 1262,
   "delivered": 1037,
   "bounced": 65,
   "replies": 59,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 27
+   "partnerships@yeschefsupply.com": 30
   },
   "sent_by_day": {
    "2026-10-26": {
@@ -3464,7 +3464,7 @@
     "partnerships@yeschefsupply.com": 27
    },
    "2026-11-11": {
-    "partnerships@yeschefsupply.com": 27
+    "partnerships@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3684,7 +3684,7 @@
     "bounced": 0
    },
    "WY": {
-    "sent": 19,
+    "sent": 22,
     "delivered": 6,
     "bounced": 0
    }
