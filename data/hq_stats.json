@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T16:40:01+00:00",
+ "generated_at": "2026-11-11T16:45:03+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T16:44:52Z",
+   "msg": "Partnerships Nov 12 batch 1: Silver Fox, Eggington's, Sweet Melissa scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T16:39:47Z",
    "msg": "Verify Tue Nov 10: Frog & Slim, Sunnyside, Sheldon Inn sent+delivered (emails read from Sent)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T06:35:04Z",
    "msg": "Nov 12 liam batch 5: Cook's Kitchen, Nick's, Depot scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T06:31:23Z",
-   "msg": "Nov 12 liam batch 4: Killian's, Sage Creek, Pheasant scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1262,
-  "drafted": 1256,
-  "sent": 1256,
+  "researched": 1265,
+  "drafted": 1259,
+  "sent": 1259,
   "delivered": 1037,
   "bounced": 65,
   "replies": 59,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 24
+   "partnerships@yeschefsupply.com": 27
   },
   "sent_by_day": {
    "2026-10-26": {
@@ -3464,7 +3464,7 @@
     "partnerships@yeschefsupply.com": 27
    },
    "2026-11-11": {
-    "partnerships@yeschefsupply.com": 24
+    "partnerships@yeschefsupply.com": 27
    }
   },
   "by_state": {
@@ -3684,7 +3684,7 @@
     "bounced": 0
    },
    "WY": {
-    "sent": 16,
+    "sent": 19,
     "delivered": 6,
     "bounced": 0
    }
