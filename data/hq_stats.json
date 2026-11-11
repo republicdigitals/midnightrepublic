@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T18:29:35+00:00",
+ "generated_at": "2026-11-11T18:33:15+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T18:33:03Z",
+   "msg": "Partnerships Nov 16 batch 3: Morrie's Steakhouse, CH Patisserie, Green Room scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T18:29:21Z",
    "msg": "Partnerships Nov 16 batch 2: Bread & Circus, Ironwood Steakhouse, Minervas scheduled",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T16:54:18Z",
    "msg": "Partnerships Nov 12 batch 4: Snake River Grill, Bin 22, Gather scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T16:51:41Z",
-   "msg": "Partnerships Nov 12 batch 3: Bond's Brewing, Cavalryman, Crowbar & Grill scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1358,
-  "drafted": 1352,
-  "sent": 1352,
+  "researched": 1361,
+  "drafted": 1355,
+  "sent": 1355,
   "delivered": 1037,
   "bounced": 65,
   "replies": 59,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 120
+   "partnerships@yeschefsupply.com": 123
   },
   "sent_by_day": {
    "2026-10-26": {
@@ -3464,7 +3464,7 @@
     "partnerships@yeschefsupply.com": 27
    },
    "2026-11-11": {
-    "partnerships@yeschefsupply.com": 120
+    "partnerships@yeschefsupply.com": 123
    }
   },
   "by_state": {
@@ -3484,7 +3484,7 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 105,
+    "sent": 106,
     "delivered": 102,
     "bounced": 2
    },
@@ -3649,7 +3649,7 @@
     "bounced": 2
    },
    "SD": {
-    "sent": 24,
+    "sent": 26,
     "delivered": 0,
     "bounced": 0
    },
