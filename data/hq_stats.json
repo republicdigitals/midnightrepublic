@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T22:47:10+00:00",
+ "generated_at": "2026-11-11T23:00:28+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T23:00:15Z",
+   "msg": "Log replied rows: Vermilion (Ahran Cho, 2026-11-10 + 2026-11-11, liam)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T22:46:54Z",
    "msg": "Log replied rows: Harry's Daughter, JBJ Soul Kitchen, Kawa Revolving Sushi (2026-11-11, liam)",
    "who": "Cassius"
@@ -3388,20 +3393,15 @@
    "t": "2026-11-11T17:06:04Z",
    "msg": "Partnerships Nov 12 batch 8: Wyoming's Rib & Chop House, Pat's Brew House, Prime Rib scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:02:36Z",
-   "msg": "Partnerships Nov 12 batch 7: Mangy Moose, Black Tooth Brewing, Mint Bar scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1364,
-  "drafted": 1358,
-  "sent": 1358,
-  "delivered": 1039,
+  "researched": 1365,
+  "drafted": 1359,
+  "sent": 1359,
+  "delivered": 1040,
   "bounced": 65,
-  "replies": 61,
+  "replies": 62,
   "sent_today": {
    "partnerships@yeschefsupply.com": 125
   },
@@ -3549,8 +3549,8 @@
     "bounced": 0
    },
    "MA": {
-    "sent": 105,
-    "delivered": 91,
+    "sent": 106,
+    "delivered": 92,
     "bounced": 11
    },
    "MD": {
