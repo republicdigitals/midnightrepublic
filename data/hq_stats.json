@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:52:40+00:00",
+ "generated_at": "2026-11-11T07:55:23+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:55:13Z",
+   "msg": "Nov 14 liam batch 9: Rovali's, Rawtopia, Bombay Cafe scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:52:28Z",
    "msg": "Nov 14 liam batch 8: Notch Pub, Ti Amo, Rocking V Cafe scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-11T06:02:11Z",
    "msg": "Nov 11 liam batch 1: OAK, Alcove, Battery Wharf scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T04:45:50Z",
-   "msg": "Outreach: +3 sent (New York/Los Angeles)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1202,
-  "drafted": 1196,
-  "sent": 1164,
+  "researched": 1205,
+  "drafted": 1199,
+  "sent": 1167,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 87
+   "liam@yeschefsupply.com": 90
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 87
+    "liam@yeschefsupply.com": 90
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 55,
+    "sent": 58,
     "delivered": 3,
     "bounced": 1
    },
