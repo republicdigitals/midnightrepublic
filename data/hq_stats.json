@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T18:36:59+00:00",
+ "generated_at": "2026-11-11T18:37:48+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T18:37:32Z",
+   "msg": "Outreach paused: partnerships scheduling complete (Thu 30, Fri 30, Sat 30, Mon 11)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T18:36:44Z",
    "msg": "Partnerships Nov 16 batch 4: 8th Street at the Ivy, Lake House on Canandaigua scheduled - Monday 11/11 complete",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-11T16:59:44Z",
    "msg": "Partnerships Nov 12 batch 6: Cafe Genevieve, Hatch Taqueria, Calico scheduled",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T16:56:58Z",
-   "msg": "Partnerships Nov 12 batch 5: Glorietta Trattoria, Hand Fire Pizza, Persephone Bakery scheduled",
    "who": "Cassius"
   }
  ],
@@ -3717,5 +3717,9 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": null
+ "outreach": {
+  "status": "paused",
+  "since": "",
+  "note": ""
+ }
 }
