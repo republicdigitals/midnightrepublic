@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:00:03+00:00",
+ "generated_at": "2026-11-11T07:03:13+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:03:00Z",
+   "msg": "Nov 13 liam batch 3: Zion Pizza, Eva, Copper Common scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T06:59:52Z",
    "msg": "Nov 13 liam batch 2: Himalayan Kitchen, Tuscany, Feldman's Deli scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-09T17:49:08Z",
    "msg": "Nov 10 scheduled batch 7: Mathews Food and Drink 6:12am PT, Honshu Sushi 6:16am PT, Hudson & Co. 6:20am PT (Send Later, Outbox total 21)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-09T17:45:14Z",
-   "msg": "Nov 10 scheduled batch 6: Olives 6:00am PT, Pascal & Sabine 6:04am PT, Lokal Eatery & Bar 6:08am PT (Send Later, Outbox total 18)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1154,
-  "drafted": 1148,
-  "sent": 1116,
+  "researched": 1157,
+  "drafted": 1151,
+  "sent": 1119,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 39
+   "liam@yeschefsupply.com": 42
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 39
+    "liam@yeschefsupply.com": 42
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 7,
+    "sent": 10,
     "delivered": 3,
     "bounced": 1
    },
