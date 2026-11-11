@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T07:50:00+00:00",
+ "generated_at": "2026-11-11T07:52:40+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-11T07:52:28Z",
+   "msg": "Nov 14 liam batch 8: Notch Pub, Ti Amo, Rocking V Cafe scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T07:49:50Z",
    "msg": "Nov 14 liam batch 7: Back 40, Smoking Apple, Mediterranean Market scheduled",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-11T04:45:50Z",
    "msg": "Outreach: +3 sent (New York/Los Angeles)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-10T17:24:52Z",
-   "msg": "Outreach: +3 sent (New York/Brooklyn)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1199,
-  "drafted": 1193,
-  "sent": 1161,
+  "researched": 1202,
+  "drafted": 1196,
+  "sent": 1164,
   "delivered": 961,
   "bounced": 58,
   "replies": 47,
   "sent_today": {
    "contact@jackdinningroom.com": 6,
-   "liam@yeschefsupply.com": 84
+   "liam@yeschefsupply.com": 87
   },
   "sent_by_day": {
    "2026-10-24": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-10": {
     "contact@jackdinningroom.com": 6,
-    "liam@yeschefsupply.com": 84
+    "liam@yeschefsupply.com": 87
    }
   },
   "by_state": {
@@ -3659,7 +3659,7 @@
     "bounced": 1
    },
    "UT": {
-    "sent": 52,
+    "sent": 55,
     "delivered": 3,
     "bounced": 1
    },
