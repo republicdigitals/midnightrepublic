@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-12T18:56:24+00:00",
+ "generated_at": "2026-11-12T19:12:27+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-12T19:12:14Z",
+   "msg": "contact@ Nov 12 batch 8: My Sage + Golden Leaf delivered; Osa Rooftop sent, in Zoho retry queue",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-12T18:56:12Z",
    "msg": "contact@ Nov 12 batch 7: Two Cranes, Dalah, Oma sent+delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T17:36:29Z",
    "msg": "Partnerships Nov 13 batch 7: Sri Annapoorani, Kimi's Chop & Oyster House, Scelto scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:33:33Z",
-   "msg": "Partnerships Nov 13 batch 6: Trailhead Public House, Beaumont Bakery, Matteo scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1386,
-  "drafted": 1380,
-  "sent": 1380,
-  "delivered": 1060,
+  "researched": 1389,
+  "drafted": 1383,
+  "sent": 1383,
+  "delivered": 1062,
   "bounced": 65,
   "replies": 62,
   "sent_today": {
-   "contact@yeschefsupply.com": 21
+   "contact@yeschefsupply.com": 24
   },
   "sent_by_day": {
    "2026-10-27": {
@@ -3463,7 +3463,7 @@
     "partnerships@yeschefsupply.com": 125
    },
    "2026-11-12": {
-    "contact@yeschefsupply.com": 21
+    "contact@yeschefsupply.com": 24
    }
   },
   "by_state": {
@@ -3483,8 +3483,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 108,
-    "delivered": 104,
+    "sent": 111,
+    "delivered": 106,
     "bounced": 2
    },
    "CO": {
