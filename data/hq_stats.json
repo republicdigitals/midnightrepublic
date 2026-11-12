@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-12T07:52:41+00:00",
+ "generated_at": "2026-11-12T17:35:29+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-12T17:35:10Z",
+   "msg": "contact@ Nov 12 batch 1: Char, Vinaigrette, Mesa Provisions sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-12T07:52:30Z",
    "msg": "Log replied row: La Nena Cantina (Vicente Del Rio, 2026-11-11, liam)",
    "who": "Cassius"
@@ -3388,28 +3393,19 @@
    "t": "2026-11-11T17:12:44Z",
    "msg": "Partnerships Nov 12 batch 10: Cowfish, Lander Bar, Bozeman Trail Steakhouse scheduled - Thursday complete 30/30",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:09:51Z",
-   "msg": "Partnerships Nov 12 batch 9: Pizza Carrello, Santa Fe Southwest Grill, Buddha's Bar scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1365,
-  "drafted": 1359,
-  "sent": 1359,
-  "delivered": 1040,
+  "researched": 1368,
+  "drafted": 1362,
+  "sent": 1362,
+  "delivered": 1043,
   "bounced": 65,
   "replies": 62,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 125
+   "contact@yeschefsupply.com": 3
   },
   "sent_by_day": {
-   "2026-10-26": {
-    "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 3
-   },
    "2026-10-27": {
     "liam@jackdinningroom.com": 31,
     "liam@yeschefgroup.co": 30
@@ -3465,6 +3461,9 @@
    },
    "2026-11-11": {
     "partnerships@yeschefsupply.com": 125
+   },
+   "2026-11-12": {
+    "contact@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3599,8 +3598,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 19,
-    "delivered": 16,
+    "sent": 22,
+    "delivered": 19,
     "bounced": 2
    },
    "NV": {
