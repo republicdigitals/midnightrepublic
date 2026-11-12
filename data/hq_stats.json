@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-12T18:02:08+00:00",
+ "generated_at": "2026-11-12T18:14:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-12T18:14:17Z",
+   "msg": "contact@ Nov 12 batch 4: Level 5, Kosmos, Pho Nho sent+delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-12T18:01:56Z",
    "msg": "contact@ Nov 12 batch 3: Seasons, Line Tide, Triana sent+delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T17:22:30Z",
    "msg": "Partnerships Nov 13 batch 3: Fat Daddy's Pizza, Lucky Slice Pizza, Fed Up Kitchen scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:19:04Z",
-   "msg": "Partnerships Nov 13 batch 2: Caffe Molise, Tucci's Cucina Italiana, Pat's Barbeque scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1374,
-  "drafted": 1368,
-  "sent": 1368,
-  "delivered": 1049,
+  "researched": 1377,
+  "drafted": 1371,
+  "sent": 1371,
+  "delivered": 1052,
   "bounced": 65,
   "replies": 62,
   "sent_today": {
-   "contact@yeschefsupply.com": 9
+   "contact@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-10-27": {
@@ -3463,7 +3463,7 @@
     "partnerships@yeschefsupply.com": 125
    },
    "2026-11-12": {
-    "contact@yeschefsupply.com": 9
+    "contact@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3598,8 +3598,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 28,
-    "delivered": 25,
+    "sent": 31,
+    "delivered": 28,
     "bounced": 2
    },
    "NV": {
