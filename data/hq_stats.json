@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T23:00:28+00:00",
+ "generated_at": "2026-11-12T07:52:41+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-12T07:52:30Z",
+   "msg": "Log replied row: La Nena Cantina (Vicente Del Rio, 2026-11-11, liam)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-11T23:00:15Z",
    "msg": "Log replied rows: Vermilion (Ahran Cho, 2026-11-10 + 2026-11-11, liam)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-11T17:09:51Z",
    "msg": "Partnerships Nov 12 batch 9: Pizza Carrello, Santa Fe Southwest Grill, Buddha's Bar scheduled",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:06:04Z",
-   "msg": "Partnerships Nov 12 batch 8: Wyoming's Rib & Chop House, Pat's Brew House, Prime Rib scheduled",
    "who": "Cassius"
   }
  ],
