@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T15:05:53+00:00",
+ "generated_at": "2026-11-13T15:35:52+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T15:35:40Z",
+   "msg": "Log replied row: Level 5 at Hotel Chaco (2026-11-13, contact@)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T15:05:39Z",
    "msg": "Log replied rows: Golden Leaf, Farm and Table (2026-11-12, contact@)",
    "who": "Cassius"
@@ -3388,20 +3393,15 @@
    "t": "2026-11-11T17:46:33Z",
    "msg": "Partnerships Nov 13 batch 10: Engine Room, Hunan Village, Slop Shop scheduled - Friday complete 30/30",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:42:51Z",
-   "msg": "Partnerships Nov 13 batch 9: Enrico's, Piko Mexican Grill, Tandoori Taqueria scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1390,
-  "drafted": 1384,
-  "sent": 1384,
-  "delivered": 1063,
+  "researched": 1391,
+  "drafted": 1385,
+  "sent": 1385,
+  "delivered": 1064,
   "bounced": 65,
-  "replies": 65,
+  "replies": 66,
   "sent_today": {},
   "sent_by_day": {
    "2026-10-27": {
@@ -3596,8 +3596,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 39,
-    "delivered": 35,
+    "sent": 40,
+    "delivered": 36,
     "bounced": 2
    },
    "NV": {
