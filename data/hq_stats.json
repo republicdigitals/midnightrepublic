@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T18:54:01+00:00",
+ "generated_at": "2026-11-13T19:00:41+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T19:00:27Z",
+   "msg": "Craft House (Dana Point) replied 2026-11-12 via Knife & Spork PR",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T18:53:49Z",
    "msg": "Santa Fe wave 2 batch 4: Teahouse, Steam and Smoke, Paloma, El Sabor (4 sent, 4 delivered)",
    "who": "Cassius"
@@ -3388,20 +3393,15 @@
    "t": "2026-11-11T18:25:58Z",
    "msg": "Partnerships Nov 16 batch 1: Matt's Place Drive-In, Le Petit Outre, Parker's Bistro scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:22:19Z",
-   "msg": "Partnerships Nov 14 batch 10: DeSoto Grill, Tupelo Grille, Little Star Diner scheduled - Saturday 30/30 complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1420,
-  "drafted": 1414,
-  "sent": 1414,
-  "delivered": 1090,
+  "researched": 1421,
+  "drafted": 1415,
+  "sent": 1415,
+  "delivered": 1091,
   "bounced": 66,
-  "replies": 66,
+  "replies": 67,
   "sent_today": {
    "contact@yeschefsupply.com": 29
   },
@@ -3482,8 +3482,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 111,
-    "delivered": 106,
+    "sent": 112,
+    "delivered": 107,
     "bounced": 2
    },
    "CO": {
