@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-12T19:16:26+00:00",
+ "generated_at": "2026-11-13T15:05:53+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T15:05:39Z",
+   "msg": "Log replied rows: Golden Leaf, Farm and Table (2026-11-12, contact@)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-12T19:16:12Z",
    "msg": "contact@ Nov 12: Dalah replied (Nataya/Fai), kit sent",
    "who": "Cassius"
@@ -3388,23 +3393,16 @@
    "t": "2026-11-11T17:42:51Z",
    "msg": "Partnerships Nov 13 batch 9: Enrico's, Piko Mexican Grill, Tandoori Taqueria scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:39:55Z",
-   "msg": "Partnerships Nov 13 batch 8: Siragusa's, Fratelli Ristorante, Cheryl's Bagels scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1389,
-  "drafted": 1383,
-  "sent": 1383,
-  "delivered": 1062,
+  "researched": 1390,
+  "drafted": 1384,
+  "sent": 1384,
+  "delivered": 1063,
   "bounced": 65,
-  "replies": 63,
-  "sent_today": {
-   "contact@yeschefsupply.com": 24
-  },
+  "replies": 65,
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-27": {
     "liam@jackdinningroom.com": 31,
@@ -3598,8 +3596,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 38,
-    "delivered": 34,
+    "sent": 39,
+    "delivered": 35,
     "bounced": 2
    },
    "NV": {
