@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T16:23:41+00:00",
+ "generated_at": "2026-11-13T16:31:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T16:31:18Z",
+   "msg": "Santa Fe batch 1: Cafe Pasqual's, French Pastry Shop, Pantry Rio (contact@)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T15:35:40Z",
    "msg": "Log replied row: Level 5 at Hotel Chaco (2026-11-13, contact@)",
    "who": "Cassius"
@@ -3388,26 +3393,19 @@
    "t": "2026-11-11T17:49:39Z",
    "msg": "Partnerships Nov 14 batch 1: Yoshi's Japanese Grill, Moki's Hawaiian Grill, Weller's Bistro scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:46:33Z",
-   "msg": "Partnerships Nov 13 batch 10: Engine Room, Hunan Village, Slop Shop scheduled - Friday complete 30/30",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1391,
-  "drafted": 1385,
-  "sent": 1385,
-  "delivered": 1064,
+  "researched": 1394,
+  "drafted": 1388,
+  "sent": 1388,
+  "delivered": 1066,
   "bounced": 65,
   "replies": 66,
-  "sent_today": {},
+  "sent_today": {
+   "contact@yeschefsupply.com": 3
+  },
   "sent_by_day": {
-   "2026-10-27": {
-    "liam@jackdinningroom.com": 31,
-    "liam@yeschefgroup.co": 30
-   },
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
@@ -3462,6 +3460,9 @@
    },
    "2026-11-12": {
     "contact@yeschefsupply.com": 24
+   },
+   "2026-11-13": {
+    "contact@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3596,8 +3597,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 40,
-    "delivered": 36,
+    "sent": 43,
+    "delivered": 38,
     "bounced": 2
    },
    "NV": {
