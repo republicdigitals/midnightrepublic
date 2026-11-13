@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T19:00:41+00:00",
+ "generated_at": "2026-11-13T19:04:21+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T19:04:09Z",
+   "msg": "Ahran Cho (Vermilion) replied 2026-11-13: picked Fri Nov 20, 5-6pm, asked guest count",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T19:00:27Z",
    "msg": "Craft House (Dana Point) replied 2026-11-12 via Knife & Spork PR",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-11T18:29:21Z",
    "msg": "Partnerships Nov 16 batch 2: Bread & Circus, Ironwood Steakhouse, Minervas scheduled",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:25:58Z",
-   "msg": "Partnerships Nov 16 batch 1: Matt's Place Drive-In, Le Petit Outre, Parker's Bistro scheduled",
    "who": "Cassius"
   }
  ],
