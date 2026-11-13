@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T18:06:13+00:00",
+ "generated_at": "2026-11-13T18:40:07+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T18:39:54Z",
+   "msg": "Santa Fe wave 2 batch 1: Leo's, Paper Dosa, Sweetwater Harvest Kitchen (3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T16:50:58Z",
    "msg": "Santa Fe batch 6: Geronimo, La Boca, Horno Restaurant (contact@)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T18:10:40Z",
    "msg": "Partnerships Nov 14 batch 7: Blackbird Kitchen, Whistle Pig Korean, Roost Fried Chicken scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:07:03Z",
-   "msg": "Partnerships Nov 14 batch 6: Masala, Cranky Sam Public House, The Stables scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1408,
-  "drafted": 1402,
-  "sent": 1402,
-  "delivered": 1079,
+  "researched": 1411,
+  "drafted": 1405,
+  "sent": 1405,
+  "delivered": 1082,
   "bounced": 66,
   "replies": 66,
   "sent_today": {
-   "contact@yeschefsupply.com": 17
+   "contact@yeschefsupply.com": 20
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 17
+    "contact@yeschefsupply.com": 20
    }
   },
   "by_state": {
@@ -3597,8 +3597,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 57,
-    "delivered": 51,
+    "sent": 60,
+    "delivered": 54,
     "bounced": 3
    },
    "NV": {
