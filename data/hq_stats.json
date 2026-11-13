@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T18:44:00+00:00",
+ "generated_at": "2026-11-13T18:48:50+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T18:48:38Z",
+   "msg": "Santa Fe wave 2 batch 3: Vara (delivered), Modern General (sent, in retry queue 4.4.1), Amalfi (delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T18:43:48Z",
    "msg": "Santa Fe wave 2 batch 2: Iconik Coffee Roasters, Il Vicino, Jambo Cafe (3 sent, 3 delivered)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T18:17:49Z",
    "msg": "Partnerships Nov 14 batch 9: The Celtic Cowboy, Roadhouse Diner, On Broadway scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:14:15Z",
-   "msg": "Partnerships Nov 14 batch 8: Montana Ale Works, Wild Crumb, Walkers Grill scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1413,
-  "drafted": 1407,
-  "sent": 1407,
-  "delivered": 1084,
+  "researched": 1416,
+  "drafted": 1410,
+  "sent": 1410,
+  "delivered": 1086,
   "bounced": 66,
   "replies": 66,
   "sent_today": {
-   "contact@yeschefsupply.com": 22
+   "contact@yeschefsupply.com": 25
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 22
+    "contact@yeschefsupply.com": 25
    }
   },
   "by_state": {
@@ -3597,8 +3597,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 62,
-    "delivered": 56,
+    "sent": 65,
+    "delivered": 58,
     "bounced": 3
    },
    "NV": {
