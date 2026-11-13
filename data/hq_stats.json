@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T16:40:56+00:00",
+ "generated_at": "2026-11-13T16:42:03+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T16:41:52Z",
+   "msg": "Santa Fe batch 4: Restaurant Martin, Radish & Rye, The Compound Restaurant (contact@)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T16:38:17Z",
    "msg": "Santa Fe batch 3: Tulsi, Anasazi Restaurant & Bar (contact@)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T17:59:41Z",
    "msg": "Partnerships Nov 14 batch 4: Crust Club, Biga Pizza, Caffe Dolce scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:56:15Z",
-   "msg": "Partnerships Nov 14 batch 3: Wild Thyme Bistro, Osteria Amore, Market Street Grill scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1399,
-  "drafted": 1393,
-  "sent": 1393,
-  "delivered": 1070,
+  "researched": 1402,
+  "drafted": 1396,
+  "sent": 1396,
+  "delivered": 1073,
   "bounced": 66,
   "replies": 66,
   "sent_today": {
-   "contact@yeschefsupply.com": 8
+   "contact@yeschefsupply.com": 11
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 8
+    "contact@yeschefsupply.com": 11
    }
   },
   "by_state": {
@@ -3597,8 +3597,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 48,
-    "delivered": 42,
+    "sent": 51,
+    "delivered": 45,
     "bounced": 3
    },
    "NV": {
