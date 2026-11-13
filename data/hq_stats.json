@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T16:46:19+00:00",
+ "generated_at": "2026-11-13T16:51:10+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T16:50:58Z",
+   "msg": "Santa Fe batch 6: Geronimo, La Boca, Horno Restaurant (contact@)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T16:46:08Z",
    "msg": "Santa Fe batch 5: Dinner For Two, Tres Colores, Sazon (contact@)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T18:07:03Z",
    "msg": "Partnerships Nov 14 batch 6: Masala, Cranky Sam Public House, The Stables scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:02:50Z",
-   "msg": "Partnerships Nov 14 batch 5: Brasserie Porte Rouge, The Keep Restaurant, 1889 scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1405,
-  "drafted": 1399,
-  "sent": 1399,
-  "delivered": 1076,
+  "researched": 1408,
+  "drafted": 1402,
+  "sent": 1402,
+  "delivered": 1079,
   "bounced": 66,
   "replies": 66,
   "sent_today": {
-   "contact@yeschefsupply.com": 14
+   "contact@yeschefsupply.com": 17
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 14
+    "contact@yeschefsupply.com": 17
    }
   },
   "by_state": {
@@ -3597,8 +3597,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 54,
-    "delivered": 48,
+    "sent": 57,
+    "delivered": 51,
     "bounced": 3
    },
    "NV": {
