@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T16:31:33+00:00",
+ "generated_at": "2026-11-13T16:35:08+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-13T16:34:54Z",
+   "msg": "Santa Fe batch 2: Henry & The Fish, Plaza Cafe Downtown (bounced 550), Tia Sophia's (contact@)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T16:31:18Z",
    "msg": "Santa Fe batch 1: Cafe Pasqual's, French Pastry Shop, Pantry Rio (contact@)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T17:52:47Z",
    "msg": "Partnerships Nov 14 batch 2: Vegan Daddy Meats, Arempas, Prime Corn scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T17:49:39Z",
-   "msg": "Partnerships Nov 14 batch 1: Yoshi's Japanese Grill, Moki's Hawaiian Grill, Weller's Bistro scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1394,
-  "drafted": 1388,
-  "sent": 1388,
-  "delivered": 1066,
-  "bounced": 65,
+  "researched": 1397,
+  "drafted": 1391,
+  "sent": 1391,
+  "delivered": 1068,
+  "bounced": 66,
   "replies": 66,
   "sent_today": {
-   "contact@yeschefsupply.com": 3
+   "contact@yeschefsupply.com": 6
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 3
+    "contact@yeschefsupply.com": 6
    }
   },
   "by_state": {
@@ -3597,9 +3597,9 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 43,
-    "delivered": 38,
-    "bounced": 2
+    "sent": 46,
+    "delivered": 40,
+    "bounced": 3
    },
    "NV": {
     "sent": 44,
