@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-14T01:02:48+00:00",
+ "generated_at": "2026-11-14T01:03:23+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-14T01:02:36Z",
+   "msg": "Santa Fe wave-2 Sat scheduling batch 6: Bumble Bee's Baja Grill, Casa Culinaria, Vanessie (Nov 14, 6:00-6:08am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-14T00:59:42Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 5: La Choza, The Pink Adobe, Cleopatra Cafe (Nov 14, 5:48-5:56am PT)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-12T17:35:10Z",
    "msg": "contact@ Nov 12 batch 1: Char, Vinaigrette, Mesa Provisions sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-12T07:52:30Z",
-   "msg": "Log replied row: La Nena Cantina (Vicente Del Rio, 2026-11-11, liam)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1436,
-  "drafted": 1430,
-  "sent": 1430,
+  "researched": 1439,
+  "drafted": 1433,
+  "sent": 1433,
   "delivered": 1094,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 44
+   "contact@yeschefsupply.com": 47
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 44
+    "contact@yeschefsupply.com": 47
    }
   },
   "by_state": {
@@ -3597,7 +3597,7 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 84,
+    "sent": 87,
     "delivered": 64,
     "bounced": 3
    },
