@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-14T00:55:29+00:00",
+ "generated_at": "2026-11-14T00:57:04+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,16 @@
  ],
  "events": [
   {
+   "t": "2026-11-14T00:56:51Z",
+   "msg": "Santa Fe wave-2 Sat scheduling batch 4: Casa Chimayo, Sweet Santa Fe, Santa Fe Biscochito Company (Nov 14, 5:36-5:44am PT)",
+   "who": "Cassius"
+  },
+  {
+   "t": "2026-11-14T00:54:00Z",
+   "msg": "Santa Fe wave-2 Sat scheduling batch 3: Tender Fire Kitchen, Hawt Pizza, Fiesta Oaxaca (Nov 14, 5:24-5:32am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-14T00:51:11Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 2: Anthony's Grill, Herv\u00e9, Tumbleroot Pottery Pub (Nov 14, 5:12-5:20am PT)",
    "who": "Cassius"
@@ -3383,27 +3393,17 @@
    "t": "2026-11-11T23:00:15Z",
    "msg": "Log replied rows: Vermilion (Ahran Cho, 2026-11-10 + 2026-11-11, liam)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T22:46:54Z",
-   "msg": "Log replied rows: Harry's Daughter, JBJ Soul Kitchen, Kawa Revolving Sushi (2026-11-11, liam)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:37:32Z",
-   "msg": "Outreach paused: partnerships scheduling complete (Thu 30, Fri 30, Sat 30, Mon 11)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1427,
-  "drafted": 1421,
-  "sent": 1421,
+  "researched": 1433,
+  "drafted": 1427,
+  "sent": 1427,
   "delivered": 1094,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 35
+   "contact@yeschefsupply.com": 41
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 35
+    "contact@yeschefsupply.com": 41
    }
   },
   "by_state": {
@@ -3597,7 +3597,7 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 75,
+    "sent": 81,
     "delivered": 64,
     "bounced": 3
    },
