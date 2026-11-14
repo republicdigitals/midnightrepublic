@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-14T01:17:48+00:00",
+ "generated_at": "2026-11-14T01:20:09+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-14T01:19:55Z",
+   "msg": "Santa Fe wave-2 Mon scheduling batch 12: Posa's Tamale Factory, Pantry Villa (Nov 16, 5:12-5:16am PT) \u2014 scheduling complete 35/35",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-14T01:17:38Z",
    "msg": "Santa Fe wave-2 Mon scheduling batch 11: Maria's New Mexican Kitchen, Tortilla Flats, India House (Nov 16, 5:00-5:08am PT)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-12T18:56:12Z",
    "msg": "contact@ Nov 12 batch 7: Two Cranes, Dalah, Oma sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-12T18:45:14Z",
-   "msg": "contact@ Nov 12 batch 6: Sakura + Farm and Table delivered; Sa Thai sent, in Zoho retry queue",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1454,
-  "drafted": 1448,
-  "sent": 1448,
+  "researched": 1456,
+  "drafted": 1450,
+  "sent": 1450,
   "delivered": 1094,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 62
+   "contact@yeschefsupply.com": 64
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 62
+    "contact@yeschefsupply.com": 64
    }
   },
   "by_state": {
@@ -3597,7 +3597,7 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 102,
+    "sent": 104,
     "delivered": 64,
     "bounced": 3
    },
