@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-14T01:12:19+00:00",
+ "generated_at": "2026-11-14T01:14:50+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-14T01:14:38Z",
+   "msg": "Santa Fe wave-2 Sat scheduling batch 10: Andiamo!, Midtown Bistro, Escondido (Nov 14, 6:48-6:56am PT) \u2014 Saturday grid complete 30/30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-14T01:12:07Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 9: The Ranch House, El Nido, The Cowgirl BBQ (Nov 14, 6:36-6:44am PT)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-12T18:28:14Z",
    "msg": "contact@ Nov 12 batch 5: Itality, Campo, Sawmill Market sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-12T18:14:17Z",
-   "msg": "contact@ Nov 12 batch 4: Level 5, Kosmos, Pho Nho sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1448,
-  "drafted": 1442,
-  "sent": 1442,
+  "researched": 1451,
+  "drafted": 1445,
+  "sent": 1445,
   "delivered": 1094,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 56
+   "contact@yeschefsupply.com": 59
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 56
+    "contact@yeschefsupply.com": 59
    }
   },
   "by_state": {
@@ -3597,7 +3597,7 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 96,
+    "sent": 99,
     "delivered": 64,
     "bounced": 3
    },
