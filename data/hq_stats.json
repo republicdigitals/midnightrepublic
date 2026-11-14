@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-14T01:06:02+00:00",
+ "generated_at": "2026-11-14T01:09:12+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-14T01:09:02Z",
+   "msg": "Santa Fe wave-2 Sat scheduling batch 8: izanami, Mystic Mesa, Rio Chama (Nov 14, 6:24-6:32am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-14T01:05:52Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 7: Arroyo Vino, Tomasita's, Osteria D' Assissi (Nov 14, 6:12-6:20am PT)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-12T18:01:56Z",
    "msg": "contact@ Nov 12 batch 3: Seasons, Line Tide, Triana sent+delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-12T17:50:04Z",
-   "msg": "contact@ Nov 12 batch 2: Salinee, Umami Moto, Fire Wok sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1442,
-  "drafted": 1436,
-  "sent": 1436,
+  "researched": 1445,
+  "drafted": 1439,
+  "sent": 1439,
   "delivered": 1094,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 50
+   "contact@yeschefsupply.com": 53
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 50
+    "contact@yeschefsupply.com": 53
    }
   },
   "by_state": {
@@ -3597,7 +3597,7 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 90,
+    "sent": 93,
     "delivered": 64,
     "bounced": 3
    },
