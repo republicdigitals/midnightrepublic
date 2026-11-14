@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T19:08:23+00:00",
+ "generated_at": "2026-11-14T00:40:51+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-14T00:40:38Z",
+   "msg": "Retry watch outcomes 2026-11-13: Sa Thai, Osa Rooftop, Cafe Pasqual's delivered; Golden Leaf replied",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-13T19:04:09Z",
    "msg": "Ahran Cho (Vermilion) replied 2026-11-13: picked Fri Nov 20, 5-6pm, asked guest count",
    "who": "Cassius"
@@ -3388,18 +3393,13 @@
    "t": "2026-11-11T18:33:03Z",
    "msg": "Partnerships Nov 16 batch 3: Morrie's Steakhouse, CH Patisserie, Green Room scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:29:21Z",
-   "msg": "Partnerships Nov 16 batch 2: Bread & Circus, Ironwood Steakhouse, Minervas scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 1421,
   "drafted": 1415,
   "sent": 1415,
-  "delivered": 1091,
+  "delivered": 1094,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
@@ -3483,7 +3483,7 @@
    },
    "CA": {
     "sent": 112,
-    "delivered": 107,
+    "delivered": 108,
     "bounced": 2
    },
    "CO": {
@@ -3598,7 +3598,7 @@
    },
    "NM": {
     "sent": 69,
-    "delivered": 62,
+    "delivered": 64,
     "bounced": 3
    },
    "NV": {
