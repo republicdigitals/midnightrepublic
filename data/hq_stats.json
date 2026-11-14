@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-14T00:40:51+00:00",
+ "generated_at": "2026-11-14T00:52:01+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-14T00:48:19Z",
+   "msg": "Santa Fe wave-2 Sat scheduling batch 1: Wolf and Mermaid, El Callejon, Joe's Tequila Bar (Nov 14, 5:00-5:08am PT)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-14T00:40:38Z",
    "msg": "Retry watch outcomes 2026-11-13: Sa Thai, Osa Rooftop, Cafe Pasqual's delivered; Golden Leaf replied",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-11T18:36:44Z",
    "msg": "Partnerships Nov 16 batch 4: 8th Street at the Ivy, Lake House on Canandaigua scheduled - Monday 11/11 complete",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-11T18:33:03Z",
-   "msg": "Partnerships Nov 16 batch 3: Morrie's Steakhouse, CH Patisserie, Green Room scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1421,
-  "drafted": 1415,
-  "sent": 1415,
+  "researched": 1424,
+  "drafted": 1418,
+  "sent": 1418,
   "delivered": 1094,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 29
+   "contact@yeschefsupply.com": 32
   },
   "sent_by_day": {
    "2026-10-28": {
@@ -3462,7 +3462,7 @@
     "contact@yeschefsupply.com": 24
    },
    "2026-11-13": {
-    "contact@yeschefsupply.com": 29
+    "contact@yeschefsupply.com": 32
    }
   },
   "by_state": {
@@ -3597,7 +3597,7 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 69,
+    "sent": 72,
     "delivered": 64,
     "bounced": 3
    },
