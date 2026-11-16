@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T19:14:25+00:00",
+ "generated_at": "2026-11-16T19:29:27+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T19:29:14Z",
+   "msg": "Wave 3 batch 4: 3 sent, 3 delivered (liam)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T19:14:15Z",
    "msg": "Wave 3 batch 3: 3 sent, 3 delivered (liam)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-13T16:31:18Z",
    "msg": "Santa Fe batch 1: Cafe Pasqual's, French Pastry Shop, Pantry Rio (contact@)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T15:35:40Z",
-   "msg": "Log replied row: Level 5 at Hotel Chaco (2026-11-13, contact@)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1465,
-  "drafted": 1459,
-  "sent": 1459,
-  "delivered": 1103,
+  "researched": 1468,
+  "drafted": 1462,
+  "sent": 1462,
+  "delivered": 1106,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "liam@yeschefsupply.com": 9
+   "liam@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3460,7 +3460,7 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 9
+    "liam@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3595,8 +3595,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 113,
-    "delivered": 73,
+    "sent": 116,
+    "delivered": 76,
     "bounced": 3
    },
    "NV": {
