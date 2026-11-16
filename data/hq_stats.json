@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-14T01:20:09+00:00",
+ "generated_at": "2026-11-16T18:27:05+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T18:26:51Z",
+   "msg": "Wave 3 liam live run started",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-14T01:19:55Z",
    "msg": "Santa Fe wave-2 Mon scheduling batch 12: Posa's Tamale Factory, Pantry Villa (Nov 16, 5:12-5:16am PT) \u2014 scheduling complete 35/35",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-12T19:12:14Z",
    "msg": "contact@ Nov 12 batch 8: My Sage + Golden Leaf delivered; Osa Rooftop sent, in Zoho retry queue",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-12T18:56:12Z",
-   "msg": "contact@ Nov 12 batch 7: Two Cranes, Dalah, Oma sent+delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3402,9 +3402,7 @@
   "delivered": 1094,
   "bounced": 66,
   "replies": 67,
-  "sent_today": {
-   "contact@yeschefsupply.com": 64
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-28": {
     "liam@yeschefgroup.co": 30,
@@ -3715,9 +3713,5 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": {
-  "status": "paused",
-  "since": "",
-  "note": ""
- }
+ "outreach": null
 }
