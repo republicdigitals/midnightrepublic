@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T23:09:59+00:00",
+ "generated_at": "2026-11-16T23:12:37+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T23:12:25Z",
+   "msg": "Mon Nov 16 liam morning sends verified delivered (Staceys, Hana, Burger Dive); Accomplice Beer Company bounced (421 4.4.3 domain not resolved)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T23:09:40Z",
    "msg": "outreach: paused - Las Cruces liam run closed Nov 16",
    "who": "Cassius"
@@ -3388,19 +3393,14 @@
    "t": "2026-11-13T18:53:49Z",
    "msg": "Santa Fe wave 2 batch 4: Teahouse, Steam and Smoke, Paloma, El Sabor (4 sent, 4 delivered)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T18:48:38Z",
-   "msg": "Santa Fe wave 2 batch 3: Vara (delivered), Modern General (sent, in retry queue 4.4.1), Amalfi (delivered)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 1483,
   "drafted": 1477,
   "sent": 1477,
-  "delivered": 1120,
-  "bounced": 67,
+  "delivered": 1123,
+  "bounced": 68,
   "replies": 67,
   "sent_today": {
    "liam@yeschefsupply.com": 27
@@ -3571,7 +3571,7 @@
    },
    "MT": {
     "sent": 37,
-    "delivered": 10,
+    "delivered": 13,
     "bounced": 2
    },
    "NC": {
@@ -3682,7 +3682,7 @@
    "WY": {
     "sent": 47,
     "delivered": 6,
-    "bounced": 0
+    "bounced": 1
    }
   }
  },
