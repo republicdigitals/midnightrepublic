@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T18:27:05+00:00",
+ "generated_at": "2026-11-16T18:45:38+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T18:45:24Z",
+   "msg": "Wave 3 batch 1: 3 sent, 3 delivered (liam)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T18:26:51Z",
    "msg": "Wave 3 liam live run started",
    "who": "Cassius"
@@ -3388,27 +3393,19 @@
    "t": "2026-11-12T19:16:12Z",
    "msg": "contact@ Nov 12: Dalah replied (Nataya/Fai), kit sent",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-12T19:12:14Z",
-   "msg": "contact@ Nov 12 batch 8: My Sage + Golden Leaf delivered; Osa Rooftop sent, in Zoho retry queue",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1456,
-  "drafted": 1450,
-  "sent": 1450,
-  "delivered": 1094,
+  "researched": 1459,
+  "drafted": 1453,
+  "sent": 1453,
+  "delivered": 1097,
   "bounced": 66,
   "replies": 67,
-  "sent_today": {},
+  "sent_today": {
+   "liam@yeschefsupply.com": 3
+  },
   "sent_by_day": {
-   "2026-10-28": {
-    "liam@yeschefgroup.co": 30,
-    "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 29
-   },
    "2026-10-29": {
     "liam@jackdinningroom.com": 30,
     "contact@jackdinningroom.com": 30,
@@ -3461,6 +3458,9 @@
    },
    "2026-11-13": {
     "contact@yeschefsupply.com": 64
+   },
+   "2026-11-16": {
+    "liam@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3595,8 +3595,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 104,
-    "delivered": 64,
+    "sent": 107,
+    "delivered": 67,
     "bounced": 3
    },
    "NV": {
