@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T22:00:43+00:00",
+ "generated_at": "2026-11-16T22:19:27+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T22:19:14Z",
+   "msg": "Las Cruces batch 1: Grounded, Hacienda de Mesilla, Smokey Sensations (liam, 3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T22:00:32Z",
    "msg": "outreach: running - Las Cruces liam sends Nov 16",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-13T16:46:08Z",
    "msg": "Santa Fe batch 5: Dinner For Two, Tres Colores, Sazon (contact@)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T16:41:52Z",
-   "msg": "Santa Fe batch 4: Restaurant Martin, Radish & Rye, The Compound Restaurant (contact@)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1471,
-  "drafted": 1465,
-  "sent": 1465,
-  "delivered": 1109,
+  "researched": 1474,
+  "drafted": 1468,
+  "sent": 1468,
+  "delivered": 1112,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "liam@yeschefsupply.com": 15
+   "liam@yeschefsupply.com": 18
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3460,7 +3460,7 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 15
+    "liam@yeschefsupply.com": 18
    }
   },
   "by_state": {
@@ -3595,8 +3595,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 119,
-    "delivered": 79,
+    "sent": 122,
+    "delivered": 82,
     "bounced": 3
    },
    "NV": {
