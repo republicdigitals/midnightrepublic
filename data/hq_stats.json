@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T23:09:47+00:00",
+ "generated_at": "2026-11-16T23:09:59+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T23:09:40Z",
+   "msg": "outreach: paused - Las Cruces liam run closed Nov 16",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T23:09:36Z",
    "msg": "Las Cruces batch 4: Truth or Consequences Brewing, Luna Rossa (bounced), El Sombrero Patio Cafe (liam, 3 sent, 2 delivered, 1 bounced)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-13T18:48:38Z",
    "msg": "Santa Fe wave 2 batch 3: Vara (delivered), Modern General (sent, in retry queue 4.4.1), Amalfi (delivered)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T18:43:48Z",
-   "msg": "Santa Fe wave 2 batch 2: Iconik Coffee Roasters, Il Vicino, Jambo Cafe (3 sent, 3 delivered)",
    "who": "Cassius"
   }
  ],
@@ -3713,5 +3713,9 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": null
+ "outreach": {
+  "status": "paused",
+  "since": "",
+  "note": ""
+ }
 }
