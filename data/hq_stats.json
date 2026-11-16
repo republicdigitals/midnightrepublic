@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T23:12:37+00:00",
+ "generated_at": "2026-11-16T23:16:31+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T23:16:21Z",
+   "msg": "Link queue Nov 16: +23 sent, 23 delivered (account 3)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T23:12:25Z",
    "msg": "Mon Nov 16 liam morning sends verified delivered (Staceys, Hana, Burger Dive); Accomplice Beer Company bounced (421 4.4.3 domain not resolved)",
    "who": "Cassius"
@@ -3388,22 +3393,18 @@
    "t": "2026-11-13T19:00:27Z",
    "msg": "Craft House (Dana Point) replied 2026-11-12 via Knife & Spork PR",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T18:53:49Z",
-   "msg": "Santa Fe wave 2 batch 4: Teahouse, Steam and Smoke, Paloma, El Sabor (4 sent, 4 delivered)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1483,
-  "drafted": 1477,
-  "sent": 1477,
-  "delivered": 1123,
+  "researched": 1506,
+  "drafted": 1500,
+  "sent": 1500,
+  "delivered": 1146,
   "bounced": 68,
   "replies": 67,
   "sent_today": {
-   "liam@yeschefsupply.com": 27
+   "liam@yeschefsupply.com": 27,
+   "contact@jackdinningroom.com": 23
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3460,7 +3461,8 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 27
+    "liam@yeschefsupply.com": 27,
+    "contact@jackdinningroom.com": 23
    }
   },
   "by_state": {
@@ -3480,8 +3482,8 @@
     "bounced": 0
    },
    "CA": {
-    "sent": 112,
-    "delivered": 108,
+    "sent": 115,
+    "delivered": 111,
     "bounced": 2
    },
    "CO": {
@@ -3505,8 +3507,8 @@
     "bounced": 0
    },
    "FL": {
-    "sent": 61,
-    "delivered": 56,
+    "sent": 69,
+    "delivered": 64,
     "bounced": 5
    },
    "GA": {
@@ -3530,8 +3532,8 @@
     "bounced": 0
    },
    "KS": {
-    "sent": 10,
-    "delivered": 5,
+    "sent": 11,
+    "delivered": 6,
     "bounced": 5
    },
    "KY": {
@@ -3555,8 +3557,8 @@
     "bounced": 2
    },
    "MI": {
-    "sent": 15,
-    "delivered": 15,
+    "sent": 16,
+    "delivered": 16,
     "bounced": 0
    },
    "MN": {
@@ -3565,8 +3567,8 @@
     "bounced": 0
    },
    "MO": {
-    "sent": 4,
-    "delivered": 3,
+    "sent": 6,
+    "delivered": 5,
     "bounced": 1
    },
    "MT": {
@@ -3605,8 +3607,8 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 29,
-    "delivered": 27,
+    "sent": 37,
+    "delivered": 35,
     "bounced": 1
    },
    "OH": {
