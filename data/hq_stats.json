@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T22:38:27+00:00",
+ "generated_at": "2026-11-16T22:53:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-16T22:52:54Z",
+   "msg": "Las Cruces batch 3: Chalas Wood Fire Grill, Pastaggios Italian, Andele Restaurant (liam, 3 sent, 3 delivered)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T22:37:42Z",
    "msg": "Las Cruces batch 2: D.H. Lescombes, Tacos & Shell-ahs, A Bite of Belgium (liam, 3 sent, 3 delivered)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-13T18:39:54Z",
    "msg": "Santa Fe wave 2 batch 1: Leo's, Paper Dosa, Sweetwater Harvest Kitchen (3 sent, 3 delivered)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T16:50:58Z",
-   "msg": "Santa Fe batch 6: Geronimo, La Boca, Horno Restaurant (contact@)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1477,
-  "drafted": 1471,
-  "sent": 1471,
-  "delivered": 1115,
+  "researched": 1480,
+  "drafted": 1474,
+  "sent": 1474,
+  "delivered": 1118,
   "bounced": 66,
   "replies": 67,
   "sent_today": {
-   "liam@yeschefsupply.com": 21
+   "liam@yeschefsupply.com": 24
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3460,7 +3460,7 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 21
+    "liam@yeschefsupply.com": 24
    }
   },
   "by_state": {
@@ -3595,8 +3595,8 @@
     "bounced": 2
    },
    "NM": {
-    "sent": 125,
-    "delivered": 85,
+    "sent": 128,
+    "delivered": 88,
     "bounced": 3
    },
    "NV": {
