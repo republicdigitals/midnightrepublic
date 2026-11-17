@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T08:35:05+00:00",
+ "generated_at": "2026-11-17T08:38:41+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T08:38:31Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 8: Gramercy Tavern, Huso, Dubrovnik \u2014 3 scheduled for 6:24/6:28/6:32am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T08:34:54Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 7: The Local Table, Essential by Christophe, Elm \u2014 3 scheduled for 6:12/6:16/6:20am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T19:29:14Z",
    "msg": "Wave 3 batch 4: 3 sent, 3 delivered (liam)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T19:14:15Z",
-   "msg": "Wave 3 batch 3: 3 sent, 3 delivered (liam)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1546,
-  "drafted": 1540,
-  "sent": 1540,
+  "researched": 1549,
+  "drafted": 1543,
+  "sent": 1543,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3458,7 +3458,7 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 48,
+    "liam@yeschefsupply.com": 51,
     "contact@jackdinningroom.com": 23,
     "partnerships@yeschefsupply.com": 19
    }
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 45,
+    "sent": 48,
     "delivered": 38,
     "bounced": 1
    },
