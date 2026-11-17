@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T02:55:29+00:00",
+ "generated_at": "2026-11-17T02:55:40+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T02:55:19Z",
+   "msg": "Greenwich batch 8: MIKU \u2014 1 sent, 1 delivered (run complete)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T02:55:17Z",
    "msg": "Greenwich run complete: 19 sent, 18 delivered, 1 pending (India Avenue retry queue); outreach paused",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-14T01:09:02Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 8: izanami, Mystic Mesa, Rio Chama (Nov 14, 6:24-6:32am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-14T01:05:52Z",
-   "msg": "Santa Fe wave-2 Sat scheduling batch 7: Arroyo Vino, Tomasita's, Osteria D' Assissi (Nov 14, 6:12-6:20am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1524,
-  "drafted": 1518,
-  "sent": 1518,
-  "delivered": 1163,
+  "researched": 1525,
+  "drafted": 1519,
+  "sent": 1519,
+  "delivered": 1164,
   "bounced": 68,
   "replies": 67,
   "sent_today": {
    "liam@yeschefsupply.com": 27,
    "contact@jackdinningroom.com": 23,
-   "partnerships@yeschefsupply.com": 18
+   "partnerships@yeschefsupply.com": 19
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3464,7 +3464,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 27,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 18
+    "partnerships@yeschefsupply.com": 19
    }
   },
   "by_state": {
@@ -3494,8 +3494,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 19,
-    "delivered": 17,
+    "sent": 20,
+    "delivered": 18,
     "bounced": 0
    },
    "DC": {
