@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T09:35:43+00:00",
+ "generated_at": "2026-11-17T09:38:23+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T09:38:12Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 5: Little Maven, Francie, Valdari NYC \u2014 3 scheduled for 5:48/5:52/5:56am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T09:35:30Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 4: Underhills Crossing, JeJu Noodle Bar, Takumi \u2014 3 scheduled for 5:36/5:40/5:44am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T23:09:36Z",
    "msg": "Las Cruces batch 4: Truth or Consequences Brewing, Luna Rossa (bounced), El Sombrero Patio Cafe (liam, 3 sent, 2 delivered, 1 bounced)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T22:52:54Z",
-   "msg": "Las Cruces batch 3: Chalas Wood Fire Grill, Pastaggios Italian, Andele Restaurant (liam, 3 sent, 3 delivered)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1567,
-  "drafted": 1561,
-  "sent": 1561,
+  "researched": 1570,
+  "drafted": 1564,
+  "sent": 1564,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3460,7 +3460,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 31
+    "partnerships@yeschefsupply.com": 34
    }
   },
   "by_state": {
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 66,
+    "sent": 69,
     "delivered": 38,
     "bounced": 1
    },
