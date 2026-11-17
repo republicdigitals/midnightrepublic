@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T08:41:55+00:00",
+ "generated_at": "2026-11-17T08:45:38+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T08:45:24Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 10: Copperhill, Joo Ok, SSAW Brooklyn \u2014 3 scheduled for 6:48/6:52/6:56am PT; liam 30/30 complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T08:41:43Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 9: Mihana, Copper Kettle Cafe, Gabriel Kreuther \u2014 3 scheduled for 6:36/6:40/6:44am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T19:44:31Z",
    "msg": "Wave 3 liam run complete",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T19:44:29Z",
-   "msg": "Wave 3 batch 5: 3 sent, 3 delivered (liam)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1552,
-  "drafted": 1546,
-  "sent": 1546,
+  "researched": 1555,
+  "drafted": 1549,
+  "sent": 1549,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3458,7 +3458,7 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 54,
+    "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
     "partnerships@yeschefsupply.com": 19
    }
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 51,
+    "sent": 54,
     "delivered": 38,
     "bounced": 1
    },
