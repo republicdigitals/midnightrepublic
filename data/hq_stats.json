@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T02:43:15+00:00",
+ "generated_at": "2026-11-17T02:49:16+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T02:49:05Z",
+   "msg": "Greenwich batch 7: Tsuki \u2014 1 sent, 1 delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T02:43:04Z",
    "msg": "Greenwich batch 6: Frankie & Louie's, Greenwich Flavor \u2014 2 sent, 2 delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-14T01:02:36Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 6: Bumble Bee's Baja Grill, Casa Culinaria, Vanessie (Nov 14, 6:00-6:08am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-14T00:59:42Z",
-   "msg": "Santa Fe wave-2 Sat scheduling batch 5: La Choza, The Pink Adobe, Cleopatra Cafe (Nov 14, 5:48-5:56am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1523,
-  "drafted": 1517,
-  "sent": 1517,
-  "delivered": 1162,
+  "researched": 1524,
+  "drafted": 1518,
+  "sent": 1518,
+  "delivered": 1163,
   "bounced": 68,
   "replies": 67,
   "sent_today": {
    "liam@yeschefsupply.com": 27,
    "contact@jackdinningroom.com": 23,
-   "partnerships@yeschefsupply.com": 17
+   "partnerships@yeschefsupply.com": 18
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3464,7 +3464,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 27,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 17
+    "partnerships@yeschefsupply.com": 18
    }
   },
   "by_state": {
@@ -3494,8 +3494,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 18,
-    "delivered": 16,
+    "sent": 19,
+    "delivered": 17,
     "bounced": 0
    },
    "DC": {
