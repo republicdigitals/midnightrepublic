@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T17:41:33+00:00",
+ "generated_at": "2026-11-17T17:55:58+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T17:55:46Z",
+   "msg": "Greenwich new-rows live run from contact@, batch 1: Library Cafe, Taj Indian Cuisine, Cka Ka Qellu \u2014 3 sent live, Delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T17:41:19Z",
    "msg": "Greenwich new-rows live run from contact@: 13 drafts, sending now",
    "who": "Cassius"
@@ -3388,27 +3393,19 @@
    "t": "2026-11-17T02:55:17Z",
    "msg": "Greenwich run complete: 19 sent, 18 delivered, 1 pending (India Avenue retry queue); outreach paused",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T02:49:05Z",
-   "msg": "Greenwich batch 7: Tsuki \u2014 1 sent, 1 delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1591,
-  "drafted": 1585,
-  "sent": 1585,
+  "researched": 1594,
+  "drafted": 1588,
+  "sent": 1588,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
-  "sent_today": {},
+  "sent_today": {
+   "contact@yeschefsupply.com": 3
+  },
   "sent_by_day": {
-   "2026-10-29": {
-    "liam@jackdinningroom.com": 30,
-    "contact@jackdinningroom.com": 30,
-    "liam@yeschefgroup.co": 23
-   },
    "2026-10-31": {
     "liam@yeschefgroup.co": 4
    },
@@ -3462,6 +3459,9 @@
     "contact@jackdinningroom.com": 23,
     "partnerships@yeschefsupply.com": 49,
     "contact@yeschefsupply.com": 6
+   },
+   "2026-11-17": {
+    "contact@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3491,7 +3491,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 43,
+    "sent": 46,
     "delivered": 18,
     "bounced": 0
    },
