@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T09:30:47+00:00",
+ "generated_at": "2026-11-17T09:33:04+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T09:32:52Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 3: Roadtrip Bayshore, Bangkok Supper Club, Atera \u2014 3 scheduled for 5:24/5:28/5:32am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T09:30:34Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 2: Le Bernardin, Mishik, Aska \u2014 3 scheduled for 5:12/5:16/5:20am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T22:37:42Z",
    "msg": "Las Cruces batch 2: D.H. Lescombes, Tacos & Shell-ahs, A Bite of Belgium (liam, 3 sent, 3 delivered)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T22:19:14Z",
-   "msg": "Las Cruces batch 1: Grounded, Hacienda de Mesilla, Smokey Sensations (liam, 3 sent, 3 delivered)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1561,
-  "drafted": 1555,
-  "sent": 1555,
+  "researched": 1564,
+  "drafted": 1558,
+  "sent": 1558,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3460,7 +3460,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 25
+    "partnerships@yeschefsupply.com": 28
    }
   },
   "by_state": {
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 60,
+    "sent": 63,
     "delivered": 38,
     "bounced": 1
    },
