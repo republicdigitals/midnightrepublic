@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T10:14:50+00:00",
+ "generated_at": "2026-11-17T10:15:03+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T10:14:47Z",
+   "msg": "Greenwich Tue Nov 17 scheduling fully complete: 66 scheduled (liam 30 + partnerships 30 + contact@ 6), outreach paused",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T10:14:38Z",
    "msg": "Greenwich Tue Nov 17 scheduling, contact@ batch 2: Raphaels Bakery, Sergios Saw Pit, Tonys at the J House \u2014 3 scheduled for 5:12/5:16/5:20am PT; contact@ 6/6 complete, run total 66 scheduled",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-17T02:43:04Z",
    "msg": "Greenwich batch 6: Frankie & Louie's, Greenwich Flavor \u2014 2 sent, 2 delivered",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T02:31:09Z",
-   "msg": "Greenwich batch 5: ABIS, Patsy's, Salsa Picante \u2014 3 sent, 3 delivered",
    "who": "Cassius"
   }
  ],
@@ -3714,5 +3714,9 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": null
+ "outreach": {
+  "status": "paused",
+  "since": "",
+  "note": ""
+ }
 }
