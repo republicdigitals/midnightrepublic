@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T01:03:33+00:00",
+ "generated_at": "2026-11-17T01:21:00+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T01:20:43Z",
+   "msg": "Greenwich batch 1: Moli, The Cottage, L'Escale \u2014 3 sent, 3 delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T01:03:20Z",
    "msg": "Greenwich run starting from partnerships \u2014 status running",
    "who": "Cassius"
@@ -3388,23 +3393,19 @@
    "t": "2026-11-14T00:40:38Z",
    "msg": "Retry watch outcomes 2026-11-13: Sa Thai, Osa Rooftop, Cafe Pasqual's delivered; Golden Leaf replied",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T19:04:09Z",
-   "msg": "Ahran Cho (Vermilion) replied 2026-11-13: picked Fri Nov 20, 5-6pm, asked guest count",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1506,
-  "drafted": 1500,
-  "sent": 1500,
-  "delivered": 1146,
+  "researched": 1509,
+  "drafted": 1503,
+  "sent": 1503,
+  "delivered": 1149,
   "bounced": 68,
   "replies": 67,
   "sent_today": {
    "liam@yeschefsupply.com": 27,
-   "contact@jackdinningroom.com": 23
+   "contact@jackdinningroom.com": 23,
+   "partnerships@yeschefsupply.com": 3
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3462,7 +3463,8 @@
    },
    "2026-11-16": {
     "liam@yeschefsupply.com": 27,
-    "contact@jackdinningroom.com": 23
+    "contact@jackdinningroom.com": 23,
+    "partnerships@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3492,8 +3494,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 4,
-    "delivered": 3,
+    "sent": 7,
+    "delivered": 6,
     "bounced": 0
    },
    "DC": {
