@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T10:12:37+00:00",
+ "generated_at": "2026-11-17T10:14:50+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T10:14:38Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, contact@ batch 2: Raphaels Bakery, Sergios Saw Pit, Tonys at the J House \u2014 3 scheduled for 5:12/5:16/5:20am PT; contact@ 6/6 complete, run total 66 scheduled",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T10:12:26Z",
    "msg": "Greenwich Tue Nov 17 scheduling, contact@ batch 1: Fat Stus, Hudsons Mill, Lucas Pizza \u2014 3 scheduled for 5:00/5:04/5:08am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-17T02:31:09Z",
    "msg": "Greenwich batch 5: ABIS, Patsy's, Salsa Picante \u2014 3 sent, 3 delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T02:14:04Z",
-   "msg": "Greenwich batch 4: Rebeccas, Sonora delivered; India Avenue in retry queue (logged sent only)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1588,
-  "drafted": 1582,
-  "sent": 1582,
+  "researched": 1591,
+  "drafted": 1585,
+  "sent": 1585,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3461,7 +3461,7 @@
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
     "partnerships@yeschefsupply.com": 49,
-    "contact@yeschefsupply.com": 3
+    "contact@yeschefsupply.com": 6
    }
   },
   "by_state": {
@@ -3491,7 +3491,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 41,
+    "sent": 43,
     "delivered": 18,
     "bounced": 0
    },
@@ -3606,7 +3606,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 81,
+    "sent": 82,
     "delivered": 38,
     "bounced": 1
    },
