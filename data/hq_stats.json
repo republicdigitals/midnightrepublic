@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T20:55:46+00:00",
+ "generated_at": "2026-11-17T21:01:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T21:01:20Z",
+   "msg": "Outreach Nov 17: Taka Taka sent, bounced (address does not exist)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T20:55:25Z",
    "msg": "Outreach Nov 17: reserve 12 drafted (contact account)",
    "who": "Cassius"
@@ -3388,22 +3393,18 @@
    "t": "2026-11-17T09:30:34Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 2: Le Bernardin, Mishik, Aska \u2014 3 scheduled for 5:12/5:16/5:20am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T09:27:38Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 1: Double Knot, Oiji Mi, Tuome \u2014 3 scheduled for 5:00/5:04/5:08am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 1633,
   "drafted": 1627,
-  "sent": 1615,
+  "sent": 1616,
   "delivered": 1193,
-  "bounced": 70,
+  "bounced": 71,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 30
+   "contact@yeschefsupply.com": 30,
+   "contact@jackdinningroom.com": 1
   },
   "sent_by_day": {
    "2026-10-31": {
@@ -3461,7 +3462,8 @@
     "contact@yeschefsupply.com": 6
    },
    "2026-11-17": {
-    "contact@yeschefsupply.com": 30
+    "contact@yeschefsupply.com": 30,
+    "contact@jackdinningroom.com": 1
    }
   },
   "by_state": {
@@ -3591,9 +3593,9 @@
     "bounced": 0
    },
    "NJ": {
-    "sent": 55,
+    "sent": 56,
     "delivered": 9,
-    "bounced": 2
+    "bounced": 3
    },
    "NM": {
     "sent": 131,
