@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T09:04:48+00:00",
+ "generated_at": "2026-11-17T09:27:53+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T09:27:38Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 1: Double Knot, Oiji Mi, Tuome \u2014 3 scheduled for 5:00/5:04/5:08am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T08:45:24Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 10: Copperhill, Joo Ok, SSAW Brooklyn \u2014 3 scheduled for 6:48/6:52/6:56am PT; liam 30/30 complete",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T22:00:32Z",
    "msg": "outreach: running - Las Cruces liam sends Nov 16",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T19:44:31Z",
-   "msg": "Wave 3 liam run complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1555,
-  "drafted": 1549,
-  "sent": 1549,
+  "researched": 1558,
+  "drafted": 1552,
+  "sent": 1552,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3460,7 +3460,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 19
+    "partnerships@yeschefsupply.com": 22
    }
   },
   "by_state": {
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 54,
+    "sent": 57,
     "delivered": 38,
     "bounced": 1
    },
