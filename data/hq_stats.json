@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T08:21:29+00:00",
+ "generated_at": "2026-11-17T08:24:30+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T08:24:19Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 4: Meli-Melo, Asiana Cafe, Aux Delices \u2014 3 scheduled for 5:36/5:40/5:44am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T08:21:15Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 3: Boxcar Cantina, Il Pastaficio, BSF \u2014 3 scheduled for 5:24/5:28/5:32am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T18:26:51Z",
    "msg": "Wave 3 liam live run started",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-14T01:19:55Z",
-   "msg": "Santa Fe wave-2 Mon scheduling batch 12: Posa's Tamale Factory, Pantry Villa (Nov 16, 5:12-5:16am PT) \u2014 scheduling complete 35/35",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1534,
-  "drafted": 1528,
-  "sent": 1528,
+  "researched": 1537,
+  "drafted": 1531,
+  "sent": 1531,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3458,7 +3458,7 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 36,
+    "liam@yeschefsupply.com": 39,
     "contact@jackdinningroom.com": 23,
     "partnerships@yeschefsupply.com": 19
    }
@@ -3490,7 +3490,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 29,
+    "sent": 32,
     "delivered": 18,
     "bounced": 0
    },
