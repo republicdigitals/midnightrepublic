@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T19:08:14+00:00",
+ "generated_at": "2026-11-17T19:22:36+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T19:22:24Z",
+   "msg": "Westport live run from contact@, batch 3: GG and Joe, Boathouse at Saugatuck, Hey Taco \u2014 3 sent live, all Delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T19:08:02Z",
    "msg": "Westport live run from contact@, batch 2: Hudson Malone, Kawa Ni, OKO Kitchen \u2014 3 sent live, all Delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-17T08:27:55Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 5: CFCF Coffee, George Italian, The Cos Cobber \u2014 3 scheduled for 5:48/5:52/5:56am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T08:24:19Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 4: Meli-Melo, Asiana Cafe, Aux Delices \u2014 3 scheduled for 5:36/5:40/5:44am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1610,
-  "drafted": 1604,
-  "sent": 1604,
-  "delivered": 1182,
+  "researched": 1613,
+  "drafted": 1607,
+  "sent": 1607,
+  "delivered": 1185,
   "bounced": 69,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 19
+   "contact@yeschefsupply.com": 22
   },
   "sent_by_day": {
    "2026-10-31": {
@@ -3461,7 +3461,7 @@
     "contact@yeschefsupply.com": 6
    },
    "2026-11-17": {
-    "contact@yeschefsupply.com": 19
+    "contact@yeschefsupply.com": 22
    }
   },
   "by_state": {
@@ -3491,8 +3491,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 59,
-    "delivered": 33,
+    "sent": 62,
+    "delivered": 36,
     "bounced": 1
    },
    "DC": {
