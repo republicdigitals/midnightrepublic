@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T18:34:12+00:00",
+ "generated_at": "2026-11-17T18:37:18+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T18:37:06Z",
+   "msg": "Greenwich new-rows live run from contact@, batch 5: Jiang \u2014 sent live, Delivered. Greenwich live run COMPLETE: 13 sent, 12 delivered, 1 bounced (Cafe Silvium)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T18:34:00Z",
    "msg": "Greenwich new-rows live run from contact@, batch 4: Petite Bretagne, Acuario, Hudson Social \u2014 3 sent live, all Delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-17T08:18:24Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 2: Barnoodle, Little Pub, F.L.O.C. \u2014 3 scheduled for 5:12/5:16/5:20am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T08:15:09Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 1: Orienta, Supr Food Kitchen, Doppio \u2014 3 scheduled for 5:00/5:04/5:08am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1603,
-  "drafted": 1597,
-  "sent": 1597,
-  "delivered": 1175,
+  "researched": 1604,
+  "drafted": 1598,
+  "sent": 1598,
+  "delivered": 1176,
   "bounced": 69,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 12
+   "contact@yeschefsupply.com": 13
   },
   "sent_by_day": {
    "2026-10-31": {
@@ -3461,7 +3461,7 @@
     "contact@yeschefsupply.com": 6
    },
    "2026-11-17": {
-    "contact@yeschefsupply.com": 12
+    "contact@yeschefsupply.com": 13
    }
   },
   "by_state": {
@@ -3491,8 +3491,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 52,
-    "delivered": 26,
+    "sent": 53,
+    "delivered": 27,
     "bounced": 1
    },
    "DC": {
