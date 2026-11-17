@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T09:49:49+00:00",
+ "generated_at": "2026-11-17T09:53:37+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T09:53:24Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 10: T & Js Pizza & Pasta, By The Way Bakery, Makondo Restaurant \u2014 3 scheduled for 6:48/6:52/6:56am PT; partnerships 30/30 complete, run 60/60 done",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T09:49:38Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 9: Incazteca, Roost, Slate Cafe \u2014 3 scheduled for 6:36/6:40/6:44am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-17T01:20:43Z",
    "msg": "Greenwich batch 1: Moli, The Cottage, L'Escale \u2014 3 sent, 3 delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T01:03:20Z",
-   "msg": "Greenwich run starting from partnerships \u2014 status running",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1582,
-  "drafted": 1576,
-  "sent": 1576,
+  "researched": 1585,
+  "drafted": 1579,
+  "sent": 1579,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3460,7 +3460,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 46
+    "partnerships@yeschefsupply.com": 49
    }
   },
   "by_state": {
@@ -3490,7 +3490,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 39,
+    "sent": 40,
     "delivered": 18,
     "bounced": 0
    },
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 77,
+    "sent": 79,
     "delivered": 38,
     "bounced": 1
    },
