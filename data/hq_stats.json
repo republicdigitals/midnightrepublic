@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T08:24:30+00:00",
+ "generated_at": "2026-11-17T08:28:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T08:27:55Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 5: CFCF Coffee, George Italian, The Cos Cobber \u2014 3 scheduled for 5:48/5:52/5:56am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T08:24:19Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 4: Meli-Melo, Asiana Cafe, Aux Delices \u2014 3 scheduled for 5:36/5:40/5:44am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T18:45:24Z",
    "msg": "Wave 3 batch 1: 3 sent, 3 delivered (liam)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T18:26:51Z",
-   "msg": "Wave 3 liam live run started",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1537,
-  "drafted": 1531,
-  "sent": 1531,
+  "researched": 1540,
+  "drafted": 1534,
+  "sent": 1534,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3458,7 +3458,7 @@
     "contact@yeschefsupply.com": 64
    },
    "2026-11-16": {
-    "liam@yeschefsupply.com": 39,
+    "liam@yeschefsupply.com": 42,
     "contact@jackdinningroom.com": 23,
     "partnerships@yeschefsupply.com": 19
    }
@@ -3490,7 +3490,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 32,
+    "sent": 35,
     "delivered": 18,
     "bounced": 0
    },
