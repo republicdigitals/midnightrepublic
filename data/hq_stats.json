@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T22:12:15+00:00",
+ "generated_at": "2026-11-17T22:13:04+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T22:12:53Z",
+   "msg": "Warm reply Nov 17: Ole Manny's (Manny Tenorio) replied",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T21:01:20Z",
    "msg": "Outreach Nov 17: Taka Taka sent, bounced (address does not exist)",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-17T09:32:52Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 3: Roadtrip Bayshore, Bangkok Supper Club, Atera \u2014 3 scheduled for 5:24/5:28/5:32am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T09:30:34Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 2: Le Bernardin, Mishik, Aska \u2014 3 scheduled for 5:12/5:16/5:20am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3401,7 +3401,7 @@
   "sent": 1616,
   "delivered": 1193,
   "bounced": 71,
-  "replies": 67,
+  "replies": 68,
   "sent_today": {
    "contact@yeschefsupply.com": 30,
    "contact@jackdinningroom.com": 1
