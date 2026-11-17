@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T19:59:31+00:00",
+ "generated_at": "2026-11-17T19:59:44+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T19:59:29Z",
+   "msg": "Live run Tue Nov 17 complete (contact@ 30/30 cap) \u2014 outreach paused",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T19:59:20Z",
    "msg": "Modern General (Santa Fe) retry finally failed permanently Tue Nov 17 \u2014 421 host not reachable, bounced",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-17T08:45:24Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 10: Copperhill, Joo Ok, SSAW Brooklyn \u2014 3 scheduled for 6:48/6:52/6:56am PT; liam 30/30 complete",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T08:41:43Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 9: Mihana, Copper Kettle Cafe, Gabriel Kreuther \u2014 3 scheduled for 6:36/6:40/6:44am PT",
    "who": "Cassius"
   }
  ],
@@ -3714,5 +3714,9 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": null
+ "outreach": {
+  "status": "paused",
+  "since": "",
+  "note": ""
+ }
 }
