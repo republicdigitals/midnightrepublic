@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T02:31:23+00:00",
+ "generated_at": "2026-11-17T02:43:15+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T02:43:04Z",
+   "msg": "Greenwich batch 6: Frankie & Louie's, Greenwich Flavor \u2014 2 sent, 2 delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T02:31:09Z",
    "msg": "Greenwich batch 5: ABIS, Patsy's, Salsa Picante \u2014 3 sent, 3 delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-14T00:59:42Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 5: La Choza, The Pink Adobe, Cleopatra Cafe (Nov 14, 5:48-5:56am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-14T00:56:51Z",
-   "msg": "Santa Fe wave-2 Sat scheduling batch 4: Casa Chimayo, Sweet Santa Fe, Santa Fe Biscochito Company (Nov 14, 5:36-5:44am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1521,
-  "drafted": 1515,
-  "sent": 1515,
-  "delivered": 1160,
+  "researched": 1523,
+  "drafted": 1517,
+  "sent": 1517,
+  "delivered": 1162,
   "bounced": 68,
   "replies": 67,
   "sent_today": {
    "liam@yeschefsupply.com": 27,
    "contact@jackdinningroom.com": 23,
-   "partnerships@yeschefsupply.com": 15
+   "partnerships@yeschefsupply.com": 17
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3464,7 +3464,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 27,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 15
+    "partnerships@yeschefsupply.com": 17
    }
   },
   "by_state": {
@@ -3494,8 +3494,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 17,
-    "delivered": 15,
+    "sent": 18,
+    "delivered": 16,
     "bounced": 0
    },
    "DC": {
@@ -3609,8 +3609,8 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 39,
-    "delivered": 37,
+    "sent": 40,
+    "delivered": 38,
     "bounced": 1
    },
    "OH": {
