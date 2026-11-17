@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T17:55:58+00:00",
+ "generated_at": "2026-11-17T18:08:34+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T18:08:23Z",
+   "msg": "Greenwich new-rows live run from contact@, batch 2: Cafe Silvium BOUNCED (suppressed), Lugano + Boscos delivered; batch 1 delivered rows added",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T17:55:46Z",
    "msg": "Greenwich new-rows live run from contact@, batch 1: Library Cafe, Taj Indian Cuisine, Cka Ka Qellu \u2014 3 sent live, Delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-17T02:55:19Z",
    "msg": "Greenwich batch 8: MIKU \u2014 1 sent, 1 delivered (run complete)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T02:55:17Z",
-   "msg": "Greenwich run complete: 19 sent, 18 delivered, 1 pending (India Avenue retry queue); outreach paused",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1594,
-  "drafted": 1588,
-  "sent": 1588,
-  "delivered": 1164,
-  "bounced": 68,
+  "researched": 1597,
+  "drafted": 1591,
+  "sent": 1591,
+  "delivered": 1169,
+  "bounced": 69,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 3
+   "contact@yeschefsupply.com": 6
   },
   "sent_by_day": {
    "2026-10-31": {
@@ -3461,7 +3461,7 @@
     "contact@yeschefsupply.com": 6
    },
    "2026-11-17": {
-    "contact@yeschefsupply.com": 3
+    "contact@yeschefsupply.com": 6
    }
   },
   "by_state": {
@@ -3491,9 +3491,9 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 46,
-    "delivered": 18,
-    "bounced": 0
+    "sent": 49,
+    "delivered": 23,
+    "bounced": 1
    },
    "DC": {
     "sent": 10,
