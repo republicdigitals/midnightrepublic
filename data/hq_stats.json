@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T09:41:09+00:00",
+ "generated_at": "2026-11-17T09:44:01+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T09:43:49Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 7: Amelie, La Sirene, Run & Hide Brewing \u2014 3 scheduled for 6:12/6:16/6:20am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T09:40:57Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 6: The Modern, Boqueria W40th, Bar Mutz \u2014 3 scheduled for 6:00/6:04/6:08am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T23:12:25Z",
    "msg": "Mon Nov 16 liam morning sends verified delivered (Staceys, Hana, Burger Dive); Accomplice Beer Company bounced (421 4.4.3 domain not resolved)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T23:09:40Z",
-   "msg": "outreach: paused - Las Cruces liam run closed Nov 16",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1573,
-  "drafted": 1567,
-  "sent": 1567,
+  "researched": 1576,
+  "drafted": 1570,
+  "sent": 1570,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3460,7 +3460,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 37
+    "partnerships@yeschefsupply.com": 40
    }
   },
   "by_state": {
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 71,
+    "sent": 74,
     "delivered": 38,
     "bounced": 1
    },
