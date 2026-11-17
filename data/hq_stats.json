@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T19:59:44+00:00",
+ "generated_at": "2026-11-17T20:55:46+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T20:55:25Z",
+   "msg": "Outreach Nov 17: reserve 12 drafted (contact account)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T19:59:29Z",
    "msg": "Live run Tue Nov 17 complete (contact@ 30/30 cap) \u2014 outreach paused",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-17T09:27:38Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 1: Double Knot, Oiji Mi, Tuome \u2014 3 scheduled for 5:00/5:04/5:08am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T08:45:24Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 10: Copperhill, Joo Ok, SSAW Brooklyn \u2014 3 scheduled for 6:48/6:52/6:56am PT; liam 30/30 complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1621,
-  "drafted": 1615,
+  "researched": 1633,
+  "drafted": 1627,
   "sent": 1615,
   "delivered": 1193,
   "bounced": 70,
