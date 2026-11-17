@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T02:00:51+00:00",
+ "generated_at": "2026-11-17T02:14:15+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T02:14:04Z",
+   "msg": "Greenwich batch 4: Rebeccas, Sonora delivered; India Avenue in retry queue (logged sent only)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T01:53:07Z",
    "msg": "Greenwich batch 3: Bella Nonna, Happy Monkey, Polpo \u2014 3 sent, 3 delivered",
    "who": "Cassius"
@@ -3388,24 +3393,19 @@
    "t": "2026-11-14T00:54:00Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 3: Tender Fire Kitchen, Hawt Pizza, Fiesta Oaxaca (Nov 14, 5:24-5:32am PT)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-14T00:51:11Z",
-   "msg": "Santa Fe wave-2 Sat scheduling batch 2: Anthony's Grill, Herv\u00e9, Tumbleroot Pottery Pub (Nov 14, 5:12-5:20am PT)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1515,
-  "drafted": 1509,
-  "sent": 1509,
-  "delivered": 1155,
+  "researched": 1518,
+  "drafted": 1512,
+  "sent": 1512,
+  "delivered": 1157,
   "bounced": 68,
   "replies": 67,
   "sent_today": {
    "liam@yeschefsupply.com": 27,
    "contact@jackdinningroom.com": 23,
-   "partnerships@yeschefsupply.com": 9
+   "partnerships@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-10-29": {
@@ -3464,7 +3464,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 27,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 9
+    "partnerships@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3494,8 +3494,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 13,
-    "delivered": 12,
+    "sent": 15,
+    "delivered": 13,
     "bounced": 0
    },
    "DC": {
@@ -3609,8 +3609,8 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 37,
-    "delivered": 35,
+    "sent": 38,
+    "delivered": 36,
     "bounced": 1
    },
    "OH": {
