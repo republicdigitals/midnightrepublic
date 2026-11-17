@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T10:07:55+00:00",
+ "generated_at": "2026-11-17T10:12:37+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T10:12:26Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, contact@ batch 1: Fat Stus, Hudsons Mill, Lucas Pizza \u2014 3 scheduled for 5:00/5:04/5:08am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T10:07:44Z",
    "msg": "Greenwich Tue Nov 17 scheduling continues: contact@ leg, 6 spare drafts",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-17T02:14:04Z",
    "msg": "Greenwich batch 4: Rebeccas, Sonora delivered; India Avenue in retry queue (logged sent only)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T01:53:07Z",
-   "msg": "Greenwich batch 3: Bella Nonna, Happy Monkey, Polpo \u2014 3 sent, 3 delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1585,
-  "drafted": 1579,
-  "sent": 1579,
+  "researched": 1588,
+  "drafted": 1582,
+  "sent": 1582,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3460,7 +3460,8 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 49
+    "partnerships@yeschefsupply.com": 49,
+    "contact@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3490,7 +3491,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 40,
+    "sent": 41,
     "delivered": 18,
     "bounced": 0
    },
@@ -3605,7 +3606,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 79,
+    "sent": 81,
     "delivered": 38,
     "bounced": 1
    },
