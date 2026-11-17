@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T09:44:01+00:00",
+ "generated_at": "2026-11-17T09:46:49+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T09:46:36Z",
+   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 8: Mumbai Katta, Marianaccis, Greenwich Grill \u2014 3 scheduled for 6:24/6:28/6:32am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T09:43:49Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 7: Amelie, La Sirene, Run & Hide Brewing \u2014 3 scheduled for 6:12/6:16/6:20am PT",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-16T23:16:21Z",
    "msg": "Link queue Nov 16: +23 sent, 23 delivered (account 3)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-16T23:12:25Z",
-   "msg": "Mon Nov 16 liam morning sends verified delivered (Staceys, Hana, Burger Dive); Accomplice Beer Company bounced (421 4.4.3 domain not resolved)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1576,
-  "drafted": 1570,
-  "sent": 1570,
+  "researched": 1579,
+  "drafted": 1573,
+  "sent": 1573,
   "delivered": 1164,
   "bounced": 68,
   "replies": 67,
@@ -3460,7 +3460,7 @@
    "2026-11-16": {
     "liam@yeschefsupply.com": 57,
     "contact@jackdinningroom.com": 23,
-    "partnerships@yeschefsupply.com": 40
+    "partnerships@yeschefsupply.com": 43
    }
   },
   "by_state": {
@@ -3490,7 +3490,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 36,
+    "sent": 37,
     "delivered": 18,
     "bounced": 0
    },
@@ -3605,7 +3605,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 74,
+    "sent": 76,
     "delivered": 38,
     "bounced": 1
    },
