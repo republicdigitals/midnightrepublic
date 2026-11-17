@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T19:36:54+00:00",
+ "generated_at": "2026-11-17T19:50:10+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T19:49:59Z",
+   "msg": "Westport live run from contact@, batch 5: Renatos Pizza, Little Kitchen, Lomito Peruvian Food \u2014 3 sent live, all Delivered",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T19:36:43Z",
    "msg": "Westport live run from contact@, batch 4: Bridge at Saugatuck, Golds Delicatessen, Gruel Britannia \u2014 3 sent live, all Delivered",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-17T08:34:54Z",
    "msg": "Greenwich Tue Nov 17 scheduling, liam batch 7: The Local Table, Essential by Christophe, Elm \u2014 3 scheduled for 6:12/6:16/6:20am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T08:31:04Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, liam batch 6: Panka, Blue Hill, LaCremaillere \u2014 3 scheduled for 6:00/6:04/6:08am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1616,
-  "drafted": 1610,
-  "sent": 1610,
-  "delivered": 1188,
+  "researched": 1619,
+  "drafted": 1613,
+  "sent": 1613,
+  "delivered": 1191,
   "bounced": 69,
   "replies": 67,
   "sent_today": {
-   "contact@yeschefsupply.com": 25
+   "contact@yeschefsupply.com": 28
   },
   "sent_by_day": {
    "2026-10-31": {
@@ -3461,7 +3461,7 @@
     "contact@yeschefsupply.com": 6
    },
    "2026-11-17": {
-    "contact@yeschefsupply.com": 25
+    "contact@yeschefsupply.com": 28
    }
   },
   "by_state": {
@@ -3491,8 +3491,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 65,
-    "delivered": 39,
+    "sent": 68,
+    "delivered": 42,
     "bounced": 1
    },
    "DC": {
