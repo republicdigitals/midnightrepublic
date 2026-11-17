@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T00:35:28+00:00",
+ "generated_at": "2026-11-17T01:03:33+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T01:03:20Z",
+   "msg": "Greenwich run starting from partnerships \u2014 status running",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-16T23:16:21Z",
    "msg": "Link queue Nov 16: +23 sent, 23 delivered (account 3)",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-13T19:04:09Z",
    "msg": "Ahran Cho (Vermilion) replied 2026-11-13: picked Fri Nov 20, 5-6pm, asked guest count",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-13T19:00:27Z",
-   "msg": "Craft House (Dana Point) replied 2026-11-12 via Knife & Spork PR",
    "who": "Cassius"
   }
  ],
@@ -3715,9 +3715,5 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": {
-  "status": "paused",
-  "since": "",
-  "note": ""
- }
+ "outreach": null
 }
