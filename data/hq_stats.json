@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T10:01:20+00:00",
+ "generated_at": "2026-11-17T10:07:55+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T10:07:44Z",
+   "msg": "Greenwich Tue Nov 17 scheduling continues: contact@ leg, 6 spare drafts",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T09:53:47Z",
    "msg": "Greenwich Tue Nov 17 scheduling run complete: 60/60 scheduled (liam 30 + partnerships 30), outreach paused",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-17T01:53:07Z",
    "msg": "Greenwich batch 3: Bella Nonna, Happy Monkey, Polpo \u2014 3 sent, 3 delivered",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T01:36:21Z",
-   "msg": "Greenwich batch 2: Bianca, Hinoki, La Taqueria \u2014 3 sent, 3 delivered",
    "who": "Cassius"
   }
  ],
@@ -3713,9 +3713,5 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": {
-  "status": "paused",
-  "since": "",
-  "note": ""
- }
+ "outreach": null
 }
