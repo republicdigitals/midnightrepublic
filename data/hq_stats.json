@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T02:49:16+00:00",
+ "generated_at": "2026-11-17T02:55:29+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-17T02:55:17Z",
+   "msg": "Greenwich run complete: 19 sent, 18 delivered, 1 pending (India Avenue retry queue); outreach paused",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T02:49:05Z",
    "msg": "Greenwich batch 7: Tsuki \u2014 1 sent, 1 delivered",
    "who": "Cassius"
@@ -3387,11 +3392,6 @@
   {
    "t": "2026-11-14T01:05:52Z",
    "msg": "Santa Fe wave-2 Sat scheduling batch 7: Arroyo Vino, Tomasita's, Osteria D' Assissi (Nov 14, 6:12-6:20am PT)",
-   "who": "Cassius"
-  },
-  {
-   "t": "2026-11-14T01:02:36Z",
-   "msg": "Santa Fe wave-2 Sat scheduling batch 6: Bumble Bee's Baja Grill, Casa Culinaria, Vanessie (Nov 14, 6:00-6:08am PT)",
    "who": "Cassius"
   }
  ],
@@ -3717,5 +3717,9 @@
    "state": "Media kit sent, decision pending"
   }
  ],
- "outreach": null
+ "outreach": {
+  "status": "paused",
+  "since": "",
+  "note": ""
+ }
 }
