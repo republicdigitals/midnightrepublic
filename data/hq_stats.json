@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T21:28:09+00:00",
+ "generated_at": "2026-11-18T21:39:17+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T21:39:05Z",
+   "msg": "Outreach Nov 18: +2 sent, 2 delivered (Pearl East, Blackstones; account 3)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T21:27:56Z",
    "msg": "Outreach Nov 18: +12 sent, 11 delivered (account 3); Primavera in retry queue; reserve Pearl East + Blackstones",
    "who": "Cassius"
@@ -3388,25 +3393,20 @@
    "t": "2026-11-17T21:01:20Z",
    "msg": "Outreach Nov 17: Taka Taka sent, bounced (address does not exist)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T20:55:25Z",
-   "msg": "Outreach Nov 17: reserve 12 drafted (contact account)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
   "researched": 1756,
   "drafted": 1750,
-  "sent": 1737,
-  "delivered": 1204,
+  "sent": 1739,
+  "delivered": 1206,
   "bounced": 85,
   "replies": 68,
   "sent_today": {
    "contact@yeschefsupply.com": 30,
    "liam@yeschefsupply.com": 30,
    "partnerships@yeschefsupply.com": 49,
-   "contact@jackdinningroom.com": 12
+   "contact@jackdinningroom.com": 14
   },
   "sent_by_day": {
    "2026-11-02": {
@@ -3468,7 +3468,7 @@
     "contact@yeschefsupply.com": 30,
     "liam@yeschefsupply.com": 30,
     "partnerships@yeschefsupply.com": 49,
-    "contact@jackdinningroom.com": 12
+    "contact@jackdinningroom.com": 14
    }
   },
   "by_state": {
@@ -3498,8 +3498,8 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 187,
-    "delivered": 55,
+    "sent": 189,
+    "delivered": 57,
     "bounced": 15
    },
    "DC": {
