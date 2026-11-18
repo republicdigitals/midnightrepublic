@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T12:57:48+00:00",
+ "generated_at": "2026-11-18T13:01:42+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T13:01:31Z",
+   "msg": "liam batch 3: 5 scheduled (Paparazzi, Papa Joe's, The Blind Rhino, Lykos Taverna, Burgers Shakes & Fries)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T12:57:37Z",
    "msg": "liam batch 2: 5 scheduled (Paradise Biryani Pointe, Cove Beach Grill, Ten Twenty Post, Rory's, Sails)",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-17T10:14:38Z",
    "msg": "Greenwich Tue Nov 17 scheduling, contact@ batch 2: Raphaels Bakery, Sergios Saw Pit, Tonys at the J House \u2014 3 scheduled for 5:12/5:16/5:20am PT; contact@ 6/6 complete, run total 66 scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T10:12:26Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, contact@ batch 1: Fat Stus, Hudsons Mill, Lucas Pizza \u2014 3 scheduled for 5:00/5:04/5:08am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1673,
-  "drafted": 1667,
-  "sent": 1656,
+  "researched": 1678,
+  "drafted": 1672,
+  "sent": 1661,
   "delivered": 1193,
   "bounced": 71,
   "replies": 68,
   "sent_today": {
    "contact@yeschefsupply.com": 30,
-   "liam@yeschefsupply.com": 10
+   "liam@yeschefsupply.com": 15
   },
   "sent_by_day": {
    "2026-11-02": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-18": {
     "contact@yeschefsupply.com": 30,
-    "liam@yeschefsupply.com": 10
+    "liam@yeschefsupply.com": 15
    }
   },
   "by_state": {
@@ -3494,7 +3494,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 110,
+    "sent": 115,
     "delivered": 44,
     "bounced": 1
    },
