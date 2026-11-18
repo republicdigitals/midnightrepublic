@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T13:09:48+00:00",
+ "generated_at": "2026-11-18T13:14:08+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T13:13:56Z",
+   "msg": "liam batch 6: 5 scheduled (La Calle Arepas Bar, Between Friends Sandwich, Tropical Island Spice, Thai Time, Lombardi's) \u2014 liam 30/30 complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T13:09:36Z",
    "msg": "liam batch 5: 5 scheduled (Cr\u00eapes Choupette, Zucchero Cafe, Mia's Breakaway Grill, Lyla's, Greens on The Go)",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-17T17:55:46Z",
    "msg": "Greenwich new-rows live run from contact@, batch 1: Library Cafe, Taj Indian Cuisine, Cka Ka Qellu \u2014 3 sent live, Delivered",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T17:41:19Z",
-   "msg": "Greenwich new-rows live run from contact@: 13 drafts, sending now",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1688,
-  "drafted": 1682,
-  "sent": 1671,
+  "researched": 1693,
+  "drafted": 1687,
+  "sent": 1676,
   "delivered": 1193,
   "bounced": 71,
   "replies": 68,
   "sent_today": {
    "contact@yeschefsupply.com": 30,
-   "liam@yeschefsupply.com": 25
+   "liam@yeschefsupply.com": 30
   },
   "sent_by_day": {
    "2026-11-02": {
@@ -3464,7 +3464,7 @@
    },
    "2026-11-18": {
     "contact@yeschefsupply.com": 30,
-    "liam@yeschefsupply.com": 25
+    "liam@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3494,7 +3494,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 125,
+    "sent": 130,
     "delivered": 44,
     "bounced": 1
    },
