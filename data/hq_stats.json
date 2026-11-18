@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T12:01:19+00:00",
+ "generated_at": "2026-11-18T12:08:46+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T12:08:34Z",
+   "msg": "contact@ batch 1: 5 scheduled (Omakase, Sherwood Diner, TAC Burger, Little Nick's, Angelina's Trattoria)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T12:01:05Z",
    "msg": "Scheduling run Wed Nov 18 starting (contact@, then liam, then partnerships) \u2014 outreach running",
    "who": "Cassius"
@@ -3388,25 +3393,19 @@
    "t": "2026-11-17T09:40:57Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 6: The Modern, Boqueria W40th, Bar Mutz \u2014 3 scheduled for 6:00/6:04/6:08am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T09:38:12Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 5: Little Maven, Francie, Valdari NYC \u2014 3 scheduled for 5:48/5:52/5:56am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1633,
-  "drafted": 1627,
-  "sent": 1616,
+  "researched": 1638,
+  "drafted": 1632,
+  "sent": 1621,
   "delivered": 1193,
   "bounced": 71,
   "replies": 68,
-  "sent_today": {},
+  "sent_today": {
+   "contact@yeschefsupply.com": 5
+  },
   "sent_by_day": {
-   "2026-10-31": {
-    "liam@yeschefgroup.co": 4
-   },
    "2026-11-02": {
     "liam@yeschefgroup.co": 30,
     "liam@jackdinningroom.com": 30,
@@ -3461,6 +3460,9 @@
    "2026-11-17": {
     "contact@yeschefsupply.com": 30,
     "contact@jackdinningroom.com": 1
+   },
+   "2026-11-18": {
+    "contact@yeschefsupply.com": 5
    }
   },
   "by_state": {
@@ -3490,7 +3492,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 70,
+    "sent": 75,
     "delivered": 44,
     "bounced": 1
    },
