@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T19:57:04+00:00",
+ "generated_at": "2026-11-18T20:10:00+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T20:09:48Z",
+   "msg": "Outreach Nov 18: reserve Farmhouse at the Crossroads + Cava Wine Bar (drafted, account 3)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T19:56:51Z",
    "msg": "partnerships Nov 18: Hoodoo bounced on wrong info@ address (draft address is hoodoobrownbbq@gmail.com, never sent); Miyuki re-send bounced on the correct draft address (Gmail account does not exist)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-17T19:59:20Z",
    "msg": "Modern General (Santa Fe) retry finally failed permanently Tue Nov 17 \u2014 421 host not reachable, bounced",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T19:58:51Z",
-   "msg": "Westport live run from contact@, batch 6: Wave Hill Breads, The Lobster Shack \u2014 2 sent live, both Delivered. contact@ live run COMPLETE: 30 sent, 29 delivered, 1 bounced (Cafe Silvium)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1742,
-  "drafted": 1736,
+  "researched": 1744,
+  "drafted": 1738,
   "sent": 1725,
   "delivered": 1193,
   "bounced": 85,
