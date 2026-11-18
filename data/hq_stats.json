@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T12:30:42+00:00",
+ "generated_at": "2026-11-18T12:53:45+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T12:53:33Z",
+   "msg": "liam batch 1: 5 scheduled (Capriccio Cafe, Zody's 19th Hole, Blue Ginger, Mex Spot, Fiesta Limena)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T12:30:28Z",
    "msg": "contact@ batch 6: 5 scheduled (B.J. Ryan's, The Stamford Diner, Mario The Baker, Rye Ridge Deli, Chef's Diner) \u2014 contact@ 30/30 complete",
    "who": "Cassius"
@@ -3388,22 +3393,18 @@
    "t": "2026-11-17T10:07:44Z",
    "msg": "Greenwich Tue Nov 17 scheduling continues: contact@ leg, 6 spare drafts",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T09:53:47Z",
-   "msg": "Greenwich Tue Nov 17 scheduling run complete: 60/60 scheduled (liam 30 + partnerships 30), outreach paused",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1663,
-  "drafted": 1657,
-  "sent": 1646,
+  "researched": 1668,
+  "drafted": 1662,
+  "sent": 1651,
   "delivered": 1193,
   "bounced": 71,
   "replies": 68,
   "sent_today": {
-   "contact@yeschefsupply.com": 30
+   "contact@yeschefsupply.com": 30,
+   "liam@yeschefsupply.com": 5
   },
   "sent_by_day": {
    "2026-11-02": {
@@ -3462,7 +3463,8 @@
     "contact@jackdinningroom.com": 1
    },
    "2026-11-18": {
-    "contact@yeschefsupply.com": 30
+    "contact@yeschefsupply.com": 30,
+    "liam@yeschefsupply.com": 5
    }
   },
   "by_state": {
@@ -3492,7 +3494,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 100,
+    "sent": 105,
     "delivered": 44,
     "bounced": 1
    },
