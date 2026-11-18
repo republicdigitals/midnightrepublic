@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T03:30:39+00:00",
+ "generated_at": "2026-11-18T12:01:19+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T12:01:05Z",
+   "msg": "Scheduling run Wed Nov 18 starting (contact@, then liam, then partnerships) \u2014 outreach running",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-17T22:12:58Z",
    "msg": "Warm leads: add Manny Tenorio (Ole Manny's) - replied Nov 17",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-17T09:38:12Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 5: Little Maven, Francie, Valdari NYC \u2014 3 scheduled for 5:48/5:52/5:56am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T09:35:30Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 4: Underhills Crossing, JeJu Noodle Bar, Takumi \u2014 3 scheduled for 5:36/5:40/5:44am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3402,10 +3402,7 @@
   "delivered": 1193,
   "bounced": 71,
   "replies": 68,
-  "sent_today": {
-   "contact@yeschefsupply.com": 30,
-   "contact@jackdinningroom.com": 1
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-10-31": {
     "liam@yeschefgroup.co": 4
@@ -3721,9 +3718,5 @@
    "state": "Replied Nov 17 - team may do Spotlight"
   }
  ],
- "outreach": {
-  "status": "paused",
-  "since": "",
-  "note": ""
- }
+ "outreach": null
 }
