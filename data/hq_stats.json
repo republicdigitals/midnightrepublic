@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T18:37:17+00:00",
+ "generated_at": "2026-11-18T19:57:04+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T19:56:51Z",
+   "msg": "partnerships Nov 18: Hoodoo bounced on wrong info@ address (draft address is hoodoobrownbbq@gmail.com, never sent); Miyuki re-send bounced on the correct draft address (Gmail account does not exist)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T18:37:05Z",
    "msg": "partnerships Nov 18: 19 re-sends scheduled with correct draft addresses (11:00am-12:12pm PT), Outbox-verified",
    "who": "Cassius"
@@ -3388,11 +3393,6 @@
    "t": "2026-11-17T19:58:51Z",
    "msg": "Westport live run from contact@, batch 6: Wave Hill Breads, The Lobster Shack \u2014 2 sent live, both Delivered. contact@ live run COMPLETE: 30 sent, 29 delivered, 1 bounced (Cafe Silvium)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T19:49:59Z",
-   "msg": "Westport live run from contact@, batch 5: Renatos Pizza, Little Kitchen, Lomito Peruvian Food \u2014 3 sent live, all Delivered",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
@@ -3400,7 +3400,7 @@
   "drafted": 1736,
   "sent": 1725,
   "delivered": 1193,
-  "bounced": 83,
+  "bounced": 85,
   "replies": 68,
   "sent_today": {
    "contact@yeschefsupply.com": 30,
@@ -3498,7 +3498,7 @@
    "CT": {
     "sent": 175,
     "delivered": 44,
-    "bounced": 13
+    "bounced": 15
    },
    "DC": {
     "sent": 10,
