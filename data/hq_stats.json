@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T12:25:58+00:00",
+ "generated_at": "2026-11-18T12:30:42+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T12:30:28Z",
+   "msg": "contact@ batch 6: 5 scheduled (B.J. Ryan's, The Stamford Diner, Mario The Baker, Rye Ridge Deli, Chef's Diner) \u2014 contact@ 30/30 complete",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T12:25:48Z",
    "msg": "contact@ batch 5: 5 scheduled (Luca's Beach Kitchen, Athithi, Hotaru, Gabagool Wine Bar, SoNo Wood Fired)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-17T09:53:47Z",
    "msg": "Greenwich Tue Nov 17 scheduling run complete: 60/60 scheduled (liam 30 + partnerships 30), outreach paused",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T09:53:24Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 10: T & Js Pizza & Pasta, By The Way Bakery, Makondo Restaurant \u2014 3 scheduled for 6:48/6:52/6:56am PT; partnerships 30/30 complete, run 60/60 done",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1658,
-  "drafted": 1652,
-  "sent": 1641,
+  "researched": 1663,
+  "drafted": 1657,
+  "sent": 1646,
   "delivered": 1193,
   "bounced": 71,
   "replies": 68,
   "sent_today": {
-   "contact@yeschefsupply.com": 25
+   "contact@yeschefsupply.com": 30
   },
   "sent_by_day": {
    "2026-11-02": {
@@ -3462,7 +3462,7 @@
     "contact@jackdinningroom.com": 1
    },
    "2026-11-18": {
-    "contact@yeschefsupply.com": 25
+    "contact@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3492,7 +3492,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 95,
+    "sent": 100,
     "delivered": 44,
     "bounced": 1
    },
