@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T20:10:00+00:00",
+ "generated_at": "2026-11-18T20:25:26+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T20:25:13Z",
+   "msg": "Outreach Nov 18: reserve 10 researched venues (drafted, account 3)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T20:09:48Z",
    "msg": "Outreach Nov 18: reserve Farmhouse at the Crossroads + Cava Wine Bar (drafted, account 3)",
    "who": "Cassius"
@@ -3388,16 +3393,11 @@
    "t": "2026-11-17T19:59:29Z",
    "msg": "Live run Tue Nov 17 complete (contact@ 30/30 cap) \u2014 outreach paused",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T19:59:20Z",
-   "msg": "Modern General (Santa Fe) retry finally failed permanently Tue Nov 17 \u2014 421 host not reachable, bounced",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1744,
-  "drafted": 1738,
+  "researched": 1754,
+  "drafted": 1748,
   "sent": 1725,
   "delivered": 1193,
   "bounced": 85,
