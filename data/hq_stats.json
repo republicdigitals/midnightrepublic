@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T12:17:50+00:00",
+ "generated_at": "2026-11-18T12:21:49+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-18T12:21:37Z",
+   "msg": "contact@ batch 4: 5 scheduled (Coals, Lazy Sister, Bar Bushido, Ryebird, Bonda Restaurant)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-18T12:17:29Z",
    "msg": "contact@ batch 3: 5 scheduled (Mykonos Kouzina, Oliveta, Oak and Almond, Sonia's Gourmet Kitchen, Taco Guy)",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-17T09:49:38Z",
    "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 9: Incazteca, Roost, Slate Cafe \u2014 3 scheduled for 6:36/6:40/6:44am PT",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T09:46:36Z",
-   "msg": "Greenwich Tue Nov 17 scheduling, partnerships batch 8: Mumbai Katta, Marianaccis, Greenwich Grill \u2014 3 scheduled for 6:24/6:28/6:32am PT",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1648,
-  "drafted": 1642,
-  "sent": 1631,
+  "researched": 1653,
+  "drafted": 1647,
+  "sent": 1636,
   "delivered": 1193,
   "bounced": 71,
   "replies": 68,
   "sent_today": {
-   "contact@yeschefsupply.com": 15
+   "contact@yeschefsupply.com": 20
   },
   "sent_by_day": {
    "2026-11-02": {
@@ -3462,7 +3462,7 @@
     "contact@jackdinningroom.com": 1
    },
    "2026-11-18": {
-    "contact@yeschefsupply.com": 15
+    "contact@yeschefsupply.com": 20
    }
   },
   "by_state": {
@@ -3492,7 +3492,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 85,
+    "sent": 90,
     "delivered": 44,
     "bounced": 1
    },
