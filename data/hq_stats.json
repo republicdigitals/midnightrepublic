@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-20T21:52:47+00:00",
+ "generated_at": "2026-11-20T22:04:48+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-20T22:04:36Z",
+   "msg": "Log Stamford live sends, partnerships 4-5 of 5 (Bedford Hall, Casa Villa), Nov 20",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-20T21:52:36Z",
    "msg": "Log Stamford live sends, partnerships batch 1 of 5 (Kouzina, Americano, Terra Gaucha), Nov 20",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-18T12:08:34Z",
    "msg": "contact@ batch 1: 5 scheduled (Omakase, Sherwood Diner, TAC Burger, Little Nick's, Angelina's Trattoria)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T12:01:05Z",
-   "msg": "Scheduling run Wed Nov 18 starting (contact@, then liam, then partnerships) \u2014 outreach running",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1815,
-  "drafted": 1809,
-  "sent": 1798,
+  "researched": 1817,
+  "drafted": 1811,
+  "sent": 1800,
   "delivered": 1206,
   "bounced": 85,
   "replies": 68,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 3
+   "partnerships@yeschefsupply.com": 5
   },
   "sent_by_day": {
    "2026-11-04": {
@@ -3465,7 +3465,7 @@
     "partnerships@yeschefsupply.com": 18
    },
    "2026-11-20": {
-    "partnerships@yeschefsupply.com": 3
+    "partnerships@yeschefsupply.com": 5
    }
   },
   "by_state": {
@@ -3495,7 +3495,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 239,
+    "sent": 241,
     "delivered": 57,
     "bounced": 15
    },
