@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-19T14:55:46+00:00",
+ "generated_at": "2026-11-20T06:13:44+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-20T06:13:32Z",
+   "msg": "Reply to Esben Mou (Green & Tonic / Supr Food Kitchen): media kit sent from liam Nov 19",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-19T14:55:28Z",
    "msg": "Ridgefield Nov 19: 55 scheduled (contact@ 19, liam 18, partnerships 18)",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-17T22:12:58Z",
    "msg": "Warm leads: add Manny Tenorio (Ole Manny's) - replied Nov 17",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T22:12:53Z",
-   "msg": "Warm reply Nov 17: Ole Manny's (Manny Tenorio) replied",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1811,
-  "drafted": 1805,
-  "sent": 1794,
+  "researched": 1812,
+  "drafted": 1806,
+  "sent": 1795,
   "delivered": 1206,
   "bounced": 85,
   "replies": 68,
   "sent_today": {
    "contact@yeschefsupply.com": 19,
-   "liam@yeschefsupply.com": 18,
+   "liam@yeschefsupply.com": 19,
    "partnerships@yeschefsupply.com": 18
   },
   "sent_by_day": {
@@ -3466,7 +3466,7 @@
    },
    "2026-11-19": {
     "contact@yeschefsupply.com": 19,
-    "liam@yeschefsupply.com": 18,
+    "liam@yeschefsupply.com": 19,
     "partnerships@yeschefsupply.com": 18
    }
   },
@@ -3497,7 +3497,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 235,
+    "sent": 236,
     "delivered": 57,
     "bounced": 15
    },
