@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-20T19:42:19+00:00",
+ "generated_at": "2026-11-20T21:52:47+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-20T21:52:36Z",
+   "msg": "Log Stamford live sends, partnerships batch 1 of 5 (Kouzina, Americano, Terra Gaucha), Nov 20",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-20T06:13:32Z",
    "msg": "Reply to Esben Mou (Green & Tonic / Supr Food Kitchen): media kit sent from liam Nov 19",
    "who": "Cassius"
@@ -3388,25 +3393,19 @@
    "t": "2026-11-18T12:01:05Z",
    "msg": "Scheduling run Wed Nov 18 starting (contact@, then liam, then partnerships) \u2014 outreach running",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-17T22:12:58Z",
-   "msg": "Warm leads: add Manny Tenorio (Ole Manny's) - replied Nov 17",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1812,
-  "drafted": 1806,
-  "sent": 1795,
+  "researched": 1815,
+  "drafted": 1809,
+  "sent": 1798,
   "delivered": 1206,
   "bounced": 85,
   "replies": 68,
-  "sent_today": {},
+  "sent_today": {
+   "partnerships@yeschefsupply.com": 3
+  },
   "sent_by_day": {
-   "2026-11-03": {
-    "contact@jackdinningroom.com": 2
-   },
    "2026-11-04": {
     "liam@yeschefsupply.com": 30,
     "liam@jackdinningroom.com": 21,
@@ -3464,6 +3463,9 @@
     "contact@yeschefsupply.com": 19,
     "liam@yeschefsupply.com": 19,
     "partnerships@yeschefsupply.com": 18
+   },
+   "2026-11-20": {
+    "partnerships@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3493,7 +3495,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 236,
+    "sent": 239,
     "delivered": 57,
     "bounced": 15
    },
