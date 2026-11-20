@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-20T06:13:44+00:00",
+ "generated_at": "2026-11-20T16:03:53+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3402,11 +3402,7 @@
   "delivered": 1206,
   "bounced": 85,
   "replies": 68,
-  "sent_today": {
-   "contact@yeschefsupply.com": 19,
-   "liam@yeschefsupply.com": 19,
-   "partnerships@yeschefsupply.com": 18
-  },
+  "sent_today": {},
   "sent_by_day": {
    "2026-11-03": {
     "contact@jackdinningroom.com": 2
