@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-20T22:57:02+00:00",
+ "generated_at": "2026-11-20T23:14:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-20T23:13:54Z",
+   "msg": "Log top-ups Brasserie Saint Germain, Bianco Rosso, Pausa Caffe (partnerships), Nov 20",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-20T22:56:47Z",
    "msg": "Log Stamford live sends 9-14 + top-ups Averna, L'Artusi (sent) and Buena Vista (bounced), Nov 20",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-18T12:21:37Z",
    "msg": "contact@ batch 4: 5 scheduled (Coals, Lazy Sister, Bar Bushido, Ryebird, Bonda Restaurant)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T12:17:29Z",
-   "msg": "contact@ batch 3: 5 scheduled (Mykonos Kouzina, Oliveta, Oak and Almond, Sonia's Gourmet Kitchen, Taco Guy)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1829,
-  "drafted": 1823,
-  "sent": 1812,
+  "researched": 1832,
+  "drafted": 1826,
+  "sent": 1815,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 16
+   "partnerships@yeschefsupply.com": 19
   },
   "sent_by_day": {
    "2026-11-04": {
@@ -3465,7 +3465,7 @@
     "partnerships@yeschefsupply.com": 18
    },
    "2026-11-20": {
-    "partnerships@yeschefsupply.com": 16
+    "partnerships@yeschefsupply.com": 19
    }
   },
   "by_state": {
@@ -3495,7 +3495,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 250,
+    "sent": 253,
     "delivered": 57,
     "bounced": 15
    },
