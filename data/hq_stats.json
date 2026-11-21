@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-21T14:45:31+00:00",
+ "generated_at": "2026-11-21T15:03:37+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-21T15:03:25Z",
+   "msg": "partnerships Nov 21 scheduled 20 extra (Between Friends, Brendan's 101, Burgers Shakes and Fries, Cove Beach Grill, Cucina Daniella, Greens on the Go, Heights Pizza, La Calle Arepas Bar, La Taqueria El Chino, Lombardi's, Lyla's, Mia's Breakaway Grill, Papa Joe's, Paparazzi, Paradise Biryani Pointe, Rory's, Sails, Thai Time, Tropical Island Spice, Zucchero Cafe) - partnerships now 30 for today, day total 90",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-21T14:45:19Z",
    "msg": "contact@ Nov 21 scheduled 18 top-ups (O'Neill's, Barcelona Wine Bar, Frevo, Rafele Rye, Good News, Rice and Beans, Antonio's, Greer Southern Table, Match Burger Lobster, Reading Room Cafe, Mi Terruno, Antique Garage Rye, Bluebird Taqueria, Sam's Bar and Grill PCNY, Lombardi's Trattoria, Ross Artisanal Bakery, The Lantern, Bar Lupa) - contact@ now 30 for today",
    "who": "Cassius"
@@ -3388,22 +3393,17 @@
    "t": "2026-11-18T13:05:27Z",
    "msg": "liam batch 4: 5 scheduled (Post Corner Pizza, Heights Pizza, La Taqueria El Chino, Cucina Daniella, Brendan's 101)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T13:01:31Z",
-   "msg": "liam batch 3: 5 scheduled (Paparazzi, Papa Joe's, The Blind Rhino, Lykos Taverna, Burgers Shakes & Fries)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1902,
-  "drafted": 1896,
-  "sent": 1885,
+  "researched": 1922,
+  "drafted": 1916,
+  "sent": 1905,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 10,
+   "partnerships@yeschefsupply.com": 30,
    "liam@yeschefsupply.com": 30,
    "contact@yeschefsupply.com": 30
   },
@@ -3465,7 +3465,7 @@
     "partnerships@yeschefsupply.com": 19
    },
    "2026-11-21": {
-    "partnerships@yeschefsupply.com": 10,
+    "partnerships@yeschefsupply.com": 30,
     "liam@yeschefsupply.com": 30,
     "contact@yeschefsupply.com": 30
    }
@@ -3497,7 +3497,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 313,
+    "sent": 333,
     "delivered": 57,
     "bounced": 15
    },
