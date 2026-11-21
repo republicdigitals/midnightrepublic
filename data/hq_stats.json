@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-20T23:14:06+00:00",
+ "generated_at": "2026-11-21T09:26:55+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-21T09:26:42Z",
+   "msg": "partnerships Nov 21 scheduled 10 (da Graca, Colony Grill, Louie's, Wildacre, Brick Walk, Capuli, Pink Sumo, The Spread, Emilio's, Coffee For Good)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-20T23:13:54Z",
    "msg": "Log top-ups Brasserie Saint Germain, Bianco Rosso, Pausa Caffe (partnerships), Nov 20",
    "who": "Cassius"
@@ -3388,29 +3393,19 @@
    "t": "2026-11-18T12:25:48Z",
    "msg": "contact@ batch 5: 5 scheduled (Luca's Beach Kitchen, Athithi, Hotaru, Gabagool Wine Bar, SoNo Wood Fired)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T12:21:37Z",
-   "msg": "contact@ batch 4: 5 scheduled (Coals, Lazy Sister, Bar Bushido, Ryebird, Bonda Restaurant)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1832,
-  "drafted": 1826,
-  "sent": 1815,
+  "researched": 1842,
+  "drafted": 1836,
+  "sent": 1825,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
-   "partnerships@yeschefsupply.com": 19
+   "partnerships@yeschefsupply.com": 10
   },
   "sent_by_day": {
-   "2026-11-04": {
-    "liam@yeschefsupply.com": 30,
-    "liam@jackdinningroom.com": 21,
-    "features@yeschefguides.us": 30
-   },
    "2026-11-05": {
     "liam@yeschefsupply.com": 30,
     "features@yeschefguides.us": 30,
@@ -3466,6 +3461,9 @@
    },
    "2026-11-20": {
     "partnerships@yeschefsupply.com": 19
+   },
+   "2026-11-21": {
+    "partnerships@yeschefsupply.com": 10
    }
   },
   "by_state": {
@@ -3495,7 +3493,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 253,
+    "sent": 262,
     "delivered": 57,
     "bounced": 15
    },
@@ -3610,7 +3608,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 101,
+    "sent": 102,
     "delivered": 41,
     "bounced": 2
    },
