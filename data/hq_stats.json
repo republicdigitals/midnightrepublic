@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-21T10:05:50+00:00",
+ "generated_at": "2026-11-21T10:22:39+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-21T10:22:29Z",
+   "msg": "liam Nov 21 scheduled 17 top-ups (Elm Street, Taqueria La Picardia, Purdy's, Via Sforza, Poke Boba, That Pasta Club, Edo, Walrus Alley, Blue Cactus, New Crossroads, Le Fat Poodle, Four Chef's Counter, Public Wine Bar, Voila, Genoa Deli, Geronimo, Match)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-21T10:05:38Z",
    "msg": "liam Nov 21 scheduled 13 Stamford (Brennan's, Viva, Tequila Escape, Canard, Fiesta Westside, Coco Cafe, Dhabewala, La Hacienda, Chopsticks, Tutti Pazzi, Tigin, Tiernan's, Wienery)",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-18T12:53:33Z",
    "msg": "liam batch 1: 5 scheduled (Capriccio Cafe, Zody's 19th Hole, Blue Ginger, Mex Spot, Fiesta Limena)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T12:30:28Z",
-   "msg": "contact@ batch 6: 5 scheduled (B.J. Ryan's, The Stamford Diner, Mario The Baker, Rye Ridge Deli, Chef's Diner) \u2014 contact@ 30/30 complete",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1855,
-  "drafted": 1849,
-  "sent": 1838,
+  "researched": 1872,
+  "drafted": 1866,
+  "sent": 1855,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
    "partnerships@yeschefsupply.com": 10,
-   "liam@yeschefsupply.com": 13
+   "liam@yeschefsupply.com": 30
   },
   "sent_by_day": {
    "2026-11-05": {
@@ -3465,7 +3465,7 @@
    },
    "2026-11-21": {
     "partnerships@yeschefsupply.com": 10,
-    "liam@yeschefsupply.com": 13
+    "liam@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3495,7 +3495,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 275,
+    "sent": 287,
     "delivered": 57,
     "bounced": 15
    },
@@ -3595,7 +3595,7 @@
     "bounced": 0
    },
    "NJ": {
-    "sent": 56,
+    "sent": 57,
     "delivered": 9,
     "bounced": 3
    },
@@ -3610,7 +3610,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 102,
+    "sent": 106,
     "delivered": 41,
     "bounced": 2
    },
