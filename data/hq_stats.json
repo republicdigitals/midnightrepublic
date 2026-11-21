@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-21T10:22:39+00:00",
+ "generated_at": "2026-11-21T14:30:43+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-21T14:30:31Z",
+   "msg": "contact@ Nov 21 scheduled 12 Stamford (Cafe Oo La La, Harbor Point Pizza, Sandwich Maestro, Slice, Winfield Street Coffee, Bedford Street Diner, Hope Pizza, Donut Delight, Half Full Brewery, Pappas Pizza, Stamford Salads, Caffe Bon)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-21T10:22:29Z",
    "msg": "liam Nov 21 scheduled 17 top-ups (Elm Street, Taqueria La Picardia, Purdy's, Via Sforza, Poke Boba, That Pasta Club, Edo, Walrus Alley, Blue Cactus, New Crossroads, Le Fat Poodle, Four Chef's Counter, Public Wine Bar, Voila, Genoa Deli, Geronimo, Match)",
    "who": "Cassius"
@@ -3388,23 +3393,19 @@
    "t": "2026-11-18T12:57:37Z",
    "msg": "liam batch 2: 5 scheduled (Paradise Biryani Pointe, Cove Beach Grill, Ten Twenty Post, Rory's, Sails)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T12:53:33Z",
-   "msg": "liam batch 1: 5 scheduled (Capriccio Cafe, Zody's 19th Hole, Blue Ginger, Mex Spot, Fiesta Limena)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1872,
-  "drafted": 1866,
-  "sent": 1855,
+  "researched": 1884,
+  "drafted": 1878,
+  "sent": 1867,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
    "partnerships@yeschefsupply.com": 10,
-   "liam@yeschefsupply.com": 30
+   "liam@yeschefsupply.com": 30,
+   "contact@yeschefsupply.com": 12
   },
   "sent_by_day": {
    "2026-11-05": {
@@ -3465,7 +3466,8 @@
    },
    "2026-11-21": {
     "partnerships@yeschefsupply.com": 10,
-    "liam@yeschefsupply.com": 30
+    "liam@yeschefsupply.com": 30,
+    "contact@yeschefsupply.com": 12
    }
   },
   "by_state": {
@@ -3495,7 +3497,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 287,
+    "sent": 299,
     "delivered": 57,
     "bounced": 15
    },
