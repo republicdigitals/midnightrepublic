@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-23T12:08:44+00:00",
+ "generated_at": "2026-11-23T12:41:01+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-23T12:40:49Z",
+   "msg": "Outreach: +30 scheduled liam (Hartford, Nov 23)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-21T15:03:25Z",
    "msg": "partnerships Nov 21 scheduled 20 extra (Between Friends, Brendan's 101, Burgers Shakes and Fries, Cove Beach Grill, Cucina Daniella, Greens on the Go, Heights Pizza, La Calle Arepas Bar, La Taqueria El Chino, Lombardi's, Lyla's, Mia's Breakaway Grill, Papa Joe's, Paparazzi, Paradise Biryani Pointe, Rory's, Sails, Thai Time, Tropical Island Spice, Zucchero Cafe) - partnerships now 30 for today, day total 90",
    "who": "Cassius"
@@ -3388,27 +3393,19 @@
    "t": "2026-11-18T13:09:36Z",
    "msg": "liam batch 5: 5 scheduled (Cr\u00eapes Choupette, Zucchero Cafe, Mia's Breakaway Grill, Lyla's, Greens on The Go)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T13:05:27Z",
-   "msg": "liam batch 4: 5 scheduled (Post Corner Pizza, Heights Pizza, La Taqueria El Chino, Cucina Daniella, Brendan's 101)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1922,
-  "drafted": 1916,
-  "sent": 1905,
+  "researched": 1952,
+  "drafted": 1946,
+  "sent": 1935,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
-  "sent_today": {},
+  "sent_today": {
+   "liam@yeschefsupply.com": 30
+  },
   "sent_by_day": {
-   "2026-11-05": {
-    "liam@yeschefsupply.com": 30,
-    "features@yeschefguides.us": 30,
-    "contact@jackdinningroom.com": 29
-   },
    "2026-11-06": {
     "partnerships@yeschefsupply.com": 22
    },
@@ -3464,6 +3461,9 @@
     "partnerships@yeschefsupply.com": 30,
     "liam@yeschefsupply.com": 30,
     "contact@yeschefsupply.com": 30
+   },
+   "2026-11-23": {
+    "liam@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3493,7 +3493,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 333,
+    "sent": 363,
     "delivered": 57,
     "bounced": 15
    },
