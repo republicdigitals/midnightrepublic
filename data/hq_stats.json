@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-23T12:41:01+00:00",
+ "generated_at": "2026-11-23T18:09:06+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-23T18:08:54Z",
+   "msg": "Nov 23 partnerships 30",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-23T12:40:49Z",
    "msg": "Outreach: +30 scheduled liam (Hartford, Nov 23)",
    "who": "Cassius"
@@ -3388,22 +3393,18 @@
    "t": "2026-11-18T13:13:56Z",
    "msg": "liam batch 6: 5 scheduled (La Calle Arepas Bar, Between Friends Sandwich, Tropical Island Spice, Thai Time, Lombardi's) \u2014 liam 30/30 complete",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T13:09:36Z",
-   "msg": "liam batch 5: 5 scheduled (Cr\u00eapes Choupette, Zucchero Cafe, Mia's Breakaway Grill, Lyla's, Greens on The Go)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 1952,
-  "drafted": 1946,
-  "sent": 1935,
+  "researched": 1982,
+  "drafted": 1976,
+  "sent": 1965,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
-   "liam@yeschefsupply.com": 30
+   "liam@yeschefsupply.com": 30,
+   "partnerships@yeschefsupply.com": 30
   },
   "sent_by_day": {
    "2026-11-06": {
@@ -3463,7 +3464,8 @@
     "contact@yeschefsupply.com": 30
    },
    "2026-11-23": {
-    "liam@yeschefsupply.com": 30
+    "liam@yeschefsupply.com": 30,
+    "partnerships@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3493,7 +3495,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 363,
+    "sent": 393,
     "delivered": 57,
     "bounced": 15
    },
