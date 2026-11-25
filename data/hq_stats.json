@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-25T08:17:59+00:00",
+ "generated_at": "2026-11-25T08:22:49+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-25T08:22:35Z",
+   "msg": "Wed Nov 25 contact@ 3 scheduled (Naperville IG-cleared: Kiku, House of Emperor, Potter's Place)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-25T08:17:47Z",
    "msg": "Wed Nov 25 partnerships Pa'La Kitchen Downtown (missed in first append)",
    "who": "Cassius"
@@ -3388,23 +3393,19 @@
    "t": "2026-11-18T18:14:11Z",
    "msg": "partnerships Nov 18: 12 bounced, browser-confirmed (wrong constructed addresses)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T13:44:43Z",
-   "msg": "outreach paused after Nov 18 run complete: 90/90 scheduled",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 2159,
-  "drafted": 2153,
-  "sent": 2142,
+  "researched": 2162,
+  "drafted": 2156,
+  "sent": 2145,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
-   "partnerships@yeschefsupply.com": 28
+   "partnerships@yeschefsupply.com": 28,
+   "contact@yeschefsupply.com": 3
   },
   "sent_by_day": {
    "2026-11-09": {
@@ -3467,7 +3468,8 @@
    },
    "2026-11-25": {
     "liam@yeschefsupply.com": 30,
-    "partnerships@yeschefsupply.com": 28
+    "partnerships@yeschefsupply.com": 28,
+    "contact@yeschefsupply.com": 3
    }
   },
   "by_state": {
@@ -3532,7 +3534,7 @@
     "bounced": 2
    },
    "IL": {
-    "sent": 48,
+    "sent": 51,
     "delivered": 0,
     "bounced": 0
    },
