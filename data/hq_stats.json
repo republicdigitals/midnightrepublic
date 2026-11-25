@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-25T02:22:22+00:00",
+ "generated_at": "2026-11-25T07:50:07+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-25T07:49:55Z",
+   "msg": "Wed Nov 25 liam 30 scheduled (Naperville 1-30)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-25T00:56:12Z",
    "msg": "Log contact@ Scottsdale 30 sent Nov 24",
    "who": "Cassius"
@@ -3388,17 +3393,12 @@
    "t": "2026-11-18T13:39:20Z",
    "msg": "partnerships batch 5: 5 scheduled (Chef Luis, Curry Mango, Gates, TRUCK, Cactus Rose)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T13:34:57Z",
-   "msg": "partnerships batch 4: 5 scheduled (Lucky's, Rosie, Miyuki, Odeen's, Bailey's Backyard)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 2102,
-  "drafted": 2096,
-  "sent": 2085,
+  "researched": 2132,
+  "drafted": 2126,
+  "sent": 2115,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
@@ -3408,11 +3408,6 @@
    "contact@": 30
   },
   "sent_by_day": {
-   "2026-11-07": {
-    "liam@yeschefsupply.com": 30,
-    "contact@jackdinningroom.com": 12,
-    "features@yeschefguides.us": 30
-   },
    "2026-11-09": {
     "liam@yeschefsupply.com": 87,
     "contact@jackdinningroom.com": 31,
@@ -3470,6 +3465,9 @@
     "liam": 30,
     "partnerships": 30,
     "contact@": 30
+   },
+   "2026-11-25": {
+    "liam@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3532,6 +3530,11 @@
     "sent": 64,
     "delivered": 62,
     "bounced": 2
+   },
+   "IL": {
+    "sent": 30,
+    "delivered": 0,
+    "bounced": 0
    },
    "IN": {
     "sent": 1,
