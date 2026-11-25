@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-25T08:17:37+00:00",
+ "generated_at": "2026-11-25T08:17:59+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-25T08:17:47Z",
+   "msg": "Wed Nov 25 partnerships Pa'La Kitchen Downtown (missed in first append)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-25T08:17:26Z",
    "msg": "Wed Nov 25 partnerships 28 scheduled (Naperville 31-48 minus Surya + 10 held Scottsdale cleared)",
    "who": "Cassius"
@@ -3388,23 +3393,18 @@
    "t": "2026-11-18T13:44:43Z",
    "msg": "outreach paused after Nov 18 run complete: 90/90 scheduled",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T13:44:11Z",
-   "msg": "partnerships batch 6: 5 scheduled (Blue Dolphin, Hoodoo Brown BBQ, Augustine's Salumeria, Hunan Kitchen, Haruki Ramen & Izakaya) \u2014 partnerships 30/30 complete, 90/90 total",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 2158,
-  "drafted": 2152,
-  "sent": 2141,
+  "researched": 2159,
+  "drafted": 2153,
+  "sent": 2142,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
    "liam@yeschefsupply.com": 30,
-   "partnerships@yeschefsupply.com": 27
+   "partnerships@yeschefsupply.com": 28
   },
   "sent_by_day": {
    "2026-11-09": {
@@ -3467,7 +3467,7 @@
    },
    "2026-11-25": {
     "liam@yeschefsupply.com": 30,
-    "partnerships@yeschefsupply.com": 27
+    "partnerships@yeschefsupply.com": 28
    }
   },
   "by_state": {
@@ -3482,7 +3482,7 @@
     "bounced": 3
    },
    "AZ": {
-    "sent": 85,
+    "sent": 86,
     "delivered": 2,
     "bounced": 0
    },
