@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-26T12:39:24+00:00",
+ "generated_at": "2026-11-26T13:07:25+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-26T13:07:14Z",
+   "msg": "Nov 26 partnerships: 26 scheduled for Thu Nov 26, 7:00-8:28am PT",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-26T12:39:12Z",
    "msg": "Nov 26 liam 30 scheduled (Greenwich 14 + Westport 16)",
    "who": "Cassius"
@@ -3388,22 +3393,18 @@
    "t": "2026-11-18T20:09:48Z",
    "msg": "Outreach Nov 18: reserve Farmhouse at the Crossroads + Cava Wine Bar (drafted, account 3)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T19:56:51Z",
-   "msg": "partnerships Nov 18: Hoodoo bounced on wrong info@ address (draft address is hoodoobrownbbq@gmail.com, never sent); Miyuki re-send bounced on the correct draft address (Gmail account does not exist)",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 2219,
-  "drafted": 2213,
-  "sent": 2202,
+  "researched": 2245,
+  "drafted": 2239,
+  "sent": 2228,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
-   "liam@yeschefsupply.com": 30
+   "liam@yeschefsupply.com": 30,
+   "partnerships@yeschefsupply.com": 26
   },
   "sent_by_day": {
    "2026-11-10": {
@@ -3465,7 +3466,8 @@
     "contact@yeschefsupply.com": 30
    },
    "2026-11-26": {
-    "liam@yeschefsupply.com": 30
+    "liam@yeschefsupply.com": 30,
+    "partnerships@yeschefsupply.com": 26
    }
   },
   "by_state": {
@@ -3495,7 +3497,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 437,
+    "sent": 449,
     "delivered": 57,
     "bounced": 15
    },
@@ -3535,7 +3537,7 @@
     "bounced": 0
    },
    "IN": {
-    "sent": 28,
+    "sent": 37,
     "delivered": 1,
     "bounced": 0
    },
@@ -3605,7 +3607,7 @@
     "bounced": 3
    },
    "NM": {
-    "sent": 131,
+    "sent": 136,
     "delivered": 90,
     "bounced": 5
    },
