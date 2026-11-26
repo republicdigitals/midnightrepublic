@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-25T13:55:20+00:00",
+ "generated_at": "2026-11-26T12:39:24+00:00",
  "leads": {
   "total": 1045,
   "with_email": 1027,
@@ -3245,6 +3245,11 @@
  ],
  "events": [
   {
+   "t": "2026-11-26T12:39:12Z",
+   "msg": "Nov 26 liam 30 scheduled (Greenwich 14 + Westport 16)",
+   "who": "Cassius"
+  },
+  {
    "t": "2026-11-25T13:55:08Z",
    "msg": "Wed Nov 25 contact@ top-up 27 scheduled (Carmel 1-27)",
    "who": "Cassius"
@@ -3388,31 +3393,19 @@
    "t": "2026-11-18T19:56:51Z",
    "msg": "partnerships Nov 18: Hoodoo bounced on wrong info@ address (draft address is hoodoobrownbbq@gmail.com, never sent); Miyuki re-send bounced on the correct draft address (Gmail account does not exist)",
    "who": "Cassius"
-  },
-  {
-   "t": "2026-11-18T18:37:05Z",
-   "msg": "partnerships Nov 18: 19 re-sends scheduled with correct draft addresses (11:00am-12:12pm PT), Outbox-verified",
-   "who": "Cassius"
   }
  ],
  "sent_log": {
-  "researched": 2189,
-  "drafted": 2183,
-  "sent": 2172,
+  "researched": 2219,
+  "drafted": 2213,
+  "sent": 2202,
   "delivered": 1206,
   "bounced": 86,
   "replies": 68,
   "sent_today": {
-   "liam@yeschefsupply.com": 30,
-   "partnerships@yeschefsupply.com": 28,
-   "contact@yeschefsupply.com": 30
+   "liam@yeschefsupply.com": 30
   },
   "sent_by_day": {
-   "2026-11-09": {
-    "liam@yeschefsupply.com": 87,
-    "contact@jackdinningroom.com": 31,
-    "partnerships@yeschefsupply.com": 30
-   },
    "2026-11-10": {
     "contact@jackdinningroom.com": 9,
     "liam@yeschefsupply.com": 96,
@@ -3470,6 +3463,9 @@
     "liam@yeschefsupply.com": 30,
     "partnerships@yeschefsupply.com": 28,
     "contact@yeschefsupply.com": 30
+   },
+   "2026-11-26": {
+    "liam@yeschefsupply.com": 30
    }
   },
   "by_state": {
@@ -3499,7 +3495,7 @@
     "bounced": 9
    },
    "CT": {
-    "sent": 413,
+    "sent": 437,
     "delivered": 57,
     "bounced": 15
    },
@@ -3619,7 +3615,7 @@
     "bounced": 4
    },
    "NY": {
-    "sent": 127,
+    "sent": 133,
     "delivered": 41,
     "bounced": 2
    },
